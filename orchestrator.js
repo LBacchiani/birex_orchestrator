@@ -2,9 +2,12 @@
 
 import { PrometheusDriver } from 'prometheus-query';
 
+const endpoint = "10.244.1.4:9090";
+const baseURL = "/api/v1" // default value
+
 const prom = new PrometheusDriver({
-    endpoint: "10.244.1.4:9090",
-    baseURL: "/api/v1" // default value
+  endpoint,
+  baseURL
 });
 
 function sleep(ms) {
@@ -12,20 +15,30 @@ function sleep(ms) {
 }
 
 
-function monitoring() {
+async function monitoring() {
 
-  while(true) {
+  while (true) {
     const q = 'up';
-    prom.instantQuery(q).then((res) => {
-        const series = res.result;
-        series.forEach((serie) => {
-            console.log("Serie:", serie.metric.toString());
-            console.log("Time:", serie.value.time);
-            console.log("Value:", serie.value.value);
-        });
+    console.log(`Executing query:     ${q}`)
+
+    await prom.instantQuery(q).then((res) => {
+      const series = res.result;
+      series.forEach((serie) => {
+        console.log("Serie:", serie.metric.toString());
+        console.log("Time:", serie.value.time);
+        console.log("Value:", serie.value.value);
+      });
     }).catch(console.error);
-    sleep(60000 * 5);
+
+    console.log(`\nI will sleep for 5 minutes\n`)
+    await sleep(60000 * 5);
   }
 }
 
+
 monitoring();
+
+console.log("\nOrchestrator started\n")
+
+console.log(`Endpoint: ${endpoint}`)
+console.log(`Base URL: ${baseURL}\n`)

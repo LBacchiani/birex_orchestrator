@@ -1,11 +1,12 @@
 {
   "name": "birex_orchestrator",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
-  "main": "orchestrator.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "orchestrator.js"
+    "start": "node orchestrator.js"
   },
   "repository": {
     "type": "git",
