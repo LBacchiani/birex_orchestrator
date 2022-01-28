@@ -1,0 +1,14 @@
+{
+  "name": "my_app",
+  "version": "1.0.0",
+  "description": "Sample used for container templates",
+  "author": "Shashank Barsin",
+  "main": "edge.js",
+  "scripts": {
+    "start": "node edge.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.16.4"
+  }
+}

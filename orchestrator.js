@@ -2,8 +2,10 @@
 
 import { PrometheusDriver } from 'prometheus-query';
 
-const endpoint = "10.244.1.4:9090";
+const endpoint = "http://10.106.125.55:9090";
 const baseURL = "/api/v1" // default value
+const latency = 
+const throughput =
 
 const prom = new PrometheusDriver({
   endpoint,
