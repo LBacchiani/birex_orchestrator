@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: processor
+  labels:
+    app: processor
+spec:
+  containers:
+    - image: lukesmolo/public:birex-process_0.0.1
+      name: birex-processor
+      env:
+      - name: COLLECTOR_URL
+        value: "http://birex-collector:8080/birexcollector"
+      ports:
+      - containerPort: 3000
