@@ -4,8 +4,8 @@ import { PrometheusDriver } from 'prometheus-query';
 
 const endpoint = "http://10.106.125.55:9090";
 const baseURL = "/api/v1" // default value
-const latency = 
-const throughput =
+const latency = 'rate(istio_request_duration_milliseconds_sum{app="edge"}[1m]) / rate(istio_requests_total{app="edge"}[1m])'
+//const throughput =
 
 const prom = new PrometheusDriver({
   endpoint,

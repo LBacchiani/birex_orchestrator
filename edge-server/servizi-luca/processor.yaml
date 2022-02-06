@@ -5,6 +5,16 @@ metadata:
   labels:
     app: processor
 spec:
+  affinity:
+    nodeAffinity:
+      preferredDuringSchedulingIgnoredDuringExecution:
+        - weight: 1
+          preference:
+            matchExpressions:
+              - key: zone
+                operator: In
+                values:
+                  - cloud
   containers:
     - image: lukesmolo/public:birex-process_0.0.1
       name: birex-processor
