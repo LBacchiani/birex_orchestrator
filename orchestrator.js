@@ -15,8 +15,8 @@ const baseURL = "/api/v1" // default value
 const latency = 'rate(istio_request_duration_milliseconds_sum{app="alerting"}[1m]) / rate(istio_requests_total{app="alerting"}[1m])'
 //const throughput =
 const path = '/usr/src/app/edge-server/servizi-luca/'
-const processor-cloud = path + 'processor-cloud.yaml'
-const processor-edge = path + 'processor-edge.yaml'
+const processor_cloud = path + 'processor-cloud.yaml'
+const processor_edge = path + 'processor-edge.yaml'
 
 
 const prom = new PrometheusDriver({
