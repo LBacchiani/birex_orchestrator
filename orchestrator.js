@@ -21,6 +21,8 @@ const processor_edge = path + 'processor-edge.yaml'
 var zone = "cloud"
 
 const app = express();
+const PORT = 8081;
+const HOST = '0.0.0.0';
 
 const prom = new PrometheusDriver({
   endpoint,
@@ -71,7 +73,7 @@ async function monitoring() {
 
   while (true) {
     console.log(`\nI will sleep for 5 minutes\n`)
-    await sleep(60000 * 5);
+    await sleep(60000);
 
     console.log(`Executing query:     ${latency}`)
 
@@ -84,7 +86,7 @@ async function monitoring() {
         if(serie.value.value > 80) {
           if(zone == "cloud") zone = "edge"
           else zone = "cloud"
-          apply((zone == "cloud") ? processor_cloud : processor_edge)
+          apply((zone == "cloud") ? processor_cloud : processor_edge).catch(err => { console.log(JSON.stringify(err))});
         }
       });
     }).catch(console.error);
@@ -98,3 +100,5 @@ console.log("\nOrchestrator started\n")
 
 console.log(`Endpoint: ${endpoint}`)
 console.log(`Base URL: ${baseURL}\n`)
+
+app.listen(PORT, HOST)
