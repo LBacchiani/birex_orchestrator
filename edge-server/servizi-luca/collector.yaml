@@ -1,9 +1,9 @@
 apiVersion: v1
- kind: Pod
- metadata:
-   name: collector
-   labels:
-     app: collector
+kind: Pod
+metadata:
+  name: collector
+  labels:
+    app: collector
 spec:
   affinity:
     nodeAffinity:

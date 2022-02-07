@@ -1,9 +1,9 @@
 apiVersion: v1
- kind: Pod
- metadata:
-   name: processor
-   labels:
-     app: processor
+kind: Pod
+metadata:
+  name: processor
+  labels:
+    app: processor
 spec:
   affinity:
     nodeAffinity:
