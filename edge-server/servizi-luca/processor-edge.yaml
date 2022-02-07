@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: processor
+  name: processor-edge
   labels:
     app: processor
 spec:
