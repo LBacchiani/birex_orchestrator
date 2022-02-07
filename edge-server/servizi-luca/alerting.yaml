@@ -5,6 +5,16 @@ metadata:
   labels:
     app: alerting
 spec:
+  affinity:
+    nodeAffinity:
+      preferredDuringSchedulingIgnoredDuringExecution:
+        - weight: 1
+          preference:
+            matchExpressions:
+              - key: zone
+                operator: In
+                values:
+                  - cloud
   containers:
     - image: lukesmolo/public:birex-alerting_0.0.4
       name: birex-alerting
