@@ -32,7 +32,9 @@ function sleep(ms) {
 }
 
 app.get('/safeDelete', (req, res) =>  {
-  k8sApi.deleteNamespacedPod('processor','default', true).catch(err => { console.log(JSON.stringify(err))});
+  console.log("safe delete invoked")
+  k8sApi.deleteNamespacedPod((zone == "edge") ? 'processor-cloud' : 'processor-edge','default', true).catch(err => { console.log(JSON.stringify(err))});
+  console.log("safe delete ended")
 });
 
 async function apply(specPath) {
