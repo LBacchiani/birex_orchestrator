@@ -4,7 +4,7 @@ import { PrometheusDriver } from 'prometheus-query';
 
 const endpoint = "http://10.106.125.55:9090";
 const baseURL = "/api/v1" // default value
-const latency = 'rate(istio_request_duration_milliseconds_sum{app="edge"}[1m]) / rate(istio_requests_total{app="edge"}[1m])'
+const latency = 'rate(istio_request_duration_milliseconds_sum{app="alerting"}[1m]) / rate(istio_requests_total{app="alerting"}[1m])'
 //const throughput =
 
 const prom = new PrometheusDriver({
@@ -20,8 +20,7 @@ function sleep(ms) {
 async function monitoring() {
 
   while (true) {
-    const q = 'up';
-    console.log(`Executing query:     ${q}`)
+    console.log(`Executing query:     ${latency}`)
 
     await prom.instantQuery(q).then((res) => {
       const series = res.result;
