@@ -22,7 +22,7 @@ async function monitoring() {
   while (true) {
     console.log(`Executing query:     ${latency}`)
 
-    await prom.instantQuery(q).then((res) => {
+    await prom.instantQuery(latency).then((res) => {
       const series = res.result;
       series.forEach((serie) => {
         console.log("Serie:", serie.metric.toString());
