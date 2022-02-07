@@ -15,6 +15,6 @@ spec:
                 operator: In
                 values:
                   - cloud
-   containers:
-     - image: lukesmolo/public:birex-collector_0.0.2
-       name: birex-collector
+  containers:
+    - image: lukesmolo/public:birex-collector_0.0.2
+      name: birex-collector

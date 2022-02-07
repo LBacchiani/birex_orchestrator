@@ -15,11 +15,11 @@ spec:
                 operator: In
                 values:
                   - cloud
-   containers:
-     - image: lukesmolo/public:birex-process_0.0.1
-       name: birex-processor
-       env:
-       - name: COLLECTOR_URL
-         value: "http://birex-collector:8080/birexcollector"
-       ports:
-       - containerPort: 3000
+  containers:
+    - image: lukesmolo/public:birex-process_0.0.1
+      name: birex-processor
+      env:
+      - name: COLLECTOR_URL
+        value: "http://birex-collector:8080/birexcollector"
+        ports:
+          - containerPort: 3000
