@@ -4,8 +4,9 @@ import { PrometheusDriver } from 'prometheus-query';
 import * as fs from 'fs';
 import * as yaml from 'js-yaml';
 import { promisify } from 'util';
+import k8s from '@kubernetes/client-node';
+import express from 'express'
 
-const k8s = require('@kubernetes/client-node');
 const kc = new k8s.KubeConfig();
 kc.loadFromDefault();
 const k8sApi = kc.makeApiClient(k8s.CoreV1Api);
@@ -17,7 +18,9 @@ const latency = 'rate(istio_request_duration_milliseconds_sum{app="alerting"}[1m
 const path = '/usr/src/app/edge-server/servizi-luca/'
 const processor_cloud = path + 'processor-cloud.yaml'
 const processor_edge = path + 'processor-edge.yaml'
+var zone = "cloud"
 
+const app = express();
 
 const prom = new PrometheusDriver({
   endpoint,
@@ -28,13 +31,17 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-async function apply(specPath: string): Promise<k8s.KubernetesObject[]> {
+app.get('/safeDelete', (req, res) =>  {
+  k8sApi.deleteNamespacedPod('processor','default', true).catch(err => { console.log(JSON.stringify(err))});
+});
+
+async function apply(specPath) {
     const client = k8s.KubernetesObjectApi.makeApiClient(kc);
     const fsReadFileP = promisify(fs.readFile);
     const specString = await fsReadFileP(specPath, 'utf8');
-    const specs: k8s.KubernetesObject[] = yaml.loadAll(specString);
+    const specs = yaml.loadAll(specString);
     const validSpecs = specs.filter((s) => s && s.kind && s.metadata);
-    const created: k8s.KubernetesObject[] = [];
+    const created = [];
     for (const spec of validSpecs) {
         // this is to convince the old version of TypeScript that metadata exists even though we already filtered specs
         // without metadata out
@@ -62,7 +69,7 @@ async function monitoring() {
 
   while (true) {
     console.log(`\nI will sleep for 5 minutes\n`)
-    await sleep(600 * 5);
+    await sleep(60000 * 5);
 
     console.log(`Executing query:     ${latency}`)
 
@@ -73,7 +80,9 @@ async function monitoring() {
         console.log("Time:", serie.value.time);
         console.log("Value:", serie.value.value);
         if(serie.value.value > 80) {
-          k8sApi.deleteNamespacedPod('processor','default')
+          if(zone == "cloud") zone = "edge"
+          else zone = "cloud"
+          apply((zone == "cloud") ? processor_cloud : processor_edge)
         }
       });
     }).catch(console.error);
