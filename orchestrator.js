@@ -13,12 +13,11 @@ const k8sApi = kc.makeApiClient(k8s.CoreV1Api);
 
 const endpoint = "http://10.244.1.4:9090";
 const baseURL = "/api/v1" // default value
-const latency = 'rate(istio_request_duration_milliseconds_sum{app="alerting"}[1m]) / rate(istio_requests_total{app="alerting"}[1m])'
-//const throughput =
 const path = '/usr/src/app/edge-server/servizi-luca/'
 const processor_cloud = path + 'processor-cloud.yaml'
 const processor_edge = path + 'processor-edge.yaml'
 var zone = "cloud"
+//const throughput =
 
 const app = express();
 const PORT = 8081;
@@ -33,11 +32,24 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-app.get('/safeDelete', (req, res) =>  {
-  console.log("safe delete invoked")
-  k8sApi.deleteNamespacedPod((zone == "edge") ? 'processor-cloud' : 'processor-edge','default', true).catch(err => { console.log(JSON.stringify(err))});
-  console.log("safe delete ended")
-});
+async function safeDelete() {
+  var deleted = false
+  while(!deleted) {
+    await sleep(5000)
+    await prom.instantQuery('up{kubernetes_pod_name="processor-' + zone + '"}').then((res) => {
+      const series = res.result;
+      series.forEach((serie) => {
+        if(!isNaN(serie.value.value)) {
+          k8sApi.deleteNamespacedPod((zone == "edge") ?
+          'processor-cloud' :
+          'processor-edge','default', true)
+          .catch(err => { console.log(JSON.stringify(err))});
+          deleted = true;
+        }
+      });
+    }).catch(console.error);
+  }
+}
 
 async function apply(specPath) {
     const client = k8s.KubernetesObjectApi.makeApiClient(kc);
@@ -73,13 +85,14 @@ async function monitoring() {
 
   while (true) {
     console.log(`\nI will sleep for 5 minutes\n`)
-    await sleep(60000);
+    await sleep(60000 * 10);
+    var latency = 'rate(istio_request_duration_milliseconds_sum{app="alerting",destination_workload="processor-' + zone + '"}[10m]) / rate(istio_requests_total{app="alerting",destination_workload="processor-' + zone + '"}[10m])'
 
     console.log(`Executing query:     ${latency}`)
 
     await prom.instantQuery(latency).then((res) => {
       const series = res.result;
-      series.forEach((serie) => {
+      series.filter(serie => !isNaN(serie.value.value)).forEach((serie) => {
         console.log("Serie:", serie.metric.toString());
         console.log("Time:", serie.value.time);
         console.log("Value:", serie.value.value);
@@ -87,6 +100,7 @@ async function monitoring() {
           if(zone == "cloud") zone = "edge"
           else zone = "cloud"
           apply((zone == "cloud") ? processor_cloud : processor_edge).catch(err => { console.log(JSON.stringify(err))});
+          safeDelete()
         }
       });
     }).catch(console.error);
