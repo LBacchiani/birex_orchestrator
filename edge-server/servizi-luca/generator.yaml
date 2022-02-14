@@ -16,7 +16,7 @@ spec:
                 values:
                   - edge
   containers:
-    - image: lukesmolo/public:birex-simulator_0.0.1
+    - image: lukesmolo/public:birex-simulator_0.0.2
       name: birex-simulator
       env:
       - name: USERNAME
