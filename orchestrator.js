@@ -85,8 +85,8 @@ async function monitoring() {
 
   while (true) {
     console.log(`\nI will sleep for 5 minutes\n`)
-    await sleep(60000 * 10);
-    var latency = 'rate(istio_request_duration_milliseconds_sum{app="alerting",destination_workload="processor-' + zone + '"}[10m]) / rate(istio_requests_total{app="alerting",destination_workload="processor-' + zone + '"}[10m])'
+    await sleep(60000 * 5);
+    var latency = 'rate(istio_request_duration_milliseconds_sum{app="alerting",destination_workload="processor-' + zone + '"}[5m]) / rate(istio_requests_total{app="alerting",destination_workload="processor-' + zone + '"}[5m])'
 
     console.log(`Executing query:     ${latency}`)
 
