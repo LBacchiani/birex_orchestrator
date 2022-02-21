@@ -101,6 +101,7 @@ async function monitoring() {
           else zone = "cloud"
           apply((zone == "cloud") ? processor_cloud : processor_edge).catch(err => { console.log(JSON.stringify(err))});
           safeDelete()
+          console.log("Processor zone: " + zone);
         }
       });
     }).catch(console.error);
