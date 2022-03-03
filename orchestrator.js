@@ -86,8 +86,8 @@ async function setSize() {
   let i = 0
   let direction = true
   while(true) {
-    await sleep(60000 * 10);
     let value = sizes[i]
+    console.log("SIZE: " + value)
     await fetch("http://birex-collector:8080/birexcollector/actions/setSizes", {
       method: 'POST',
       headers: {
@@ -104,6 +104,7 @@ async function setSize() {
       i = i - 1;
       if(i == 0) direction = true;
     }
+    await sleep(60000 * 10);
   }
 }
 
@@ -138,7 +139,7 @@ async function retrieveBytes(latency) {
 async function monitoring() {
 
   while (true) {
-    console.log(`\nI will sleep for 5 minutes\n`)
+    console.log(`\nI will sleep for 2 minutes\n`)
     await sleep(60000 * 2)
     console.log(`Executing query:     ${latency}`)
     await retrieveLatency()
