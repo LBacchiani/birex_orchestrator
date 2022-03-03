@@ -16,5 +16,5 @@ spec:
                 values:
                   - edge
   containers:
-    - image: lukesmolo/public:birex-collector_0.0.4
+    - image: lukesmolo/public:birex-collector_0.0.5
       name: birex-collector
