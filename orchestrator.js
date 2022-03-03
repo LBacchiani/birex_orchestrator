@@ -6,6 +6,7 @@ import * as yaml from 'js-yaml';
 import { promisify } from 'util';
 import k8s from '@kubernetes/client-node';
 import express from 'express'
+import fetch from 'node-fetch';
 
 const kc = new k8s.KubeConfig();
 kc.loadFromDefault();
@@ -109,16 +110,19 @@ async function setSize() {
 }
 
 async function retrieveLatency() {
-  var latency = 'rate(istio_request_duration_milliseconds_sum{app="alerting",destination_workload="processor-' + zone + '"}[5m]) / rate(istio_requests_total{app="alerting",destination_workload="processor-' + zone + '"}[5m])'
-  await prom.instantQuery(latency).then((res) => {
-    const series = res.result;
-    series.filter(serie => !isNaN(serie.value.value)).forEach((serie) => await retrieveBytes(serie.value.value));
+  var latency = 'rate(istio_request_duration_milliseconds_sum{app="alerting",destination_workload="processor-' + zone + '"}[2m]) / rate(istio_requests_total{app="alerting",destination_workload="processor-' + zone + '"}[2m])'
+  await prom.instantQuery(latency).then(async (res) => {
+    const series = res.result.filter(serie => !isNaN(serie.value.value))
+    series.forEach(serie => console.log(serie))
+    for(let s in series) {
+      if(s) await retrieveBytes(s.value.value)
+    }
   }).catch(console.error);
 }
 
 async function retrieveBytes(latency) {
-  var bytes = 'rate(istio_request_bytes_sum{app="alerting", destination_workload="processor-' + zone + '"}[5m])/rate(istio_requests_total{app="alerting", destination_workload="processor-' + zone + '"}[5m])'
-  await prom.instantQuery(latency).then((res) => {
+  var bytes = 'rate(istio_request_bytes_sum{app="alerting", destination_workload="processor-' + zone + '"}[2m])/rate(istio_requests_total{app="alerting", destination_workload="processor-' + zone + '"}[2m])'
+  await prom.instantQuery(bytes).then((res) => {
     const series = res.result;
     series.filter(serie => !isNaN(serie.value.value)).forEach((serie) => {
       bytes = serie.value.value
@@ -141,14 +145,14 @@ async function monitoring() {
   while (true) {
     console.log(`\nI will sleep for 2 minutes\n`)
     await sleep(60000 * 2)
-    console.log(`Executing query:     ${latency}`)
+    console.log(`Executing queries...`)
     await retrieveLatency()
   }
 }
 
 
 monitoring()
-setSizes()
+setSize()
 
 console.log("\nOrchestrator started\n")
 
