@@ -112,11 +112,9 @@ async function setSize() {
 async function retrieveLatency() {
   var latency = 'rate(istio_request_duration_milliseconds_sum{app="alerting",destination_workload="processor-' + zone + '"}[2m]) / rate(istio_requests_total{app="alerting",destination_workload="processor-' + zone + '"}[2m])'
   await prom.instantQuery(latency).then(async (res) => {
-    const series = res.result.filter(serie => !isNaN(serie.value.value))
-    series.forEach(serie => console.log(serie))
-    for(let s in series) {
-      if(s) await retrieveBytes(s.value.value)
-    }
+    const serie = res.result.filter(serie => !isNaN(serie.value.value))[0]
+    console.log(serie)
+    await retrieveBytes(serie.value.value)
   }).catch(console.error);
 }
 
