@@ -18,7 +18,7 @@ const path = '/usr/src/app/edge-server/servizi-luca/'
 const processor_cloud = path + 'processor-cloud.yaml'
 const processor_edge = path + 'processor-edge.yaml'
 var zone = "cloud"
-//const throughput =
+
 
 const app = express();
 const PORT = 8081;
@@ -83,12 +83,12 @@ async function apply(specPath) {
 }
 
 async function setSize() {
-  let sizes = [100, 1000, 10000, 20000, 30000, 40000, 50000]; //0,01mb, 1mb, 100mb, 400mb, 900mb, 1600mb, 2500mb
+  let sizes = [20, 40, 60, 80, 100, 120, 150]
   let i = 0
   let direction = true
   while(true) {
     let value = sizes[i]
-    console.log("SIZE: " + value)
+    //console.log("SIZE: " + value*value*3500 + " bytes")
     await fetch("http://birex-collector:8080/birexcollector/actions/setSizes", {
       method: 'POST',
       headers: {
@@ -105,7 +105,7 @@ async function setSize() {
       i = i - 1;
       if(i == 0) direction = true;
     }
-    await sleep(60000 * 10);
+    await sleep(60000 * 5);
   }
 }
 
@@ -113,37 +113,37 @@ async function retrieveLatency() {
   var latency = 'rate(istio_request_duration_milliseconds_sum{app="alerting",destination_workload="processor-' + zone + '"}[2m]) / rate(istio_requests_total{app="alerting",destination_workload="processor-' + zone + '"}[2m])'
   await prom.instantQuery(latency).then(async (res) => {
     const serie = res.result.filter(serie => !isNaN(serie.value.value))[0]
-    console.log(serie)
     await retrieveBytes(serie.value.value)
   }).catch(console.error);
 }
 
+function moveToEdge() {
+  zone = "edge"
+  apply(processor_edge).catch(err => { console.log(JSON.stringify(err))})
+  safeDelete()
+}
+
+function moveToCloud() {
+  zone = "cloud"
+  apply(processor_cloud).catch(err => { console.log(JSON.stringify(err))})
+  safeDelete()
+}
+
+
 async function retrieveBytes(latency) {
-  var bytes = 'rate(istio_request_bytes_sum{app="alerting", destination_workload="processor-' + zone + '"}[2m])/rate(istio_requests_total{app="alerting", destination_workload="processor-' + zone + '"}[2m])'
+  var bytes = 'rate(istio_response_bytes_sum{app="collector", source_canonical_service="unknown"}[2m]) / rate(istio_requests_total{app="collector", source_canonical_service="unknown"}[2m])'
   await prom.instantQuery(bytes).then((res) => {
-    const series = res.result;
-    series.filter(serie => !isNaN(serie.value.value)).forEach((serie) => {
-      bytes = serie.value.value
-      console.log(zone + ": (" + latency + "," + bytes + ")")
-      if(latency > 1000 * 5 || bytes > 100 * 1000000) { // latency 5s & sent bytes 100mb threshold
-         if(zone != "edge") {
-           zone = "edge"
-           apply(processor_edge).catch(err => { console.log(JSON.stringify(err))});
-          } else {
-            zone = "cloud"
-            apply(processor_cloud).catch(err => { console.log(JSON.stringify(err))});
-          }
-      }
-    });
+    bytes = res.result.filter(serie => !isNaN(serie.value.value))[0].value.value
+    console.log(zone + ": (" + latency + "," + bytes + ")")
+    if(zone == "cloud" && (latency > 1000 * 2.5 || bytes > 80 * 80 * 3500)) moveToEdge()
+    else if(latency < 1000 * 2.5 || bytes < 80 * 80 * 3500) moveToCloud()
   }).catch(console.error);
 }
 
 async function monitoring() {
-
+  console.log(`Start monitoring...`)
   while (true) {
-    console.log(`\nI will sleep for 2 minutes\n`)
     await sleep(60000 * 2)
-    console.log(`Executing queries...`)
     await retrieveLatency()
   }
 }
