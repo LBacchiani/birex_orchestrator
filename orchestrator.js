@@ -135,8 +135,8 @@ async function retrieveBytes(latency) {
   await prom.instantQuery(bytes).then((res) => {
     bytes = res.result.filter(serie => !isNaN(serie.value.value))[0].value.value
     console.log(zone + ": (" + latency + "," + bytes + ")")
-    if(zone == "cloud" && (latency > 1000 * 2.5 || bytes > 80 * 80 * 3500)) moveToEdge()
-    else if(zone == "edge" && (latency < 1000 * 2.5 || bytes < 80 * 80 * 3500)) moveToCloud()
+    if(zone == "cloud" && latency > 1000 * 1.8) moveToEdge()
+    else if(zone == "edge" && latency < 1000 * 1 && bytes < 65 * 65 * 3500) moveToCloud()
   }).catch(console.error);
 }
 
