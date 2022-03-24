@@ -18,6 +18,7 @@ const path = '/usr/src/app/edge-server/servizi-luca/'
 const processor_cloud = path + 'processor-cloud.yaml'
 const processor_edge = path + 'processor-edge.yaml'
 var zone = "cloud"
+var times = 0
 
 
 const app = express();
@@ -87,6 +88,7 @@ async function setSize() {
   let i = 0
   let direction = true
   while(true) {
+    i = Math.floor(Math.random() * 7);
     let value = sizes[i]
     //console.log("SIZE: " + value*value*3500 + " bytes")
     await fetch("http://birex-collector:8080/birexcollector/actions/setSizes", {
@@ -97,14 +99,14 @@ async function setSize() {
       },
       body: JSON.stringify({minSize: value, maxSize: value})
     });
-    if(direction) {
+    /*if(direction) {
       i = i + 1;
       if(i == sizes.length - 1) direction = false;
     }
     else {
       i = i - 1;
       if(i == 0) direction = true;
-    }
+    }*/
     await sleep(60000 * 5);
   }
 }
@@ -132,11 +134,13 @@ function moveToCloud() {
 
 async function retrieveBytes(latency) {
   var bytes = 'rate(istio_response_bytes_sum{app="collector", source_canonical_service="unknown"}[2m]) / rate(istio_requests_total{app="collector", source_canonical_service="unknown"}[2m])'
+  times = times + 2
   await prom.instantQuery(bytes).then((res) => {
     bytes = res.result.filter(serie => !isNaN(serie.value.value))[0].value.value
     console.log(zone + ": (" + latency + "," + bytes + ")")
-    if(zone == "cloud" && latency > 1000 * 1.8) moveToEdge()
-    else if(zone == "edge" && latency < 1000 * 1 && bytes < 65 * 65 * 3500) moveToCloud()
+    if(times % 20 == 0) console.log("-------")
+    //if(zone == "cloud" && latency > 1000 * 1.8) moveToEdge()
+    //else if(zone == "edge" && latency < 1000 * 1 && bytes < 65 * 65 * 3500) moveToCloud()
   }).catch(console.error);
 }
 
