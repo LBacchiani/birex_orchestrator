@@ -43,7 +43,7 @@ ax1.plot([46], [1262.5], 'o', color='orange')
 ax1.text(46.5, 1262.5, "edge->cloud")
 
 ax1.plot([72], [570.8333333333333], 'o', color='blue')
-ax1.text(63.5, 571.8333333333333, "cloud->edge")
+ax1.text(63, 571.8333333333333, "cloud->edge")
 
 ax2 = ax1.twinx()  # instantiate a second axes that shares the same x-axis
 ax2.set_ylim(-0.000001,85)
