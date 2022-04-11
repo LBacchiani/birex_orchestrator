@@ -84,12 +84,13 @@ async function apply(specPath) {
 }
 
 async function setSize() {
-  let sizes = [20, 40, 60, 80, 100, 120, 150]
+  let sizes = [80, 60, 20, 150, 80, 60, 40, 120]//[20, 40, 60, 80, 100, 120, 150]
   let i = 0
   let direction = true
   while(true) {
-    i = Math.floor(Math.random() * 7);
     let value = sizes[i]
+    if(i == sizes.length - 1) i = 0
+    else i = i + 1
     //console.log("SIZE: " + value*value*3500 + " bytes")
     await fetch("http://birex-collector:8080/birexcollector/actions/setSizes", {
       method: 'POST',
@@ -107,7 +108,7 @@ async function setSize() {
       i = i - 1;
       if(i == 0) direction = true;
     }*/
-    await sleep(60000 * 5);
+    await sleep(60000 * 2.5);
   }
 }
 
@@ -134,11 +135,11 @@ function moveToCloud() {
 
 async function retrieveBytes(latency) {
   var bytes = 'rate(istio_response_bytes_sum{app="collector", source_canonical_service="unknown"}[2m]) / rate(istio_requests_total{app="collector", source_canonical_service="unknown"}[2m])'
-  times = times + 2
+  times = times + 10
   await prom.instantQuery(bytes).then((res) => {
     bytes = res.result.filter(serie => !isNaN(serie.value.value))[0].value.value
     console.log(zone + ": (" + latency + "," + bytes + ")")
-    if(times % 20 == 0) console.log("-------")
+    if(times % 120 == 0) console.log("-------")
     //if(zone == "cloud" && latency > 1000 * 1.8) moveToEdge()
     //else if(zone == "edge" && latency < 1000 * 1 && bytes < 65 * 65 * 3500) moveToCloud()
   }).catch(console.error);
@@ -147,7 +148,7 @@ async function retrieveBytes(latency) {
 async function monitoring() {
   console.log(`Start monitoring...`)
   while (true) {
-    await sleep(60000 * 2)
+    await sleep(10000)
     await retrieveLatency()
   }
 }
