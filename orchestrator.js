@@ -135,7 +135,7 @@ function moveToCloud() {
 
 async function retrieveBytes(latency) {
   var bytes = 'rate(istio_response_bytes_sum{app="collector", source_canonical_service="unknown"}[2m]) / rate(istio_requests_total{app="collector", source_canonical_service="unknown"}[2m])'
-  times = times + 10
+  times = times + 1
   await prom.instantQuery(bytes).then((res) => {
     bytes = res.result.filter(serie => !isNaN(serie.value.value))[0].value.value
     console.log(zone + ": (" + latency + "," + bytes + ")")
