@@ -119,7 +119,7 @@ async function setSize() {
 }
 
 async function retrieveLatency() {
-  var latency = 'rate(istio_request_duration_milliseconds_sum{app="alerting",destination_workload="processor-' + zone + '"}[10s]) / rate(istio_requests_total{app="alerting",destination_workload="processor-' + zone + '"}[10s])'
+  var latency = 'rate(istio_request_duration_milliseconds_sum{app="alerting",destination_workload="processor-' + zone + '"}[1m]) / rate(istio_requests_total{app="alerting",destination_workload="processor-' + zone + '"}[1m])'
   await prom.instantQuery(latency).then(async (res) => {
     const serie = res.result.filter(serie => !isNaN(serie.value.value))[0]
     await retrieveBytes(serie.value.value)
@@ -140,7 +140,7 @@ function moveToCloud() {
 
 
 async function retrieveBytes(latency) {
-  var bytes = 'rate(istio_response_bytes_sum{app="collector", source_canonical_service="unknown"}[10s]) / rate(istio_requests_total{app="collector", source_canonical_service="unknown"}[10s])'
+  var bytes = 'rate(istio_response_bytes_sum{app="collector", source_canonical_service="unknown"}[1m]) / rate(istio_requests_total{app="collector", source_canonical_service="unknown"}[1m])'
   times = times + 1
   await prom.instantQuery(bytes).then((res) => {
     bytes = res.result.filter(serie => !isNaN(serie.value.value))[0].value.value

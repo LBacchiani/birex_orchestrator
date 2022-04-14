@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: processor-edge
+  labels:
+    app: processor
+spec:
+  affinity:
+    nodeAffinity:
+      preferredDuringSchedulingIgnoredDuringExecution:
+        - weight: 1
+          preference:
+            matchExpressions:
+              - key: zone
+                operator: In
+                values:
+                  - edge
+  containers:
+    - image: lukesmolo/public:birex-process_0.0.1
+      name: birex-processor
+      env:
+      - name: COLLECTOR_URL
+        value: "http://birex-collector:8080/birexcollector"
+      ports:
+        - containerPort: 3000
