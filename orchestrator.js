@@ -17,7 +17,7 @@ const baseURL = "/api/v1" // default value
 const path = '/usr/src/app/edge-server/servizi-luca/'
 const processor_cloud = path + 'processor-cloud.yaml'
 const processor_edge = path + 'processor-edge.yaml'
-var zone = "edge"
+var zone = "cloud"
 var times = 0
 
 
@@ -119,7 +119,7 @@ async function setSize() {
 }
 
 async function retrieveLatency() {
-  var latency = 'rate(istio_request_duration_milliseconds_sum{app="alerting",destination_workload="processor-' + zone + '"}[2m]) / rate(istio_requests_total{app="alerting",destination_workload="processor-' + zone + '"}[2m])'
+  var latency = 'rate(istio_request_duration_milliseconds_sum{app="alerting",destination_workload="processor-' + zone + '"}[10s]) / rate(istio_requests_total{app="alerting",destination_workload="processor-' + zone + '"}[10s])'
   await prom.instantQuery(latency).then(async (res) => {
     const serie = res.result.filter(serie => !isNaN(serie.value.value))[0]
     await retrieveBytes(serie.value.value)
@@ -140,7 +140,7 @@ function moveToCloud() {
 
 
 async function retrieveBytes(latency) {
-  var bytes = 'rate(istio_response_bytes_sum{app="collector", source_canonical_service="unknown"}[2m]) / rate(istio_requests_total{app="collector", source_canonical_service="unknown"}[2m])'
+  var bytes = 'rate(istio_response_bytes_sum{app="collector", source_canonical_service="unknown"}[10s]) / rate(istio_requests_total{app="collector", source_canonical_service="unknown"}[10s])'
   times = times + 1
   await prom.instantQuery(bytes).then((res) => {
     bytes = res.result.filter(serie => !isNaN(serie.value.value))[0].value.value
