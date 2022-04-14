@@ -87,6 +87,7 @@ async function setSize() {
   let sizes = [80, 60, 20, 150, 80, 60, 40, 120]//[20, 40, 60, 80, 100, 120, 150]
   let i = 0
   let direction = true
+  let time = 0
   while(true) {
     let value = sizes[i]
     if(i == sizes.length - 1) i = 0
@@ -109,6 +110,11 @@ async function setSize() {
       if(i == 0) direction = true;
     }*/
     await sleep(60000 * 2.5);
+    time += 2.5
+    if(time == 20) {
+      time = 0;
+      i = 0;
+    }
   }
 }
 
