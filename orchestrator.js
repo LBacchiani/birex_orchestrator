@@ -17,8 +17,9 @@ const baseURL = "/api/v1" // default value
 const path = '/usr/src/app/edge-server/servizi-luca/'
 const processor_cloud = path + 'processor-cloud.yaml'
 const processor_edge = path + 'processor-edge.yaml'
-var zone = "cloud"
+var zone = "edge"
 var times = 0
+var index = 0
 
 
 const app = express();
@@ -83,15 +84,35 @@ async function apply(specPath) {
     return created;
 }
 
+async function setSize2() {
+  let sizes = [80, 60, 20, 150, 80, 60, 40, 120]//[20, 40, 60, 80, 100, 120, 150]
+  await fetch("http://birex-collector:8080/birexcollector/actions/setSizes", {
+    method: 'POST',
+    headers: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({minSize: sizes[index % sizes.length], maxSize: sizes[index % sizes.length]})
+  });
+  index = index + 1
+}
+
 async function setSize() {
   let sizes = [80, 60, 20, 150, 80, 60, 40, 120]//[20, 40, 60, 80, 100, 120, 150]
-  let i = 0
   let direction = true
   let time = 0
+  await fetch("http://birex-collector:8080/birexcollector/actions/setSizes", {
+    method: 'POST',
+    headers: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({minSize: 40, maxSize: 40})
+  });
   while(true) {
-    let value = sizes[i]
-    if(i == sizes.length - 1) i = 0
-    else i = i + 1
+    await sleep(60000);
+    let value = sizes[index % sizes.length]
+    index = index + 1
     //console.log("SIZE: " + value*value*3500 + " bytes")
     await fetch("http://birex-collector:8080/birexcollector/actions/setSizes", {
       method: 'POST',
@@ -109,17 +130,11 @@ async function setSize() {
       i = i - 1;
       if(i == 0) direction = true;
     }*/
-    await sleep(60000 * 2.5);
-    time += 2.5
-    if(time == 20) {
-      time = 0;
-      i = 0;
-    }
   }
 }
 
 async function retrieveLatency() {
-  var latency = 'rate(istio_request_duration_milliseconds_sum{app="alerting",destination_workload="processor-' + zone + '"}[1m]) / rate(istio_requests_total{app="alerting",destination_workload="processor-' + zone + '"}[1m])'
+  var latency = 'rate(istio_request_duration_milliseconds_sum{app="alerting",destination_workload="processor-' + zone + '"}[30s]) / rate(istio_requests_total{app="alerting",destination_workload="processor-' + zone + '"}[30s])'
   await prom.instantQuery(latency).then(async (res) => {
     const serie = res.result.filter(serie => !isNaN(serie.value.value))[0]
     await retrieveBytes(serie.value.value)
@@ -140,12 +155,12 @@ function moveToCloud() {
 
 
 async function retrieveBytes(latency) {
-  var bytes = 'rate(istio_response_bytes_sum{app="collector", source_canonical_service="unknown"}[1m]) / rate(istio_requests_total{app="collector", source_canonical_service="unknown"}[1m])'
+  var bytes = 'rate(istio_response_bytes_sum{app="collector", source_canonical_service="unknown"}[30s]) / rate(istio_requests_total{app="collector", source_canonical_service="unknown"}[30s])'
   times = times + 1
   await prom.instantQuery(bytes).then((res) => {
     bytes = res.result.filter(serie => !isNaN(serie.value.value))[0].value.value
     console.log(zone + ": (" + latency + "," + bytes + ")")
-    if(times % 120 == 0) console.log("-------")
+    if(times % 16 == 0) console.log("-------")
     //if(zone == "cloud" && latency > 1000 * 1.8) moveToEdge()
     //else if(zone == "edge" && latency < 1000 * 1 && bytes < 65 * 65 * 3500) moveToCloud()
   }).catch(console.error);
@@ -153,15 +168,18 @@ async function retrieveBytes(latency) {
 
 async function monitoring() {
   console.log(`Start monitoring...`)
+  let i = 0
   while (true) {
-    await sleep(10000)
+    if(i % 2 == 0) setSize2()
+    await sleep(30000)
+    i = i + 1
     await retrieveLatency()
   }
 }
 
 
 monitoring()
-setSize()
+
 
 console.log("\nOrchestrator started\n")
 
