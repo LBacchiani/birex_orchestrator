@@ -17,7 +17,7 @@ const baseURL = "/api/v1" // default value
 const path = '/usr/src/app/edge-server/servizi-luca/'
 const processor_cloud = path + 'processor-cloud.yaml'
 const processor_edge = path + 'processor-edge.yaml'
-var zone = "edge"
+var zone = "cloud"
 var times = 0
 var index = 0
 
