@@ -14,7 +14,7 @@ const k8sApi = kc.makeApiClient(k8s.CoreV1Api);
 
 const endpoint = "http://10.244.1.4:9090";
 const baseURL = "/api/v1" // default value
-const path = '/usr/src/app/edge-server/servizi-luca/'
+const path = '/usr/src/app/edge-server/servizi-luca/pipeline1/'
 const processor_cloud = path + 'processor-cloud.yaml'
 const processor_edge = path + 'processor-edge.yaml'
 var zone = "cloud"
@@ -61,6 +61,7 @@ async function apply(specPath) {
     const specs = yaml.loadAll(specString);
     const validSpecs = specs.filter((s) => s && s.kind && s.metadata);
     const created = [];
+    const start = new Date()
     for (const spec of validSpecs) {
         // this is to convince the old version of TypeScript that metadata exists even though we already filtered specs
         // without metadata out
@@ -81,10 +82,12 @@ async function apply(specPath) {
             created.push(response.body);
         }
     }
+    const stop = new Date()
+    console.log("Time to deploy: " + (stop-start) "ms")
     return created;
 }
 
-async function setSize2() {
+async function setSize() {
   let sizes = [80, 60, 20, 150, 80, 60, 40, 120]//[20, 40, 60, 80, 100, 120, 150]
   await fetch("http://birex-collector:8080/birexcollector/actions/setSizes", {
     method: 'POST',
@@ -95,42 +98,6 @@ async function setSize2() {
     body: JSON.stringify({minSize: sizes[index % sizes.length], maxSize: sizes[index % sizes.length]})
   });
   index = index + 1
-}
-
-async function setSize() {
-  let sizes = [80, 60, 20, 150, 80, 60, 40, 120]//[20, 40, 60, 80, 100, 120, 150]
-  let direction = true
-  let time = 0
-  await fetch("http://birex-collector:8080/birexcollector/actions/setSizes", {
-    method: 'POST',
-    headers: {
-      'Accept': 'application/json',
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify({minSize: 40, maxSize: 40})
-  });
-  while(true) {
-    await sleep(60000);
-    let value = sizes[index % sizes.length]
-    index = index + 1
-    //console.log("SIZE: " + value*value*3500 + " bytes")
-    await fetch("http://birex-collector:8080/birexcollector/actions/setSizes", {
-      method: 'POST',
-      headers: {
-        'Accept': 'application/json',
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({minSize: value, maxSize: value})
-    });
-    /*if(direction) {
-      i = i + 1;
-      if(i == sizes.length - 1) direction = false;
-    }
-    else {
-      i = i - 1;
-      if(i == 0) direction = true;
-    }*/
-  }
 }
 
 async function retrieveLatency() {
@@ -160,9 +127,9 @@ async function retrieveBytes(latency) {
   await prom.instantQuery(bytes).then((res) => {
     bytes = res.result.filter(serie => !isNaN(serie.value.value))[0].value.value
     console.log(zone + ": (" + latency + "," + bytes + ")")
+    if(zone == "cloud" && latency > 1000 * 1.8 && times % 16 != 0) moveToEdge()
+    else if((zone == "edge" && latency < 1000 * 1 && bytes < 65 * 65 * 3500) || times % 16 == 0) moveToCloud()
     if(times % 16 == 0) console.log("-------")
-    //if(zone == "cloud" && latency > 1000 * 1.8) moveToEdge()
-    //else if(zone == "edge" && latency < 1000 * 1 && bytes < 65 * 65 * 3500) moveToCloud()
   }).catch(console.error);
 }
 
@@ -170,7 +137,7 @@ async function monitoring() {
   console.log(`Start monitoring...`)
   let i = 0
   while (true) {
-    if(i % 2 == 0) setSize2()
+    if(i % 2 == 0) setSize()
     await sleep(30000)
     i = i + 1
     await retrieveLatency()

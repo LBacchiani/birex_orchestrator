@@ -8,5 +8,5 @@ resources:
   - generator-ip.yaml
   - generator.yaml
   - processor-cloud.yaml
-  - processor-edge.yaml
+  #- processor-edge.yaml
   - processor-ip.yaml
