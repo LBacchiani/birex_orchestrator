@@ -38,7 +38,7 @@ function sleep(ms) {
 async function safeDelete() {
   var deleted = false
   while(!deleted) {
-    await sleep(5000)
+    await sleep(1000)
     await prom.instantQuery('up{kubernetes_pod_name="processor-' + zone + '"}').then((res) => {
       const series = res.result;
       series.forEach((serie) => {
@@ -83,7 +83,7 @@ async function apply(specPath) {
         }
     }
     const stop = new Date()
-    console.log("Time to deploy: " + (stop-start) "ms")
+    console.log("Time to deploy: " + (stop-start) + "ms")
     return created;
 }
 
@@ -127,9 +127,9 @@ async function retrieveBytes(latency) {
   await prom.instantQuery(bytes).then((res) => {
     bytes = res.result.filter(serie => !isNaN(serie.value.value))[0].value.value
     console.log(zone + ": (" + latency + "," + bytes + ")")
+    if(times % 16 == 0) console.log("-------")
     if(zone == "cloud" && latency > 1000 * 1.8 && times % 16 != 0) moveToEdge()
     else if((zone == "edge" && latency < 1000 * 1 && bytes < 65 * 65 * 3500) || times % 16 == 0) moveToCloud()
-    if(times % 16 == 0) console.log("-------")
   }).catch(console.error);
 }
 
@@ -138,7 +138,7 @@ async function monitoring() {
   let i = 0
   while (true) {
     if(i % 2 == 0) setSize()
-    await sleep(30000)
+    await sleep(90000)
     i = i + 1
     await retrieveLatency()
   }
