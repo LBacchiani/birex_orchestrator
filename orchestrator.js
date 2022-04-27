@@ -101,7 +101,7 @@ async function setSize() {
 }
 
 async function retrieveLatency() {
-  var latency = 'rate(istio_request_duration_milliseconds_sum{app="alerting",destination_workload="processor-' + zone + '"}[30s]) / rate(istio_requests_total{app="alerting",destination_workload="processor-' + zone + '"}[30s])'
+  var latency = 'rate(istio_request_duration_milliseconds_sum{app="alerting",destination_workload="processor-' + zone + '"}[3m]) / rate(istio_requests_total{app="alerting",destination_workload="processor-' + zone + '"}[3m])'
   await prom.instantQuery(latency).then(async (res) => {
     const serie = res.result.filter(serie => !isNaN(serie.value.value))[0]
     await retrieveBytes(serie.value.value)
@@ -122,7 +122,7 @@ function moveToCloud() {
 
 
 async function retrieveBytes(latency) {
-  var bytes = 'rate(istio_response_bytes_sum{app="collector", source_canonical_service="unknown"}[30s]) / rate(istio_requests_total{app="collector", source_canonical_service="unknown"}[30s])'
+  var bytes = 'rate(istio_response_bytes_sum{app="collector", source_canonical_service="unknown"}[3m]) / rate(istio_requests_total{app="collector", source_canonical_service="unknown"}[3m])'
   times = times + 1
   await prom.instantQuery(bytes).then((res) => {
     bytes = res.result.filter(serie => !isNaN(serie.value.value))[0].value.value
@@ -136,9 +136,9 @@ async function retrieveBytes(latency) {
 async function monitoring() {
   console.log(`Start monitoring...`)
   let i = 0
-  while (true) {
+  while (i < 16) {
     if(i % 2 == 0) setSize()
-    await sleep(90000)
+    await sleep(3 * 60000)
     i = i + 1
     await retrieveLatency()
   }
