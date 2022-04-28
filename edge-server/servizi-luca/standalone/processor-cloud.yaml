@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: processor-edge-3
+  name: processor-cloud
   labels:
-    app: processor-3
+    app: processor
 spec:
   affinity:
     nodeAffinity:
@@ -14,12 +14,12 @@ spec:
               - key: zone
                 operator: In
                 values:
-                  - edge
+                  - cloud
   containers:
     - image: lukesmolo/public:birex-process_0.0.1
       name: birex-processor
       env:
       - name: COLLECTOR_URL
-        value: "http://birex-collector-3:8080/birexcollector"
+        value: "http://birex-collector:8080/birexcollector"
       ports:
         - containerPort: 3000

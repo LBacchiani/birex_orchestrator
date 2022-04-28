@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: generator
+  name: collector
   labels:
-    app: generator
+    app: collector
 spec:
   affinity:
     nodeAffinity:
@@ -16,12 +16,5 @@ spec:
                 values:
                   - edge
   containers:
-    - image: lukesmolo/public:birex-simulator_0.0.2
-      name: birex-simulator
-      env:
-      - name: USERNAME
-        value: "birex"
-      - name: PASSWORD
-        value: "birex2.4"
-      ports:
-        - containerPort: 5050
+    - image: lukesmolo/public:birex-collector_0.0.5
+      name: birex-collector

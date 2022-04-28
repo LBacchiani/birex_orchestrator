@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: birex-alerting-2
+  name: birex-alerting
 spec:
   selector:
-    app: alerting-2
+    app: alerting
   ports:
     - port: 3001
       targetPort: 3001

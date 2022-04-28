@@ -5,8 +5,5 @@ resources:
   - alerting.yaml
   - collector-np.yaml
   - collector.yaml
-  - generator-ip.yaml
-  - generator.yaml
   - processor-cloud.yaml
-  - processor-edge.yaml
   - processor-ip.yaml

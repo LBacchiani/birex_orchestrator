@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: birex-processor
+  name: birex-processor-2
 spec:
   selector:
-    app: processor
+    app: processor-2
   ports:
     - port: 3000
       targetPort: 3000

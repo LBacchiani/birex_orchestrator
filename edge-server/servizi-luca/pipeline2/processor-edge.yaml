@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: processor-edge
+  name: processor-edge-2
   labels:
-    app: processor
+    app: processor-2
 spec:
   affinity:
     nodeAffinity:
@@ -20,6 +20,6 @@ spec:
       name: birex-processor
       env:
       - name: COLLECTOR_URL
-        value: "http://birex-collector:8080/birexcollector"
+        value: "http://birex-collector-2:8080/birexcollector"
       ports:
         - containerPort: 3000
