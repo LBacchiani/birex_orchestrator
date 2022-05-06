@@ -14,7 +14,7 @@ spec:
               - key: zone
                 operator: In
                 values:
-                  - edge
+                  - cloud
   containers:
     - image: lukesmolo/public:birex-collector_0.0.5
       name: birex-collector

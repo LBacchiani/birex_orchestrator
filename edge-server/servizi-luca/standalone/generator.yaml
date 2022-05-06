@@ -14,7 +14,7 @@ spec:
               - key: zone
                 operator: In
                 values:
-                  - edge
+                  - cloud
   containers:
     - image: lukesmolo/public:birex-simulator_0.0.2
       name: birex-simulator
