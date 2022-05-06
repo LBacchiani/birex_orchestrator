@@ -36,10 +36,10 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-async function safeDelete() {
+async function safeDelete(z) {
   var deleted = false
   while (!deleted) {
-    await sleep(1000)
+    await sleep(50)
     await prom.instantQuery('up{kubernetes_pod_name="processor-' + zone + '"}').then((res) => {
       const series = res.result;
       series.forEach((serie) => {
@@ -53,9 +53,10 @@ async function safeDelete() {
       });
     }).catch(console.error);
   }
+  zone = z
 }
 
-async function apply(specPath, z) {
+async function apply(specPath) {
   const client = k8s.KubernetesObjectApi.makeApiClient(kc);
   const fsReadFileP = promisify(fs.readFile);
   const specString = await fsReadFileP(specPath, 'utf8');
@@ -85,7 +86,6 @@ async function apply(specPath, z) {
   }
   const stop = new Date()
   console.log("Time to deploy: " + (stop - start) + "ms")
-  zone = z
   return created;
 }
 
@@ -111,14 +111,14 @@ async function retrieveLatency() {
 
 function moveToEdge() {
   //zone = "edge"
-  apply(processor_edge, "edge").catch(err => { console.log(JSON.stringify(err)) })
-  safeDelete()
+  apply(processor_edge).catch(err => { console.log(JSON.stringify(err)) })
+  safeDelete("edge")
 }
 
 function moveToCloud() {
   //zone = "cloud"
-  apply(processor_cloud, "cloud").catch(err => { console.log(JSON.stringify(err)) })
-  safeDelete()
+  apply(processor_cloud).catch(err => { console.log(JSON.stringify(err)) })
+  safeDelete("cloud")
 }
 
 
