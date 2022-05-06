@@ -21,7 +21,6 @@ var zone = "cloud"
 var times = 0
 let sizes = [80, 60, 20, 150, 80, 60, 40, 120]//[20, 40, 60, 80, 100, 120, 150]
 var index = 0
-var latencyQuery = 'rate(istio_request_duration_milliseconds_sum{app="alerting",destination_workload="processor-' + zone + '"}[30s]) / rate(istio_requests_total{app="alerting",destination_workload="processor-' + zone + '"}[30s])'
 
 
 const app = express();
@@ -138,7 +137,8 @@ async function retrieveBytes(latency) {
 async function retrieveLatencyWithoutBytes() {
   let bytes = sizes[index % sizes.length]
   times = times + 1
-  await prom.instantQuery(latencyQuery).then(async (res) => {
+  var latency = 'rate(istio_request_duration_milliseconds_sum{app="alerting",destination_workload="processor-' + zone + '"}[30s]) / rate(istio_requests_total{app="alerting",destination_workload="processor-' + zone + '"}[30s])'
+  await prom.instantQuery(latency).then(async (res) => {
     const latency = res.result.filter(serie => !isNaN(serie.value.value))[0].value.value
     console.log(zone + ": (" + latency + "," + bytes * bytes * 3500 + ")")
     if (times % 16 == 0) console.log("-------")
