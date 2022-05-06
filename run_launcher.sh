@@ -1,14 +1,13 @@
 #!/bin/bash
 while true
 do
-        kubectl apply -k edge-server/servizi-luca/pipeline1/
+        kubectl apply -k edge-server/servizi-luca/standalone/
         sleep 30
         kubectl apply -f orchestrator.yaml
-        sleep 50m
-        echo '\n-------\n' >> orchestrator.log
+        sleep 20m
         kubectl logs pod orchestrator >> orchestrator.log
-        kubectl delete -k edge-server/servizi-luca/pipeline1/
-        kubectl delete -f edge-server/servizi-luca/pipeline1/processor-edge.yaml
+        kubectl delete -k edge-server/servizi-luca/standalone/
+        kubectl delete -f edge-server/servizi-luca/standalone/processor-edge.yaml
         kubectl delete -f orchestrator.yaml
         sleep 30
 done

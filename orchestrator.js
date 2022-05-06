@@ -89,7 +89,7 @@ async function apply(specPath) {
   return created;
 }
 
-async function setSize() {
+async function setSize(inc = true) {
   await fetch("http://birex-collector:8080/birexcollector/actions/setSizes", {
     method: 'POST',
     headers: {
@@ -98,12 +98,13 @@ async function setSize() {
     },
     body: JSON.stringify({ minSize: sizes[index % sizes.length], maxSize: sizes[index % sizes.length] })
   });
-  index = index + 1
+  if(inc) index = index + 1
 }
 
 async function retrieveLatency() {
-  var latency = 'rate(istio_request_duration_milliseconds_sum{app="alerting",destination_workload="processor-' + zone + '"}[30s]) / rate(istio_requests_total{app="alerting",destination_workload="processor-' + zone + '"}[30s])'
-  await prom.instantQuery(latency).then(async (res) => {
+  var latencyQuery = 'rate(istio_request_duration_milliseconds_sum{app="alerting"}[30s]) / rate(istio_requests_total{app="alerting"}[30s])'
+  //var latencyQuery = 'rate(istio_request_duration_milliseconds_sum{app="alerting",destination_workload="processor-' + zone + '"}[10s]) / rate(istio_requests_total{app="alerting",destination_workload="processor-' + zone + '"}[10s])'
+  await prom.instantQuery(latencyQuery).then(async (res) => {
     const serie = res.result.filter(serie => !isNaN(serie.value.value))[0]
     await retrieveBytes(serie.value.value)
   }).catch(console.error);
@@ -126,18 +127,18 @@ async function retrieveBytes(latency) {
   var bytesQuery = 'rate(istio_response_bytes_sum{app="collector", source_canonical_service="unknown"}[30s]) / rate(istio_requests_total{app="collector", source_canonical_service="unknown"}[30s])'
   times = times + 1
   await prom.instantQuery(bytesQuery).then((res) => {
-    bytes = res.result.filter(serie => !isNaN(serie.value.value))[0].value.value
+    const bytes = res.result.filter(serie => !isNaN(serie.value.value))[0].value.value
     console.log(zone + ": (" + latency + "," + bytes + ")")
     if (times % 16 == 0) console.log("-------")
-    if (zone == "cloud" && latency > 1000 * 1.8 && times % 16 != 0) moveToEdge()
-    else if ((zone == "edge" && latency < 1000 * 1 && bytes < 65 * 65 * 3500) || times % 16 == 0) moveToCloud()
+    //if (zone == "cloud" && latency > 1000 * 1.8 && times % 16 != 0) moveToEdge()
+    //else if ((zone == "edge" && latency < 1000 * 1 && bytes < 65 * 65 * 3500) || times % 16 == 0) moveToCloud()
   }).catch(console.error);
 }
 
 async function retrieveLatencyWithoutBytes() {
   let bytes = sizes[index % sizes.length]
   times = times + 1
-  var latencyQuery = 'rate(istio_request_duration_milliseconds_sum{app="alerting",destination_workload="processor-' + zone + '"}[30s]) / rate(istio_requests_total{app="alerting",destination_workload="processor-' + zone + '"}[30s])'
+  //var latencyQuery = 'rate(istio_request_duration_milliseconds_sum{app="alerting",destination_workload="processor-' + zone + '"}[30s]) / rate(istio_requests_total{app="alerting",destination_workload="processor-' + zone + '"}[30s])'
   console.log("querying zone: " + zone)
   await prom.instantQuery(latencyQuery).then(async (res) => {
     const latency = res.result.filter(serie => !isNaN(serie.value.value))[0].value.value
@@ -151,6 +152,8 @@ async function retrieveLatencyWithoutBytes() {
 async function monitoring() {
   console.log(`Start monitoring...`)
   let i = 0
+  setSize(false)
+  await sleep(60000)
   while (i < 16) {
     if (i % 2 == 0) setSize()
     await sleep(30000)
