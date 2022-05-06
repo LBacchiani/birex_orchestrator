@@ -138,6 +138,7 @@ async function retrieveLatencyWithoutBytes() {
   let bytes = sizes[index % sizes.length]
   times = times + 1
   var latency = 'rate(istio_request_duration_milliseconds_sum{app="alerting",destination_workload="processor-' + zone + '"}[30s]) / rate(istio_requests_total{app="alerting",destination_workload="processor-' + zone + '"}[30s])'
+  console.log("querying zone: " + zone)
   await prom.instantQuery(latency).then(async (res) => {
     const latency = res.result.filter(serie => !isNaN(serie.value.value))[0].value.value
     console.log(zone + ": (" + latency + "," + bytes * bytes * 3500 + ")")
