@@ -21,7 +21,7 @@ var zone = "cloud"
 var times = 0
 let sizes = [80, 60, 20, 150, 80, 60, 40, 120]//[20, 40, 60, 80, 100, 120, 150]
 var index = 0
-var latencyQuery = 'rate(istio_request_duration_milliseconds_sum{app="alerting",destination_workload="processor-' + zone + '"}[3m]) / rate(istio_requests_total{app="alerting",destination_workload="processor-' + zone + '"}[3m])'
+var latencyQuery = 'rate(istio_request_duration_milliseconds_sum{app="alerting",destination_workload="processor-' + zone + '"}[30s]) / rate(istio_requests_total{app="alerting",destination_workload="processor-' + zone + '"}[30s])'
 
 
 const app = express();
@@ -56,7 +56,7 @@ async function safeDelete() {
   }
 }
 
-async function apply(specPath) {
+async function apply(specPath, z) {
   const client = k8s.KubernetesObjectApi.makeApiClient(kc);
   const fsReadFileP = promisify(fs.readFile);
   const specString = await fsReadFileP(specPath, 'utf8');
@@ -86,6 +86,7 @@ async function apply(specPath) {
   }
   const stop = new Date()
   console.log("Time to deploy: " + (stop - start) + "ms")
+  zone = z
   return created;
 }
 
@@ -110,14 +111,14 @@ async function retrieveLatency() {
 }
 
 function moveToEdge() {
-  zone = "edge"
-  apply(processor_edge).catch(err => { console.log(JSON.stringify(err)) })
+  //zone = "edge"
+  apply(processor_edge, "edge").catch(err => { console.log(JSON.stringify(err)) })
   safeDelete()
 }
 
 function moveToCloud() {
-  zone = "cloud"
-  apply(processor_cloud).catch(err => { console.log(JSON.stringify(err)) })
+  //zone = "cloud"
+  apply(processor_cloud, "cloud").catch(err => { console.log(JSON.stringify(err)) })
   safeDelete()
 }
 
@@ -151,7 +152,7 @@ async function monitoring() {
   let i = 0
   while (i < 16) {
     if (i % 2 == 0) setSize()
-    await sleep(3 * 60000)
+    await sleep(30000)
     i = i + 1
     // await retrieveLatency() <---------------
     await retrieveLatencyWithoutBytes()
