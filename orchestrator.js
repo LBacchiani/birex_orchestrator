@@ -150,7 +150,7 @@ async function retrieveLatencyWithoutBytes() {
 }
 
 async function monitoring() {
-  console.log(`Start monitoring...`)
+  //console.log(`Start monitoring...`)
   let i = 0
   setSize(false)
   await sleep(60000)
@@ -167,9 +167,9 @@ async function monitoring() {
 monitoring()
 
 
-console.log("\nOrchestrator started\n")
+//console.log("\nOrchestrator started\n")
 
-console.log(`Endpoint: ${endpoint}`)
-console.log(`Base URL: ${baseURL}\n`)
+//console.log(`Endpoint: ${endpoint}`)
+//console.log(`Base URL: ${baseURL}\n`)
 
 app.listen(PORT, HOST)
