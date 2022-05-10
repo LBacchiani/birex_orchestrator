@@ -130,8 +130,8 @@ async function retrieveBytes(latency) {
     const bytes = res.result.filter(serie => !isNaN(serie.value.value))[0].value.value
     console.log(zone + ": (" + latency + "," + bytes + ")")
     if (times % 16 == 0) console.log("-------")
-    //if (zone == "cloud" && latency > 1000 * 1.8 && times % 16 != 0) moveToEdge()
-    //else if ((zone == "edge" && latency < 1000 * 1 && bytes < 65 * 65 * 3500) || times % 16 == 0) moveToCloud()
+    if (zone == "cloud" && latency > 1000 * 1.8 && times % 16 != 0) moveToEdge()
+    else if ((zone == "edge" && latency < 1000 * 1 && bytes < 65 * 65 * 3500) || times % 16 == 0) moveToCloud()
   }).catch(console.error);
 }
 
