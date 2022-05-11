@@ -131,7 +131,6 @@ function retrieveMultipleBytes(latencies) {
 }
 
 async function monitoring() {
-  console.log(`Start monitoring...`)
   let i = 0
   setSizes(false)
   await sleep(60000)

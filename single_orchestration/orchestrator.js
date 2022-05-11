@@ -19,7 +19,6 @@ const processor_cloud = path + '/processor-cloud.yaml'
 const processor_edge = path + '/processor-edge.yaml'
 const sizes = [80, 60, 20, 150, 80, 60, 40, 120]
 var zone = "cloud"
-var zone = ["cloud","cloud","cloud"]
 var times = 0
 var index = 0
 
@@ -89,7 +88,7 @@ async function setSize(inc = true) {
 }
 
 async function retrieveLatency() {
-  var latencyQuery = 'rate(istio_request_duration_milliseconds_sum{app="alerting"}[30s]) / rate(istio_requests_total{app="alerting"}[30s])'
+  var latencyQuery = 'irate(istio_request_duration_milliseconds_sum{app="alerting"}[30s]) / irate(istio_requests_total{app="alerting"}[30s])'
   await prom.instantQuery(latencyQuery).then(async (res) => {
     const serie = res.result.filter(serie => !isNaN(serie.value.value))[0]
     await retrieveBytes(serie.value.value)
@@ -101,7 +100,7 @@ function moveToEdge() {apply(processor_edge, "edge").catch(err => { console.log(
 function moveToCloud() {apply(processor_cloud, "cloud").catch(err => { console.log(JSON.stringify(err))})}
 
 async function retrieveBytes(latency) {
-  var bytesQuery = 'rate(istio_response_bytes_sum{app="collector", source_canonical_service="unknown"}[30s]) / rate(istio_requests_total{app="collector", source_canonical_service="unknown"}[30s])'
+  var bytesQuery = 'irate(istio_response_bytes_sum{app="collector", source_canonical_service="unknown"}[30s]) / irate(istio_requests_total{app="collector", source_canonical_service="unknown"}[30s])'
   times = times + 1
   await prom.instantQuery(bytesQuery).then((res) => {
     const bytes = res.result.filter(serie => !isNaN(serie.value.value))[0].value.value
@@ -114,7 +113,6 @@ async function retrieveBytes(latency) {
 
 
 async function monitoring() {
-  console.log(`Start monitoring...`)
   let i = 0
   setSize(false)
   await sleep(60000)
