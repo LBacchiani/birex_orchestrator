@@ -40,7 +40,6 @@ function safeDelete(i, z) {
   zone[i] = z
 }
 
-
 async function apply(i, specPath, zone) {
   const client = k8s.KubernetesObjectApi.makeApiClient(kc);
   const fsReadFileP = promisify(fs.readFile);
@@ -134,8 +133,8 @@ function retrieveMultipleBytes(latencies) {
 async function monitoring() {
   console.log(`Start monitoring...`)
   let i = 0
-  //setSizes(false)
-  //await sleep(60000)
+  setSizes(false)
+  await sleep(60000)
   while (i < 16) {
     if (i % 2 == 0) setSizes()
     await sleep(30000)
