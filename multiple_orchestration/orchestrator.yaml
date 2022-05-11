@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: orchestrator
+  labels:
+    app: orchestrator
+spec:
+  affinity:
+    nodeAffinity:
+      preferredDuringSchedulingIgnoredDuringExecution:
+        - weight: 1
+          preference:
+            matchExpressions:
+              - key: zone
+                operator: In
+                values:
+                  - cloud
+  containers:
+    - image: lorenzobacchiani/birex_multiple_orchestrator
+      name: birex-orchestrator
+      ports:
+        - containerPort: 8081
