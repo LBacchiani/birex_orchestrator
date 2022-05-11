@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: multiple_orchestrator
+  name: multiple-orchestrator
   labels:
     app: orchestrator
 spec:
