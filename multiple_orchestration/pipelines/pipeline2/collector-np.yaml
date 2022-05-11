@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: birex-collector-2
+spec:
+  selector:
+    app: collector-2
+  ports:
+    - port: 8080
+      targetPort: 8080
+  type: ClusterIP

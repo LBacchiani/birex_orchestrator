@@ -14,13 +14,10 @@ const k8sApi = kc.makeApiClient(k8s.CoreV1Api);
 
 const endpoint = "http://10.244.2.3:9090";
 const baseURL = "/api/v1" // default value
-//const path = '/usr/src/app/edge-server/servizi-luca/standalone'
-const path = '/usr/src/app/edge-server/servizi-luca/pipeline'
+const path = '/usr/src/app/pipelines/pipeline'
 const processor_cloud = '/processor-cloud.yaml'
 const processor_edge =  '/processor-edge.yaml'
-//const sizes = [80, 60, 20, 150, 80, 60, 40, 120]
 const multi_sizes = [[80, 60, 20, 150, 80, 60, 40, 120],[60, 40, 120, 80, 60, 20, 150, 80],[20, 150, 80, 60, 40, 120, 80, 60]]
-//var zone = "cloud"
 var zone = ["cloud","cloud","cloud"]
 var times = 0
 var index = 0

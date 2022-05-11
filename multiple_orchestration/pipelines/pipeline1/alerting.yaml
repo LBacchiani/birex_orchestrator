@@ -1,0 +1,27 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: alerting-1
+  labels:
+    app: alerting-1
+spec:
+  affinity:
+    nodeAffinity:
+      preferredDuringSchedulingIgnoredDuringExecution:
+        - weight: 1
+          preference:
+            matchExpressions:
+              - key: zone
+                operator: In
+                values:
+                  - cloud
+  containers:
+    - image: lukesmolo/public:birex-alerting_0.0.4
+      name: birex-alerting
+      env:
+      - name: PROCESS_URL
+        value: "http://birex-processor-1:3000"
+      - name: INTERVAL
+        value: "3000"
+      ports:
+        - containerPort: 3001
