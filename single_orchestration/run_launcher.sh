@@ -2,9 +2,9 @@
 while true
 do
         kubectl apply -k standalone/
-        sleep 30
+        sleep 1m
         kubectl apply -f orchestrator.yaml
-        sleep 11m
+        sleep 12m
         kubectl logs orchestrator >> orchestrator.log
         kubectl delete -k standalone/
         kubectl delete -f standalone/processor-edge.yaml
