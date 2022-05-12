@@ -98,9 +98,14 @@ function retrieveLatency() {
     var cleaned_result = result.map(serie => serie.result.filter(r => !isNaN(r.value.value)).map(r => r.value.value))
     var latency_sum = 0
     var request_sum = 0
-    for(let l in cleaned_result[0]) latency_sum += l
-    for(let r in cleaned_result[1]) request_sum += r
-    retrieveBytes(latency_sum/request_sum)
+    console.log(cleaned_result)
+    for(let i = 0; i < cleaned_result[0].length; i++) {
+      console.log(cleaned_result[0][i])
+      console.log(cleaned_result[1][i])
+      latency_sum += cleaned_result[0][i]
+      request_sum += cleaned_result[1][i]
+    }
+    //retrieveBytes(latency_sum/request_sum)
   }).catch(err => console.log("Error in retrieve latency: " + err))
 }
 
@@ -111,8 +116,10 @@ function retrieveBytes(latency) {
     var cleaned_result = result.map(serie => serie.result.filter(r => !isNaN(r.value.value)).map(r => r.value.value))
     var byte_sum = 0
     var request_sum = 0
-    for(let b in cleaned_result[0]) byte_sum += b
-    for(let r in cleaned_result[1]) request_sum += r
+    for(let i = 0; i < cleaned_result[0].length; i++) {
+      byte_sum += cleaned_result[0][i]
+      request_sum += cleaned_result[1][i]
+    }
     var bytes = byte_sum / request_sum
     console.log(zone + ": (" + latency + "," + bytes + ")")
     if (times % 16 == 0) console.log("-------")
