@@ -94,20 +94,20 @@ function launchQuery(query) {return prom.instantQuery(query)}
 
 async function retrieveLatency() {
   var query = ['irate(istio_request_duration_milliseconds_sum{app="alerting",response_code="200"}[30s])','irate(istio_requests_total{app="alerting",response_code="200"}[30s])']
-  Promise.all([launchQuery, launchQuery]).map((func,i) => func(query[i]))).then((result) => {
+  Promise.all([launchQuery, launchQuery]).map((func,i) => func(query[i])).then((result) => {
     cleaned_result = result.map(serie => serie.result.filter(r => !isNaN(r.value.value)))
     var latency_sum = 0
     var request_sum = 0
     for(l in cleaned_result[0]) latency_sum += l
     for(r in cleaned_result[1]) request_sum += r
-    await retrieveBytes(latency_sum/request_sum)
+    retrieveBytes(latency_sum/request_sum)
   }).catch(err => console.log("Error in retrieve latency: " + err))
 }
 
 async function retrieveBytes(latency) {
   var query = ['irate(istio_response_bytes_sum{app="collector", source_canonical_service="unknown"}[30s])','irate(istio_requests_total{app="collector", source_canonical_service="unknown"}[30s])']
   times = times + 1
-  Promise.all([launchQuery, launchQuery]).map((func,i) => func(query[i]))).then((result) => {
+  Promise.all([launchQuery, launchQuery]).map((func,i) => func(query[i])).then((result) => {
     cleaned_result = result.map(serie => serie.result.filter(r => !isNaN(r.value.value)))
     var byte_sum = 0
     var request_sum = 0
@@ -129,7 +129,7 @@ async function monitoring() {
     if (i % 2 == 0) setSize()
     await sleep(30000)
     i = i + 1
-    await retrieveLatency()
+    retrieveLatency()
   }
 }
 
