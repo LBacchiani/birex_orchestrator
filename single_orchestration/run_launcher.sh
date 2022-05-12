@@ -2,7 +2,6 @@
 while true
 do
         kubectl apply -k standalone/
-        sleep 1m
         kubectl apply -f orchestrator.yaml
         sleep 12m
         kubectl logs orchestrator >> orchestrator.log
