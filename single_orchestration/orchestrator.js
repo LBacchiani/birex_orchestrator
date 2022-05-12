@@ -95,11 +95,11 @@ function launchQuery(query) {return prom.instantQuery(query)}
 function retrieveLatency() {
   var query = ['irate(istio_request_duration_milliseconds_sum{app="alerting",response_code="200"}[30s])','irate(istio_requests_total{app="alerting",response_code="200"}[30s])']
   Promise.all([launchQuery, launchQuery].map((func,i) => func(query[i]))).then((result) => {
-    cleaned_result = result.map(serie => serie.result.filter(r => !isNaN(r.value.value)))
+    var cleaned_result = result.map(serie => serie.result.filter(r => !isNaN(r.value.value)))
     var latency_sum = 0
     var request_sum = 0
-    for(l in cleaned_result[0]) latency_sum += l
-    for(r in cleaned_result[1]) request_sum += r
+    for(let l in cleaned_result[0]) latency_sum += l
+    for(let r in cleaned_result[1]) request_sum += r
     retrieveBytes(latency_sum/request_sum)
   }).catch(err => console.log("Error in retrieve latency: " + err))
 }
@@ -108,11 +108,11 @@ function retrieveBytes(latency) {
   var query = ['irate(istio_response_bytes_sum{app="collector", source_canonical_service="unknown"}[30s])','irate(istio_requests_total{app="collector", source_canonical_service="unknown"}[30s])']
   times = times + 1
   Promise.all([launchQuery, launchQuery].map((func,i) => func(query[i]))).then((result) => {
-    cleaned_result = result.map(serie => serie.result.filter(r => !isNaN(r.value.value)))
+    var cleaned_result = result.map(serie => serie.result.filter(r => !isNaN(r.value.value)))
     var byte_sum = 0
     var request_sum = 0
-    for(b in cleaned_result[0]) byte_sum += b
-    for(r in cleaned_result[1]) request_sum += r
+    for(let b in cleaned_result[0]) byte_sum += b
+    for(let r in cleaned_result[1]) request_sum += r
     var bytes = byte_sum / request_sum
     if (times % 16 == 0) console.log("-------")
     if (zone == "cloud" && latency > 1000 * 1.8 && times % 16 != 0) moveToEdge()
