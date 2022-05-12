@@ -98,14 +98,11 @@ function retrieveLatency() {
     var cleaned_result = result.map(serie => serie.result.filter(r => !isNaN(r.value.value)).map(r => r.value.value))
     var latency_sum = 0
     var request_sum = 0
-    console.log(cleaned_result)
     for(let i = 0; i < cleaned_result[0].length; i++) {
-      console.log(cleaned_result[0][i])
-      console.log(cleaned_result[1][i])
       latency_sum += cleaned_result[0][i]
       request_sum += cleaned_result[1][i]
     }
-    //retrieveBytes(latency_sum/request_sum)
+    retrieveBytes(latency_sum/request_sum)
   }).catch(err => console.log("Error in retrieve latency: " + err))
 }
 
@@ -132,7 +129,7 @@ function retrieveBytes(latency) {
 async function monitoring() {
   let i = 0
   setSize(false)
-  //await sleep(60000)
+  await sleep(60000)
   while (i < 16) {
     if (i % 2 == 0) setSize()
     await sleep(30000)
