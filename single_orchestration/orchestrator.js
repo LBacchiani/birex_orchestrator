@@ -12,7 +12,7 @@ const kc = new k8s.KubeConfig();
 kc.loadFromDefault();
 const k8sApi = kc.makeApiClient(k8s.CoreV1Api);
 
-const endpoint = "http://10.244.2.3:9090";
+const endpoint = "http://10.244.1.3:9090";
 const baseURL = "/api/v1" // default value
 const path = '/usr/src/app/standalone'
 const processor_cloud = path + '/processor-cloud.yaml'
@@ -35,8 +35,7 @@ const prom = new PrometheusDriver({
 function sleep(ms) {return new Promise(resolve => setTimeout(resolve, ms));}
 
 function safeDelete(z) {
-  k8sApi.deleteNamespacedPod((zone == "cloud") ? 'processor-cloud' :'processor-edge', 'default', true)
-  .catch(err => { console.log(JSON.stringify(err))});
+  k8sApi.deleteNamespacedPod((zone == "cloud") ? 'processor-cloud' :'processor-edge', 'default', true).catch(err => { console.log(JSON.stringify(err))});
   zone = z
 }
 
@@ -87,28 +86,38 @@ async function setSize(inc = true) {
   if(inc) index = index + 1
 }
 
-async function retrieveLatency() {
-  var latencyQuery = 'irate(istio_request_duration_milliseconds_sum{app="alerting"}[30s]) / irate(istio_requests_total{app="alerting"}[30s])'
-  await prom.instantQuery(latencyQuery).then(async (res) => {
-    const serie = res.result.filter(serie => !isNaN(serie.value.value))[0]
-    await retrieveBytes(serie.value.value)
-  }).catch(console.error);
-}
-
 function moveToEdge() {apply(processor_edge, "edge").catch(err => { console.log(JSON.stringify(err))})}
 
 function moveToCloud() {apply(processor_cloud, "cloud").catch(err => { console.log(JSON.stringify(err))})}
 
+function launchQuery(query) {return prom.instantQuery(query)}
+
+async function retrieveLatency() {
+  var query = ['irate(istio_request_duration_milliseconds_sum{app="alerting",response_code="200"}[30s])','irate(istio_requests_total{app="alerting",response_code="200"}[30s])']
+  Promise.all([launchQuery, launchQuery]).map((func,i) => func(query[i]))).then((result) => {
+    cleaned_result = result.map(serie => serie.result.filter(r => !isNaN(r.value.value)))
+    var latency_sum = 0
+    var request_sum = 0
+    for(l in cleaned_result[0]) latency_sum += l
+    for(r in cleaned_result[1]) request_sum += r
+    await retrieveBytes(latency_sum/request_sum)
+  }).catch(err => console.log("Error in retrieve latency: " + err))
+}
+
 async function retrieveBytes(latency) {
-  var bytesQuery = 'irate(istio_response_bytes_sum{app="collector", source_canonical_service="unknown"}[30s]) / irate(istio_requests_total{app="collector", source_canonical_service="unknown"}[30s])'
+  var query = ['irate(istio_response_bytes_sum{app="collector", source_canonical_service="unknown"}[30s])','irate(istio_requests_total{app="collector", source_canonical_service="unknown"}[30s])']
   times = times + 1
-  await prom.instantQuery(bytesQuery).then((res) => {
-    const bytes = res.result.filter(serie => !isNaN(serie.value.value))[0].value.value
-    console.log(zone + ": (" + latency + "," + bytes + ")")
+  Promise.all([launchQuery, launchQuery]).map((func,i) => func(query[i]))).then((result) => {
+    cleaned_result = result.map(serie => serie.result.filter(r => !isNaN(r.value.value)))
+    var byte_sum = 0
+    var request_sum = 0
+    for(b in cleaned_result[0]) byte_sum += b
+    for(r in cleaned_result[1]) request_sum += r
+    var bytes = byte_sum / request_sum
     if (times % 16 == 0) console.log("-------")
     if (zone == "cloud" && latency > 1000 * 1.8 && times % 16 != 0) moveToEdge()
     else if ((zone == "edge" && latency < 1000 * 1 && bytes < 65 * 65 * 3500) || times % 16 == 0) moveToCloud()
-  }).catch(console.error);
+  }).catch(err => console.log("Error in retrieve latency: " + err))
 }
 
 

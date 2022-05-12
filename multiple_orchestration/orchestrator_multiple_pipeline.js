@@ -12,7 +12,7 @@ const kc = new k8s.KubeConfig();
 kc.loadFromDefault();
 const k8sApi = kc.makeApiClient(k8s.CoreV1Api);
 
-const endpoint = "http://10.244.2.3:9090";
+const endpoint = "http://10.244.1.3:9090";
 const baseURL = "/api/v1" // default value
 const path = '/usr/src/app/pipelines/pipeline'
 const processor_cloud = '/processor-cloud.yaml'
@@ -88,7 +88,7 @@ async function setSizes(inc = true) {
   if(inc) index = index + 1
 }
 
-function retrieveLatency(i) {return prom.instantQuery(`rate(istio_request_duration_milliseconds_sum{app="alerting-${i+1}"}[30s]) / rate(istio_requests_total{app="alerting-${i+1}"}[30s])`)}
+function retrieveLatency(i) {return prom.instantQuery(`irate(istio_request_duration_milliseconds_sum{app="alerting-${i+1}"}[30s]) / irate(istio_requests_total{app="alerting-${i+1}"}[30s])`)}
 
 async function retrieveLatencies() {
   Promise.all([retrieveLatency, retrieveLatency, retrieveLatency].map((func,i) => func(i))).then((result) => {
@@ -101,7 +101,7 @@ function moveToEdge(i) {apply(i, path + (i+1) + processor_edge, "edge").catch(er
 
 function moveToCloud(i) {apply(i, path + (i+1) + processor_cloud, "cloud").catch(err => { console.log(JSON.stringify(err))})}
 
-function retrieveBytes(i) {return prom.instantQuery(`rate(istio_response_bytes_sum{app="collector-${i+1}", source_canonical_service="unknown"}[30s]) / rate(istio_requests_total{app="collector-${i+1}", source_canonical_service="unknown"}[30s])`)}
+function retrieveBytes(i) {return prom.instantQuery(`irate(istio_response_bytes_sum{app="collector-${i+1}", source_canonical_service="unknown"}[30s]) / irate(istio_requests_total{app="collector-${i+1}", source_canonical_service="unknown"}[30s])`)}
 
 function retrieveMultipleBytes(latencies) {
   times = times + 1
