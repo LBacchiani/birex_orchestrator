@@ -32,10 +32,10 @@ const prom = new PrometheusDriver({
   baseURL
 });
 
-function sleep(ms) {return new Promise(resolve => setTimeout(resolve, ms));}
+function sleep(ms) { return new Promise(resolve => setTimeout(resolve, ms)); }
 
 function safeDelete(z) {
-  k8sApi.deleteNamespacedPod((zone == "cloud") ? 'processor-cloud' :'processor-edge', 'default', true).catch(err => { console.log(JSON.stringify(err))});
+  k8sApi.deleteNamespacedPod((zone == "cloud") ? 'processor-cloud' : 'processor-edge', 'default', true).catch(err => { console.log(JSON.stringify(err)) });
   zone = z
 }
 
@@ -74,8 +74,8 @@ async function apply(specPath, zone) {
   return created;
 }
 
-async function setSize(inc = true) {
-  await fetch("http://birex-collector:8080/birexcollector/actions/setSizes", {
+function setSize(inc = true) {
+  fetch("http://birex-collector:8080/birexcollector/actions/setSizes", {
     method: 'POST',
     headers: {
       'Accept': 'application/json',
@@ -83,37 +83,38 @@ async function setSize(inc = true) {
     },
     body: JSON.stringify({ minSize: sizes[index % sizes.length], maxSize: sizes[index % sizes.length] })
   });
-  if(inc) index = index + 1
+
+  if (inc) index = index + 1
 }
 
-function moveToEdge() {apply(processor_edge, "edge").catch(err => { console.log(JSON.stringify(err))})}
+function moveToEdge() { apply(processor_edge, "edge").catch(err => { console.log(JSON.stringify(err)) }) }
 
-function moveToCloud() {apply(processor_cloud, "cloud").catch(err => { console.log(JSON.stringify(err))})}
+function moveToCloud() { apply(processor_cloud, "cloud").catch(err => { console.log(JSON.stringify(err)) }) }
 
-function launchQuery(query) {return prom.instantQuery(query)}
+function launchQuery(query) { return prom.instantQuery(query) }
 
 function retrieveLatency() {
-  var query = ['irate(istio_request_duration_milliseconds_sum{app="alerting",response_code="200"}[30s])','irate(istio_requests_total{app="alerting",response_code="200"}[30s])']
-  Promise.all([launchQuery, launchQuery].map((func,i) => func(query[i]))).then((result) => {
+  var query = ['irate(istio_request_duration_milliseconds_sum{app="alerting",response_code="200"}[30s])', 'irate(istio_requests_total{app="alerting",response_code="200"}[30s])']
+  Promise.all([launchQuery, launchQuery].map((func, i) => func(query[i]))).then((result) => {
     var cleaned_result = result.map(serie => serie.result.filter(r => !isNaN(r.value.value)).map(r => r.value.value))
     var latency_sum = 0
     var request_sum = 0
-    for(let i = 0; i < cleaned_result[0].length; i++) {
+    for (let i = 0; i < cleaned_result[0].length; i++) {
       latency_sum += cleaned_result[0][i]
       request_sum += cleaned_result[1][i]
     }
-    retrieveBytes(latency_sum/request_sum)
+    retrieveBytes(latency_sum / request_sum)
   }).catch(err => console.log("Error in retrieve latency: " + err))
 }
 
 function retrieveBytes(latency) {
-  var query = ['irate(istio_response_bytes_sum{app="collector", source_canonical_service="unknown"}[30s])','irate(istio_requests_total{app="collector", source_canonical_service="unknown"}[30s])']
+  var query = ['irate(istio_response_bytes_sum{app="collector", source_canonical_service="unknown"}[30s])', 'irate(istio_requests_total{app="collector", source_canonical_service="unknown"}[30s])']
   times = times + 1
-  Promise.all([launchQuery, launchQuery].map((func,i) => func(query[i]))).then((result) => {
+  Promise.all([launchQuery, launchQuery].map((func, i) => func(query[i]))).then((result) => {
     var cleaned_result = result.map(serie => serie.result.filter(r => !isNaN(r.value.value)).map(r => r.value.value))
     var byte_sum = 0
     var request_sum = 0
-    for(let i = 0; i < cleaned_result[0].length; i++) {
+    for (let i = 0; i < cleaned_result[0].length; i++) {
       byte_sum += cleaned_result[0][i]
       request_sum += cleaned_result[1][i]
     }
