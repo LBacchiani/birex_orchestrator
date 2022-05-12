@@ -132,7 +132,6 @@ function retrieveBytes(latency) {
 async function monitoring() {
   let i = 0
   await sleep(10000)
-  setSize(false)
   while (i < 16) {
     if (i % 2 == 0) setSize()
     await sleep(30000)
