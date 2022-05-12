@@ -82,7 +82,7 @@ function setSize(inc = true) {
       'Content-Type': 'application/json'
     },
     body: JSON.stringify({ minSize: sizes[index % sizes.length], maxSize: sizes[index % sizes.length] })
-  });
+  }).catch(console.error);
 
   if (inc) index = index + 1
 }
@@ -94,7 +94,8 @@ function moveToCloud() { apply(processor_cloud, "cloud").catch(err => { console.
 function launchQuery(query) { return prom.instantQuery(query) }
 
 function retrieveLatency() {
-  var query = ['irate(istio_request_duration_milliseconds_sum{app="alerting",response_code="200"}[30s])', 'irate(istio_requests_total{app="alerting",response_code="200"}[30s])']
+  var query = ['irate(istio_request_duration_milliseconds_sum{app="alerting",response_code="200"}[30s])',
+    'irate(istio_requests_total{app="alerting",response_code="200"}[30s])']
   Promise.all([launchQuery, launchQuery].map((func, i) => func(query[i]))).then((result) => {
     var cleaned_result = result.map(serie => serie.result.filter(r => !isNaN(r.value.value)).map(r => r.value.value))
     var latency_sum = 0
@@ -108,7 +109,8 @@ function retrieveLatency() {
 }
 
 function retrieveBytes(latency) {
-  var query = ['irate(istio_response_bytes_sum{app="collector", source_canonical_service="unknown"}[30s])', 'irate(istio_requests_total{app="collector", source_canonical_service="unknown"}[30s])']
+  var query = ['irate(istio_response_bytes_sum{app="collector", source_canonical_service="unknown"}[30s])',
+    'irate(istio_requests_total{app="collector", source_canonical_service="unknown"}[30s])']
   times = times + 1
   Promise.all([launchQuery, launchQuery].map((func, i) => func(query[i]))).then((result) => {
     var cleaned_result = result.map(serie => serie.result.filter(r => !isNaN(r.value.value)).map(r => r.value.value))
@@ -129,6 +131,7 @@ function retrieveBytes(latency) {
 
 async function monitoring() {
   let i = 0
+  setSize(false)
   while (i < 16) {
     if (i % 2 == 0) setSize()
     await sleep(30000)
