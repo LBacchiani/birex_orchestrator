@@ -105,12 +105,12 @@ function retrieveLatency() {
       request_sum += cleaned_result[1][i]
     }
     retrieveBytes(latency_sum / request_sum)
-  }).catch(err => console.log("Error in retrieve latency: " + err))
+  }).catch(err => console.log("Error in retrieve latency: " + JSON.stringify(err)))
 }
 
 function retrieveBytes(latency) {
   var query = ['irate(istio_response_bytes_sum{app="collector", source_canonical_service="unknown",response_code="200"}[30s])',
-    'irate(istio_requests_total{app="collector", source_canonical_service="unknown"}[30s]),response_code="200"']
+    'irate(istio_requests_total{app="collector", source_canonical_service="unknown",response_code="200"}[30s])']
   times = times + 1
   Promise.all([launchQuery, launchQuery].map((func, i) => func(query[i]))).then((result) => {
     var cleaned_result = result.map(serie => serie.result.filter(r => !isNaN(r.value.value)).map(r => r.value.value))
@@ -125,7 +125,7 @@ function retrieveBytes(latency) {
     if (times % 16 == 0) console.log("-------")
     if (zone == "cloud" && latency > 1000 * 1.8 && times % 16 != 0) moveToEdge()
     else if ((zone == "edge" && latency < 1000 * 1 && bytes < 65 * 65 * 3500) || times % 16 == 0) moveToCloud()
-  }).catch(err => console.log("Error in retrieve latency: " + err))
+  }).catch(err => console.log("Error in retrieve bytes: " + JSON.stringify(err)))
 }
 
 
