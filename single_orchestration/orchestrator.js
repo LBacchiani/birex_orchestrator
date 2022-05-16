@@ -12,7 +12,7 @@ const kc = new k8s.KubeConfig();
 kc.loadFromDefault();
 const k8sApi = kc.makeApiClient(k8s.CoreV1Api);
 
-const endpoint = "http://10.244.1.3:9090";
+const endpoint = "http://10.244.2.3:9090";
 const baseURL = "/api/v1" // default value
 const path = '/usr/src/app/standalone'
 const processor_cloud = path + '/processor-cloud.yaml'
@@ -109,8 +109,8 @@ function retrieveLatency() {
 }
 
 function retrieveBytes(latency) {
-  var query = ['irate(istio_response_bytes_sum{app="collector", source_canonical_service="unknown"}[30s])',
-    'irate(istio_requests_total{app="collector", source_canonical_service="unknown"}[30s])']
+  var query = ['irate(istio_response_bytes_sum{app="collector", source_canonical_service="unknown",response_code="200"}[30s])',
+    'irate(istio_requests_total{app="collector", source_canonical_service="unknown"}[30s]),response_code="200"']
   times = times + 1
   Promise.all([launchQuery, launchQuery].map((func, i) => func(query[i]))).then((result) => {
     var cleaned_result = result.map(serie => serie.result.filter(r => !isNaN(r.value.value)).map(r => r.value.value))
