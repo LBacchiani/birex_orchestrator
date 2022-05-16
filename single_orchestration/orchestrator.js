@@ -66,6 +66,8 @@ async function apply(specPath, zone) {
       // we did not get the resource, so it does not exist, so create it
       const response = await client.create(spec);
       created.push(response.body);
+      let res = await client.read(spec);
+      while (res.body.status.phase == "Pending") res = await client.read(spec);
     }
   }
   const stop = new Date()
@@ -82,7 +84,7 @@ function setSize(inc = true) {
       'Content-Type': 'application/json'
     },
     body: JSON.stringify({ minSize: sizes[index % sizes.length], maxSize: sizes[index % sizes.length] })
-  }).catch(console.error);
+  }).catch("Error in set size: " + console.error);
 
   if (inc) index = index + 1
 }
@@ -123,8 +125,8 @@ function retrieveBytes(latency) {
     var bytes = byte_sum / request_sum
     console.log(zone + ": (" + latency + "," + bytes + ")")
     if (times % 16 == 0) console.log("-------")
-    if (zone == "cloud" && latency > 1000 * 1.8 && times % 16 != 0) moveToEdge()
-    else if ((zone == "edge" && latency < 1000 * 1 && bytes < 65 * 65 * 3500) || times % 16 == 0) moveToCloud()
+    if (zone == "cloud")/* && latency > 1000 * 1.8 && times % 16 != 0)*/ moveToEdge()
+    else if (zone == "edge")/* && latency < 1000 * 1 && bytes < 65 * 65 * 3500) || times % 16 == 0)*/ moveToCloud()
   }).catch(err => console.log("Error in retrieve bytes: " + JSON.stringify(err)))
 }
 
