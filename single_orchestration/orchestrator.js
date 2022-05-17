@@ -35,7 +35,7 @@ const prom = new PrometheusDriver({
 function sleep(ms) { return new Promise(resolve => setTimeout(resolve, ms)); }
 
 function safeDelete(z) {
-  k8sApi.deleteNamespacedPod((zone == "cloud") ? 'processor-cloud' : 'processor-edge', 'default', true).catch(err => { console.log(JSON.stringify(err)) });
+  k8sApi.deleteNamespacedPod('processor-' + zone, 'default', true).catch(err => { console.log("Error in delete: " + JSON.stringify(err)) });
   zone = z
 }
 
@@ -125,8 +125,8 @@ function retrieveBytes(latency) {
     var bytes = byte_sum / request_sum
     console.log(zone + ": (" + latency + "," + bytes + ")")
     if (times % 16 == 0) console.log("-------")
-    if (zone == "cloud")/* && latency > 1000 * 1.8 && times % 16 != 0)*/ moveToEdge()
-    else if (zone == "edge")/* && latency < 1000 * 1 && bytes < 65 * 65 * 3500) || times % 16 == 0)*/ moveToCloud()
+    if (zone == "cloud" && latency > 1000 * 1.8 && times % 16 != 0) moveToEdge()
+    else if ((zone == "edge" && latency < 1000 * 1 && bytes < 65 * 65 * 3500) || times % 16 == 0) moveToCloud()
   }).catch(err => console.log("Error in retrieve bytes: " + JSON.stringify(err)))
 }
 
