@@ -12,7 +12,7 @@ const kc = new k8s.KubeConfig();
 kc.loadFromDefault();
 const k8sApi = kc.makeApiClient(k8s.CoreV1Api);
 
-const endpoint = "http://10.244.2.3:9090";
+const endpoint = "http://10.244.1.3:9090";
 const baseURL = "/api/v1" // default value
 const path = '/usr/src/app/standalone'
 const processor_cloud = path + '/processor-cloud.yaml'
@@ -76,7 +76,7 @@ async function apply(specPath, zone) {
   return created;
 }
 
-function setSize(inc = true) {
+function setSize() {
   fetch("http://birex-collector:8080/birexcollector/actions/setSizes", {
     method: 'POST',
     headers: {
@@ -85,13 +85,12 @@ function setSize(inc = true) {
     },
     body: JSON.stringify({ minSize: sizes[index % sizes.length], maxSize: sizes[index % sizes.length] })
   }).catch("Error in set size: " + console.error);
-
-  if (inc) index = index + 1
+  index = index + 1
 }
 
-function moveToEdge() { apply(processor_edge, "edge").catch(err => { console.log(JSON.stringify(err)) }) }
+function moveToEdge() { apply(processor_edge, "edge").catch(err => { console.log("Error in move to edge: " + JSON.stringify(err)) }) }
 
-function moveToCloud() { apply(processor_cloud, "cloud").catch(err => { console.log(JSON.stringify(err)) }) }
+function moveToCloud() { apply(processor_cloud, "cloud").catch(err => { console.log("Error in move to cloud: " + JSON.stringify(err)) }) }
 
 function launchQuery(query) { return prom.instantQuery(query) }
 
