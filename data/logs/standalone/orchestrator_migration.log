@@ -1,0 +1,3304 @@
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2710.0000000000005,18000000)
+Time to deploy: 2933ms
+edge: (911.0000000000001,22500000)
+edge: (683,12500000)
+Time to deploy: 2871ms
+cloud: (2190,10000000.000000002)
+Time to deploy: 3197ms
+edge: (559.0000000000001,3600000)
+Time to deploy: 2965ms
+cloud: (1660.0000000000002,1430000.0000000002)
+cloud: (6530,47100000)
+Time to deploy: 3394ms
+edge: (2270,85030000.00000001)
+edge: (846,22500000.000000004)
+edge: (856,22500000)
+edge: (635,12500000)
+Time to deploy: 3256ms
+cloud: (1891.6666666666665,9375000)
+Time to deploy: 2827ms
+edge: (553.0000000000001,7210000.000000001)
+Time to deploy: 2370ms
+cloud: (1770,5650000)
+cloud: (4490.000000000001,40400000)
+Time to deploy: 2979ms
+edge: (1960.0000000000002,50500000)
+-------
+Time to deploy: 2536ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2910,22500000)
+Error in move to edge: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+cloud: (4375,22500000)
+Time to deploy: 47ms
+edge: (677,12500000)
+Time to deploy: 2980ms
+cloud: (1913.75,12500000)
+Time to deploy: 2825ms
+edge: (793.7500000000001,1140000)
+Time to deploy: 2103ms
+cloud: (1293.75,1100000.0000000002)
+cloud: (4937.5,62800000)
+Time to deploy: 3032ms
+edge: (3424.9999999999995,77310000)
+edge: (920.0000000000001,22500000)
+edge: (930,22500000)
+edge: (713,12500000)
+Time to deploy: 2373ms
+cloud: (2011.2499999999998,12500000)
+Time to deploy: 3352ms
+edge: (1005,4500000)
+edge: (461,5590000)
+Time to deploy: 2531ms
+cloud: (6500,12624999.999999998)
+Time to deploy: 3529ms
+edge: (2550,45100000)
+-------
+Time to deploy: 2647ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2375,18750000)
+Time to deploy: 3253ms
+edge: (Infinity,22500000)
+edge: (888,12500000)
+Time to deploy: 2212ms
+cloud: (1787.5,10416666.666666666)
+cloud: (1330,1390000)
+cloud: (1350,1390000)
+cloud: (4883.333333333333,78500000.00000001)
+Time to deploy: 3630ms
+edge: (2940,94200000)
+edge: (1272,22500000)
+edge: (871,22500000)
+edge: (609,12500000)
+Time to deploy: 2595ms
+cloud: (1712.5,10416666.666666666)
+cloud: (1730,4460000.000000001)
+cloud: (1670,5590000)
+cloud: (3520,50500000)
+Time to deploy: 3137ms
+edge: (2325,50500000)
+-------
+Time to deploy: 2851ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2750,18000049)
+Time to deploy: 4006ms
+edge: (879,18000000)
+edge: (893.0000000000001,16500000)
+edge: (741,12500000)
+Time to deploy: 2302ms
+cloud: (1662.5,5550000)
+cloud: (1662.5,1430000.0000000002)
+cloud: (6590,20300000)
+Time to deploy: 3093ms
+edge: (2190,86200000.00000001)
+edge: (920.0000000000001,44900000)
+edge: (1046.0000000000002,28125000)
+edge: (721.0000000000001,20625000)
+edge: (691.0000000000001,12500000)
+Time to deploy: 2612ms
+cloud: (1750.0000000000002,12066666.666666666)
+cloud: (1730,5550000)
+cloud: (4630,28050000)
+Time to deploy: 3654ms
+edge: (2020.0000000000002,50250000)
+-------
+Time to deploy: 2819ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (NaN,27000000)
+cloud: (2870,22500000)
+Time to deploy: 3352ms
+edge: (Infinity,10210000.000000002)
+edge: (953.0000000000001,12500000)
+Time to deploy: 2301ms
+cloud: (1212.5,1120000)
+cloud: (1580,1370000.0000000002)
+cloud: (3587.5,62800000)
+Time to deploy: 3739ms
+edge: (3649.9999999999995,73100000)
+edge: (1336,22500000)
+edge: (1091.0000000000002,22500000)
+edge: (657,12500000)
+Time to deploy: 2632ms
+cloud: (1737.5,10000000.000000002)
+cloud: (1690.0000000000002,5610000)
+cloud: (1670,5610000)
+cloud: (3750,40400000)
+Time to deploy: 3346ms
+edge: (2325,49900000)
+-------
+Time to deploy: 2912ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (1945.0000000000002,22500000)
+Time to deploy: 2828ms
+edge: (8350,22500000)
+edge: (830.0000000000001,15000000)
+edge: (763.0000000000001,12500000)
+Time to deploy: 2350ms
+cloud: (1097.5,1390000)
+cloud: (1370.0000000000002,1390000)
+cloud: (4816.666666666667,78500000.00000001)
+Time to deploy: 3350ms
+edge: (3912.5000000000005,78500000.00000001)
+edge: (1799,22500000)
+edge: (872.0000000000001,27000000)
+edge: (780,12500000)
+Time to deploy: 2625ms
+cloud: (982.5,12500000)
+cloud: (2180,5610000)
+Time to deploy: 2715ms
+edge: (1302.5000000000002,6720000)
+edge: (1150,50500000)
+edge: (1280.0000000000002,50500000)
+-------
+Time to deploy: 2881ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2730,18000049)
+Time to deploy: 3276ms
+edge: (891,22500000)
+edge: (701,18125000)
+edge: (671,12500000)
+Time to deploy: 2279ms
+cloud: (1270,4162500)
+cloud: (1310.0000000000002,1390000)
+cloud: (6550.000000000001,59212500)
+Time to deploy: 3724ms
+edge: (1625,98125000)
+edge: (729,33700000.00000001)
+edge: (775,22500000)
+edge: (625.0000000000001,14500000)
+Time to deploy: 2597ms
+cloud: (2130,12500000)
+Time to deploy: 3028ms
+edge: (569,7337500)
+Error in move to cloud: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+edge: (832,5630000.000000001)
+Time to deploy: 40ms
+cloud: (4390,39262500)
+Time to deploy: 3291ms
+edge: (1600,47700000)
+-------
+Error in move to cloud: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2530.0000000000005,22500000)
+Time to deploy: 3402ms
+edge: (Infinity,18000000)
+edge: (759,15625000)
+edge: (765,10416666.666666666)
+Time to deploy: 2605ms
+cloud: (1336.25,1787499.9999999998)
+cloud: (1687.5,1762500)
+cloud: (5300,58875000)
+Time to deploy: 3585ms
+edge: (3600.0000000000005,83800000)
+edge: (1179,22500000)
+edge: (1348.75,22500000)
+edge: (719,12500000)
+Time to deploy: 2952ms
+cloud: (1951.2499999999998,12500000.000000002)
+Time to deploy: 2969ms
+edge: (1033.0000000000002,3925000.0000000005)
+edge: (507,7012500)
+Time to deploy: 2089ms
+cloud: (3233.333333333333,50500000)
+Time to deploy: 3234ms
+edge: (2475,50500000)
+-------
+Time to deploy: 2202ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (1845,22500000)
+Time to deploy: 2879ms
+edge: (Infinity,27000000)
+edge: (795,12500000)
+Time to deploy: 2629ms
+cloud: (1250,12500000)
+cloud: (1710,1410000)
+cloud: (1640,1390000)
+cloud: (4883.333333333333,78500000.00000001)
+Time to deploy: 3342ms
+edge: (4112.499999999999,78500000.00000001)
+edge: (1598,22500000)
+edge: (904,22500000)
+edge: (697.0000000000001,12500000)
+Time to deploy: 2947ms
+cloud: (1070,12500000)
+cloud: (1850,4675000)
+Time to deploy: 3765ms
+edge: (1857.5000000000002,5590000)
+edge: (1051,50500000)
+edge: (1490.0000000000002,50500000)
+-------
+Time to deploy: 2186ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2341.6666666666665,13500000)
+Time to deploy: 3134ms
+edge: (1114,28125000)
+edge: (796,12500000)
+Time to deploy: 2417ms
+cloud: (1780.0000000000002,9375000)
+cloud: (1330,3930000)
+cloud: (1350,1390000)
+cloud: (6870,52816666.666666664)
+Error in move to edge: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+cloud: (4850,117750000)
+Time to deploy: 54ms
+edge: (1053,58400000.00000001)
+edge: (940,22500000)
+edge: (663,12500000)
+Time to deploy: 2802ms
+cloud: (2230.0000000000005,9375000)
+Time to deploy: 3077ms
+edge: (571.0000000000001,8725000)
+Time to deploy: 2897ms
+cloud: (1670,5625000)
+cloud: (4590,40400000)
+Time to deploy: 3292ms
+edge: (1750.0000000000002,50500000)
+-------
+Time to deploy: 2081ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2950.0000000000005,22500000)
+Time to deploy: 2804ms
+edge: (NaN,22500000)
+edge: (733.0000000000001,12500000)
+Time to deploy: 2499ms
+cloud: (1629,10416666.666666666)
+cloud: (1330,1370000.0000000002)
+cloud: (1350,1390000)
+cloud: (4030,94200000)
+Time to deploy: 3372ms
+edge: (1510,78500000.00000001)
+edge: (871,22500000)
+edge: (959.0000000000001,22500000)
+edge: (687,12500000)
+Time to deploy: 2902ms
+cloud: (1501,10416666.666666666)
+cloud: (1670,5610000)
+cloud: (1710,5610000)
+cloud: (3600,50500000)
+Time to deploy: 3927ms
+edge: (2040,50500000)
+-------
+Time to deploy: 2200ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2910,22500000)
+Time to deploy: 3246ms
+edge: (1290,22500000)
+edge: (847,12500000)
+Time to deploy: 2292ms
+cloud: (2350.0000000000005,12500000)
+Time to deploy: 2539ms
+edge: (673.0000000000001,1140000)
+Time to deploy: 2393ms
+cloud: (1570.0000000000002,1120000)
+cloud: (6750,62800000)
+Time to deploy: 3790ms
+edge: (2590.0000000000005,98125000)
+edge: (927,22500000)
+edge: (916,22500000)
+edge: (751.0000000000001,12500000)
+Time to deploy: 2680ms
+cloud: (2190,12500000)
+Time to deploy: 3169ms
+edge: (665,4710000)
+Error in move to cloud: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+edge: (1307.9999999999998,6987500)
+edge: (4550,40400000)
+edge: (3050,40400000)
+-------
+Time to deploy: 38ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2630,22500000)
+Time to deploy: 2959ms
+edge: (823,27000000)
+edge: (687,12500000)
+Time to deploy: 2530ms
+cloud: (2070,10416666.666666666)
+Time to deploy: 3206ms
+edge: (427.00000000000006,1700000)
+Time to deploy: 2580ms
+cloud: (1330,1450000)
+cloud: (6630,78500000.00000001)
+Time to deploy: 3399ms
+edge: (1990.0000000000002,78500000.00000001)
+edge: (846,18000000)
+edge: (813,22500000)
+edge: (657,10000000.000000002)
+Time to deploy: 2891ms
+cloud: (1808.3333333333333,12500000)
+Time to deploy: 2715ms
+edge: (469.00000000000006,6680000)
+Time to deploy: 1985ms
+cloud: (1650,4658333.333333333)
+cloud: (4270,50500000)
+Time to deploy: 2868ms
+edge: (1370.0000000000002,60600000)
+-------
+Time to deploy: 2134ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2890.0000000000005,28125000)
+Time to deploy: 3690ms
+edge: (NaN,22500000)
+edge: (581,10000000.000000002)
+Time to deploy: 2914ms
+cloud: (1607,10416666.666666666)
+cloud: (1350,1390000)
+cloud: (1410,1370000.0000000002)
+cloud: (4010.0000000000005,78500000.00000001)
+Time to deploy: 4122ms
+edge: (4175,78500000.00000001)
+edge: (961,22500000)
+edge: (882,22500000)
+edge: (677,15000000)
+edge: (705,12500000)
+Time to deploy: 2301ms
+cloud: (1307.5,5610000)
+cloud: (1750.0000000000002,5610000)
+cloud: (3520,50500000)
+Time to deploy: 3621ms
+edge: (2080,50500000)
+-------
+Time to deploy: 2475ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2283.75,13500049)
+Time to deploy: 3560ms
+edge: (5400,28125000)
+edge: (904,14500000)
+Time to deploy: 2196ms
+cloud: (1413.333333333333,12500000)
+cloud: (1375,3600000)
+cloud: (1310.0000000000002,1410000)
+cloud: (5133.333333333333,52816666.666666664)
+Time to deploy: 3942ms
+edge: (5250,78500000.00000001)
+edge: (1299,33700000.00000001)
+edge: (630,22500000)
+edge: (653,14500000)
+Time to deploy: 2728ms
+cloud: (1356.6666666666665,12500000)
+cloud: (1575,7020000)
+cloud: (1610,5610000)
+cloud: (3100,39262500)
+Time to deploy: 3432ms
+edge: (1425,41030000)
+-------
+Time to deploy: 2973ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (3050,22500000)
+Error in move to edge: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+cloud: (3316.6666666666665,27000000)
+Time to deploy: 42ms
+edge: (809.0000000000001,12500000)
+Time to deploy: 3034ms
+cloud: (1896.25,7500000)
+Time to deploy: 3089ms
+edge: (846.25,1160000.0000000002)
+Time to deploy: 2109ms
+cloud: (1381.25,1160000)
+cloud: (6816.666666666666,62800000)
+Time to deploy: 3339ms
+edge: (3874.9999999999995,81000000)
+edge: (1005,22500000)
+edge: (969,22500000)
+edge: (822,12500000)
+Time to deploy: 2376ms
+cloud: (2083.75,12500000)
+Time to deploy: 2851ms
+edge: (1107.5,4480000)
+edge: (481.00000000000006,5590000)
+Time to deploy: 2523ms
+cloud: (550,37875000)
+cloud: (4490.000000000001,50500000)
+-------
+Time to deploy: 41ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2750,22500000)
+Time to deploy: 3805ms
+edge: (1215,22500000)
+edge: (840,12500000)
+Time to deploy: 2191ms
+cloud: (2310,12500000)
+Time to deploy: 3076ms
+edge: (537.5,1425000)
+Time to deploy: 2296ms
+cloud: (1430.0000000000002,1425000)
+cloud: (6750,78500000)
+Time to deploy: 3357ms
+edge: (2400,78500000)
+edge: (772.5,18000000)
+edge: (933,18000000)
+edge: (738,12500000)
+Time to deploy: 2595ms
+cloud: (2310,9375000)
+Time to deploy: 3721ms
+edge: (690,8750000)
+Time to deploy: 2692ms
+cloud: (1870.0000000000002,4212500)
+Time to deploy: 3862ms
+edge: (1890,29809999.999999996)
+edge: (1690.0000000000002,50500000)
+-------
+Error in move to cloud: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2770.0000000000005,22500000)
+Time to deploy: 2524ms
+edge: (NaN,22500000)
+edge: (711,12500000)
+Time to deploy: 2240ms
+cloud: (2390,12500000)
+Time to deploy: 2773ms
+edge: (581,1390000)
+Time to deploy: 2350ms
+cloud: (1208.3333333333333,1410000)
+cloud: (6750,78500000.00000001)
+Time to deploy: 3078ms
+edge: (2470.0000000000005,78500000.00000001)
+edge: (818.0000000000001,22500000)
+edge: (795,22500000)
+edge: (605,12500000)
+Time to deploy: 2629ms
+cloud: (2190,12500000)
+Time to deploy: 3357ms
+edge: (639,5570000.000000001)
+Time to deploy: 2717ms
+cloud: (1890,5590000)
+Time to deploy: 3484ms
+edge: (1308.3333333333333,50500000)
+edge: (1430.0000000000002,50500000)
+-------
+Time to deploy: 2856ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2790,22500000)
+Time to deploy: 3309ms
+edge: (Infinity,27000000)
+edge: (665,12500000)
+Time to deploy: 2650ms
+cloud: (1370.0000000000002,12500000)
+cloud: (1330,1700000)
+cloud: (1350,1430000.0000000002)
+cloud: (5340,98125000)
+Time to deploy: 3732ms
+edge: (1270,78500000.00000001)
+edge: (845.0000000000001,22500000)
+edge: (1051,22500000)
+edge: (675,12500000)
+Time to deploy: 3016ms
+cloud: (1410,12500000)
+cloud: (1630.0000000000002,5590000)
+cloud: (1630.0000000000002,5610000)
+cloud: (3540,50500000)
+Time to deploy: 3194ms
+edge: (1820.0000000000002,50500000)
+-------
+Time to deploy: 2298ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2670,18750000)
+Time to deploy: 3458ms
+edge: (938.0000000000001,22500000)
+edge: (619.0000000000001,12500000)
+Time to deploy: 2314ms
+cloud: (2150,10416666.666666666)
+Time to deploy: 3507ms
+edge: (479,1390000)
+Time to deploy: 2407ms
+cloud: (1330,1720000)
+cloud: (6950,78500000.00000001)
+Time to deploy: 3720ms
+edge: (1891.6666666666665,94200000)
+edge: (867,22500000)
+edge: (829,22500000)
+edge: (635,12500000)
+Time to deploy: 2677ms
+cloud: (1758.3333333333333,10416666.666666666)
+cloud: (1630.0000000000002,5570000.000000001)
+cloud: (1630.0000000000002,5610000)
+cloud: (4390,50500000)
+Time to deploy: 3167ms
+edge: (1450,60600000)
+-------
+Time to deploy: 2939ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2800,22500000)
+Error in move to edge: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+cloud: (2950,22500000)
+Time to deploy: 51ms
+edge: (669,12500000)
+Time to deploy: 2359ms
+cloud: (2316.6666666666665,12500000)
+Time to deploy: 2858ms
+edge: (940.0000000000001,1140000)
+Time to deploy: 2445ms
+cloud: (1550,1140000)
+cloud: (7133.333333333333,58875000)
+Time to deploy: 3109ms
+edge: (3574.9999999999995,71700000)
+edge: (1170,22500000)
+edge: (875.0000000000001,22500000)
+edge: (744,12500000)
+Time to deploy: 2691ms
+cloud: (2383.3333333333335,15625000)
+Time to deploy: 3471ms
+edge: (921.9999999999999,4440000)
+Time to deploy: 2823ms
+cloud: (1387.5000000000002,7012500)
+cloud: (3775,40400000)
+Time to deploy: 3701ms
+edge: (2400,50500000)
+-------
+Time to deploy: 2972ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (1947,18000049)
+Time to deploy: 3701ms
+edge: (8150.000000000001,22500000)
+edge: (709.0000000000001,18125000)
+edge: (721.0000000000001,12500000)
+Time to deploy: 2847ms
+cloud: (1157.5,5516666.666666666)
+cloud: (1370.0000000000002,1191666.6666666667)
+cloud: (4850,39612500)
+Time to deploy: 3147ms
+edge: (3937.5,78500000)
+edge: (1433.0000000000002,42125000)
+edge: (821.0000000000001,18750000)
+edge: (699,18125000)
+edge: (621,15625000)
+edge: (485,5833333.333333333)
+Time to deploy: 2275ms
+cloud: (1327.5,5575000)
+cloud: (3725,39262500)
+Time to deploy: 3606ms
+edge: (3124.9999999999995,46500000)
+-------
+Time to deploy: 2434ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2670,18002900.000000004)
+Time to deploy: 2858ms
+edge: (NaN,18000000)
+edge: (698,14500000)
+Time to deploy: 2721ms
+cloud: (2631.666666666666,16666666.666666666)
+Time to deploy: 3111ms
+edge: (892.5,3330000)
+Time to deploy: 2842ms
+cloud: (1137.5,1800000)
+cloud: (6300,59212500)
+Time to deploy: 3238ms
+edge: (2583.333333333333,78500000)
+edge: (841,33700000.00000001)
+edge: (955,22500000)
+edge: (607.0000000000001,14500000)
+Time to deploy: 3133ms
+cloud: (2668.333333333333,12500000)
+Time to deploy: 3655ms
+edge: (762,5850000)
+Time to deploy: 2225ms
+cloud: (2045,7466666.666666666)
+Time to deploy: 3854ms
+edge: (1650,33287499.999999996)
+edge: (1550,50500000)
+-------
+Time to deploy: 2419ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2630,22500000)
+Time to deploy: 3467ms
+edge: (977.0000000000001,22500000)
+edge: (651,12500000)
+Time to deploy: 3044ms
+cloud: (2250,12500000)
+Time to deploy: 2673ms
+edge: (521,1410000)
+Time to deploy: 2009ms
+cloud: (1175,1390000)
+cloud: (6390,78500000)
+Time to deploy: 2845ms
+edge: (2150,78500000.00000001)
+edge: (801,22500000)
+edge: (777,22500000)
+edge: (677,12500000)
+Time to deploy: 3272ms
+cloud: (2190,12500000)
+Time to deploy: 3137ms
+edge: (629,5590000)
+Time to deploy: 2362ms
+cloud: (1770,5610000)
+cloud: (4410,50500000)
+Time to deploy: 3327ms
+edge: (1291.6666666666665,50500000)
+-------
+Time to deploy: 2534ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2830.0000000000005,22500000)
+Time to deploy: 9752ms
+edge: (4125,22500000)
+edge: (848.75,12500000)
+Time to deploy: 2872ms
+cloud: (1762.5,12500000)
+cloud: (1290,1680000)
+cloud: (1310.0000000000002,1370000.0000000002)
+cloud: (5220,65416666.666666664)
+Time to deploy: 3196ms
+edge: (1812.5,94200000)
+edge: (844,22500000)
+edge: (820,22500000)
+edge: (706.25,12500000)
+Time to deploy: 3238ms
+cloud: (1712.5,12500000)
+cloud: (1630.0000000000002,5650000)
+cloud: (1610,5590000)
+cloud: (3520,50500000)
+Time to deploy: 3667ms
+edge: (2500.0000000000005,50500000)
+-------
+Error in move to cloud: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (1723.75,22500000)
+cloud: (2630,22500000)
+Time to deploy: 3619ms
+edge: (756.25,12500000)
+Time to deploy: 2355ms
+cloud: (2130,15000000)
+Time to deploy: 2732ms
+edge: (423,1410000)
+Time to deploy: 2449ms
+cloud: (1330,1410000)
+cloud: (5691.666666666666,78500000.00000001)
+Time to deploy: 2921ms
+edge: (2210,78500000.00000001)
+edge: (875.0000000000001,22500000)
+edge: (849,22500000)
+edge: (707,12500000)
+Time to deploy: 2709ms
+cloud: (2110.0000000000005,12500000)
+Time to deploy: 3268ms
+edge: (543,5590000)
+Time to deploy: 2870ms
+cloud: (1630.0000000000002,5610000)
+cloud: (4410,50500000)
+Time to deploy: 3474ms
+edge: (1610,50500000)
+-------
+Time to deploy: 2987ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2850,18000049)
+Time to deploy: 3144ms
+edge: (1300,22500000)
+edge: (771,16500000)
+edge: (783,12500000)
+Time to deploy: 2587ms
+cloud: (1470,5583333.333333333)
+cloud: (1330,1410000)
+cloud: (8237.5,59237500)
+Time to deploy: 3630ms
+edge: (2250,78500000)
+edge: (845.0000000000001,33700000.00000001)
+edge: (859,22500000)
+edge: (623,14500000)
+Time to deploy: 2901ms
+cloud: (2290.0000000000005,12500000)
+Error in move to edge: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+cloud: (1298,6960000)
+cloud: (1187.9999999999998,5610000)
+cloud: (1950,NaN)
+Time to deploy: 37ms
+edge: (1390,NaN)
+-------
+Time to deploy: 3147ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (1780.0000000000002,22500000)
+cloud: (2650.0000000000005,22500000)
+Time to deploy: 2770ms
+edge: (Infinity,10000000.000000002)
+edge: (573,10000000.000000002)
+Time to deploy: 2802ms
+cloud: (1050,830000.0000000001)
+cloud: (1290,1140000)
+cloud: (4583.333333333333,62800000)
+Time to deploy: 3043ms
+edge: (3837.5,73137500)
+edge: (1680,22500000)
+edge: (709.0000000000001,27000000)
+edge: (605,10000000.000000002)
+Time to deploy: 3134ms
+cloud: (960,9375000)
+cloud: (1850,5610000)
+Time to deploy: 3394ms
+edge: (1614.9999999999998,5610000)
+edge: (1155,50500000)
+edge: (1160.0000000000002,50500000)
+-------
+Error in move to cloud: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2829.9999999999995,27000000)
+Time to deploy: 3126ms
+edge: (1017,18000000)
+edge: (623,12500000)
+Time to deploy: 2925ms
+cloud: (2090,10000000.000000002)
+Time to deploy: 3403ms
+edge: (533,1140000)
+Time to deploy: 3074ms
+cloud: (1350,1100000.0000000002)
+cloud: (6650,78500000.00000001)
+Time to deploy: 3669ms
+edge: (2310,83000000)
+edge: (890.0000000000001,22500000)
+edge: (859,22500000)
+edge: (723,12500000)
+Time to deploy: 3321ms
+cloud: (2130,10000000.000000002)
+Time to deploy: 3028ms
+edge: (527,4460000.000000001)
+Time to deploy: 2441ms
+cloud: (1610,4480000)
+cloud: (5362.5,50500000)
+Time to deploy: 3265ms
+edge: (1375,46500000)
+-------
+Time to deploy: 2560ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2970,22500000)
+Time to deploy: 3166ms
+edge: (Infinity,22500000)
+edge: (765,12500000)
+Time to deploy: 3175ms
+cloud: (1485,15000000)
+cloud: (1430.0000000000002,1191666.6666666667)
+cloud: (1350,1712500)
+cloud: (5040,78500000.00000001)
+Time to deploy: 7890ms
+edge: (3440.0000000000005,78500000.00000001)
+edge: (800.0000000000001,22500000)
+edge: (602,22500000)
+edge: (597,12500000)
+Time to deploy: 2922ms
+cloud: (1370.0000000000002,12500000)
+cloud: (1630.0000000000002,5590000)
+cloud: (1650,5610000)
+cloud: (3500.0000000000005,50500000)
+Time to deploy: 2945ms
+edge: (1700.0000000000002,50500000)
+-------
+Error in move to cloud: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2690,22500000)
+Time to deploy: 3224ms
+edge: (2650,27000000)
+edge: (677,12500000)
+Time to deploy: 2539ms
+cloud: (2283.3333333333335,12500000)
+Time to deploy: 3452ms
+edge: (774,1680000)
+Time to deploy: 2632ms
+cloud: (1112.5,1410000)
+cloud: (6575,78500000.00000001)
+Time to deploy: 3629ms
+edge: (3675,78500000.00000001)
+edge: (849,22500000)
+edge: (903,22500000)
+edge: (647,12500000)
+Time to deploy: 2902ms
+cloud: (2316.6666666666665,12500000)
+Time to deploy: 2946ms
+edge: (970.0000000000001,6740000)
+Time to deploy: 2004ms
+cloud: (1850,5610000)
+Time to deploy: 3107ms
+edge: (1683.3333333333333,50500000)
+edge: (1470,50500000)
+-------
+Time to deploy: 2149ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2730,22500000)
+Time to deploy: 3414ms
+edge: (1139.0000000000002,22500000)
+edge: (665,12500000)
+Error in move to cloud: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+edge: (1199.1666666666665,12500000)
+edge: (760.9999999999999,1390000)
+Time to deploy: 40ms
+cloud: (1330,1390000)
+cloud: (6290,78500000.00000001)
+Time to deploy: 3810ms
+edge: (1300,78500000.00000001)
+edge: (765,22500000)
+edge: (789,22500000)
+edge: (573,12500000)
+Time to deploy: 2650ms
+cloud: (1841.6666666666665,12500000)
+Time to deploy: 3087ms
+edge: (642,5630000.000000001)
+Time to deploy: 2740ms
+cloud: (1830,5630000.000000001)
+Time to deploy: 3182ms
+edge: (1260,50500000)
+edge: (1390,50500000)
+-------
+Time to deploy: 2893ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2630,22500000)
+Time to deploy: 3377ms
+edge: (987,22500000)
+edge: (741,12500000)
+Time to deploy: 2034ms
+cloud: (2350.0000000000005,12500000)
+Time to deploy: 3578ms
+edge: (555,1410000)
+Time to deploy: 2120ms
+cloud: (1430.0000000000002,1370000.0000000002)
+cloud: (5591.666666666666,78500000.00000001)
+Time to deploy: 3795ms
+edge: (2150,78500000.00000001)
+edge: (779.0000000000001,22500000)
+edge: (727.0000000000001,22500000)
+edge: (591,12500000)
+Time to deploy: 2393ms
+cloud: (2150,12500000)
+Time to deploy: 3043ms
+edge: (615,5590000)
+Time to deploy: 2486ms
+cloud: (1750.0000000000002,5590000)
+cloud: (4310.000000000001,50500000)
+Time to deploy: 3207ms
+edge: (1550,50500000)
+-------
+Time to deploy: 2647ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2610,13502900.000000002)
+Time to deploy: 3277ms
+edge: (817,30000000)
+edge: (615,14500000)
+Time to deploy: 2702ms
+cloud: (2070,16666666.666666666)
+Time to deploy: 3465ms
+edge: (473,4212500)
+Time to deploy: 2793ms
+cloud: (1310.0000000000002,1866666.6666666665)
+cloud: (5591.666666666666,39612500)
+Time to deploy: 2692ms
+edge: (2030,90125000)
+edge: (669.1666666666666,42125000)
+edge: (809.0000000000001,28125000)
+edge: (543,14500000)
+Time to deploy: 3088ms
+cloud: (2410.0000000000005,16666666.666666666)
+Time to deploy: 2955ms
+edge: (549,7287500)
+Time to deploy: 2185ms
+cloud: (1610,7466666.666666666)
+cloud: (4370.000000000001,39287500)
+Time to deploy: 3131ms
+edge: (1490.0000000000002,41470000)
+-------
+Time to deploy: 2347ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2710.0000000000005,22500000)
+Time to deploy: 3532ms
+edge: (Infinity,22500000)
+edge: (647,12500000)
+Time to deploy: 2832ms
+cloud: (1918.7499999999998,10416666.666666666)
+Error in move to edge: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+cloud: (1127.9999999999998,1390000)
+cloud: (700,1370000.0000000002)
+cloud: (4712.5,94200000)
+Time to deploy: 50ms
+edge: (3580,78500000.00000001)
+edge: (785.0000000000001,22500000)
+edge: (847,22500000)
+edge: (615,12500000)
+Time to deploy: 3203ms
+cloud: (1816.25,10416666.666666666)
+Error in move to edge: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+cloud: (1283.9999999999998,5590000)
+cloud: (953,5590000)
+cloud: (1950,50500000)
+Time to deploy: 36ms
+edge: (1270,50500000)
+-------
+Time to deploy: 2474ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2650.0000000000005,22500000)
+Time to deploy: 3483ms
+edge: (1048,22500000)
+edge: (641,12500000)
+Time to deploy: 2445ms
+cloud: (2350.0000000000005,7500000)
+Time to deploy: 2692ms
+edge: (527,1140000)
+Time to deploy: 2532ms
+cloud: (1208.3333333333333,1140000)
+cloud: (6510,62800000)
+Error in move to edge: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+cloud: (5891.666666666666,67285714.28571428)
+Time to deploy: 40ms
+edge: (902.0000000000001,22500000)
+edge: (866.0000000000001,22500000)
+edge: (673.0000000000001,12500000)
+Time to deploy: 2862ms
+cloud: (2230.0000000000005,10000000.000000002)
+Time to deploy: 3202ms
+edge: (623,4480000)
+Time to deploy: 2930ms
+cloud: (1441.6666666666665,4460000.000000001)
+cloud: (4330,50500000)
+Error in move to edge: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+cloud: (3539.9999999999995,42083333.33333333)
+-------
+Time to deploy: 43ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2790,22500000)
+Error in move to edge: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+cloud: (2783.333333333333,22500000)
+Time to deploy: 49ms
+edge: (734,12500000)
+Time to deploy: 2499ms
+cloud: (2026.2500000000002,6250000)
+Time to deploy: 3149ms
+edge: (589,4162500)
+Time to deploy: 2615ms
+cloud: (1112.5,1400000)
+cloud: (3790,59237500)
+Time to deploy: 3346ms
+edge: (3375,58875000)
+edge: (978.75,33700000.00000001)
+edge: (833.0000000000001,22500000)
+edge: (641,14500000)
+Time to deploy: 2883ms
+cloud: (1948.7500000000002,12500000)
+Time to deploy: 3673ms
+edge: (895.9999999999999,7287500)
+Time to deploy: 2002ms
+cloud: (1420,5610000)
+cloud: (3460,31410000)
+Time to deploy: 2853ms
+edge: (2200.0000000000005,43500000)
+-------
+Time to deploy: 2148ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2670,22500000)
+Time to deploy: 2814ms
+edge: (771,22500000)
+edge: (609,12500000)
+Time to deploy: 2136ms
+cloud: (2070,12500000)
+Time to deploy: 2997ms
+edge: (401,1410000)
+Time to deploy: 2246ms
+cloud: (1270,1390000)
+cloud: (6370.000000000001,78500000.00000001)
+Error in move to edge: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+cloud: (3569.9999999999995,94200000)
+Time to deploy: 40ms
+edge: (737,22500000)
+edge: (693,22500000)
+edge: (551,12500000)
+Time to deploy: 2538ms
+cloud: (2090,12500000)
+Time to deploy: 3417ms
+edge: (555,5630000.000000001)
+Time to deploy: 2638ms
+cloud: (1610,5630000.000000001)
+cloud: (3658.333333333333,50500000)
+Time to deploy: 3609ms
+edge: (1208.3333333333333,60600000)
+-------
+Time to deploy: 2793ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2650.0000000000005,22500000)
+Time to deploy: 3444ms
+edge: (NaN,22500000)
+edge: (519.1666666666666,12500000)
+Time to deploy: 2687ms
+cloud: (2210,12500000)
+Time to deploy: 2632ms
+edge: (425.8333333333333,1390000)
+Time to deploy: 2800ms
+cloud: (1450,1410000)
+cloud: (6050.000000000001,62800000)
+Time to deploy: 2813ms
+edge: (2030,78500000.00000001)
+edge: (749,22500000)
+edge: (779.0000000000001,22500000)
+edge: (581,12500000)
+Time to deploy: 3041ms
+cloud: (2190,12500000)
+Time to deploy: 3088ms
+edge: (482.5,5610000)
+Time to deploy: 2141ms
+cloud: (1770,5570000)
+cloud: (4310.000000000001,50500000)
+Time to deploy: 3213ms
+edge: (1510,50500000)
+-------
+Time to deploy: 2327ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2750,22500000)
+Time to deploy: 3537ms
+edge: (902.0000000000001,27000000)
+edge: (697.0000000000001,12500000)
+Time to deploy: 2617ms
+cloud: (2130,12500000)
+Error in move to edge: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+cloud: (1151,1700000)
+cloud: (779,1140000)
+cloud: (4690,62800000)
+Time to deploy: 37ms
+edge: (2050.0000000000005,78500000.00000001)
+edge: (805,22500000)
+edge: (838,22500000)
+edge: (615,12500000)
+Time to deploy: 3016ms
+cloud: (2070,12500000)
+Time to deploy: 3259ms
+edge: (539,5610000)
+Time to deploy: 2118ms
+cloud: (1670,5590000)
+cloud: (4330,40400000)
+Time to deploy: 3433ms
+edge: (1650,50500000)
+-------
+Time to deploy: 2271ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2341.25,22500000)
+Time to deploy: 2818ms
+edge: (5600,20300000.000000004)
+edge: (655.0000000000001,12500000)
+Time to deploy: 2609ms
+cloud: (1268.0000000000002,10000000.000000002)
+cloud: (1610,1410000)
+cloud: (1350,1370000.0000000002)
+cloud: (5133.333333333333,62800000)
+Time to deploy: 3210ms
+edge: (3787.5,76700000)
+edge: (1374,22500000)
+edge: (867,22500000)
+edge: (697.0000000000001,12500000)
+Time to deploy: 2974ms
+cloud: (1296.6666666666665,7500000)
+cloud: (1508.333333333333,5590000)
+cloud: (1670,5630000.000000001)
+cloud: (NaN,50500000)
+cloud: (4410,50500000)
+-------
+Time to deploy: 33ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2750,22500000)
+Time to deploy: 3589ms
+edge: (1144,27000000)
+edge: (685.0000000000001,12500000)
+Time to deploy: 3069ms
+cloud: (1875,12500000)
+Time to deploy: 2800ms
+edge: (513,1410000)
+Time to deploy: 2178ms
+cloud: (1430.0000000000002,1370000.0000000002)
+cloud: (5260,98125000)
+Time to deploy: 4013ms
+edge: (1858.3333333333333,78500000.00000001)
+edge: (956.0000000000001,22500000)
+edge: (890.0000000000001,22500000)
+edge: (677,12500000)
+Time to deploy: 2485ms
+cloud: (1841.6666666666665,12500000)
+Time to deploy: 3297ms
+edge: (585,5610000)
+Time to deploy: 2604ms
+cloud: (1750.0000000000002,5650000)
+cloud: (4330,50500000)
+Time to deploy: 3490ms
+edge: (1470,50500000)
+-------
+Time to deploy: 2751ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2140.0000000000005,22500000)
+Time to deploy: 3552ms
+edge: (Infinity,22500000)
+edge: (613.0000000000001,12500000)
+Time to deploy: 2873ms
+cloud: (1430.0000000000002,10416666.666666666)
+cloud: (1530,1120000)
+cloud: (1350,1410000)
+cloud: (5225,78500000.00000001)
+Time to deploy: 3974ms
+edge: (5562.500000000001,78500000.00000001)
+edge: (1290,22500000)
+edge: (677,22500000)
+edge: (821.0000000000001,12500000)
+Time to deploy: 3286ms
+cloud: (1946.25,10416666.666666666)
+Time to deploy: 3305ms
+edge: (983.0000000000001,6700000.000000001)
+Time to deploy: 2379ms
+cloud: (1130.0000000000002,5570000.000000001)
+cloud: (3080.0000000000005,50500000)
+Time to deploy: 3551ms
+edge: (2100,50500000)
+-------
+Time to deploy: 2515ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2320.0000000000005,22500000)
+Time to deploy: 3418ms
+edge: (NaN,18750000)
+edge: (745.0000000000001,12500000)
+Time to deploy: 2398ms
+cloud: (2310,10000000.000000002)
+Time to deploy: 3665ms
+edge: (605,933333.3333333333)
+Error in move to cloud: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+edge: (1107.9999999999998,1410000)
+edge: (4300,65416666.666666664)
+edge: (4066.6666666666665,52333333.33333333)
+edge: (1972,22500000)
+edge: (2048,22500000)
+edge: (1523.9999999999998,12500000)
+edge: (1286.9999999999998,15625000)
+edge: (929,5610000)
+Time to deploy: 45ms
+cloud: (1630.0000000000002,5610000)
+cloud: (4350,50500000)
+Time to deploy: 3254ms
+edge: (1490.0000000000002,48300000)
+-------
+Time to deploy: 3056ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2630,18002900.000000004)
+Time to deploy: 3082ms
+edge: (961,18000000)
+edge: (578.9999999999999,14500000)
+Time to deploy: 2926ms
+cloud: (2580,16666666.666666668)
+Time to deploy: 3233ms
+edge: (453,4162500)
+Time to deploy: 3022ms
+cloud: (1310.0000000000002,1400000)
+cloud: (6770,59237500)
+Time to deploy: 3418ms
+edge: (2050.0000000000005,62800000)
+edge: (795,33700000.00000001)
+edge: (811,22500000)
+edge: (559.0000000000001,12500000)
+Time to deploy: 3301ms
+cloud: (2110.0000000000005,12500000)
+Time to deploy: 3741ms
+edge: (513,6080000.000000001)
+Time to deploy: 2423ms
+cloud: (1650,4187500.0000000005)
+cloud: (4290,31410000)
+Time to deploy: 3882ms
+edge: (1350,50500000)
+-------
+Time to deploy: 2592ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2710.0000000000005,22500000)
+Time to deploy: 2887ms
+edge: (846,19070000.000000004)
+edge: (641,12500000)
+Time to deploy: 2666ms
+cloud: (2050.0000000000005,9375000)
+Time to deploy: 3096ms
+edge: (459,1100000)
+Time to deploy: 2768ms
+cloud: (1637.5,1400000)
+cloud: (6790.000000000001,62800000)
+Time to deploy: 4278ms
+edge: (2170.0000000000005,102750000)
+edge: (701,22500000)
+edge: (735,22500000)
+edge: (551,12500000)
+Time to deploy: 3075ms
+cloud: (2130,9375000)
+Time to deploy: 3571ms
+edge: (493.00000000000006,4500000)
+Time to deploy: 2171ms
+cloud: (1610,5625000)
+cloud: (4570,50500000.00000001)
+Time to deploy: 2793ms
+edge: (1470,50937499.99999999)
+-------
+Time to deploy: 2328ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (1900.0000000000002,28125000)
+Time to deploy: 3086ms
+edge: (5900,22500000)
+edge: (649.0000000000001,12500000)
+Time to deploy: 2656ms
+cloud: (1040.0000000000002,12500000)
+cloud: (1840.0000000000002,1390000)
+Time to deploy: 3319ms
+edge: (1142.4999999999998,1390000)
+edge: (1217.0000000000002,78500000.00000001)
+edge: (1910,78500000.00000001)
+edge: (1390,22500000)
+edge: (868,22500000)
+edge: (643.0000000000001,12500000)
+Time to deploy: 2986ms
+cloud: (1057.5,12500000)
+cloud: (1810.0000000000002,5590000)
+Time to deploy: 3751ms
+edge: (1767.5000000000002,5610000)
+edge: (1151.0000000000002,50500000)
+edge: (1500,50500000)
+-------
+Time to deploy: 2251ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2140.0000000000005,22500000)
+Time to deploy: 3497ms
+edge: (Infinity,18210000)
+edge: (637.0000000000001,12500000)
+Time to deploy: 2053ms
+cloud: (1370.0000000000002,10000000.000000002)
+cloud: (1740,1390000)
+cloud: (1350,1370000.0000000002)
+cloud: (5120.000000000001,78500000.00000001)
+Time to deploy: 2884ms
+edge: (1250.0000000000002,70833333.33333333)
+edge: (761,22500000)
+edge: (763.0000000000001,22500000)
+edge: (553.0000000000001,12500000)
+Time to deploy: 2444ms
+cloud: (1370.0000000000002,10000000.000000002)
+cloud: (2020.0000000000002,5590000)
+Time to deploy: 3206ms
+edge: (522,4690000)
+Time to deploy: 2595ms
+cloud: (3462.5,30300000.000000004)
+Time to deploy: 3342ms
+edge: (1240,41758333.33333333)
+-------
+Time to deploy: 2710ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2670,22500000)
+Time to deploy: 3051ms
+edge: (NaN,22500000)
+edge: (597,12500000)
+Time to deploy: 2484ms
+cloud: (2580,12500000)
+Time to deploy: 3254ms
+edge: (459.16666666666663,1410000)
+Time to deploy: 2567ms
+cloud: (1330,1762500)
+cloud: (8212.5,62800000)
+Time to deploy: 3412ms
+edge: (1520.0000000000002,78500000.00000001)
+edge: (807,22500000)
+edge: (752,28125000)
+edge: (589.0000000000001,12500000)
+Time to deploy: 2849ms
+cloud: (1800,12500000)
+cloud: (1630.0000000000002,5570000.000000001)
+cloud: (1650,5610000)
+cloud: (4310.000000000001,50500000)
+Time to deploy: 3888ms
+edge: (1550,50500000)
+-------
+Time to deploy: 2105ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2790,22500000)
+Time to deploy: 3202ms
+edge: (NaN,22500000)
+edge: (719,12500000)
+Time to deploy: 2421ms
+cloud: (2475,12500000)
+Time to deploy: 3420ms
+edge: (629.0000000000001,1430000.0000000002)
+Time to deploy: 2542ms
+cloud: (1685.0000000000002,1208333.3333333333)
+cloud: (4837.5,78500000)
+Error in move to edge: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+cloud: (6225,78500000)
+Time to deploy: 85ms
+edge: (1401,22500000)
+edge: (658.3333333333333,22500000)
+edge: (601.0000000000001,12500000)
+Time to deploy: 2830ms
+cloud: (2565,12500000)
+Time to deploy: 2881ms
+edge: (745,5570000.000000001)
+Time to deploy: 2944ms
+cloud: (2001.6666666666665,4658333.333333333)
+Time to deploy: 3002ms
+edge: (1583.3333333333333,42083333.33333333)
+edge: (1410,50500000)
+-------
+Time to deploy: 2095ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2850,27000000)
+Time to deploy: 3195ms
+edge: (Infinity,18000000)
+edge: (647,12500000)
+Time to deploy: 2177ms
+cloud: (1712.5,10000000.000000002)
+cloud: (1450,1410000)
+cloud: (1290,1390000)
+cloud: (5125,58875000)
+Time to deploy: 3503ms
+edge: (1637.5,88200000)
+edge: (1287,22500000)
+edge: (871,22500000)
+edge: (818.75,12500000)
+Time to deploy: 2531ms
+cloud: (1662.5,12500000)
+cloud: (1710,5610000)
+cloud: (1630.0000000000002,5590000)
+cloud: (3520,50500000)
+Time to deploy: 2959ms
+edge: (2175,49100000)
+-------
+Time to deploy: 2785ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2650.0000000000005,22500000)
+Time to deploy: 3413ms
+edge: (1039,22500000)
+edge: (699,12500000)
+Time to deploy: 2298ms
+cloud: (1808.3333333333333,15000000)
+Time to deploy: 3617ms
+edge: (429,1450000)
+Time to deploy: 2393ms
+cloud: (1290,1410000)
+cloud: (5120.000000000001,78500000)
+Time to deploy: 2767ms
+edge: (1930.0000000000002,78500000.00000001)
+edge: (930,22500000)
+edge: (741,22500000)
+edge: (639,12500000)
+Time to deploy: 2732ms
+cloud: (1758.3333333333333,12500000)
+cloud: (1610,5610000)
+cloud: (1650,5590000)
+cloud: (4250.000000000001,50500000)
+Time to deploy: 3164ms
+edge: (1490.0000000000002,50500000)
+-------
+Time to deploy: 2939ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2610,22500000)
+Time to deploy: 3134ms
+edge: (953.0000000000001,28125000)
+edge: (633,12500000)
+Time to deploy: 2979ms
+cloud: (1858.3333333333333,9375000)
+Time to deploy: 3312ms
+edge: (509,1400000)
+Time to deploy: 2063ms
+cloud: (1450,1450000)
+cloud: (6590,62800000)
+Time to deploy: 3461ms
+edge: (2230.0000000000005,78500000.00000001)
+edge: (733.0000000000001,22500000)
+edge: (834,22500000)
+edge: (603,12500000)
+Time to deploy: 2292ms
+cloud: (3562.5,9375000)
+Time to deploy: 2726ms
+edge: (678,5625000)
+Time to deploy: 2404ms
+cloud: (1850,5600000)
+Time to deploy: 2877ms
+edge: (1710,57124999.99999999)
+edge: (1390,50500000)
+-------
+Time to deploy: 2537ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2630,22500000)
+Time to deploy: 3226ms
+edge: (NaN,22500000)
+edge: (629,12500000)
+Time to deploy: 2830ms
+cloud: (2190,10416666.666666666)
+Error in move to edge: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+cloud: (910,1680000)
+cloud: (796.6666666666665,1350000)
+cloud: (4300,62800000)
+Time to deploy: 49ms
+edge: (1950,78500000.00000001)
+edge: (767,22500000)
+edge: (751.0000000000001,18000000)
+edge: (583.0000000000001,15000000)
+edge: (597,12500000)
+Time to deploy: 3236ms
+cloud: (1770,5610000)
+cloud: (1610,5590000)
+cloud: (4350,50500000)
+Time to deploy: 3041ms
+edge: (1530,50500000)
+-------
+Time to deploy: 2500ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2670,22500000)
+Time to deploy: 3277ms
+edge: (996,22500000)
+edge: (605,12500000)
+Time to deploy: 2805ms
+cloud: (1800,10000000.000000002)
+cloud: (1310.0000000000002,1370000.0000000002)
+cloud: (1310.0000000000002,1410000)
+cloud: (6330,78500000.00000001)
+Time to deploy: 3687ms
+edge: (1780.0000000000002,78500000.00000001)
+edge: (749,22500000)
+edge: (766.0000000000001,22500000)
+edge: (571.0000000000001,12500000)
+Time to deploy: 3198ms
+cloud: (1760,12500000)
+cloud: (1670,5610000)
+cloud: (1670,5590000)
+cloud: (4270,50500000)
+Time to deploy: 3111ms
+edge: (1191.6666666666667,50500000)
+-------
+Time to deploy: 2454ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (3200.0000000000005,22500000)
+Time to deploy: 2646ms
+edge: (NaN,22500000)
+edge: (661.0000000000001,12500000)
+Time to deploy: 2055ms
+cloud: (2210,12500000.000000002)
+Time to deploy: 2836ms
+edge: (533,1375000)
+Time to deploy: 2147ms
+cloud: (1191.6666666666667,1425000)
+cloud: (6530,78500000)
+Time to deploy: 2992ms
+edge: (2290.0000000000005,78500000)
+edge: (791.0000000000001,22500000)
+edge: (797.0000000000001,22500000)
+edge: (589.0000000000001,12500000)
+Time to deploy: 2455ms
+cloud: (2190,12500000)
+Time to deploy: 3296ms
+edge: (585,7012500)
+Time to deploy: 2561ms
+cloud: (1770,5583333.333333333)
+cloud: (4350,50500000)
+Time to deploy: 3456ms
+edge: (1470,49300000)
+-------
+Time to deploy: 2725ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2750,22500000)
+Time to deploy: 3111ms
+edge: (NaN,22500000)
+edge: (695,12500000)
+Time to deploy: 2385ms
+cloud: (2370,12500000)
+Error in move to edge: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+cloud: (980.9999999999999,1390000)
+cloud: (835,1370000.0000000002)
+cloud: (5069.999999999999,78500000.00000001)
+Time to deploy: 46ms
+edge: (3220,109900000.00000001)
+edge: (951,33700000.00000001)
+edge: (957,22500000)
+edge: (709.0000000000001,14500000)
+Time to deploy: 2707ms
+cloud: (2310,9375000)
+Time to deploy: 3062ms
+edge: (638.3333333333334,10437500)
+Time to deploy: 2794ms
+cloud: (1870.0000000000002,4237500)
+Time to deploy: 3230ms
+edge: (2090,40700000)
+edge: (1590,50500000)
+-------
+Time to deploy: 2947ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2360,NaN)
+Time to deploy: 3178ms
+edge: (NaN,NaN)
+edge: (838,NaN)
+edge: (727.0000000000001,NaN)
+edge: (421.00000000000006,NaN)
+edge: (449,NaN)
+edge: (2370,NaN)
+edge: (2370,NaN)
+edge: (1018,22500000)
+edge: (810.8333333333333,22500000)
+edge: (633,12500000)
+Time to deploy: 2866ms
+cloud: (1991.25,12500000)
+Error in move to edge: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+cloud: (1490,5610000)
+cloud: (1103,6937500)
+cloud: (3512.5000000000005,60600000)
+Time to deploy: 57ms
+edge: (2340,50500000)
+-------
+Time to deploy: 3116ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2790,NaN)
+Error in move to edge: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+cloud: (2870,NaN)
+Time to deploy: 52ms
+edge: (743,NaN)
+edge: (685.0000000000001,NaN)
+edge: (419,NaN)
+edge: (443,NaN)
+edge: (1775,NaN)
+edge: (1480,NaN)
+edge: (757.0000000000001,NaN)
+edge: (801,NaN)
+edge: (557,NaN)
+edge: (547.0000000000001,NaN)
+edge: (435,NaN)
+edge: (415.00000000000006,NaN)
+edge: (1210,NaN)
+edge: (1270,NaN)
+-------
+Time to deploy: 3060ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2710.0000000000005,22500000)
+Time to deploy: 3118ms
+edge: (NaN,17600000.000000004)
+edge: (711,12500000)
+Time to deploy: 2591ms
+cloud: (2250,9375000)
+Time to deploy: 3375ms
+edge: (585,1410000)
+Time to deploy: 2676ms
+cloud: (1470,830000.0000000001)
+cloud: (6490.000000000001,62800000)
+Time to deploy: 3563ms
+edge: (1930.0000000000002,65100000)
+edge: (767,22500000)
+edge: (789,22500000)
+edge: (601.0000000000001,12500000)
+Time to deploy: 2988ms
+cloud: (1780.0000000000002,9375000)
+cloud: (1650,7037500)
+cloud: (1630.0000000000002,7012500)
+cloud: (4250.000000000001,50500000)
+Error in move to edge: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+cloud: (3050,33666666.666666664)
+-------
+Time to deploy: 39ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2630,22500000)
+Time to deploy: 2529ms
+edge: (739.0000000000001,28125000)
+edge: (639,12500000)
+Error in move to cloud: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+edge: (1215.9999999999998,12500000)
+edge: (915.9999999999999,1410000)
+Time to deploy: 48ms
+cloud: (1290,1370000.0000000002)
+cloud: (6190.000000000001,62800000)
+Time to deploy: 2899ms
+edge: (2140.0000000000005,97062500)
+edge: (741,22500000)
+edge: (723,22500000)
+edge: (563,12500000)
+Time to deploy: 2266ms
+cloud: (2070,12500000)
+Time to deploy: 3148ms
+edge: (435,5600000)
+Time to deploy: 2362ms
+cloud: (1300,5650000)
+cloud: (4450,50500000)
+Time to deploy: 3325ms
+edge: (1410,46100000)
+-------
+Time to deploy: 2537ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2970,22500000)
+Time to deploy: 2486ms
+edge: (NaN,27000000)
+edge: (665,12500000)
+Time to deploy: 2671ms
+cloud: (1928.7500000000002,12500000)
+Time to deploy: 2694ms
+edge: (872.5000000000001,1660000.0000000002)
+Time to deploy: 2766ms
+cloud: (1256.25,1660000.0000000002)
+cloud: (5012.5,78500000.00000001)
+Time to deploy: 2889ms
+edge: (3450,78500000.00000001)
+edge: (779.0000000000001,22500000)
+edge: (887.0000000000001,22500000)
+edge: (649.0000000000001,12500000)
+Time to deploy: 3082ms
+cloud: (2471.6666666666665,12500000)
+Time to deploy: 3200ms
+edge: (1027.5,5590000)
+edge: (475.00000000000006,5590000)
+Time to deploy: 2232ms
+cloud: (3949.9999999999995,42083333.33333333)
+Time to deploy: 3400ms
+edge: (2299.9999999999995,60600000)
+-------
+Time to deploy: 2315ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2630,22500000)
+Time to deploy: 2925ms
+edge: (932.0000000000001,22500000)
+edge: (601.0000000000001,12500000)
+Time to deploy: 2943ms
+cloud: (2210,7500000)
+Error in move to edge: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+cloud: (1010,1430000.0000000002)
+cloud: (746.9999999999999,1430000.0000000002)
+cloud: (3140,78500000.00000001)
+Time to deploy: 43ms
+edge: (1710,125600000.00000001)
+edge: (719,22500000)
+edge: (699,22500000)
+edge: (571.0000000000001,12500000)
+Time to deploy: 3305ms
+cloud: (2250,7500000)
+Time to deploy: 2506ms
+edge: (624,5590000)
+Time to deploy: 2401ms
+cloud: (1710,3370000)
+cloud: (4310,50500000)
+Error in move to edge: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+cloud: (3666.6666666666665,42083333.33333333)
+-------
+Time to deploy: 40ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2200.0000000000005,22500000)
+Time to deploy: 2706ms
+edge: (Infinity,22500000)
+edge: (631.0000000000001,12500000)
+Time to deploy: 2452ms
+cloud: (1612.5,12500000)
+cloud: (1470,1390000)
+cloud: (1290,1390000)
+cloud: (6600,98125000)
+Time to deploy: 3040ms
+edge: (2500,78500000.00000001)
+edge: (1057,22500000)
+edge: (737,22500000)
+edge: (553.0000000000001,12500000)
+Time to deploy: 2813ms
+cloud: (1499.0000000000002,12500000)
+cloud: (1710,5610000)
+cloud: (1630.0000000000002,5650000)
+cloud: (3700,50500000)
+Time to deploy: 3491ms
+edge: (2300,50500000)
+-------
+Time to deploy: 2028ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2730,22500000)
+Time to deploy: 3743ms
+edge: (925,22500000)
+edge: (639,12500000)
+Time to deploy: 2341ms
+cloud: (2030,12500000)
+Time to deploy: 2946ms
+edge: (499.00000000000006,1350000)
+Time to deploy: 2424ms
+cloud: (1290,1400000)
+cloud: (6470,53266666.666666664)
+Error in move to edge: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+cloud: (3464.285714285714,65416666.666666664)
+Time to deploy: 38ms
+edge: (904,49400000)
+edge: (809.0000000000001,22500000)
+edge: (615,16500000)
+edge: (581,12500000)
+Time to deploy: 2735ms
+cloud: (1650,8370000.000000001)
+cloud: (1630.0000000000002,5610000)
+cloud: (4290,28025000)
+Error in move to edge: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+cloud: (4350,50500000)
+-------
+Time to deploy: 44ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (1780.0000000000002,22500000)
+cloud: (2670,22500000)
+Error in move to edge: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+cloud: (3037.5,12500000)
+Time to deploy: 49ms
+edge: (1000.9999999999999,12500000)
+edge: (429,1370000.0000000002)
+Time to deploy: 2987ms
+cloud: (1037.5,1410000)
+cloud: (4450,78500000.00000001)
+Time to deploy: 2906ms
+edge: (3812.5000000000005,78500000.00000001)
+edge: (1522,22500000)
+edge: (818.0000000000001,22500000)
+edge: (631.0000000000001,12500000)
+Time to deploy: 3274ms
+cloud: (934.9999999999999,12500000)
+cloud: (1770,5610000)
+cloud: (1630.0000000000002,5630000.000000001)
+cloud: (2900,50500000)
+Time to deploy: 3377ms
+edge: (2562.5,50500000)
+-------
+Time to deploy: 2559ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2670,22500000)
+Time to deploy: 3199ms
+edge: (832,18750000)
+edge: (589.0000000000001,12500000)
+Time to deploy: 2414ms
+cloud: (2030,12500000)
+Time to deploy: 3387ms
+edge: (461,1158333.3333333333)
+Error in move to cloud: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+edge: (938,1762500)
+Time to deploy: 48ms
+cloud: (6570,78500000.00000001)
+Time to deploy: 2547ms
+edge: (1575,78500000.00000001)
+edge: (745.0000000000001,22500000)
+edge: (765,22500000)
+edge: (579,12500000)
+Time to deploy: 2801ms
+cloud: (2090,12500000)
+Time to deploy: 2839ms
+edge: (521,5630000.000000001)
+Time to deploy: 2892ms
+cloud: (1630.0000000000002,5610000)
+cloud: (4310.000000000001,50500000)
+Time to deploy: 3032ms
+edge: (1470,50500000)
+-------
+Time to deploy: 2059ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (3280,22500000)
+Error in move to edge: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+cloud: (2196.25,18750000)
+Time to deploy: 37ms
+edge: (647,12500000)
+Time to deploy: 2965ms
+cloud: (2270,12500000)
+Time to deploy: 3162ms
+edge: (617,1390000)
+Time to deploy: 2071ms
+cloud: (1490.0000000000002,1158333.3333333333)
+cloud: (6510,78500000.00000001)
+Time to deploy: 3340ms
+edge: (2650.0000000000005,78500000.00000001)
+edge: (767,22500000)
+edge: (884.0000000000001,22500000)
+edge: (645,15000000)
+edge: (621,12500000)
+Error in move to cloud: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+edge: (1371.25,5590000)
+edge: (968.9999999999999,5610000)
+Time to deploy: 39ms
+cloud: (4430.000000000001,50500000)
+Time to deploy: 2905ms
+edge: (1690.0000000000002,42083333.33333333)
+-------
+Error in move to cloud: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2690,22500000)
+Time to deploy: 2821ms
+edge: (1128,20900000.000000004)
+edge: (741,12500000)
+Error in move to cloud: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+edge: (1691.9999999999998,12500000)
+edge: (1296.25,1390000)
+edge: (1039,1430000.0000000002)
+edge: (6550,78500000)
+edge: (4070,65416666.666666664)
+edge: (1665,38200000.00000001)
+edge: (2086.9999999999995,22500000)
+edge: (1449.9999999999998,12500000)
+edge: (1517.9999999999998,12500000)
+edge: (711.6666666666665,5610000)
+Time to deploy: 45ms
+cloud: (1630.0000000000002,5610000)
+cloud: (4410,63124999.99999999)
+Time to deploy: 3634ms
+edge: (1370.0000000000002,58375000)
+-------
+Time to deploy: 2088ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2650.0000000000005,18002900.000000004)
+Time to deploy: 3453ms
+edge: (Infinity,18000000)
+edge: (619.0000000000001,14500000)
+Time to deploy: 2979ms
+cloud: (1862.5,16666666.666666666)
+Time to deploy: 3647ms
+edge: (807.4999999999999,4162500)
+Time to deploy: 2102ms
+cloud: (1112.5,1425000)
+cloud: (6275,39587500)
+Error in move to edge: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+cloud: (5014.285714285714,65416666.666666664)
+Time to deploy: 45ms
+edge: (2445,39666666.666666664)
+edge: (733.0000000000001,22500000)
+edge: (603,14500000)
+Time to deploy: 2365ms
+cloud: (1737.5,16666666.666666666)
+cloud: (1630.0000000000002,7000000)
+cloud: (1630.0000000000002,5630000.000000001)
+cloud: (3540,39287500)
+Time to deploy: 3200ms
+edge: (2400,46300000)
+-------
+Time to deploy: 2597ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2610,22500000)
+Error in move to edge: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+cloud: (4325,22500000)
+Time to deploy: 43ms
+edge: (703.0000000000001,12500000)
+Time to deploy: 2775ms
+cloud: (2250,9375000)
+Time to deploy: 3642ms
+edge: (595.0000000000001,1762500)
+Time to deploy: 2913ms
+cloud: (1410,1350000)
+cloud: (6650,78500000)
+Time to deploy: 2843ms
+edge: (2370,66750000)
+edge: (875.0000000000001,22500000)
+edge: (833.0000000000001,22500000)
+edge: (651,12500000)
+Time to deploy: 3215ms
+cloud: (2250,9375000)
+Time to deploy: 3197ms
+edge: (639.1666666666666,7012500)
+Time to deploy: 2285ms
+cloud: (1790,4212500)
+cloud: (4470,50500000)
+Time to deploy: 3462ms
+edge: (1570.0000000000002,43700000)
+-------
+Time to deploy: 2417ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2730,22500000)
+Time to deploy: 3599ms
+edge: (932.0000000000001,27000000)
+edge: (671,12500000)
+Time to deploy: 2482ms
+cloud: (2510,12500000)
+Time to deploy: 2827ms
+edge: (409.00000000000006,1390000)
+Time to deploy: 2583ms
+cloud: (1330,1410000)
+cloud: (6730.000000000001,78500000.00000001)
+Time to deploy: 3019ms
+edge: (2170.0000000000005,78500000.00000001)
+edge: (809.0000000000001,22500000)
+edge: (866.0000000000001,22500000)
+edge: (579,12500000)
+Time to deploy: 2876ms
+cloud: (2130,10416666.666666666)
+Time to deploy: 3311ms
+edge: (527,5590000)
+Time to deploy: 2988ms
+cloud: (1690.0000000000002,5590000)
+cloud: (3460,50500000)
+Time to deploy: 3518ms
+edge: (1600.0000000000002,60600000)
+-------
+Time to deploy: 2162ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (3262.5,22500000)
+Time to deploy: 3010ms
+edge: (1054,16875000)
+edge: (799,12500000)
+Time to deploy: 2663ms
+cloud: (1583.3333333333333,16666666.666666666)
+cloud: (1330,1370000.0000000002)
+cloud: (1390,1370000.0000000002)
+cloud: (6770,58875000)
+Time to deploy: 3458ms
+edge: (1550,60200000.00000001)
+edge: (842.0000000000001,22500000)
+edge: (816,22500000)
+edge: (607.0000000000001,12500000)
+Time to deploy: 3063ms
+cloud: (1550,16666666.666666666)
+cloud: (1320,5570000.000000001)
+cloud: (1690.0000000000002,5590000)
+cloud: (4490.000000000001,40400000)
+Time to deploy: 3907ms
+edge: (1770,44100000)
+-------
+Time to deploy: 2303ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2790,22500000)
+Time to deploy: 3386ms
+edge: (Infinity,22500000)
+edge: (665,12500000)
+Time to deploy: 2746ms
+cloud: (1812.5,12500000)
+Time to deploy: 3594ms
+edge: (780,1680000)
+Time to deploy: 2845ms
+cloud: (1137.5,1175000)
+cloud: (3870,78500000.00000001)
+Error in move to edge: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+cloud: (4350,65416666.666666664)
+Time to deploy: 35ms
+edge: (1085.0000000000002,22500000)
+edge: (815.0000000000001,22500000)
+edge: (507.5,12500000)
+Time to deploy: 3150ms
+cloud: (1712.5,12500000)
+cloud: (1610,5570000.000000001)
+cloud: (1670,5570000.000000001)
+cloud: (3400,50500000)
+Time to deploy: 3261ms
+edge: (2250,60600000)
+-------
+Time to deploy: 2400ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2730,22500000)
+Time to deploy: 3386ms
+edge: (NaN,27000000)
+edge: (758,12500000)
+Time to deploy: 2593ms
+cloud: (2250,12500000)
+Time to deploy: 2594ms
+edge: (467,1430000.0000000002)
+Time to deploy: 2662ms
+cloud: (1490.0000000000002,1383333.3333333333)
+cloud: (6670.000000000001,78500000.00000001)
+Time to deploy: 2743ms
+edge: (2350.0000000000005,65416666.666666664)
+edge: (753.3333333333333,22500000)
+edge: (869.0000000000001,22500000)
+edge: (701,12500000)
+Time to deploy: 2926ms
+cloud: (2230.0000000000005,12500000)
+Time to deploy: 3048ms
+edge: (695,5570000.000000001)
+Error in move to cloud: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+edge: (1123.3333333333333,5616666.666666666)
+edge: (2590,50500000)
+edge: (2950,63124999.99999999)
+-------
+Time to deploy: 42ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2650.0000000000005,22500000)
+Time to deploy: 3313ms
+edge: (847,22500000)
+edge: (621,7500000)
+Time to deploy: 2290ms
+cloud: (2090,16666666.666666666)
+Time to deploy: 2506ms
+edge: (357,4212500)
+Error in move to cloud: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+edge: (1049.9999999999998,1430000.0000000002)
+edge: (4590.000000000001,53266666.666666664)
+edge: (3610,65416666.666666664)
+edge: (1490.9999999999998,40071428.57142857)
+edge: (1910,27000000)
+edge: (1461.9999999999998,14500000)
+edge: (1196.9999999999998,12500000)
+edge: (906.9999999999999,8370000)
+Time to deploy: 46ms
+cloud: (1610,6760000.000000001)
+cloud: (4230,31430000)
+Time to deploy: 3103ms
+edge: (1620,67333333.33333333)
+-------
+Time to deploy: 2902ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2670,22500000)
+Time to deploy: 3098ms
+edge: (NaN,22500000)
+edge: (611,15000000)
+edge: (695,12500000)
+Time to deploy: 2052ms
+cloud: (1470,1660000.0000000002)
+cloud: (1450,1410000)
+cloud: (6590,78500000)
+Time to deploy: 3437ms
+edge: (2070,94200000)
+edge: (883,22500000)
+edge: (795,22500000)
+edge: (547.5,12500000)
+Time to deploy: 2409ms
+cloud: (2150,12500000)
+Time to deploy: 2718ms
+edge: (505.8333333333333,5590000)
+Time to deploy: 2606ms
+cloud: (1750.0000000000002,6700000.000000001)
+cloud: (4330,50500000)
+Time to deploy: 2917ms
+edge: (1570.0000000000002,50500000)
+-------
+Time to deploy: 2689ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2690,22500000)
+Time to deploy: 3584ms
+edge: (881.0000000000001,22500000)
+edge: (665,12500000)
+Time to deploy: 2361ms
+cloud: (2250,12500000)
+Time to deploy: 2821ms
+edge: (594,1370000.0000000002)
+Time to deploy: 2454ms
+cloud: (1450,1450000)
+cloud: (5000.000000000001,98125000)
+Time to deploy: 2993ms
+edge: (2230.0000000000005,78500000.00000001)
+edge: (896.0000000000001,22500000)
+edge: (884.0000000000001,22500000)
+edge: (673.0000000000001,12500000)
+Time to deploy: 2726ms
+cloud: (2250,12500000)
+Time to deploy: 3365ms
+edge: (758,5610000)
+Time to deploy: 2843ms
+cloud: (1475,6720000)
+cloud: (4390,50500000)
+Time to deploy: 3594ms
+edge: (1530,50500000)
+-------
+Time to deploy: 2002ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2770.0000000000005,22500000)
+Time to deploy: 3142ms
+edge: (921,22500000)
+edge: (751.0000000000001,15625000)
+edge: (693,12500000)
+Time to deploy: 2530ms
+cloud: (1370.0000000000002,1410000)
+cloud: (1390,1410000)
+cloud: (6750,78500000.00000001)
+Time to deploy: 3536ms
+edge: (2050.0000000000005,78500000.00000001)
+edge: (897,22500000)
+edge: (809.0000000000001,22500000)
+edge: (685.0000000000001,12500000)
+Time to deploy: 2819ms
+cloud: (2050.0000000000005,15000000)
+Time to deploy: 2826ms
+edge: (509,5610000)
+Time to deploy: 2903ms
+cloud: (1630.0000000000002,6720000)
+cloud: (4370.000000000001,50500000)
+Time to deploy: 9057ms
+edge: (1510,46500000)
+-------
+Time to deploy: 2078ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2670,22500000)
+Time to deploy: 2894ms
+edge: (898,33750000)
+edge: (607.0000000000001,12500000)
+Time to deploy: 2847ms
+cloud: (2662.5,12500000)
+Time to deploy: 3112ms
+edge: (429,1390000)
+Time to deploy: 2965ms
+cloud: (1330,2125000)
+cloud: (6450,78500000.00000001)
+Time to deploy: 3294ms
+edge: (2390,78500000.00000001)
+edge: (875.0000000000001,18750000)
+edge: (749,22500000)
+edge: (601.0000000000001,10416666.666666666)
+Time to deploy: 3202ms
+cloud: (2090,12500000)
+Time to deploy: 3562ms
+edge: (485,5610000)
+Time to deploy: 2294ms
+cloud: (1610,5610000)
+cloud: (4270,50500000)
+Time to deploy: 3790ms
+edge: (1430.0000000000002,60600000)
+-------
+Time to deploy: 2457ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2650.0000000000005,28125000)
+Time to deploy: 3355ms
+edge: (950,28125000)
+edge: (671,12500000)
+Time to deploy: 2118ms
+cloud: (2270,9375000)
+Time to deploy: 3605ms
+edge: (563,1400000)
+Time to deploy: 2193ms
+cloud: (1430.0000000000002,1350000)
+cloud: (6470,78500000)
+Time to deploy: 2816ms
+edge: (2210,65908333.33333333)
+edge: (874,22500000)
+edge: (777,22500000)
+edge: (627,12500000)
+Time to deploy: 2468ms
+cloud: (2170.0000000000005,9374999.999999998)
+Time to deploy: 3073ms
+edge: (595.0000000000001,5625000)
+Time to deploy: 2578ms
+cloud: (1770,5550000)
+cloud: (4290,50500000)
+Time to deploy: 3245ms
+edge: (1450,48300000)
+-------
+Time to deploy: 2731ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2630,22500000)
+Time to deploy: 3229ms
+edge: (NaN,22500000)
+edge: (609,12500000)
+Time to deploy: 2712ms
+cloud: (1900.0000000000002,12500000)
+Time to deploy: 3390ms
+edge: (489,1410000)
+Time to deploy: 2810ms
+cloud: (1225,1680000)
+cloud: (6670.000000000001,78500000.00000001)
+Time to deploy: 3587ms
+edge: (2150,78500000.00000001)
+edge: (872.0000000000001,22500000)
+edge: (747,22500000)
+edge: (569,12500000)
+Time to deploy: 3191ms
+cloud: (2170.0000000000005,12500000)
+Time to deploy: 2872ms
+edge: (573,5630000.000000001)
+Time to deploy: 2294ms
+cloud: (1750.0000000000002,5610000)
+cloud: (4270,50500000)
+Time to deploy: 3053ms
+edge: (1570.0000000000002,60600000)
+-------
+Time to deploy: 2470ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2630,22500000)
+Time to deploy: 2995ms
+edge: (NaN,22500000)
+edge: (619.0000000000001,12500000)
+Time to deploy: 2527ms
+cloud: (1943.7500000000002,10416666.666666666)
+Time to deploy: 3210ms
+edge: (651,1370000)
+Time to deploy: 2608ms
+cloud: (1196.25,1370000.0000000002)
+cloud: (3690,62800000)
+Time to deploy: 3360ms
+edge: (3175,78500000.00000001)
+edge: (629.1666666666666,22500000)
+edge: (637.5,22500000)
+edge: (575,12500000)
+Time to deploy: 2921ms
+cloud: (1873.75,10416666.666666666)
+Time to deploy: 3623ms
+edge: (784.9999999999999,5630000.000000001)
+Error in move to cloud: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+edge: (1313.75,5590000)
+edge: (1916.6666666666667,33666666.666666664)
+edge: (2219.9999999999995,75750000)
+-------
+Time to deploy: 37ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (1825.0000000000002,22500000)
+Time to deploy: 3452ms
+edge: (Infinity,22500000)
+edge: (693,12500000)
+Error in move to cloud: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+edge: (1314.9999999999998,15000000)
+edge: (1213,1390000)
+edge: (732.9999999999999,1410000)
+Time to deploy: 50ms
+cloud: (3166.25,98125000)
+Time to deploy: 3808ms
+edge: (5424.999999999999,94200000)
+edge: (1737.5,22500000)
+edge: (773.0000000000001,22500000)
+edge: (669,12500000)
+Time to deploy: 3228ms
+cloud: (1313.3333333333335,12500000)
+cloud: (2120,5610000)
+Time to deploy: 3139ms
+edge: (1002,5610000)
+edge: (1213,50500000)
+edge: (1290,50500000)
+-------
+Time to deploy: 2433ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2225,22500000)
+Time to deploy: 3594ms
+edge: (1005,27000000)
+edge: (599,12500000)
+Time to deploy: 2909ms
+cloud: (1858.3333333333333,12500000)
+Time to deploy: 2745ms
+edge: (561,1390000)
+Time to deploy: 2014ms
+cloud: (1430.0000000000002,1700000)
+cloud: (6230,78500000.00000001)
+Time to deploy: 2903ms
+edge: (1990.0000000000002,94200000)
+edge: (765,22500000)
+edge: (709.0000000000001,22500000)
+edge: (579,12500000)
+Time to deploy: 2295ms
+cloud: (1841.6666666666665,12500000)
+Time to deploy: 3188ms
+edge: (567,5590000)
+Time to deploy: 2427ms
+cloud: (1770.0000000000002,5590000)
+cloud: (4370.000000000001,40400000)
+Time to deploy: 3334ms
+edge: (1630.0000000000002,60600000)
+-------
+Time to deploy: 2568ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2650.0000000000005,18002900.000000004)
+Time to deploy: 3502ms
+edge: (NaN,18000000)
+edge: (605,14500000)
+Time to deploy: 2649ms
+cloud: (1863.75,16666666.666666666)
+Time to deploy: 3671ms
+edge: (726,3330000)
+Time to deploy: 2749ms
+cloud: (870,1800000)
+cloud: (3810,39612500)
+Time to deploy: 2831ms
+edge: (3199.9999999999995,104666666.66666666)
+edge: (715.0000000000001,33700000.00000001)
+edge: (743,22500000)
+edge: (597,18125000)
+edge: (579,12500000)
+Time to deploy: 3078ms
+cloud: (1516.25,7312500)
+cloud: (1650,5590000)
+cloud: (3520,39262500)
+Time to deploy: 3264ms
+edge: (2374.9999999999995,44100000)
+-------
+Time to deploy: 2270ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2590.0000000000005,22500000)
+Time to deploy: 2694ms
+edge: (NaN,22500000)
+edge: (579,12500000)
+Time to deploy: 2792ms
+cloud: (2210,12500000)
+Time to deploy: 2837ms
+edge: (529.0000000000001,1430000.0000000002)
+Time to deploy: 2889ms
+cloud: (1410,1430000.0000000002)
+cloud: (7812.500000000001,78500000.00000001)
+Time to deploy: 3098ms
+edge: (1870.0000000000002,78500000.00000001)
+edge: (755,22500000)
+edge: (755,18750000)
+edge: (645,12500000)
+Error in move to cloud: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+edge: (1333,15625000)
+edge: (924.9999999999999,4641666.666666667)
+Time to deploy: 42ms
+cloud: (1630.0000000000002,5590000)
+cloud: (4410,50500000)
+Time to deploy: 3558ms
+edge: (1470,50500000)
+-------
+Time to deploy: 2357ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2275,18750000)
+Time to deploy: 3398ms
+edge: (NaN,22500000)
+edge: (651,12500000)
+Error in move to cloud: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+edge: (1284.9999999999998,10000000.000000002)
+edge: (746.9999999999999,1390000)
+Time to deploy: 45ms
+cloud: (1290,1390000)
+cloud: (4762.5,78500000)
+Time to deploy: 3752ms
+edge: (3499.9999999999995,78500000)
+edge: (819,22500000)
+edge: (910,22500000)
+edge: (591,12500000)
+Time to deploy: 2548ms
+cloud: (1866.2499999999998,9375000)
+Time to deploy: 3094ms
+edge: (841.2499999999999,6937500)
+Time to deploy: 2654ms
+cloud: (1496.25,5600000)
+cloud: (3500.0000000000005,50500000)
+Time to deploy: 3249ms
+edge: (2325,44500000)
+-------
+Time to deploy: 2859ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2610,16886500)
+Time to deploy: 2999ms
+edge: (908.0000000000001,18000000)
+edge: (593,16500000)
+edge: (617,12500000)
+Error in move to cloud: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+edge: (887,5870000)
+Time to deploy: 36ms
+cloud: (1290,1370000.0000000002)
+cloud: (5020,53266666.666666664)
+Error in move to edge: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+cloud: (4933.333333333333,109900000.00000001)
+Time to deploy: 41ms
+edge: (872.0000000000001,41416666.666666664)
+edge: (739.0000000000001,22500000)
+edge: (599,16500000)
+edge: (571.0000000000001,12500000)
+Time to deploy: 3088ms
+cloud: (1730,8725000)
+cloud: (1670,5570000.000000001)
+cloud: (4350,31430000)
+Time to deploy: 2795ms
+edge: (1590,48100000)
+-------
+Time to deploy: 3324ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2650.0000000000005,18000000)
+Error in move to edge: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+cloud: (2158,22500000)
+Time to deploy: 56ms
+edge: (603,12500000)
+Time to deploy: 2452ms
+cloud: (2110.0000000000005,9375000)
+Time to deploy: 3137ms
+edge: (349.16666666666663,3620000.0000000005)
+Time to deploy: 2567ms
+cloud: (1310.0000000000002,1100000.0000000002)
+cloud: (5291.666666666666,62800000)
+Time to deploy: 3330ms
+edge: (1910,83600000.00000001)
+edge: (763.0000000000001,22500000)
+edge: (795,22500000)
+edge: (603,12500000)
+Time to deploy: 2837ms
+cloud: (1620,9375000)
+cloud: (1590,4641666.666666667)
+cloud: (1610,5570000.000000001)
+cloud: (4310.000000000001,50500000)
+Time to deploy: 3752ms
+edge: (1510,50500000)
+-------
+Time to deploy: 2077ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (3287.5,22500000)
+Time to deploy: 3208ms
+edge: (998.0000000000001,22500000)
+edge: (671,12500000)
+Time to deploy: 2508ms
+cloud: (1891.6666666666665,12500000)
+Time to deploy: 3395ms
+edge: (585.0000000000001,1370000.0000000002)
+Time to deploy: 2583ms
+cloud: (1430.0000000000002,1390000)
+cloud: (6670.000000000001,78500000.00000001)
+Time to deploy: 3623ms
+edge: (2090,78500000.00000001)
+edge: (719,22500000)
+edge: (747,22500000)
+edge: (589.0000000000001,12500000)
+Time to deploy: 2839ms
+cloud: (2250,12500000)
+Time to deploy: 2901ms
+edge: (603,6720000)
+Time to deploy: 2951ms
+cloud: (1810.0000000000002,5570000.000000001)
+Time to deploy: 3013ms
+edge: (1610,50500000)
+edge: (1370.0000000000002,50500000)
+-------
+Time to deploy: 2072ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2140.0000000000005,16878625)
+Time to deploy: 3487ms
+edge: (Infinity,22500000)
+edge: (627,14500000)
+Time to deploy: 2551ms
+cloud: (2628.333333333333,12500000)
+Time to deploy: 2677ms
+edge: (442.00000000000006,NaN)
+edge: (417,NaN)
+edge: (2390,NaN)
+edge: (2150,NaN)
+edge: (781,NaN)
+edge: (844,NaN)
+edge: (625.0000000000001,NaN)
+edge: (649.0000000000001,NaN)
+edge: (511.00000000000006,NaN)
+edge: (502.99999999999994,NaN)
+edge: (1430.0000000000002,NaN)
+edge: (1430.0000000000002,NaN)
+-------
+Time to deploy: 3109ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2730,22500000)
+Error in move to edge: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+cloud: (1472.9999999999998,27000000)
+cloud: (1204,15000000)
+cloud: (1171.9999999999998,15000000)
+cloud: (1047.9999999999998,1390000)
+cloud: (797,1390000)
+cloud: (5087.5,117750000)
+Time to deploy: 40ms
+edge: (2490,78500000.00000001)
+edge: (990,22500000)
+edge: (951,22500000)
+edge: (659,12500000)
+Time to deploy: 2865ms
+cloud: (1990.0000000000002,12500000)
+Time to deploy: 3477ms
+edge: (493.00000000000006,5570000.000000001)
+Time to deploy: 1961ms
+cloud: (1375,5590000)
+cloud: (5462.5,50500000)
+Time to deploy: 3644ms
+edge: (1370.0000000000002,50500000)
+-------
+Time to deploy: 2139ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2690,13502900.000000002)
+Time to deploy: 3136ms
+edge: (855,28125000)
+edge: (709.0000000000001,NaN)
+edge: (615,NaN)
+edge: (439.00000000000006,NaN)
+edge: (397.00000000000006,NaN)
+edge: (2010,NaN)
+edge: (1890,NaN)
+edge: (809.0000000000001,NaN)
+edge: (700,NaN)
+edge: (633,NaN)
+edge: (661.0000000000001,NaN)
+edge: (487.00000000000006,NaN)
+edge: (491,NaN)
+edge: (1410,NaN)
+edge: (1200,NaN)
+-------
+Error in move to cloud: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2690,22500000)
+Time to deploy: 2411ms
+edge: (865,22500000)
+edge: (723,12500000)
+Time to deploy: 2647ms
+cloud: (2090,12500000)
+Time to deploy: 2610ms
+edge: (423,1720000.0000000002)
+Time to deploy: 2736ms
+cloud: (1350,1390000)
+cloud: (6590,78500000.00000001)
+Time to deploy: 3808ms
+edge: (2450,78500000.00000001)
+edge: (839.0000000000001,22500000)
+edge: (835,18000000)
+edge: (623,12500000)
+Time to deploy: 2987ms
+cloud: (2150,10416666.666666666)
+Time to deploy: 3071ms
+edge: (473,6760000.000000001)
+Time to deploy: 2090ms
+cloud: (1590,5590000)
+cloud: (4350,50500000)
+Time to deploy: 3297ms
+edge: (1191.6666666666667,50500000)
+-------
+Error in move to cloud: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2670,22500000)
+Time to deploy: 3080ms
+edge: (Infinity,22500000)
+edge: (663,12500000)
+Time to deploy: 2050ms
+cloud: (1737.5,12500000)
+cloud: (1290,1410000)
+cloud: (1310.0000000000002,1410000)
+cloud: (6400,78500000.00000001)
+Time to deploy: 3388ms
+edge: (1837.5,67333333.33333333)
+edge: (835,22500000)
+edge: (687,22500000)
+edge: (559.0000000000001,12500000)
+Error in move to cloud: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+edge: (1346.9999999999998,15625000)
+edge: (1119.9999999999998,4641666.666666667)
+edge: (1175.9999999999998,5630000.000000001)
+edge: (3212.5000000000005,33666666.666666664)
+edge: (2219.9999999999995,63124999.99999999)
+-------
+Time to deploy: 47ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2630,22500000)
+Time to deploy: 2774ms
+edge: (983.0000000000001,28125000)
+edge: (611,15625000)
+edge: (629,15625000)
+edge: (391.00000000000006,1712500)
+Time to deploy: 2749ms
+cloud: (1430.0000000000002,1375000)
+cloud: (6590,62800000)
+Time to deploy: 3145ms
+edge: (2050.0000000000005,99462500)
+edge: (749,22500000)
+edge: (737,22500000)
+edge: (535.0000000000001,12500000)
+Time to deploy: 3040ms
+cloud: (2150,9375000)
+Time to deploy: 3402ms
+edge: (585,5630000)
+Time to deploy: 2098ms
+cloud: (1750.0000000000002,4212500)
+cloud: (4310.000000000001,50500000)
+Time to deploy: 3543ms
+edge: (1470,46500000)
+-------
+Time to deploy: 2244ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2770.0000000000005,22500000)
+Time to deploy: 3040ms
+edge: (Infinity,22500000)
+edge: (611,12500000)
+Time to deploy: 2828ms
+cloud: (1737.5,12500000)
+cloud: (1310.0000000000002,1390000)
+cloud: (1330,1410000)
+cloud: (5260,78500000.00000001)
+Time to deploy: 3393ms
+edge: (1612.5,78500000.00000001)
+edge: (849,22500000)
+edge: (745.0000000000001,22500000)
+edge: (605,12500000)
+Time to deploy: 3241ms
+cloud: (1712.5,12500000)
+cloud: (1630.0000000000002,5610000)
+cloud: (1610,5590000)
+cloud: (3500.0000000000005,50500000)
+Time to deploy: 3833ms
+edge: (2175,50500000)
+-------
+Time to deploy: 2480ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2300,22500000)
+Time to deploy: 2716ms
+edge: (5500,22500000)
+edge: (697.0000000000001,12500000)
+Time to deploy: 2381ms
+cloud: (1027.5,7500000)
+cloud: (1370.0000000000002,1390000)
+cloud: (1270,1390000.0000000002)
+cloud: (6350,62800000)
+Time to deploy: 3057ms
+edge: (1930.0000000000002,76650000)
+edge: (723,22500000)
+edge: (745.0000000000001,22500000)
+edge: (573,12500000)
+Time to deploy: 2795ms
+cloud: (2150,7500000)
+Time to deploy: 3316ms
+edge: (495,4480000)
+Time to deploy: 2928ms
+cloud: (1610,4480000)
+cloud: (4230,50500000)
+Time to deploy: 3493ms
+edge: (1350,46100000)
+-------
+Time to deploy: 2052ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2910,18000049)
+Time to deploy: 3601ms
+edge: (2750,22500000)
+edge: (723,16500000)
+edge: (737,15625000)
+edge: (537,3600000)
+Time to deploy: 3314ms
+cloud: (1341,1120000)
+cloud: (6475,59212500.00000001)
+Time to deploy: 3045ms
+edge: (1837.5,65100000)
+edge: (1224,NaN)
+edge: (841,NaN)
+edge: (643.0000000000001,NaN)
+edge: (573,NaN)
+edge: (453,NaN)
+edge: (429,NaN)
+edge: (1290,NaN)
+edge: (1470,NaN)
+-------
+Time to deploy: 2802ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2650.0000000000005,22500000)
+Time to deploy: 3149ms
+edge: (NaN,22500000)
+edge: (537.5,12500000)
+Time to deploy: 2495ms
+cloud: (2270,10000000.000000002)
+Time to deploy: 3331ms
+edge: (437.5,927583.3333333334)
+Time to deploy: 2585ms
+cloud: (1430.0000000000002,1140000)
+cloud: (7520,62800000)
+Error in move to edge: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+cloud: (5150,94200000)
+Time to deploy: 45ms
+edge: (831,22500000)
+edge: (787,18750000)
+edge: (514.1666666666666,10416666.666666666)
+Time to deploy: 2858ms
+cloud: (2210,10000000.000000002)
+Time to deploy: 2781ms
+edge: (518.3333333333334,3766666.6666666665)
+Error in move to cloud: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+edge: (1075,7062500)
+edge: (3189.9999999999995,40400000)
+edge: (3290,40400000)
+-------
+Time to deploy: 39ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2710.0000000000005,22500000)
+Time to deploy: 3450ms
+edge: (NaN,22500000)
+edge: (675,12500000)
+Time to deploy: 2579ms
+cloud: (2290.0000000000005,10000000.000000002)
+Time to deploy: 3668ms
+edge: (571.0000000000001,1410000)
+Error in move to cloud: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+edge: (1214.9999999999998,1410000)
+edge: (4712.5,78500000)
+edge: (4209.999999999999,94200000)
+edge: (1919.9999999999998,33700000.00000001)
+edge: (1639.9999999999998,27000000)
+edge: (1483.9999999999998,12500000)
+edge: (1466,10000000.000000002)
+edge: (953,4520000.000000001)
+Time to deploy: 39ms
+cloud: (1630.0000000000002,5610000)
+cloud: (4390,50500000)
+Time to deploy: 3259ms
+edge: (1490.0000000000002,41170000)
+-------
+Time to deploy: 2191ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (1883.3333333333333,22500000)
+Time to deploy: 3689ms
+edge: (NaN,22500000)
+edge: (717,12500000)
+Time to deploy: 2580ms
+cloud: (1965,12500000)
+Time to deploy: 2929ms
+edge: (806.25,1390000)
+Time to deploy: 2712ms
+cloud: (1356.25,1410000)
+cloud: (4987.5,78500000.00000001)
+Time to deploy: 3151ms
+edge: (3375,78500000.00000001)
+edge: (825,22500000)
+edge: (866.0000000000001,22500000)
+edge: (647,12500000)
+Time to deploy: 2994ms
+cloud: (1996.2500000000002,12500000)
+Time to deploy: 3533ms
+edge: (956.25,5590000)
+Time to deploy: 2079ms
+cloud: (1581,5570000.000000001)
+cloud: (3580,50500000)
+Time to deploy: 3783ms
+edge: (2475,50500000)
+-------
+Time to deploy: 2253ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2730,22500000)
+Error in move to edge: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+cloud: (2816.6666666666665,22500000)
+Time to deploy: 38ms
+edge: (639,12500000)
+Time to deploy: 2539ms
+cloud: (1938.75,9375000)
+Time to deploy: 3316ms
+edge: (648,1425000)
+Time to deploy: 2678ms
+cloud: (1718.3333333333333,1400000)
+cloud: (6783.333333333333,62800000)
+Error in move to edge: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+cloud: (5392.857142857142,67285714.28571428)
+Time to deploy: 37ms
+edge: (1415.8333333333333,22500000)
+edge: (807,22500000)
+edge: (721.0000000000001,12500000)
+Time to deploy: 2949ms
+cloud: (1998.75,9375000)
+Time to deploy: 2858ms
+edge: (1023.75,6987500)
+edge: (501,5590000)
+Time to deploy: 2083ms
+cloud: (668.3333333333333,50500000)
+cloud: (4410,50500000)
+-------
+Time to deploy: 33ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2775,22500000)
+Time to deploy: 3235ms
+edge: (2650,18000000)
+edge: (729,12500000)
+Time to deploy: 2370ms
+cloud: (2383.3333333333335,10000000.000000002)
+Time to deploy: 3466ms
+edge: (892.0000000000001,1330000)
+Time to deploy: 2480ms
+cloud: (1137.5,1120000)
+cloud: (6850,58875000)
+Time to deploy: 3683ms
+edge: (3574.9999999999995,88800000)
+edge: (1165,22500000)
+edge: (899.0000000000001,22500000)
+edge: (679.0000000000001,12500000)
+Time to deploy: 2757ms
+cloud: (2383.3333333333335,12500000)
+Time to deploy: 3052ms
+edge: (961.0000000000001,4710000)
+Time to deploy: 2887ms
+cloud: (1791.2499999999998,5550000)
+cloud: (3075,40400000)
+Time to deploy: 3184ms
+edge: (3150,50500000)
+-------
+Time to deploy: 2038ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2341.6666666666665,22500000)
+Time to deploy: 3178ms
+edge: (915,22500000)
+edge: (619.0000000000001,12500000)
+Time to deploy: 2971ms
+cloud: (2070,12500000)
+Time to deploy: 3392ms
+edge: (431,1410000)
+Time to deploy: 2073ms
+cloud: (1330,1720000.0000000002)
+cloud: (6690,78500000.00000001)
+Time to deploy: 2598ms
+edge: (2110.0000000000005,94200000)
+edge: (910,22500000)
+edge: (831,22500000)
+edge: (663,12500000)
+Time to deploy: 2329ms
+cloud: (2090,12500000)
+Error in move to edge: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+cloud: (1141,5590000)
+cloud: (1241.9999999999998,6937500)
+cloud: (3369.9999999999995,40400000)
+Time to deploy: 35ms
+edge: (1410,50500000)
+-------
+Time to deploy: 2591ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2670,22500000)
+Time to deploy: 3103ms
+edge: (991,22500000)
+edge: (635,12500000)
+Time to deploy: 2535ms
+cloud: (2150,12500000)
+Time to deploy: 3323ms
+edge: (483,1120000)
+Time to deploy: 2648ms
+cloud: (1310.0000000000002,933333.3333333333)
+cloud: (6550.000000000001,62800000)
+Time to deploy: 3533ms
+edge: (2537.5,82600000.00000001)
+edge: (853,22500000)
+edge: (855,22500000)
+edge: (633,12500000)
+Time to deploy: 2908ms
+cloud: (2030,10000000.000000002)
+Time to deploy: 2812ms
+edge: (515,4460000.000000001)
+Time to deploy: 3009ms
+cloud: (1650,4520000.000000001)
+cloud: (4270,50500000)
+Time to deploy: 3003ms
+edge: (1350,37083333.33333333)
+-------
+Time to deploy: 2162ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2750,22500000)
+Time to deploy: 3063ms
+edge: (NaN,22500000)
+edge: (946,12500000)
+Time to deploy: 2259ms
+cloud: (2181.25,12500000)
+Time to deploy: 3316ms
+edge: (722.0000000000001,1410000)
+Time to deploy: 2331ms
+cloud: (1436.25,1450000)
+cloud: (4250.000000000001,98125000)
+Time to deploy: 3646ms
+edge: (2125,94200000)
+edge: (1095,22500000)
+edge: (1132,22500000)
+edge: (861,12500000)
+Time to deploy: 2621ms
+cloud: (1878.75,12500000)
+Time to deploy: 3088ms
+edge: (809.0000000000001,5650000)
+Time to deploy: 2721ms
+cloud: (1553.7500000000002,5590000)
+cloud: (3500.0000000000005,50500000)
+Time to deploy: 3284ms
+edge: (2550,50500000)
+-------
+Error in move to cloud: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2870,22500000)
+Time to deploy: 2905ms
+edge: (Infinity,22500000)
+edge: (715.0000000000001,12500000)
+Time to deploy: 2422ms
+cloud: (1410,12500000)
+cloud: (1330,1410000)
+cloud: (1060,1410000)
+cloud: (5100,78500000.00000001)
+Time to deploy: 3316ms
+edge: (1370.0000000000002,78500000.00000001)
+edge: (1268.0000000000002,22500000)
+edge: (823,22500000)
+edge: (595.0000000000001,12500000)
+Time to deploy: 2793ms
+cloud: (1410,12500000)
+cloud: (1730,5590000)
+cloud: (1610,4691666.666666667)
+cloud: (3540,50500000)
+Time to deploy: 3821ms
+edge: (1880.0000000000002,50500000)
+-------
+Time to deploy: 3094ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (3412.5,22500000)
+Time to deploy: 3555ms
+edge: (1070.0000000000002,27000000)
+edge: (691.0000000000001,12500000)
+Time to deploy: 2873ms
+cloud: (1941.6666666666665,12500000)
+Time to deploy: 2780ms
+edge: (599,1640000)
+Error in move to cloud: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+edge: (916.9999999999998,1640000)
+Time to deploy: 50ms
+cloud: (6330.000000000001,78500000.00000001)
+Time to deploy: 2947ms
+edge: (1975,78500000.00000001)
+edge: (811,22500000)
+edge: (874,27000000)
+edge: (667.0000000000001,12500000)
+Time to deploy: 3300ms
+cloud: (1825,12500000)
+Time to deploy: 3246ms
+edge: (641,5590000)
+Time to deploy: 2394ms
+cloud: (1790,5590000)
+cloud: (4490.000000000001,60600000)
+Time to deploy: 3433ms
+edge: (1430.0000000000002,50500000)
+-------
+Time to deploy: 2561ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (1860,22500000)
+Time to deploy: 3294ms
+edge: (Infinity,22500000)
+edge: (711,12500000)
+Time to deploy: 2411ms
+cloud: (1005,12500000)
+cloud: (1840.0000000000002,1410000)
+Time to deploy: 3519ms
+edge: (1085,1410000)
+edge: (1427.0000000000002,78500000.00000001)
+edge: (2290.0000000000005,78500000.00000001)
+edge: (1666.0000000000002,22500000)
+edge: (807,22500000)
+edge: (693,12500000)
+Time to deploy: 2759ms
+cloud: (940,12500000)
+cloud: (1790,5570000.000000001)
+cloud: (1630.0000000000002,5590000)
+cloud: (4037.5000000000005,50500000)
+Time to deploy: 3131ms
+edge: (2712.5,42083333.33333333)
+-------
+Time to deploy: 2021ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2730,18000049)
+Time to deploy: 3474ms
+edge: (1090,22500000)
+edge: (793,NaN)
+edge: (749,NaN)
+edge: (455,NaN)
+edge: (523.0000000000001,NaN)
+edge: (2370,NaN)
+edge: (2690,NaN)
+edge: (938.0000000000001,NaN)
+edge: (908.0000000000001,NaN)
+edge: (659,NaN)
+edge: (797.0000000000001,NaN)
+edge: (539,NaN)
+edge: (527,NaN)
+edge: (1410,NaN)
+edge: (1470,NaN)
+-------
+Time to deploy: 2869ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2790,22500000)
+Time to deploy: 2505ms
+edge: (1261,22500000)
+edge: (711,12500000)
+Time to deploy: 2635ms
+cloud: (2190,12500000)
+Error in move to edge: {"code":"ECONNRESET","path":null,"host":"10.96.0.1","port":"443"}
+cloud: (1067,1410000)
+cloud: (971.9999999999999,1410000)
+cloud: (3991.6666666666665,78500000)
+Time to deploy: 35ms
+edge: (2290.0000000000005,78500000.00000001)
+edge: (849,22500000)
+edge: (856,22500000)
+edge: (567,12500000)
+Time to deploy: 3007ms
+cloud: (2110.0000000000005,12500000)
+Time to deploy: 3232ms
+edge: (515,5590000)
+Time to deploy: 2110ms
+cloud: (1610,5610000)
+cloud: (4350,63124999.99999999)
+Time to deploy: 3394ms
+edge: (1670,50500000)
+-------
+Time to deploy: 2286ms

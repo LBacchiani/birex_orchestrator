@@ -74,7 +74,7 @@ async function apply(i, specPath, zone) {
   return created;
 }
 
-async function setSizes(inc = true) {
+async function setSizes() {
   for(let i = 0; i < 3; i++) {
     await fetch(`http://birex-collector-${i+1}:8080/birexcollector/actions/setSizes`, {
       method: 'POST',
@@ -85,7 +85,7 @@ async function setSizes(inc = true) {
       body: JSON.stringify({ minSize: multi_sizes[i][index % multi_sizes[i].length], maxSize: multi_sizes[i][index % multi_sizes[i].length] })
     });
   }
-  if(inc) index = index + 1
+  index = index + 1
 }
 
 function retrieveLatency(i) {return prom.instantQuery(`irate(istio_request_duration_milliseconds_sum{app="alerting-${i+1}"}[30s]) / irate(istio_requests_total{app="alerting-${i+1}"}[30s])`)}
@@ -132,8 +132,7 @@ function retrieveMultipleBytes(latencies) {
 
 async function monitoring() {
   let i = 0
-  setSizes(false)
-  await sleep(60000)
+  await sleep(10000)
   while (i < 16) {
     if (i % 2 == 0) setSizes()
     await sleep(30000)
