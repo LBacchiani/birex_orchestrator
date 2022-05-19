@@ -1,6 +1,8 @@
 #!/bin/bash
 while true
 do
+        kubectl apply -f pipelines/generator-ip.yaml
+        kubectl apply -f pipelines/generator.yaml
         kubectl apply -k pipelines/pipeline1
         kubectl apply -k pipelines/pipeline2
         kubectl apply -k pipelines/pipeline3
@@ -8,6 +10,8 @@ do
         kubectl apply -f orchestrator.yaml
         sleep 11m
         kubectl logs multiple-orchestrator >> multiple_orchestrator.log
+        kubectl remove -f pipelines/generator-ip.yaml
+        kubectl remove -f pipelines/generator.yaml
         kubectl delete -k pipelines/pipeline1
         kubectl delete -k pipelines/pipeline2
         kubectl delete -k pipelines/pipeline3
