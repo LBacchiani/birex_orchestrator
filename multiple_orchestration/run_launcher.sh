@@ -10,8 +10,8 @@ do
         kubectl apply -f orchestrator.yaml
         sleep 11m
         kubectl logs multiple-orchestrator >> multiple_orchestrator.log
-        kubectl remove -f pipelines/generator-ip.yaml
-        kubectl remove -f pipelines/generator.yaml
+        kubectl delete -f pipelines/generator-ip.yaml
+        kubectl delete -f pipelines/generator.yaml
         kubectl delete -k pipelines/pipeline1
         kubectl delete -k pipelines/pipeline2
         kubectl delete -k pipelines/pipeline3
