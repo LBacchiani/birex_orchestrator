@@ -35,8 +35,7 @@ const prom = new PrometheusDriver({
 function sleep(ms) { return new Promise(resolve => setTimeout(resolve, ms)); }
 
 function safeDelete(i, z) {
-  k8sApi.deleteNamespacedPod((zone[i] == "cloud") ? `processor-cloud-${i + 1}` : `processor-edge-${i + 1}`, 'default', true)
-    .catch(err => { console.log("Error from safeDelete catch: ", JSON.stringify(err)) });
+  k8sApi.deleteNamespacedPod(`processor-${zone[i]}-${i + 1}`, 'default', true).catch(err => { console.log("Error from safeDelete catch: ", JSON.stringify(err)) });
   zone[i] = z
 }
 
@@ -112,9 +111,7 @@ function retrieveMultipleBytes(latencies) {
   Promise.all([retrieveBytes, retrieveBytes, retrieveBytes].map((func, i) => func(i))).then((result) => {
     const bytes = result.map(serie => serie.result.filter(r => !isNaN(r.value.value))[0].value.value)
     var toPrint = ``
-    for (let i = 0; i < 3; i++) {
-      toPrint += `Pipeline${i + 1}[zone:${zone[i]}]:(${latencies[i]},${bytes[i]}) `
-    }
+    for (let i = 0; i < 3; i++) toPrint += `Pipeline${i + 1}[zone:${zone[i]}]:(${latencies[i]},${bytes[i]})`
     console.log(toPrint)
     if (times % 16 == 0) console.log("-------")
     var max = Math.max(...latencies)
