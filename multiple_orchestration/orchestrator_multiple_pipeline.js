@@ -98,7 +98,7 @@ async function retrieveLatencies() {
   Promise.all([retrieveLatency, retrieveLatency, retrieveLatency].map((func, i) => func(i))).then((result) => {
     const latencies = result.map(serie => serie.result.filter(r => !isNaN(r.value.value))[0].value.value)
     retrieveMultipleBytes(latencies)
-  }).catch(err => console.log("Retrieve LATENCY error: ", JSON.stringify(err)));
+  })
 }
 
 function moveToEdge(i) { apply(i, path + (i + 1) + processor_edge, "edge").catch(err => { console.log("Error from moveToEdge: ", JSON.stringify(err)) }) }
@@ -131,7 +131,7 @@ function retrieveMultipleBytes(latencies) {
         }
       } else if (zone[index] == "edge" && max < 1000 * 1 && bytes[index] < 65 * 65 * 3500) moveToCloud(index)
     }
-  }).catch(err => console.log("Retrieve BYTES error: ", JSON.stringify(err)));
+  })
 }
 
 async function monitoring() {
