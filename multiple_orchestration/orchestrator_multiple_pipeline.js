@@ -111,7 +111,7 @@ function retrieveMultipleBytes(latencies) {
   Promise.all([retrieveBytes, retrieveBytes, retrieveBytes].map((func, i) => func(i))).then((result) => {
     const bytes = result.map(serie => serie.result.filter(r => !isNaN(r.value.value))[0].value.value)
     var toPrint = ``
-    for (let i = 0; i < 3; i++) toPrint += `Pipeline${i + 1}[zone:${zone[i]}]:(${latencies[i]},${bytes[i]})`
+    for (let i = 0; i < 3; i++) toPrint += `Pipeline${i + 1}[zone:${zone[i]}]:(${latencies[i]},${bytes[i]}) `
     console.log(toPrint)
     if (times % 16 == 0) console.log("-------")
     var max = Math.max(...latencies)
