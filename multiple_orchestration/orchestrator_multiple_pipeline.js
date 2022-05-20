@@ -16,9 +16,9 @@ const endpoint = "http://10.244.1.3:9090";
 const baseURL = "/api/v1" // default value
 const path = '/usr/src/app/pipelines/pipeline'
 const processor_cloud = '/processor-cloud.yaml'
-const processor_edge =  '/processor-edge.yaml'
-const multi_sizes = [[80, 60, 20, 150, 80, 60, 40, 120],[60, 40, 120, 80, 60, 20, 150, 80],[20, 150, 80, 60, 40, 120, 80, 60]]
-var zone = ["cloud","cloud","cloud"]
+const processor_edge = '/processor-edge.yaml'
+const multi_sizes = [[80, 60, 20, 150, 80, 60, 40, 120], [60, 40, 120, 80, 60, 20, 150, 80], [20, 150, 80, 60, 40, 120, 80, 60]]
+var zone = ["cloud", "cloud", "cloud"]
 var times = 0
 var index = 0
 
@@ -32,11 +32,11 @@ const prom = new PrometheusDriver({
   baseURL
 });
 
-function sleep(ms) {return new Promise(resolve => setTimeout(resolve, ms));}
+function sleep(ms) { return new Promise(resolve => setTimeout(resolve, ms)); }
 
 function safeDelete(i, z) {
-  k8sApi.deleteNamespacedPod((zone[i] == "cloud") ? `processor-cloud-${i+1}` : `processor-edge-${i+1}`, 'default', true)
-  .catch(err => { console.log(JSON.stringify(err))});
+  k8sApi.deleteNamespacedPod((zone[i] == "cloud") ? `processor-cloud-${i + 1}` : `processor-edge-${i + 1}`, 'default', true)
+    .catch(err => { console.log("Error from safeDelete catch: ", JSON.stringify(err)) });
   zone[i] = z
 }
 
@@ -66,6 +66,8 @@ async function apply(i, specPath, zone) {
       // we did not get the resource, so it does not exist, so create it
       const response = await client.create(spec);
       created.push(response.body);
+      let res = await client.read(spec);
+      while (res.body.status.phase == "Pending") res = await client.read(spec);
     }
   }
   const stop = new Date()
@@ -75,59 +77,61 @@ async function apply(i, specPath, zone) {
 }
 
 async function setSizes() {
-  for(let i = 0; i < 3; i++) {
-    await fetch(`http://birex-collector-${i+1}:8080/birexcollector/actions/setSizes`, {
+  for (let i = 0; i < 3; i++) {
+    let res = await fetch(`http://birex-collector-${i + 1}:8080/birexcollector/actions/setSizes`, {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({ minSize: multi_sizes[i][index % multi_sizes[i].length], maxSize: multi_sizes[i][index % multi_sizes[i].length] })
+    }).catch(error => {
+      console.log('SetSizes failed ' + JSON.stringify(error));
     });
   }
   index = index + 1
 }
 
-function retrieveLatency(i) {return prom.instantQuery(`irate(istio_request_duration_milliseconds_sum{app="alerting-${i+1}"}[30s]) / irate(istio_requests_total{app="alerting-${i+1}"}[30s])`)}
+function retrieveLatency(i) { return prom.instantQuery(`irate(istio_request_duration_milliseconds_sum{app="alerting-${i + 1}"}[30s]) / irate(istio_requests_total{app="alerting-${i + 1}"}[30s])`) }
 
 async function retrieveLatencies() {
-  Promise.all([retrieveLatency, retrieveLatency, retrieveLatency].map((func,i) => func(i))).then((result) => {
+  Promise.all([retrieveLatency, retrieveLatency, retrieveLatency].map((func, i) => func(i))).then((result) => {
     const latencies = result.map(serie => serie.result.filter(r => !isNaN(r.value.value))[0].value.value)
     retrieveMultipleBytes(latencies)
-  }).catch(console.error);
+  }).catch(err => console.log("Retrieve LATENCY error: ", JSON.stringify(err)));
 }
 
-function moveToEdge(i) {apply(i, path + (i+1) + processor_edge, "edge").catch(err => { console.log(JSON.stringify(err))})}
+function moveToEdge(i) { apply(i, path + (i + 1) + processor_edge, "edge").catch(err => { console.log("Error from moveToEdge: ", JSON.stringify(err)) }) }
 
-function moveToCloud(i) {apply(i, path + (i+1) + processor_cloud, "cloud").catch(err => { console.log(JSON.stringify(err))})}
+function moveToCloud(i) { apply(i, path + (i + 1) + processor_cloud, "cloud").catch(err => { console.log("Error from moveToCloud: ", JSON.stringify(err)) }) }
 
-function retrieveBytes(i) {return prom.instantQuery(`irate(istio_response_bytes_sum{app="collector-${i+1}", source_canonical_service="unknown"}[30s]) / irate(istio_requests_total{app="collector-${i+1}", source_canonical_service="unknown"}[30s])`)}
+function retrieveBytes(i) { return prom.instantQuery(`irate(istio_response_bytes_sum{app="collector-${i + 1}", source_canonical_service="unknown"}[30s]) / irate(istio_requests_total{app="collector-${i + 1}", source_canonical_service="unknown"}[30s])`) }
 
 function retrieveMultipleBytes(latencies) {
   times = times + 1
-  Promise.all([retrieveBytes, retrieveBytes, retrieveBytes].map((func,i) => func(i))).then((result) => {
+  Promise.all([retrieveBytes, retrieveBytes, retrieveBytes].map((func, i) => func(i))).then((result) => {
     const bytes = result.map(serie => serie.result.filter(r => !isNaN(r.value.value))[0].value.value)
     var toPrint = ``
-    for(let i = 0; i < 3; i++) {
-      toPrint += `Pipeline${i+1}[zone:${zone[i]}]:(${latencies[i]},${bytes[i]}) `
+    for (let i = 0; i < 3; i++) {
+      toPrint += `Pipeline${i + 1}[zone:${zone[i]}]:(${latencies[i]},${bytes[i]}) `
     }
     console.log(toPrint)
     if (times % 16 == 0) console.log("-------")
     var max = Math.max(...latencies)
     const index = latencies.indexOf(max);
-    if(times % 16 != 0){
-      if(max > 1000 * 1.8) {
-        if(zone.filter(z => z == "edge").length == 0) moveToEdge(index)
+    if (times % 16 != 0) {
+      if (max > 1000 * 1.8) {
+        if (zone.filter(z => z == "edge").length == 0) moveToEdge(index)
         else {
           const edge_index = zone.indexOf("edge")
-          if(edge_index != index) {
+          if (edge_index != index) {
             moveToCloud(edge_index)
             moveToEdge(index)
           }
         }
-      } else if(zone[index] == "edge" && max < 1000 * 1 && bytes[index] < 65 * 65 * 3500) moveToCloud(index)
+      } else if (zone[index] == "edge" && max < 1000 * 1 && bytes[index] < 65 * 65 * 3500) moveToCloud(index)
     }
-  }).catch(console.error);
+  })(err => console.log("Retrieve BYTES error: ", JSON.stringify(err)));
 }
 
 async function monitoring() {
