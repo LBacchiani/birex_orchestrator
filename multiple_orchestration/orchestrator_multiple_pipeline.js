@@ -12,7 +12,7 @@ const kc = new k8s.KubeConfig();
 kc.loadFromDefault();
 const k8sApi = kc.makeApiClient(k8s.CoreV1Api);
 
-const endpoint = "http://10.244.1.3:9090";
+const endpoint = "http://10.244.1.23:9090";
 const baseURL = "/api/v1" // default value
 const path = '/usr/src/app/pipelines/pipeline'
 const processor_cloud = '/processor-cloud.yaml'
