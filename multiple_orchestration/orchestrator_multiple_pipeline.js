@@ -131,7 +131,7 @@ function retrieveMultipleBytes(latencies) {
         }
       } else if (zone[index] == "edge" && max < 1000 * 1 && bytes[index] < 65 * 65 * 3500) moveToCloud(index)
     }
-  })(err => console.log("Retrieve BYTES error: ", JSON.stringify(err)));
+  }).catch(err => console.log("Retrieve BYTES error: ", JSON.stringify(err)));
 }
 
 async function monitoring() {
