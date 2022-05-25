@@ -77,39 +77,37 @@ async function apply(i, specPath, zone) {
 
 async function setSizes() {
   for (let i = 0; i < 3; i++) {
-    let res = await fetch(`http://birex-collector-${i + 1}:8080/birexcollector/actions/setSizes`, {
+    await fetch(`http://birex-collector-${i + 1}:8080/birexcollector/actions/setSizes`, {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({ minSize: multi_sizes[i][index % multi_sizes[i].length], maxSize: multi_sizes[i][index % multi_sizes[i].length] })
-    }).catch(error => {
-      console.log('SetSizes failed ' + JSON.stringify(error));
-    });
+    }).catch(error => {console.log('SetSizes failed ' + JSON.stringify(error))});
   }
   index = index + 1
-}
-
-function retrieveLatency(i) { return prom.instantQuery(`irate(istio_request_duration_milliseconds_sum{app="alerting-${i + 1}"}[30s]) / irate(istio_requests_total{app="alerting-${i + 1}"}[30s])`) }
-
-async function retrieveLatencies() {
-  Promise.all([retrieveLatency, retrieveLatency, retrieveLatency].map((func, i) => func(i))).then((result) => {
-    const latencies = result.map(serie => serie.result.filter(r => !isNaN(r.value.value))[0].value.value)
-    retrieveMultipleBytes(latencies)
-  })
 }
 
 function moveToEdge(i) { apply(i, path + (i + 1) + processor_edge, "edge").catch(err => { console.log("Error from moveToEdge: ", JSON.stringify(err)) }) }
 
 function moveToCloud(i) { apply(i, path + (i + 1) + processor_cloud, "cloud").catch(err => { console.log("Error from moveToCloud: ", JSON.stringify(err)) }) }
 
-function retrieveBytes(i) { return prom.instantQuery(`irate(istio_response_bytes_sum{app="collector-${i + 1}", source_canonical_service="unknown"}[30s]) / irate(istio_requests_total{app="collector-${i + 1}", source_canonical_service="unknown"}[30s])`) }
+function retrieveStats(i) {
+  return fetch(`http://birex-processor-${i + 1}:3000/birexcollector/actions/setSizes`, {
+    method: 'GET',
+    headers: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json'
+    })
+}
 
-function retrieveMultipleBytes(latencies) {
+function retrieveMetrics() {
   times = times + 1
-  Promise.all([retrieveBytes, retrieveBytes, retrieveBytes].map((func, i) => func(i))).then((result) => {
-    const bytes = result.map(serie => serie.result.filter(r => !isNaN(r.value.value))[0].value.value)
+  Promise.all([retrieveStats, retrieveStats, retrieveStats].map((func, i) => func(i))).then((result) => {
+    console.log(JSON.stringify(result[0]))
+    let latencies = result.map(res => res.body.avgLatency)
+    let bytes = result.map(res => res.body.avgDataSize)
     var toPrint = ``
     for (let i = 0; i < 3; i++) toPrint += `Pipeline${i + 1}[zone:${zone[i]}]:(${latencies[i]},${bytes[i]}) `
     console.log(toPrint)
@@ -138,7 +136,7 @@ async function monitoring() {
     if (i % 2 == 0) setSizes()
     await sleep(30000)
     i = i + 1
-    await retrieveLatencies()
+    await retrieveMetrics()
   }
 }
 
