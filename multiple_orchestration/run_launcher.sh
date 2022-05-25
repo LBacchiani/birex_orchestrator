@@ -6,7 +6,6 @@ do
         kubectl apply -k pipelines/pipeline1
         kubectl apply -k pipelines/pipeline2
         kubectl apply -k pipelines/pipeline3
-        sleep 30
         kubectl apply -f orchestrator.yaml
         sleep 11m
         kubectl logs multiple-orchestrator >> multiple_orchestrator.log

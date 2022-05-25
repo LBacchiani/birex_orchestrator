@@ -99,7 +99,7 @@ function retrieveStats(i) {
     headers: {
       'Accept': 'application/json',
       'Content-Type': 'application/json'
-    })
+    }})
 }
 
 function retrieveMetrics() {
