@@ -65,8 +65,8 @@ async function apply(i, specPath, zone) {
       // we did not get the resource, so it does not exist, so create it
       const response = await client.create(spec);
       created.push(response.body);
-      let res = await client.read(spec);
-      while (res.body.status.phase == "Pending") res = await client.read(spec);
+      //let res = await client.read(spec);
+      //while (res.body.status.phase == "Pending") res = await client.read(spec);
     }
   }
   const stop = new Date()
