@@ -92,11 +92,13 @@ function moveToEdge() { apply(processor_edge, "edge").catch(err => { console.log
 
 function moveToCloud() { apply(processor_cloud, "cloud").catch(err => { console.log("Error in move to cloud: " + JSON.stringify(err)) }) }
 
+function resetStats() {return fetch(`http://birex-processor:3000/resetStats`)}
+
 function retrieveStats() {return fetch(`http://birex-processor:3000/getStats`).then(res => res.json())}
 
-function retrieveMetrics() {
+async function retrieveMetrics() {
   times = times + 1
-  Promise.all([retrieveStats].map((func) => func())).then((result) => {
+  await Promise.all([retrieveStats].map((func) => func())).then((result) => {
     let latency = result.map(res => res.avgLatency)[0]
     let bytes = result.map(res => res.avgDataSize)[0]
     console.log(zone + ": (" + latency + "," + bytes + ")")
@@ -109,11 +111,13 @@ function retrieveMetrics() {
 async function monitoring() {
   let i = 0
   await sleep(10000)
+  await resetStats()
   while (i < 16) {
     if (i % 2 == 0) setSize()
     await sleep(10000)
     i = i + 1
-    retrieveMetrics()
+    await retrieveMetrics()
+    await resetStats()
   }
   console.log("-------")
 }
