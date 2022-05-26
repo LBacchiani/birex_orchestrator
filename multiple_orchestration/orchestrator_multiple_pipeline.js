@@ -100,9 +100,9 @@ function resetStats(i) {return fetch(`http://birex-processor-${i + 1}:3000/reset
 
 function retrieveStats(i) {return fetch(`http://birex-processor-${i + 1}:3000/getStats`).then(res => res.json())}
 
-function retrieveMetrics() {
+async function retrieveMetrics() {
   times = times + 1
-  Promise.all([retrieveStats, retrieveStats, retrieveStats].map((func, i) => func(i))).then((async result) => {
+  await Promise.all([retrieveStats, retrieveStats, retrieveStats].map((func, i) => func(i))).then(result => {
     let latencies = result.map(res => res.avgLatency)
     let bytes = result.map(res => res.avgDataSize)
     var toPrint = ``
@@ -128,11 +128,13 @@ function retrieveMetrics() {
 async function monitoring() {
   let i = 0
   await sleep(10000)
+  await Promise.all([resetStats,resetStats,resetStats].map((func,i) => func(i)))
   while (i < 16) {
     if (i % 2 == 0) setSizes()
     await sleep(10000)
     i = i + 1
     await retrieveMetrics()
+    await Promise.all([resetStats,resetStats,resetStats].map((func,i) => func(i)))
   }
   console.log("-------")
 }
