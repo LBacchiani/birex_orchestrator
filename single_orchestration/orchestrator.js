@@ -102,8 +102,8 @@ async function retrieveMetrics() {
     let latency = result.map(res => res.avgLatency)[0]
     let bytes = result.map(res => res.avgDataSize)[0]
     console.log(zone + ": (" + latency + "," + bytes + ")")
-    if (zone == "cloud" && latency > 1000 * 1.8 && times % 16 != 0) moveToEdge()
-    else if ((zone == "edge" && latency < 1000 * 1 && bytes < 65 * 65 * 3500) || times % 16 == 0) moveToCloud()
+    if (zone == "cloud" && latency > 1000 * 1.8) moveToEdge()
+    else if (zone == "edge" && latency < 1000 * 1 && bytes < 65 * 65 * 3500) moveToCloud()
   }).catch(err => console.log("Error in retrieve bytes: " + JSON.stringify(err)))
 }
 

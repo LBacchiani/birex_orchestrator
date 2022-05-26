@@ -110,18 +110,16 @@ async function retrieveMetrics() {
     console.log(toPrint)
     var max = Math.max(...latencies)
     const index = latencies.indexOf(max);
-    if (times % 16 != 0) {
-      if (max > 1000 * 1.8) {
-        if (zone.filter(z => z == "edge").length == 0) moveToEdge(index)
-        else {
-          const edge_index = zone.indexOf("edge")
-          if (edge_index != index) {
-            moveToCloud(edge_index)
-            moveToEdge(index)
-          }
+    if (max > 1000 * 1.8) {
+      if (zone.filter(z => z == "edge").length == 0) moveToEdge(index)
+      else {
+        const edge_index = zone.indexOf("edge")
+        if (edge_index != index) {
+          moveToCloud(edge_index)
+          moveToEdge(index)
         }
-      } else if (zone[index] == "edge" && max < 1000 * 1 && bytes[index] < 65 * 65 * 3500) moveToCloud(index)
-    }
+      }
+    } else if (zone[index] == "edge" && max < 1000 * 1 && bytes[index] < 65 * 65 * 3500) moveToCloud(index)
   }).catch(err => {console.log('Retrieve metrics failed ' + JSON.stringify(err))})
 }
 
