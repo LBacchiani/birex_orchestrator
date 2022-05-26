@@ -11,9 +11,6 @@ import fetch from 'node-fetch';
 const kc = new k8s.KubeConfig();
 kc.loadFromDefault();
 const k8sApi = kc.makeApiClient(k8s.CoreV1Api);
-
-const endpoint = "http://10.244.1.23:9090";
-const baseURL = "/api/v1" // default value
 const path = '/usr/src/app/standalone'
 const processor_cloud = path + '/processor-cloud.yaml'
 const processor_edge = path + '/processor-edge.yaml'
@@ -26,11 +23,6 @@ var index = 0
 const app = express();
 const PORT = 8081;
 const HOST = '0.0.0.0';
-
-const prom = new PrometheusDriver({
-  endpoint,
-  baseURL
-});
 
 function sleep(ms) { return new Promise(resolve => setTimeout(resolve, ms)); }
 
