@@ -96,6 +96,8 @@ function moveToEdge(i) { apply(i, path + (i + 1) + processor_edge, "edge").catch
 
 function moveToCloud(i) { apply(i, path + (i + 1) + processor_cloud, "cloud").catch(err => { console.log("Error from moveToCloud: ", JSON.stringify(err)) }) }
 
+function resetStats(i) {return fetch(`http://birex-processor-${i + 1}:3000/resetStats`)}
+
 function retrieveStats(i) {return fetch(`http://birex-processor-${i + 1}:3000/getStats`).then(res => res.json())}
 
 function retrieveMetrics() {
@@ -126,8 +128,9 @@ function retrieveMetrics() {
 async function monitoring() {
   let i = 0
   await sleep(10000)
+  Promise.all(resetStats,resetStats,resetStats).map((func, i) => func(i))
   while (i < 16) {
-    if (i % 2 == 0) setSizes()
+    if (i % 2 == 0) Promise.all(resetStats,resetStats,resetStats).map((func, i) => func(i)).then(_ => setSizes())
     await sleep(10000)
     i = i + 1
     await retrieveMetrics()
