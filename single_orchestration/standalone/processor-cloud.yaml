@@ -16,7 +16,7 @@ spec:
                 values:
                   - cloud
   containers:
-    - image: lukesmolo/public:birex-process_0.0.2
+    - image: lukesmolo/public:birex-process_0.0.3
       name: birex-processor
       env:
       - name: COLLECTOR_URL
