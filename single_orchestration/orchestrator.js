@@ -94,13 +94,15 @@ function moveToCloud() { apply(processor_cloud, "cloud").catch(err => { console.
 
 function launchQuery(query) { return prom.instantQuery(query) }
 
+function retrieveStats(i) {return fetch(`http://birex-processor-${i + 1}:3000/getStats`).then(res => res.json())}
+
+
 function retrieveLatency() {
   var query = ['irate(istio_request_duration_milliseconds_sum{app="alerting",response_code="200"}[30s])',
     'irate(istio_requests_total{app="alerting",response_code="200"}[30s])']
   Promise.all([launchQuery, launchQuery].map((func, i) => func(query[i]))).then((result) => {
-    var cleaned_result = result.map(serie => serie.result.filter(r => !isNaN(r.value.value)).map(r => r.value.value))
-    var latency_sum = 0
-    var request_sum = 0
+    let latencies = result.map(res => res.avgLatency)
+    let bytes = result.map(res => res.avgDataSize)
     for (let i = 0; i < cleaned_result[0].length; i++) {
       latency_sum += cleaned_result[0][i]
       request_sum += cleaned_result[1][i]
@@ -110,18 +112,10 @@ function retrieveLatency() {
 }
 
 function retrieveBytes(latency) {
-  var query = ['irate(istio_response_bytes_sum{app="collector", source_canonical_service="unknown",response_code="200"}[30s])',
-    'irate(istio_requests_total{app="collector", source_canonical_service="unknown",response_code="200"}[30s])']
   times = times + 1
-  Promise.all([launchQuery, launchQuery].map((func, i) => func(query[i]))).then((result) => {
-    var cleaned_result = result.map(serie => serie.result.filter(r => !isNaN(r.value.value)).map(r => r.value.value))
-    var byte_sum = 0
-    var request_sum = 0
-    for (let i = 0; i < cleaned_result[0].length; i++) {
-      byte_sum += cleaned_result[0][i]
-      request_sum += cleaned_result[1][i]
-    }
-    var bytes = byte_sum / request_sum
+  Promise.all([retrieveStats].map((func, i) => func(query[i]))).then((result) => {
+    let latency = result.map(res => res.avgLatency)[0]
+    let bytes = result.map(res => res.avgDataSize)[0]
     console.log(zone + ": (" + latency + "," + bytes + ")")
     if (times % 16 == 0) console.log("-------")
     if (zone == "cloud" && latency > 1000 * 1.8 && times % 16 != 0) moveToEdge()
