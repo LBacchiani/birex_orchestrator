@@ -104,11 +104,10 @@ function retrieveStats() {return fetch(`http://birex-processor:3000/getStats`).t
 
 function retrieveMetrics() {
   times = times + 1
-  Promise.all([retrieveStats].map((func, i) => func(query[i]))).then((result) => {
+  Promise.all([retrieveStats].map((func) => func())).then((result) => {
     let latency = result.map(res => res.avgLatency)[0]
     let bytes = result.map(res => res.avgDataSize)[0]
     console.log(zone + ": (" + latency + "," + bytes + ")")
-    if (times % 16 == 0) console.log("-------")
     if (zone == "cloud" && latency > 1000 * 1.8 && times % 16 != 0) moveToEdge()
     else if ((zone == "edge" && latency < 1000 * 1 && bytes < 65 * 65 * 3500) || times % 16 == 0) moveToCloud()
   }).catch(err => console.log("Error in retrieve bytes: " + JSON.stringify(err)))
@@ -124,6 +123,7 @@ async function monitoring() {
     i = i + 1
     retrieveMetrics()
   }
+  console.log("-------")
 }
 
 monitoring()
