@@ -93,21 +93,13 @@ function moveToEdge(i) { apply(i, path + (i + 1) + processor_edge, "edge").catch
 
 function moveToCloud(i) { apply(i, path + (i + 1) + processor_cloud, "cloud").catch(err => { console.log("Error from moveToCloud: ", JSON.stringify(err)) }) }
 
-function retrieveStats(i) {
-  return fetch(`http://birex-processor-${i + 1}:3000/birexcollector/actions/setSizes`, {
-    method: 'GET',
-    headers: {
-      'Accept': 'application/json',
-      'Content-Type': 'application/json'
-    }})
-}
+function retrieveStats(i) {return fetch(`http://birex-processor-${i + 1}:3000/getStats`).then(res => res.json())}
 
 function retrieveMetrics() {
   times = times + 1
   Promise.all([retrieveStats, retrieveStats, retrieveStats].map((func, i) => func(i))).then((result) => {
-    console.log(JSON.stringify(result[0]))
-    let latencies = result.map(res => res.body.avgLatency)
-    let bytes = result.map(res => res.body.avgDataSize)
+    let latencies = result.map(res => res.avgLatency)
+    let bytes = result.map(res => res.avgDataSize)
     var toPrint = ``
     for (let i = 0; i < 3; i++) toPrint += `Pipeline${i + 1}[zone:${zone[i]}]:(${latencies[i]},${bytes[i]}) `
     console.log(toPrint)
@@ -126,7 +118,7 @@ function retrieveMetrics() {
         }
       } else if (zone[index] == "edge" && max < 1000 * 1 && bytes[index] < 65 * 65 * 3500) moveToCloud(index)
     }
-  })
+  }).catch(err => {console.log('Retrieve metrics failed ' + JSON.stringify(err))})
 }
 
 async function monitoring() {
