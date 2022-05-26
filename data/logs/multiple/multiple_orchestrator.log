@@ -1,368 +1,1368 @@
-Pipeline1[zone:cloud]:(2780.6666666666665,19739733.333333332) Pipeline2[zone:cloud]:(2206.6666666666665,11098800) Pipeline3[zone:cloud]:(1183.3333333333333,831082.6666666666) 
-Time to deploy: 85ms
-Pipeline1[zone:edge]:(910,19766400) Pipeline2[zone:cloud]:(2264.3333333333335,11094000) Pipeline3[zone:cloud]:(1573.3333333333333,1232400) 
-Time to deploy: 77ms
-Time to deploy: 98ms
-Pipeline1[zone:cloud]:(2275,11089800) Pipeline2[zone:edge]:(303,4923200) Pipeline3[zone:cloud]:(6650.5,69311250) 
-Time to deploy: 84ms
-Time to deploy: 91ms
-Pipeline1[zone:cloud]:(2305.5,11084400) Pipeline2[zone:cloud]:(1833.5,4938400) Pipeline3[zone:edge]:(1366,69525000) 
-Time to deploy: 70ms
-Time to deploy: 79ms
-Pipeline1[zone:edge]:(259,1230200) Pipeline2[zone:cloud]:(4914.5,44395200) Pipeline3[zone:cloud]:(3023,19718400) 
-Time to deploy: 107ms
-Time to deploy: 115ms
-Pipeline1[zone:cloud]:(1509.5,1235000) Pipeline2[zone:edge]:(915,44452800) Pipeline3[zone:cloud]:(2744,19748800) 
-Time to deploy: 65ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator_multiple_pipeline.js
+
+Pipeline1[zone:cloud]:(2683.3333333333335,19735466.666666668) Pipeline2[zone:cloud]:(2116.6666666666665,11095200) Pipeline3[zone:cloud]:(1264,1232533.3333333333) 
 Time to deploy: 87ms
-Pipeline1[zone:cloud]:(4244.5,35289900) Pipeline2[zone:cloud]:(3474,19712000) Pipeline3[zone:edge]:(530,11077200) 
-Time to deploy: 135ms
-Time to deploy: 150ms
-Pipeline1[zone:edge]:(1612,69345000) Pipeline2[zone:cloud]:(2849,19745600) Pipeline3[zone:cloud]:(2214,11100600) 
-Time to deploy: 77ms
-Time to deploy: 84ms
-Pipeline1[zone:cloud]:(2704,19737600) Pipeline2[zone:edge]:(441,11102400) Pipeline3[zone:cloud]:(1925.25,6477300) 
-Time to deploy: 105ms
-Time to deploy: 119ms
-Pipeline1[zone:edge]:(952,19740800) Pipeline2[zone:cloud]:(2574,11106000) Pipeline3[zone:cloud]:(1741.3333333333333,4931200) 
-Time to deploy: 95ms
-Time to deploy: 115ms
-Pipeline1[zone:cloud]:(2239,11093400) Pipeline2[zone:edge]:(461,1234400) Pipeline3[zone:cloud]:(4441.5,44380800) 
-Time to deploy: 81ms
-Time to deploy: 94ms
-Pipeline1[zone:cloud]:(2275.5,11090700) Pipeline2[zone:cloud]:(1482.5,1233600) Pipeline3[zone:edge]:(1082,44344800) 
-Time to deploy: 92ms
-Time to deploy: 121ms
-Pipeline1[zone:edge]:(381.5,4927200) Pipeline2[zone:cloud]:(4075,35312200) Pipeline3[zone:cloud]:(3150,19705600) 
-Time to deploy: 100ms
-Time to deploy: 117ms
-Pipeline1[zone:cloud]:(1825,4934400) Pipeline2[zone:edge]:(1359,69367500) Pipeline3[zone:cloud]:(2857.25,19739200) 
-Time to deploy: 77ms
-Time to deploy: 103ms
-Pipeline1[zone:cloud]:(3852,31236266.666666668) Pipeline2[zone:cloud]:(2809,19776000) Pipeline3[zone:edge]:(565,11098800) 
-Time to deploy: 101ms
-Time to deploy: 122ms
-Pipeline1[zone:edge]:(1299.5,44330400) Pipeline2[zone:cloud]:(3195.3333333333335,19737600) Pipeline3[zone:cloud]:(2926,11095200) 
--------
-Pipeline1[zone:cloud]:(2767.6666666666665,19741866.666666668) Pipeline2[zone:cloud]:(2262.3333333333335,11100000) Pipeline3[zone:cloud]:(1199.3333333333333,832058) 
-Time to deploy: 146ms
-Pipeline1[zone:edge]:(566.5,19747200) Pipeline2[zone:cloud]:(2337.6666666666665,11091600) Pipeline3[zone:cloud]:(1386.6666666666667,1232266.6666666667) 
-Time to deploy: 103ms
-Time to deploy: 137ms
-Pipeline1[zone:cloud]:(2025.5,11080800) Pipeline2[zone:edge]:(378,4930400) Pipeline3[zone:cloud]:(6236,69390000) 
-Time to deploy: 70ms
-Time to deploy: 84ms
-Pipeline1[zone:cloud]:(2493,11096400) Pipeline2[zone:cloud]:(1774,4934400) Pipeline3[zone:edge]:(1662.5,69322500) 
-Time to deploy: 106ms
-Time to deploy: 111ms
-Pipeline1[zone:edge]:(353.5,1234200) Pipeline2[zone:cloud]:(4990,44395200) Pipeline3[zone:cloud]:(2765,19724800) 
-Time to deploy: 100ms
-Time to deploy: 102ms
-Pipeline1[zone:cloud]:(1482,1233200) Pipeline2[zone:edge]:(1278,44366400) Pipeline3[zone:cloud]:(2957,19741866.666666668) 
-Time to deploy: 88ms
-Time to deploy: 99ms
-Pipeline1[zone:cloud]:(4247.5,35312000) Pipeline2[zone:cloud]:(3084,19737600) Pipeline3[zone:edge]:(569.5,11106000) 
-Time to deploy: 98ms
-Time to deploy: 103ms
-Pipeline1[zone:edge]:(1672,69525000) Pipeline2[zone:cloud]:(2943.5,19716800) Pipeline3[zone:cloud]:(2207,11091600) 
-Time to deploy: 110ms
-Time to deploy: 119ms
-Pipeline1[zone:cloud]:(2917,19737600) Pipeline2[zone:edge]:(634,11089800) Pipeline3[zone:cloud]:(1974.5,6469900) 
-Time to deploy: 68ms
-Time to deploy: 85ms
-Pipeline1[zone:edge]:(673,19705600) Pipeline2[zone:cloud]:(2198,11115000) Pipeline3[zone:cloud]:(1876,4928000) 
-Time to deploy: 81ms
-Time to deploy: 93ms
-Pipeline1[zone:cloud]:(2517,11109600) Pipeline2[zone:edge]:(447,1229600) Pipeline3[zone:cloud]:(3668,24642400) 
-Time to deploy: 155ms
-Time to deploy: 186ms
-Pipeline1[zone:cloud]:(2306.6666666666665,11098800) Pipeline2[zone:cloud]:(1480,1234800) Pipeline3[zone:edge]:(1001.5,44416800) 
-Time to deploy: 61ms
-Time to deploy: 79ms
-Pipeline1[zone:edge]:(600,4932800) Pipeline2[zone:cloud]:(7012,69345000) Pipeline3[zone:cloud]:(3085.5,19718400) 
-Time to deploy: 152ms
-Time to deploy: 157ms
-Pipeline1[zone:cloud]:(1978,4929600) Pipeline2[zone:edge]:(1716,69435000) Pipeline3[zone:cloud]:(3104,19722666.666666668) 
-Time to deploy: 111ms
-Time to deploy: 131ms
-Pipeline1[zone:cloud]:(4669,44467200) Pipeline2[zone:cloud]:(2699.5,19728000) Pipeline3[zone:edge]:(796,11102400) 
-Time to deploy: 82ms
-Time to deploy: 98ms
-Pipeline1[zone:edge]:(947,44395200) Pipeline2[zone:cloud]:(3072.5,19742400) Pipeline3[zone:cloud]:(2458,11097000) 
--------
-Pipeline1[zone:cloud]:(2652.3333333333335,19744000) Pipeline2[zone:cloud]:(1549.3333333333333,7404861) Pipeline3[zone:cloud]:(1067,831903.6666666666) 
-Time to deploy: 91ms
-Pipeline1[zone:edge]:(651,19740800) Pipeline2[zone:cloud]:(2004,11089200) Pipeline3[zone:cloud]:(1471.6666666666667,1233866.6666666667) 
-Time to deploy: 95ms
-Time to deploy: 110ms
-Pipeline1[zone:cloud]:(2322,11093400) Pipeline2[zone:edge]:(0,0) Pipeline3[zone:cloud]:(6624,69311250) 
-Time to deploy: 58ms
-Time to deploy: 65ms
-Pipeline1[zone:cloud]:(2292.6666666666665,11090400) Pipeline2[zone:cloud]:(1791,4933600) Pipeline3[zone:edge]:(1488.5,69378750) 
-Time to deploy: 90ms
-Time to deploy: 97ms
-Pipeline1[zone:edge]:(462,1233600) Pipeline2[zone:cloud]:(3633.3333333333335,31248000) Pipeline3[zone:cloud]:(2724,19721600) 
-Time to deploy: 75ms
-Time to deploy: 83ms
-Pipeline1[zone:cloud]:(1305.5,1232200) Pipeline2[zone:edge]:(1255,44467200) Pipeline3[zone:cloud]:(3021.75,19734400) 
-Time to deploy: 98ms
-Time to deploy: 116ms
-Pipeline1[zone:cloud]:(4401,35334300) Pipeline2[zone:cloud]:(2806,19718400) Pipeline3[zone:edge]:(452,11102400) 
-Time to deploy: 103ms
-Time to deploy: 106ms
-Pipeline1[zone:edge]:(1697.5,69446250) Pipeline2[zone:cloud]:(2946,19748266.666666668) Pipeline3[zone:cloud]:(2252.5,11109600) 
-Time to deploy: 121ms
-Time to deploy: 140ms
-Pipeline1[zone:cloud]:(2735.5,19740800) Pipeline2[zone:edge]:(602,11086200) Pipeline3[zone:cloud]:(1932.25,6476700) 
-Time to deploy: 82ms
-Time to deploy: 91ms
-Pipeline1[zone:edge]:(727,19744000) Pipeline2[zone:cloud]:(2284.5,11098800) Pipeline3[zone:cloud]:(1722.25,4933600) 
+Retrieve metrics failed {}
+Pipeline1[zone:edge]:(0,0) Pipeline2[zone:cloud]:(2179,6483400) Pipeline3[zone:cloud]:(6433.5,69232500) 
 Time to deploy: 73ms
-Time to deploy: 75ms
-Pipeline1[zone:cloud]:(2145,11120400) Pipeline2[zone:edge]:(241,1231600) Pipeline3[zone:cloud]:(4658.5,44402400) 
-Time to deploy: 119ms
-Time to deploy: 145ms
-Pipeline1[zone:cloud]:(2345.75,11096100) Pipeline2[zone:cloud]:(1446,1232600) Pipeline3[zone:edge]:(1148.5,44402400) 
-Time to deploy: 80ms
-Time to deploy: 95ms
-Pipeline1[zone:edge]:(639.5,4933600) Pipeline2[zone:cloud]:(4449.5,35243700) Pipeline3[zone:cloud]:(3179,19756800) 
-Time to deploy: 87ms
-Time to deploy: 109ms
-Pipeline1[zone:cloud]:(1891,4942400) Pipeline2[zone:edge]:(1824,69356250) Pipeline3[zone:cloud]:(2948.25,19760000) 
-Time to deploy: 77ms
-Time to deploy: 142ms
-Pipeline1[zone:cloud]:(4595,44431200) Pipeline2[zone:cloud]:(2827,19737600) Pipeline3[zone:edge]:(545,11088000) 
-Time to deploy: 94ms
-Time to deploy: 109ms
-Pipeline1[zone:edge]:(1377,44424000) Pipeline2[zone:cloud]:(2684.75,19732800) Pipeline3[zone:cloud]:(2363,11088000) 
--------
-Pipeline1[zone:cloud]:(1952,13167643) Pipeline2[zone:cloud]:(2097.3333333333335,11108400) Pipeline3[zone:cloud]:(1056.3333333333333,831385.3333333334) 
-Time to deploy: 133ms
-Pipeline1[zone:cloud]:(2675.6666666666665,19758933.333333332) Pipeline2[zone:edge]:(579,11098800) Pipeline3[zone:cloud]:(1389.3333333333333,1233200) 
-Time to deploy: 164ms
-Time to deploy: 192ms
-Pipeline1[zone:edge]:(561.5,11089800) Pipeline2[zone:cloud]:(1931,4933600) Pipeline3[zone:cloud]:(6668.5,69423750) 
-Time to deploy: 89ms
-Time to deploy: 92ms
-Pipeline1[zone:cloud]:(2005,11102400) Pipeline2[zone:cloud]:(1869.5,4930400) Pipeline3[zone:edge]:(1554,69435000) 
-Time to deploy: 74ms
 Time to deploy: 93ms
-Pipeline1[zone:edge]:(412,1234000) Pipeline2[zone:cloud]:(3707.6666666666665,31182400) Pipeline3[zone:cloud]:(3054,19744000) 
-Time to deploy: 89ms
-Time to deploy: 95ms
-Pipeline1[zone:cloud]:(1376,1232400) Pipeline2[zone:edge]:(981.5,44380800) Pipeline3[zone:cloud]:(2832.25,19739200) 
-Time to deploy: 68ms
-Time to deploy: 95ms
-Pipeline1[zone:cloud]:(6291.5,69435000) Pipeline2[zone:cloud]:(2638.5,19728000) Pipeline3[zone:edge]:(476.5,11086200) 
+Pipeline1[zone:cloud]:(2116.5,11116800) Pipeline2[zone:cloud]:(1834.6666666666667,4925333.333333333) Pipeline3[zone:edge]:(1138,69322500) 
 Time to deploy: 75ms
-Time to deploy: 90ms
-Pipeline1[zone:edge]:(1622.5,69356250) Pipeline2[zone:cloud]:(2980,19720533.333333332) Pipeline3[zone:cloud]:(2358,11088000) 
-Time to deploy: 85ms
-Time to deploy: 96ms
-Pipeline1[zone:cloud]:(2755,19737600) Pipeline2[zone:edge]:(544,11102400) Pipeline3[zone:cloud]:(1855.75,6483100) 
-Time to deploy: 109ms
-Time to deploy: 113ms
-Pipeline1[zone:edge]:(1162,19712000) Pipeline2[zone:cloud]:(2511.5,11088000) Pipeline3[zone:cloud]:(2009.5,4933600) 
-Time to deploy: 98ms
-Time to deploy: 102ms
-Pipeline1[zone:cloud]:(2011,11102400) Pipeline2[zone:edge]:(340.5,1233800) Pipeline3[zone:cloud]:(3765.6666666666665,31254400) 
-Time to deploy: 72ms
-Time to deploy: 93ms
-Pipeline1[zone:cloud]:(2184,11112000) Pipeline2[zone:cloud]:(1256,1232800) Pipeline3[zone:edge]:(1128,44337600) 
-Time to deploy: 83ms
-Time to deploy: 91ms
-Pipeline1[zone:edge]:(287.5,4932000) Pipeline2[zone:cloud]:(6716.5,69423750) Pipeline3[zone:cloud]:(2973,19750400) 
-Time to deploy: 91ms
-Time to deploy: 90ms
-Pipeline1[zone:cloud]:(1841,4942400) Pipeline2[zone:edge]:(1746.5,69435000) Pipeline3[zone:cloud]:(3007,19748266.666666668) 
-Time to deploy: 65ms
-Time to deploy: 80ms
-Pipeline1[zone:cloud]:(3475.6666666666665,31250133.333333332) Pipeline2[zone:cloud]:(2640,19782400) Pipeline3[zone:edge]:(544.5,11106000) 
-Time to deploy: 85ms
-Time to deploy: 121ms
-Pipeline1[zone:edge]:(1404,44380800) Pipeline2[zone:cloud]:(2939,19726400) Pipeline3[zone:cloud]:(2447.5,11097000) 
--------
-Pipeline1[zone:cloud]:(2673.6666666666665,19722666.666666668) Pipeline2[zone:cloud]:(1665.6666666666667,7409640) Pipeline3[zone:cloud]:(1100,833246) 
-Time to deploy: 143ms
-Pipeline1[zone:edge]:(639.5,19766400) Pipeline2[zone:cloud]:(2269.3333333333335,11095200) Pipeline3[zone:cloud]:(1487.3333333333333,1234400) 
-Time to deploy: 80ms
-Time to deploy: 87ms
-Pipeline1[zone:cloud]:(2261.5,11100600) Pipeline2[zone:edge]:(335,4924800) Pipeline3[zone:cloud]:(6343,69412500) 
-Time to deploy: 145ms
-Time to deploy: 153ms
-Pipeline1[zone:cloud]:(2289,11100000) Pipeline2[zone:cloud]:(1627,4941600) Pipeline3[zone:edge]:(1591,69435000) 
-Time to deploy: 102ms
-Time to deploy: 113ms
-Pipeline1[zone:edge]:(159.5,1233600) Pipeline2[zone:cloud]:(3472,31258133.333333332) Pipeline3[zone:cloud]:(2755.5,19702400) 
-Time to deploy: 114ms
-Time to deploy: 132ms
-Pipeline1[zone:cloud]:(1480.5,1232000) Pipeline2[zone:edge]:(1073.5,44424000) Pipeline3[zone:cloud]:(2913,19732800) 
-Time to deploy: 101ms
-Time to deploy: 139ms
-Pipeline1[zone:cloud]:(4274,35379100) Pipeline2[zone:cloud]:(2772,19718400) Pipeline3[zone:edge]:(352,11088000) 
-Time to deploy: 87ms
-Time to deploy: 104ms
-Pipeline1[zone:edge]:(1568,69435000) Pipeline2[zone:cloud]:(2866.5,19748800) Pipeline3[zone:cloud]:(2495,11113200) 
-Time to deploy: 95ms
-Time to deploy: 159ms
-Pipeline1[zone:cloud]:(3090,19756800) Pipeline2[zone:edge]:(353,11100600) Pipeline3[zone:cloud]:(1855.6666666666667,6973600) 
-Time to deploy: 74ms
-Time to deploy: 85ms
-Pipeline1[zone:edge]:(736,19708800) Pipeline2[zone:cloud]:(2213,11073600) Pipeline3[zone:cloud]:(1992.5,4931200) 
 Time to deploy: 79ms
-Time to deploy: 92ms
-Pipeline1[zone:cloud]:(2443,11095200) Pipeline2[zone:edge]:(143,1235200) Pipeline3[zone:cloud]:(3802,31243200) 
+Pipeline1[zone:edge]:(217.5,1234400) Pipeline2[zone:cloud]:(4534.5,44438400) Pipeline3[zone:cloud]:(2539,19731200) 
 Time to deploy: 79ms
-Time to deploy: 100ms
-Pipeline1[zone:cloud]:(2205.6666666666665,11091600) Pipeline2[zone:cloud]:(1385.5,1234600) Pipeline3[zone:edge]:(1201,44416800) 
-Time to deploy: 102ms
-Time to deploy: 116ms
-Pipeline1[zone:edge]:(372,4925600) Pipeline2[zone:cloud]:(6856.5,69367500) Pipeline3[zone:cloud]:(2719,19737600) 
-Time to deploy: 97ms
-Time to deploy: 106ms
-Pipeline1[zone:cloud]:(2137,4926400) Pipeline2[zone:edge]:(1838,69412500) Pipeline3[zone:cloud]:(3001.6666666666665,19739733.333333332) 
-Time to deploy: 147ms
-Time to deploy: 150ms
-Pipeline1[zone:cloud]:(5123,44467200) Pipeline2[zone:cloud]:(2594,19737600) Pipeline3[zone:edge]:(545,11116800) 
-Time to deploy: 156ms
-Time to deploy: 224ms
-Pipeline1[zone:edge]:(895,44366400) Pipeline2[zone:cloud]:(2792.25,19763200) Pipeline3[zone:cloud]:(2147.5,11093400) 
--------
-Pipeline1[zone:cloud]:(2869.3333333333335,19724800) Pipeline2[zone:cloud]:(1819,7422870) Pipeline3[zone:cloud]:(1274.3333333333333,832052) 
-Time to deploy: 174ms
-Pipeline1[zone:edge]:(739,19740800) Pipeline2[zone:cloud]:(2209,11088000) Pipeline3[zone:cloud]:(1505.3333333333333,1232133.3333333333) 
+Time to deploy: 89ms
+Pipeline1[zone:cloud]:(1268.5,1235000) Pipeline2[zone:edge]:(1051,44409600) Pipeline3[zone:cloud]:(2970.6666666666665,19733333.333333332) 
 Time to deploy: 87ms
-Time to deploy: 113ms
-Pipeline1[zone:cloud]:(2530,11102400) Pipeline2[zone:edge]:(483.5,4926400) Pipeline3[zone:cloud]:(6616.5,69345000) 
-Time to deploy: 143ms
-Time to deploy: 174ms
-Pipeline1[zone:cloud]:(2358.6666666666665,11102400) Pipeline2[zone:cloud]:(1908.5,4933600) Pipeline3[zone:edge]:(1445,69277500) 
-Time to deploy: 101ms
-Time to deploy: 119ms
-Pipeline1[zone:edge]:(574,1234000) Pipeline2[zone:cloud]:(5631,44452800) Pipeline3[zone:cloud]:(2703,19737600) 
-Time to deploy: 111ms
-Time to deploy: 116ms
-Pipeline1[zone:cloud]:(1475.5,1234800) Pipeline2[zone:edge]:(1028,44424000) Pipeline3[zone:cloud]:(2983.5,19715200) 
 Time to deploy: 88ms
-Time to deploy: 97ms
-Pipeline1[zone:cloud]:(4210.5,35311200) Pipeline2[zone:cloud]:(3144,19750400) Pipeline3[zone:edge]:(549,11080800) 
-Time to deploy: 97ms
-Time to deploy: 115ms
-Pipeline1[zone:edge]:(0,0) Pipeline2[zone:cloud]:(3048.25,19760000) Pipeline3[zone:cloud]:(2440.5,11091600) 
-Time to deploy: 78ms
-Time to deploy: 169ms
-Pipeline1[zone:cloud]:(2790,19740800) Pipeline2[zone:edge]:(617,11113200) Pipeline3[zone:cloud]:(1978.5,6474400) 
+Pipeline1[zone:cloud]:(3798.5,35290700) Pipeline2[zone:cloud]:(2596,19753600) Pipeline3[zone:edge]:(335.5,11091600) 
 Time to deploy: 63ms
-Time to deploy: 76ms
-Pipeline1[zone:edge]:(738,19744000) Pipeline2[zone:cloud]:(2218.5,11097000) Pipeline3[zone:cloud]:(1669.3333333333333,4931733.333333333) 
-Time to deploy: 125ms
-Time to deploy: 137ms
-Pipeline1[zone:cloud]:(2393,11109600) Pipeline2[zone:edge]:(325,1234400) Pipeline3[zone:cloud]:(4635.5,44373600) 
-Time to deploy: 106ms
-Time to deploy: 144ms
-Pipeline1[zone:cloud]:(2465.5,11113200) Pipeline2[zone:cloud]:(1292.5,1232800) Pipeline3[zone:edge]:(1042,44496000) 
-Time to deploy: 113ms
-Time to deploy: 119ms
-Pipeline1[zone:edge]:(459.5,4939200) Pipeline2[zone:cloud]:(3724.5,35323050) Pipeline3[zone:cloud]:(3281,19724800) 
-Time to deploy: 85ms
-Time to deploy: 86ms
-Pipeline1[zone:cloud]:(1912.5,4940000) Pipeline2[zone:edge]:(1295,69390000) Pipeline3[zone:cloud]:(3030.25,19756800) 
-Time to deploy: 58ms
-Time to deploy: 76ms
-Pipeline1[zone:cloud]:(3873.3333333333335,31268800) Pipeline2[zone:cloud]:(3277,19699200) Pipeline3[zone:edge]:(800,11089800) 
-Time to deploy: 87ms
-Time to deploy: 110ms
-Pipeline1[zone:edge]:(1236.5,44395200) Pipeline2[zone:cloud]:(2999,19703466.666666668) Pipeline3[zone:cloud]:(2378,11102400) 
--------
-Pipeline1[zone:cloud]:(2097.6666666666665,13167655) Pipeline2[zone:cloud]:(1770,7413264) Pipeline3[zone:cloud]:(1134.3333333333333,830443) 
-Time to deploy: 79ms
-Pipeline1[zone:edge]:(706,19744000) Pipeline2[zone:cloud]:(2476.5,11106000) Pipeline3[zone:cloud]:(1403.25,1233700) 
-Time to deploy: 77ms
-Time to deploy: 104ms
-Pipeline1[zone:cloud]:(2489,11120400) Pipeline2[zone:edge]:(362,4927200) Pipeline3[zone:cloud]:(6481.5,69412500) 
-Time to deploy: 75ms
-Time to deploy: 85ms
-Pipeline1[zone:cloud]:(2401.5,11102400) Pipeline2[zone:cloud]:(1985,4933600) Pipeline3[zone:edge]:(1434,69401250) 
-Time to deploy: 83ms
-Time to deploy: 92ms
-Pipeline1[zone:edge]:(382,1233200) Pipeline2[zone:cloud]:(3779.3333333333335,31232000) Pipeline3[zone:cloud]:(2819.5,19718400) 
-Time to deploy: 132ms
-Time to deploy: 161ms
-Pipeline1[zone:cloud]:(1278,1232000) Pipeline2[zone:edge]:(1247,44452800) Pipeline3[zone:cloud]:(2887.75,19729600) 
-Time to deploy: 122ms
-Time to deploy: 131ms
-Pipeline1[zone:cloud]:(7838,69187500) Pipeline2[zone:cloud]:(2873.5,19728000) Pipeline3[zone:edge]:(573.5,11124000) 
-Time to deploy: 117ms
-Time to deploy: 121ms
-Pipeline1[zone:edge]:(1720,69446250) Pipeline2[zone:cloud]:(2926,19741866.666666668) Pipeline3[zone:cloud]:(2263,11086200) 
-Time to deploy: 115ms
-Time to deploy: 127ms
-Pipeline1[zone:cloud]:(2840,19763200) Pipeline2[zone:edge]:(480,11088000) Pipeline3[zone:cloud]:(2032.25,6470600) 
-Time to deploy: 104ms
-Time to deploy: 130ms
-Pipeline1[zone:edge]:(766,19724800) Pipeline2[zone:cloud]:(2071.5,11115000) Pipeline3[zone:cloud]:(2011.75,4936800) 
-Time to deploy: 119ms
-Time to deploy: 120ms
-Pipeline1[zone:cloud]:(2092,11106000) Pipeline2[zone:edge]:(302.5,1233600) Pipeline3[zone:cloud]:(4770.5,24638400) 
-Time to deploy: 73ms
-Time to deploy: 88ms
-Pipeline1[zone:cloud]:(2466.6666666666665,11092800) Pipeline2[zone:cloud]:(1529,1233000) Pipeline3[zone:edge]:(958,44467200) 
+Time to deploy: 65ms
+Pipeline1[zone:edge]:(1367,69333750) Pipeline2[zone:cloud]:(2654.6666666666665,19722666.666666668) Pipeline3[zone:cloud]:(2243,11098800) 
+Time to deploy: 72ms
+Time to deploy: 84ms
+Pipeline1[zone:cloud]:(2767,19737600) Pipeline2[zone:edge]:(0,0) Pipeline3[zone:cloud]:(1781.25,6470300) 
+Time to deploy: 94ms
 Time to deploy: 105ms
+Pipeline1[zone:edge]:(610.5,19740800) Pipeline2[zone:cloud]:(1965,11095200) Pipeline3[zone:cloud]:(1610.6666666666667,4933866.666666667) 
+Time to deploy: 78ms
+Time to deploy: 79ms
+Pipeline1[zone:cloud]:(2382,11070000) Pipeline2[zone:edge]:(266,1233000) Pipeline3[zone:cloud]:(4668.5,44424000) 
+Time to deploy: 85ms
+Time to deploy: 105ms
+Pipeline1[zone:cloud]:(2286.25,11106900) Pipeline2[zone:cloud]:(1261.5,1232800) Pipeline3[zone:edge]:(899,44467200) 
+Time to deploy: 62ms
+Time to deploy: 72ms
+Pipeline1[zone:edge]:(453.5,4935200) Pipeline2[zone:cloud]:(3758.5,35267400) Pipeline3[zone:cloud]:(2717,19750400) 
+Time to deploy: 113ms
+Time to deploy: 131ms
+Pipeline1[zone:cloud]:(1666.5,4929600) Pipeline2[zone:edge]:(1428.5,69390000) Pipeline3[zone:cloud]:(2810.75,19708800) 
+Time to deploy: 71ms
+Time to deploy: 82ms
+Pipeline1[zone:cloud]:(4433,44409600) Pipeline2[zone:cloud]:(2562.5,19740800) Pipeline3[zone:edge]:(478.5,11115000) 
+Time to deploy: 96ms
+Time to deploy: 100ms
+Pipeline1[zone:edge]:(1008,44395200) Pipeline2[zone:cloud]:(2708,19733333.333333332) Pipeline3[zone:cloud]:(2400.5,11097000) 
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator_multiple_pipeline.js
+
+Pipeline1[zone:cloud]:(2736.6666666666665,19731200) Pipeline2[zone:cloud]:(2226,11092800) Pipeline3[zone:cloud]:(1164,831512.6666666666) 
+Time to deploy: 68ms
+Pipeline1[zone:edge]:(448.5,19728000) Pipeline2[zone:cloud]:(2239.3333333333335,11106000) Pipeline3[zone:cloud]:(1414,1234933.3333333333) 
+Time to deploy: 59ms
+Time to deploy: 71ms
+Pipeline1[zone:cloud]:(2256.5,11093400) Pipeline2[zone:edge]:(293.5,4933600) Pipeline3[zone:cloud]:(6436.5,69401250) 
+Time to deploy: 67ms
+Time to deploy: 76ms
+Pipeline1[zone:cloud]:(2202.6666666666665,11096400) Pipeline2[zone:cloud]:(1820,4925600) Pipeline3[zone:edge]:(1358,69525000) 
+Time to deploy: 83ms
+Time to deploy: 86ms
+Pipeline1[zone:edge]:(200.5,1234000) Pipeline2[zone:cloud]:(3106,24672800) Pipeline3[zone:cloud]:(2672,19696000) 
+Time to deploy: 65ms
+Time to deploy: 77ms
+Pipeline1[zone:cloud]:(1422,1233600) Pipeline2[zone:edge]:(954.5,44380800) Pipeline3[zone:cloud]:(2812.75,19731200) 
+Time to deploy: 62ms
+Time to deploy: 66ms
+Pipeline1[zone:cloud]:(6482.5,69333750) Pipeline2[zone:cloud]:(2706,19737600) Pipeline3[zone:edge]:(394.5,11095200) 
+Time to deploy: 114ms
+Time to deploy: 119ms
+Pipeline1[zone:edge]:(1154,69412500) Pipeline2[zone:cloud]:(2758.25,19739200) Pipeline3[zone:cloud]:(2103.5,11098800) 
+Time to deploy: 72ms
+Time to deploy: 79ms
+Pipeline1[zone:cloud]:(2975,19737600) Pipeline2[zone:edge]:(492,11104200) Pipeline3[zone:cloud]:(1828,6475300) 
+Time to deploy: 78ms
+Time to deploy: 79ms
+Pipeline1[zone:edge]:(671.5,19744000) Pipeline2[zone:cloud]:(2290,11124000) Pipeline3[zone:cloud]:(1891,4931200) 
+Time to deploy: 76ms
+Time to deploy: 78ms
+Pipeline1[zone:cloud]:(2458.5,11102400) Pipeline2[zone:edge]:(154,1233000) Pipeline3[zone:cloud]:(3674,31282133.333333332) 
+Time to deploy: 68ms
+Time to deploy: 74ms
+Pipeline1[zone:cloud]:(2293.3333333333335,11106000) Pipeline2[zone:cloud]:(1382,1234000) Pipeline3[zone:edge]:(969,44402400) 
+Time to deploy: 94ms
+Time to deploy: 98ms
+Pipeline1[zone:edge]:(328,4943200) Pipeline2[zone:cloud]:(6035.5,69423750) Pipeline3[zone:cloud]:(2685,19756800) 
+Time to deploy: 68ms
+Time to deploy: 89ms
+Pipeline1[zone:cloud]:(1942,4938400) Pipeline2[zone:edge]:(1445.5,69390000) Pipeline3[zone:cloud]:(2783.6666666666665,19714133.333333332) 
+Time to deploy: 55ms
+Time to deploy: 63ms
+Pipeline1[zone:cloud]:(4686,44404800) Pipeline2[zone:cloud]:(2698,19734400) Pipeline3[zone:edge]:(423.5,11111400) 
+Time to deploy: 73ms
+Time to deploy: 97ms
+Pipeline1[zone:edge]:(934,44308800) Pipeline2[zone:cloud]:(2769,19739200) Pipeline3[zone:cloud]:(2163.5,11106000) 
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator_multiple_pipeline.js
+
+Pipeline1[zone:cloud]:(2037.3333333333333,13169767.333333334) Pipeline2[zone:cloud]:(2135.6666666666665,11097600) Pipeline3[zone:cloud]:(1106,830555.3333333334) 
+Time to deploy: 77ms
+Pipeline1[zone:cloud]:(2583.6666666666665,19729066.666666668) Pipeline2[zone:edge]:(342.5,11100600) Pipeline3[zone:cloud]:(1516.6666666666667,1235333.3333333333) 
+Time to deploy: 61ms
+Time to deploy: 71ms
+Pipeline1[zone:edge]:(461,11088000) Pipeline2[zone:cloud]:(1784,4932800) Pipeline3[zone:cloud]:(6298.5,69266250) 
+Time to deploy: 53ms
+Time to deploy: 61ms
+Pipeline1[zone:cloud]:(2275,11097000) Pipeline2[zone:cloud]:(1692.25,4932800) Pipeline3[zone:edge]:(1296.5,69468750) 
+Time to deploy: 64ms
+Time to deploy: 73ms
+Pipeline1[zone:edge]:(169.5,1233000) Pipeline2[zone:cloud]:(4340.333333333333,44400000) Pipeline3[zone:cloud]:(2691,19737600) 
+Time to deploy: 65ms
+Time to deploy: 73ms
+Pipeline1[zone:cloud]:(1295.3333333333333,1233466.6666666667) Pipeline2[zone:edge]:(805,44366400) Pipeline3[zone:cloud]:(2719.5,19744000) 
+Time to deploy: 72ms
+Time to deploy: 75ms
+Pipeline1[zone:cloud]:(6179.5,69288750) Pipeline2[zone:cloud]:(2586,19750400) Pipeline3[zone:edge]:(526,11088000) 
+Time to deploy: 77ms
+Time to deploy: 86ms
+Pipeline1[zone:edge]:(1638,69345000) Pipeline2[zone:cloud]:(2741.3333333333335,19750400) Pipeline3[zone:cloud]:(2380,11102400) 
+Time to deploy: 75ms
+Time to deploy: 83ms
+Pipeline1[zone:cloud]:(2567,19756800) Pipeline2[zone:edge]:(457.5,11098800) Pipeline3[zone:cloud]:(1885.75,6480000) 
+Time to deploy: 86ms
+Time to deploy: 93ms
+Pipeline1[zone:edge]:(546,19728000) Pipeline2[zone:cloud]:(2265,11100600) Pipeline3[zone:cloud]:(1802.75,4935200) 
+Time to deploy: 66ms
+Time to deploy: 72ms
+Pipeline1[zone:cloud]:(1941.5,11091600) Pipeline2[zone:edge]:(189.5,1233400) Pipeline3[zone:cloud]:(3098,24656800) 
+Time to deploy: 57ms
+Time to deploy: 61ms
+Pipeline1[zone:cloud]:(2135.6666666666665,11101200) Pipeline2[zone:cloud]:(1281.5,1233800) Pipeline3[zone:edge]:(951,44395200) 
+Time to deploy: 70ms
+Time to deploy: 72ms
+Pipeline1[zone:edge]:(194,4932800) Pipeline2[zone:cloud]:(3638,35380100) Pipeline3[zone:cloud]:(2812,19756800) 
+Time to deploy: 65ms
+Time to deploy: 77ms
+Pipeline1[zone:cloud]:(1667.5,4940800) Pipeline2[zone:edge]:(1360,69367500) Pipeline3[zone:cloud]:(2666.25,19716800) 
+Time to deploy: 63ms
+Time to deploy: 77ms
+Pipeline1[zone:cloud]:(4366.5,44388000) Pipeline2[zone:cloud]:(2789,19708800) Pipeline3[zone:edge]:(522,11109600) 
+Time to deploy: 61ms
+Time to deploy: 76ms
+Pipeline1[zone:edge]:(854,44366400) Pipeline2[zone:cloud]:(2787,19737600) Pipeline3[zone:cloud]:(2300,11095200) 
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator_multiple_pipeline.js
+
+Pipeline1[zone:cloud]:(2667.3333333333335,19737600) Pipeline2[zone:cloud]:(2197.3333333333335,11104800) Pipeline3[zone:cloud]:(1056.3333333333333,830745.6666666666) 
+Time to deploy: 85ms
+Pipeline1[zone:edge]:(522.5,19769600) Pipeline2[zone:cloud]:(2147,11101200) Pipeline3[zone:cloud]:(1401,1232666.6666666667) 
+Time to deploy: 65ms
+Time to deploy: 80ms
+Pipeline1[zone:cloud]:(2093,11095200) Pipeline2[zone:edge]:(424.5,4935200) Pipeline3[zone:cloud]:(6961,69322500) 
+Time to deploy: 104ms
 Time to deploy: 125ms
-Pipeline1[zone:edge]:(382.5,4933600) Pipeline2[zone:cloud]:(4874.333333333333,46670800) Pipeline3[zone:cloud]:(2547,19705600) 
-Time to deploy: 179ms
-Time to deploy: 202ms
-Pipeline1[zone:cloud]:(1715.5,4935200) Pipeline2[zone:edge]:(1818,69547500) Pipeline3[zone:cloud]:(2900.3333333333335,19737600) 
-Time to deploy: 116ms
-Time to deploy: 142ms
-Pipeline1[zone:cloud]:(4696.666666666667,44385600) Pipeline2[zone:cloud]:(3072,19724800) Pipeline3[zone:edge]:(527.5,11097000) 
+Pipeline1[zone:cloud]:(2227.75,11111400) Pipeline2[zone:cloud]:(1901,4942400) Pipeline3[zone:edge]:(1232.5,69412500) 
+Time to deploy: 59ms
+Time to deploy: 65ms
+Pipeline1[zone:edge]:(355,1235200) Pipeline2[zone:cloud]:(3549.3333333333335,31285333.333333332) Pipeline3[zone:cloud]:(2928,19718400) 
+Time to deploy: 81ms
+Time to deploy: 90ms
+Pipeline1[zone:cloud]:(1321,1234600) Pipeline2[zone:edge]:(909,44452800) Pipeline3[zone:cloud]:(2748.5,19745600) 
+Time to deploy: 59ms
+Time to deploy: 77ms
+Pipeline1[zone:cloud]:(3669,35323450) Pipeline2[zone:cloud]:(2775,19699200) Pipeline3[zone:edge]:(470,11093400) 
+Time to deploy: 117ms
+Time to deploy: 118ms
+Pipeline1[zone:edge]:(1372,69311250) Pipeline2[zone:cloud]:(2791.6666666666665,19729066.666666668) Pipeline3[zone:cloud]:(2176,11095200) 
+Time to deploy: 74ms
+Time to deploy: 88ms
+Pipeline1[zone:cloud]:(2860,19760000) Pipeline2[zone:edge]:(503,11095200) Pipeline3[zone:cloud]:(1824.5,6481900) 
+Time to deploy: 99ms
+Time to deploy: 107ms
+Pipeline1[zone:edge]:(666,19763200) Pipeline2[zone:cloud]:(2420,11106000) Pipeline3[zone:cloud]:(1691.6666666666667,4930133.333333333) 
+Time to deploy: 64ms
+Time to deploy: 68ms
+Pipeline1[zone:cloud]:(2155.5,11115000) Pipeline2[zone:edge]:(306,1234400) Pipeline3[zone:cloud]:(4640,44416800) 
+Time to deploy: 118ms
+Time to deploy: 133ms
+Pipeline1[zone:cloud]:(2173.25,11103300) Pipeline2[zone:cloud]:(1304,1233600) Pipeline3[zone:edge]:(936.5,44373600) 
+Time to deploy: 65ms
+Time to deploy: 70ms
+Pipeline1[zone:edge]:(402,4940000) Pipeline2[zone:cloud]:(3781.5,35334900) Pipeline3[zone:cloud]:(2948.5,19696000) 
+Time to deploy: 78ms
+Time to deploy: 91ms
+Pipeline1[zone:cloud]:(1857.5,4936800) Pipeline2[zone:edge]:(1480,69390000) Pipeline3[zone:cloud]:(2706.25,19731200) 
+Time to deploy: 64ms
+Time to deploy: 79ms
+Pipeline1[zone:cloud]:(3727.3333333333335,31281066.666666668) Pipeline2[zone:cloud]:(2854.5,19702400) Pipeline3[zone:edge]:(344,11095200) 
+Time to deploy: 68ms
+Time to deploy: 117ms
+Pipeline1[zone:edge]:(1039,44359200) Pipeline2[zone:cloud]:(2829.3333333333335,19714133.333333332) Pipeline3[zone:cloud]:(2269,11102400) 
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator_multiple_pipeline.js
+
+Pipeline1[zone:cloud]:(2708.6666666666665,19754666.666666668) Pipeline2[zone:cloud]:(2050.6666666666665,11115600) Pipeline3[zone:cloud]:(1073,831785.3333333334) 
+Time to deploy: 81ms
+Pipeline1[zone:edge]:(605.5,19705600) Pipeline2[zone:cloud]:(2139,11098800) Pipeline3[zone:cloud]:(1356.3333333333333,1234400) 
+Time to deploy: 73ms
+Time to deploy: 83ms
+Pipeline1[zone:cloud]:(2091.5,11084400) Pipeline2[zone:edge]:(393.5,4934400) Pipeline3[zone:cloud]:(6190.5,69547500) 
+Time to deploy: 67ms
+Time to deploy: 84ms
+Pipeline1[zone:cloud]:(2113.3333333333335,11104800) Pipeline2[zone:cloud]:(1671,4929600) Pipeline3[zone:edge]:(1324,69322500) 
+Time to deploy: 77ms
+Time to deploy: 83ms
+Pipeline1[zone:edge]:(402,1233400) Pipeline2[zone:cloud]:(4367,44388000) Pipeline3[zone:cloud]:(2572,19708800) 
+Time to deploy: 63ms
+Time to deploy: 71ms
+Pipeline1[zone:cloud]:(1381,1231200) Pipeline2[zone:edge]:(958.5,44395200) Pipeline3[zone:cloud]:(3396.25,19726400) 
+Time to deploy: 82ms
+Time to deploy: 88ms
+Pipeline1[zone:cloud]:(4153,35332900) Pipeline2[zone:cloud]:(2989,19744000) Pipeline3[zone:edge]:(476.5,11098800) 
+Time to deploy: 82ms
+Time to deploy: 91ms
+Pipeline1[zone:edge]:(1622.5,69412500) Pipeline2[zone:cloud]:(2734.5,19742400) Pipeline3[zone:cloud]:(2091,11095200) 
+Time to deploy: 111ms
+Time to deploy: 118ms
+Pipeline1[zone:cloud]:(2714,19731200) Pipeline2[zone:edge]:(593.5,11111400) Pipeline3[zone:cloud]:(1680,4936000) 
+Time to deploy: 65ms
+Time to deploy: 69ms
+Pipeline1[zone:edge]:(724.5,19740800) Pipeline2[zone:cloud]:(2101,11088000) Pipeline3[zone:cloud]:(1705.25,4932800) 
+Time to deploy: 70ms
+Time to deploy: 82ms
+Pipeline1[zone:cloud]:(2259,11095200) Pipeline2[zone:edge]:(153.5,1233200) Pipeline3[zone:cloud]:(3419.3333333333335,31267200) 
+Time to deploy: 59ms
+Time to deploy: 68ms
+Pipeline1[zone:cloud]:(2187.75,11115900) Pipeline2[zone:cloud]:(1229,1234600) Pipeline3[zone:edge]:(859,44481600) 
+Time to deploy: 63ms
+Time to deploy: 89ms
+Pipeline1[zone:edge]:(355,4929600) Pipeline2[zone:cloud]:(3844.5,35322450) Pipeline3[zone:cloud]:(2527,19718400) 
+Time to deploy: 91ms
+Time to deploy: 89ms
+Pipeline1[zone:cloud]:(1903,4929600) Pipeline2[zone:edge]:(1165,69412500) Pipeline3[zone:cloud]:(2857.6666666666665,19752533.333333332) 
+Time to deploy: 91ms
+Time to deploy: 102ms
+Pipeline1[zone:cloud]:(4822.5,44344800) Pipeline2[zone:cloud]:(2633,19715200) Pipeline3[zone:edge]:(484,11084400) 
+Time to deploy: 54ms
+Time to deploy: 64ms
+Pipeline1[zone:edge]:(982.5,44402400) Pipeline2[zone:cloud]:(2994,19735466.666666668) Pipeline3[zone:cloud]:(2008,11095200) 
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator_multiple_pipeline.js
+
+Pipeline1[zone:cloud]:(2855,19722666.666666668) Pipeline2[zone:cloud]:(1649.6666666666667,7420458) Pipeline3[zone:cloud]:(1232.6666666666667,831397.3333333334) 
+Time to deploy: 85ms
+Pipeline1[zone:edge]:(652.5,19737600) Pipeline2[zone:cloud]:(2137.6666666666665,11096400) Pipeline3[zone:cloud]:(1403.6666666666667,1232000) 
+Time to deploy: 90ms
+Time to deploy: 96ms
+Pipeline1[zone:cloud]:(2160.5,11109600) Pipeline2[zone:edge]:(359.5,4935200) Pipeline3[zone:cloud]:(6395,69345000) 
+Time to deploy: 104ms
+Time to deploy: 117ms
+Pipeline1[zone:cloud]:(2270.75,11095200) Pipeline2[zone:cloud]:(1679,4935200) Pipeline3[zone:edge]:(1418.5,69333750) 
+Time to deploy: 68ms
+Time to deploy: 81ms
+Pipeline1[zone:edge]:(378,1232200) Pipeline2[zone:cloud]:(2911,24674400) Pipeline3[zone:cloud]:(2800,19737600) 
+Time to deploy: 89ms
+Time to deploy: 91ms
+Pipeline1[zone:cloud]:(1304.5,1233200) Pipeline2[zone:edge]:(806,44366400) Pipeline3[zone:cloud]:(2756.5,19752000) 
+Time to deploy: 58ms
+Time to deploy: 63ms
+Pipeline1[zone:cloud]:(3721.5,35345950) Pipeline2[zone:cloud]:(2708,19718400) Pipeline3[zone:edge]:(467.5,11104200) 
+Time to deploy: 114ms
+Time to deploy: 120ms
+Pipeline1[zone:edge]:(1278,69300000) Pipeline2[zone:cloud]:(2788,19742400) Pipeline3[zone:cloud]:(2405,11095200) 
+Time to deploy: 98ms
+Time to deploy: 123ms
+Pipeline1[zone:cloud]:(2693.5,19772800) Pipeline2[zone:edge]:(386.6666666666667,11112000) Pipeline3[zone:cloud]:(1939.75,6472900) 
+Time to deploy: 63ms
+Time to deploy: 65ms
+Pipeline1[zone:edge]:(629,19753600) Pipeline2[zone:cloud]:(2161.5,11089800) Pipeline3[zone:cloud]:(1725,4933200) 
+Time to deploy: 65ms
+Time to deploy: 76ms
+Pipeline1[zone:cloud]:(2218,11104200) Pipeline2[zone:edge]:(368,1233200) Pipeline3[zone:cloud]:(4561,44330400) 
+Time to deploy: 77ms
+Time to deploy: 97ms
+Pipeline1[zone:cloud]:(2271.75,11095200) Pipeline2[zone:cloud]:(1403,1233000) Pipeline3[zone:edge]:(842.5,44409600) 
+Time to deploy: 65ms
+Time to deploy: 60ms
+Pipeline1[zone:edge]:(421.5,4937600) Pipeline2[zone:cloud]:(4179,35265200) Pipeline3[zone:cloud]:(2839.5,19708800) 
+Time to deploy: 98ms
+Time to deploy: 109ms
+Pipeline1[zone:cloud]:(1704,4933600) Pipeline2[zone:edge]:(1306,69457500) Pipeline3[zone:cloud]:(2666.25,19731200) 
+Time to deploy: 62ms
+Time to deploy: 77ms
+Pipeline1[zone:cloud]:(3533,31291200) Pipeline2[zone:cloud]:(2688,19740800) Pipeline3[zone:edge]:(479,11109600) 
+Time to deploy: 60ms
+Time to deploy: 63ms
+Pipeline1[zone:edge]:(880.5,44402400) Pipeline2[zone:cloud]:(2793.6666666666665,19737600) Pipeline3[zone:cloud]:(2325,11102400) 
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator_multiple_pipeline.js
+
+Pipeline1[zone:cloud]:(1898.3333333333333,13169794.333333334) Pipeline2[zone:cloud]:(1560.3333333333333,7415691) Pipeline3[zone:cloud]:(1056,832191.3333333334) 
+Time to deploy: 92ms
+Pipeline1[zone:edge]:(563,19744000) Pipeline2[zone:cloud]:(2161.3333333333335,11092800) Pipeline3[zone:cloud]:(1256.6666666666667,1232933.3333333333) 
+Time to deploy: 76ms
+Time to deploy: 87ms
+Pipeline1[zone:cloud]:(2072,11095200) Pipeline2[zone:edge]:(309.5,4938400) Pipeline3[zone:cloud]:(6140.5,69300000) 
+Time to deploy: 108ms
+Time to deploy: 151ms
+Pipeline1[zone:cloud]:(2156.6666666666665,11095200) Pipeline2[zone:cloud]:(1675.5,4938400) Pipeline3[zone:edge]:(1321,69457500) 
+Time to deploy: 65ms
+Time to deploy: 68ms
+Pipeline1[zone:edge]:(134,1236000) Pipeline2[zone:cloud]:(3583.6666666666665,31242666.666666668) Pipeline3[zone:cloud]:(2681.5,19760000) 
+Time to deploy: 80ms
+Time to deploy: 94ms
+Pipeline1[zone:cloud]:(1321,1233200) Pipeline2[zone:edge]:(952,44352000) Pipeline3[zone:cloud]:(2758,19753600) 
+Time to deploy: 79ms
+Time to deploy: 78ms
+Pipeline1[zone:cloud]:(5973.5,69367500) Pipeline2[zone:cloud]:(2590,19756800) Pipeline3[zone:edge]:(480,11091600) 
+Time to deploy: 75ms
+Time to deploy: 82ms
+Pipeline1[zone:edge]:(1531.5,69435000) Pipeline2[zone:cloud]:(2923.3333333333335,19735466.666666668) Pipeline3[zone:cloud]:(2264,11120400) 
+Time to deploy: 104ms
+Time to deploy: 99ms
+Pipeline1[zone:cloud]:(2843,19750400) Pipeline2[zone:edge]:(557,11109600) Pipeline3[zone:cloud]:(1838.75,6470100) 
+Time to deploy: 61ms
+Time to deploy: 68ms
+Pipeline1[zone:edge]:(633.5,19718400) Pipeline2[zone:cloud]:(2289,11116800) Pipeline3[zone:cloud]:(1730,4940800) 
+Time to deploy: 65ms
+Time to deploy: 66ms
+Pipeline1[zone:cloud]:(2123,11091600) Pipeline2[zone:edge]:(220.5,1234800) Pipeline3[zone:cloud]:(4251,44380800) 
+Time to deploy: 120ms
+Time to deploy: 141ms
+Pipeline1[zone:cloud]:(2195.3333333333335,11106000) Pipeline2[zone:cloud]:(1316,1235200) Pipeline3[zone:edge]:(799,44524800) 
+Time to deploy: 74ms
+Time to deploy: 79ms
+Pipeline1[zone:edge]:(203,4936000) Pipeline2[zone:cloud]:(4054,35267200) Pipeline3[zone:cloud]:(2944,19744000) 
+Time to deploy: 93ms
+Time to deploy: 98ms
+Pipeline1[zone:cloud]:(1638,4940800) Pipeline2[zone:edge]:(1400,69468750) Pipeline3[zone:cloud]:(2784.75,19752000) 
+Time to deploy: 83ms
+Time to deploy: 107ms
+Pipeline1[zone:cloud]:(3472.6666666666665,31262400) Pipeline2[zone:cloud]:(2533.5,19705600) Pipeline3[zone:edge]:(462,11097000) 
+Time to deploy: 66ms
+Time to deploy: 74ms
+Pipeline1[zone:edge]:(895,44330400) Pipeline2[zone:cloud]:(2675,19737600) Pipeline3[zone:cloud]:(2330,11098800) 
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator_multiple_pipeline.js
+
+Pipeline1[zone:cloud]:(1926.6666666666667,13163358.333333334) Pipeline2[zone:cloud]:(2015.3333333333333,11104800) Pipeline3[zone:cloud]:(1075.6666666666667,831524.6666666666) 
+Time to deploy: 72ms
+Pipeline1[zone:cloud]:(2763.6666666666665,19741866.666666668) Pipeline2[zone:edge]:(397,11097000) Pipeline3[zone:cloud]:(1446,1233900) 
+Time to deploy: 69ms
+Time to deploy: 88ms
+Pipeline1[zone:edge]:(627,11111400) Pipeline2[zone:cloud]:(1715,4930400) Pipeline3[zone:cloud]:(6265,69547500) 
+Time to deploy: 65ms
+Time to deploy: 72ms
+Pipeline1[zone:cloud]:(2052,11100600) Pipeline2[zone:cloud]:(1729,4935466.666666667) Pipeline3[zone:edge]:(1469,69412500) 
+Time to deploy: 62ms
+Time to deploy: 63ms
+Pipeline1[zone:edge]:(270,1234400) Pipeline2[zone:cloud]:(4402,44424000) Pipeline3[zone:cloud]:(2683,19712000) 
+Time to deploy: 100ms
+Time to deploy: 137ms
+Pipeline1[zone:cloud]:(1303.5,1233800) Pipeline2[zone:edge]:(923,44373600) Pipeline3[zone:cloud]:(2744.25,19745600) 
+Time to deploy: 122ms
+Time to deploy: 136ms
+Pipeline1[zone:cloud]:(6535,69401250) Pipeline2[zone:cloud]:(2940,19756800) Pipeline3[zone:edge]:(552,11120400) 
+Time to deploy: 91ms
+Time to deploy: 95ms
+Pipeline1[zone:edge]:(1402,69446250) Pipeline2[zone:cloud]:(2791.6666666666665,19750400) Pipeline3[zone:cloud]:(2311.5,11102400) 
+Time to deploy: 82ms
+Time to deploy: 88ms
+Pipeline1[zone:cloud]:(2544,19680000) Pipeline2[zone:edge]:(473,11077200) Pipeline3[zone:cloud]:(1859,6993733.333333333) 
+Time to deploy: 56ms
+Time to deploy: 93ms
+Pipeline1[zone:edge]:(684,19680000) Pipeline2[zone:cloud]:(2094,11088000) Pipeline3[zone:cloud]:(1589.3333333333333,4935466.666666667) 
+Time to deploy: 59ms
+Time to deploy: 69ms
+Pipeline1[zone:cloud]:(2404,11111400) Pipeline2[zone:edge]:(185.5,1232800) Pipeline3[zone:cloud]:(3487.6666666666665,31275200) 
+Time to deploy: 75ms
+Time to deploy: 79ms
+Pipeline1[zone:cloud]:(2216,11116800) Pipeline2[zone:cloud]:(1271.5,1234800) Pipeline3[zone:edge]:(0,0) 
+Time to deploy: 63ms
+Time to deploy: 63ms
+Pipeline1[zone:edge]:(217,4930400) Pipeline2[zone:cloud]:(4348.5,35267600) Pipeline3[zone:cloud]:(2698,19731200) 
+Time to deploy: 81ms
+Time to deploy: 82ms
+Pipeline1[zone:cloud]:(1719.5,4936800) Pipeline2[zone:edge]:(0,0) Pipeline3[zone:cloud]:(2937.3333333333335,19737600) 
+Time to deploy: 84ms
+Time to deploy: 81ms
+Pipeline1[zone:cloud]:(3510,31256000) Pipeline2[zone:cloud]:(2653,19731200) Pipeline3[zone:edge]:(340,11084400) 
+Time to deploy: 65ms
+Time to deploy: 72ms
+Pipeline1[zone:edge]:(1144,44380800) Pipeline2[zone:cloud]:(2793,19724800) Pipeline3[zone:cloud]:(1934.5,11098800) 
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator_multiple_pipeline.js
+
+Pipeline1[zone:cloud]:(2827.3333333333335,19722666.666666668) Pipeline2[zone:cloud]:(2222.6666666666665,11096400) Pipeline3[zone:cloud]:(1154.3333333333333,831655) 
+Time to deploy: 103ms
+Pipeline1[zone:edge]:(674,19718400) Pipeline2[zone:cloud]:(2259,11090400) Pipeline3[zone:cloud]:(1449.25,1232500) 
+Time to deploy: 62ms
+Time to deploy: 66ms
+Pipeline1[zone:cloud]:(2269.5,11093400) Pipeline2[zone:edge]:(358,4923200) Pipeline3[zone:cloud]:(6416.5,69468750) 
+Time to deploy: 64ms
+Time to deploy: 79ms
+Pipeline1[zone:cloud]:(2275,11114400) Pipeline2[zone:cloud]:(1784,4936800) Pipeline3[zone:edge]:(1348,69412500) 
+Time to deploy: 64ms
+Time to deploy: 64ms
+Pipeline1[zone:edge]:(255,1233800) Pipeline2[zone:cloud]:(4480.5,44388000) Pipeline3[zone:cloud]:(2636,19724800) 
+Time to deploy: 80ms
+Time to deploy: 88ms
+Pipeline1[zone:cloud]:(1363,1235000) Pipeline2[zone:edge]:(821,44352000) Pipeline3[zone:cloud]:(2773.25,19734400) 
+Time to deploy: 59ms
+Time to deploy: 74ms
+Pipeline1[zone:cloud]:(3985,35367650) Pipeline2[zone:cloud]:(2988,19776000) Pipeline3[zone:edge]:(621,11102400) 
+Time to deploy: 111ms
+Time to deploy: 114ms
+Pipeline1[zone:edge]:(1316,69322500) Pipeline2[zone:cloud]:(2843.5,19731200) Pipeline3[zone:cloud]:(2324,11124000) 
+Time to deploy: 61ms
+Time to deploy: 87ms
+Pipeline1[zone:cloud]:(2596.5,19763200) Pipeline2[zone:edge]:(317,11124000) Pipeline3[zone:cloud]:(1772.25,6481400) 
+Time to deploy: 74ms
+Time to deploy: 78ms
+Pipeline1[zone:edge]:(716.5,19734400) Pipeline2[zone:cloud]:(2080,11113200) Pipeline3[zone:cloud]:(1761,4939600) 
+Time to deploy: 63ms
+Time to deploy: 66ms
+Pipeline1[zone:cloud]:(2391,11088000) Pipeline2[zone:edge]:(306,1234200) Pipeline3[zone:cloud]:(3018,24740000) 
+Time to deploy: 92ms
+Time to deploy: 94ms
+Pipeline1[zone:cloud]:(2176,11096100) Pipeline2[zone:cloud]:(1273.5,1232400) Pipeline3[zone:edge]:(898,44409600) 
+Time to deploy: 62ms
+Time to deploy: 85ms
+Pipeline1[zone:edge]:(477,4936000) Pipeline2[zone:cloud]:(4046,35298950) Pipeline3[zone:cloud]:(3205,19769600) 
+Time to deploy: 101ms
+Time to deploy: 115ms
+Pipeline1[zone:cloud]:(1816.5,4940800) Pipeline2[zone:edge]:(1271,69277500) Pipeline3[zone:cloud]:(2726.3333333333335,19731200) 
+Time to deploy: 57ms
+Time to deploy: 80ms
+Pipeline1[zone:cloud]:(4384,44373600) Pipeline2[zone:cloud]:(2669.5,19747200) Pipeline3[zone:edge]:(594.5,11093400) 
+Time to deploy: 67ms
+Time to deploy: 66ms
+Pipeline1[zone:edge]:(839,44395200) Pipeline2[zone:cloud]:(2925.3333333333335,19737600) Pipeline3[zone:cloud]:(2053,11097000) 
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator_multiple_pipeline.js
+
+Pipeline1[zone:cloud]:(2660.3333333333335,19709866.666666668) Pipeline2[zone:cloud]:(2167.3333333333335,11089200) Pipeline3[zone:cloud]:(1080.6666666666667,832182.3333333334) 
+Time to deploy: 100ms
+Pipeline1[zone:edge]:(653.5,19753600) Pipeline2[zone:cloud]:(2285.3333333333335,11092800) Pipeline3[zone:cloud]:(1509.6666666666667,1232933.3333333333) 
+Time to deploy: 64ms
+Time to deploy: 73ms
+Pipeline1[zone:cloud]:(1994,11111400) Pipeline2[zone:edge]:(453.5,4932800) Pipeline3[zone:cloud]:(6023.5,69300000) 
+Time to deploy: 92ms
+Time to deploy: 94ms
+Pipeline1[zone:cloud]:(2237,11091600) Pipeline2[zone:cloud]:(1810.3333333333333,4933333.333333333) Pipeline3[zone:edge]:(1506,69435000) 
+Time to deploy: 79ms
+Time to deploy: 94ms
+Pipeline1[zone:edge]:(166,1232200) Pipeline2[zone:cloud]:(4618,44416800) Pipeline3[zone:cloud]:(2691.5,19737600) 
+Time to deploy: 57ms
+Time to deploy: 71ms
+Pipeline1[zone:cloud]:(1213,1233400) Pipeline2[zone:edge]:(1153,44388000) Pipeline3[zone:cloud]:(2704.75,19734400) 
+Time to deploy: 91ms
+Time to deploy: 96ms
+Pipeline1[zone:cloud]:(4157,35335700) Pipeline2[zone:cloud]:(2661,19718400) Pipeline3[zone:edge]:(319,11116800) 
+Time to deploy: 94ms
+Time to deploy: 97ms
+Pipeline1[zone:edge]:(1464,69345000) Pipeline2[zone:cloud]:(2850.75,19720000) Pipeline3[zone:cloud]:(2078.5,11106000) 
+Time to deploy: 83ms
+Time to deploy: 86ms
+Pipeline1[zone:cloud]:(2651.5,19715200) Pipeline2[zone:edge]:(287,11088000) Pipeline3[zone:cloud]:(1854.5,6478800) 
+Time to deploy: 78ms
+Time to deploy: 85ms
+Pipeline1[zone:edge]:(582.5,19705600) Pipeline2[zone:cloud]:(2601,11095200) Pipeline3[zone:cloud]:(1898,4936800) 
+Time to deploy: 90ms
+Time to deploy: 95ms
+Pipeline1[zone:cloud]:(2264,11102400) Pipeline2[zone:edge]:(173.5,1231800) Pipeline3[zone:cloud]:(3399.3333333333335,31284800) 
+Time to deploy: 62ms
+Time to deploy: 84ms
+Pipeline1[zone:cloud]:(2143.3333333333335,11100000) Pipeline2[zone:cloud]:(1325,1234800) Pipeline3[zone:edge]:(893,44409600) 
+Time to deploy: 76ms
+Time to deploy: 72ms
+Pipeline1[zone:edge]:(303,4924800) Pipeline2[zone:cloud]:(4140,35299550) Pipeline3[zone:cloud]:(2933,19712000) 
+Time to deploy: 91ms
+Time to deploy: 105ms
+Pipeline1[zone:cloud]:(1548.5,4933600) Pipeline2[zone:edge]:(1194,69615000) Pipeline3[zone:cloud]:(2776.5,19742400) 
+Time to deploy: 88ms
+Time to deploy: 95ms
+Pipeline1[zone:cloud]:(3367.3333333333335,31273600) Pipeline2[zone:cloud]:(2655.5,19721600) Pipeline3[zone:edge]:(324,11075400) 
+Time to deploy: 64ms
+Time to deploy: 66ms
+Pipeline1[zone:edge]:(1216,44452800) Pipeline2[zone:cloud]:(2678,19737600) Pipeline3[zone:cloud]:(2204,11102400) 
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator_multiple_pipeline.js
+
+Pipeline1[zone:cloud]:(2693,19737600) Pipeline2[zone:cloud]:(1518.3333333333333,7412049) Pipeline3[zone:cloud]:(1023.3333333333334,831106.6666666666) 
+Time to deploy: 101ms
+Pipeline1[zone:edge]:(581.5,19776000) Pipeline2[zone:cloud]:(2175.3333333333335,11084400) Pipeline3[zone:cloud]:(1339,1233466.6666666667) 
+Time to deploy: 67ms
+Time to deploy: 86ms
+Pipeline1[zone:cloud]:(2180,11104200) Pipeline2[zone:edge]:(331,4923200) Pipeline3[zone:cloud]:(6170,69412500) 
+Time to deploy: 102ms
+Time to deploy: 120ms
+Pipeline1[zone:cloud]:(2260.6666666666665,11097600) Pipeline2[zone:cloud]:(1629,4940800) Pipeline3[zone:edge]:(1301,69390000) 
+Time to deploy: 53ms
+Time to deploy: 67ms
+Pipeline1[zone:edge]:(244.5,1233600) Pipeline2[zone:cloud]:(3410.6666666666665,31241600) Pipeline3[zone:cloud]:(2801,19744000) 
+Time to deploy: 73ms
+Time to deploy: 76ms
+Pipeline1[zone:cloud]:(1236,1233200) Pipeline2[zone:edge]:(1186,44380800) Pipeline3[zone:cloud]:(2787.3333333333335,19748266.666666668) 
+Time to deploy: 69ms
+Time to deploy: 79ms
+Pipeline1[zone:cloud]:(3805.5,35334300) Pipeline2[zone:cloud]:(2614,19705600) Pipeline3[zone:edge]:(357,11100600) 
+Time to deploy: 127ms
+Time to deploy: 136ms
+Pipeline1[zone:edge]:(0,0) Pipeline2[zone:cloud]:(2836.25,19726400) Pipeline3[zone:cloud]:(2157.5,11122200) 
+Time to deploy: 70ms
+Time to deploy: 71ms
+Pipeline1[zone:cloud]:(2852,19737600) Pipeline2[zone:edge]:(645.5,11109600) Pipeline3[zone:cloud]:(1758,6477600) 
+Time to deploy: 79ms
+Time to deploy: 93ms
+Pipeline1[zone:edge]:(697,19734400) Pipeline2[zone:cloud]:(2007.5,11104200) Pipeline3[zone:cloud]:(1796,4931733.333333333) 
+Time to deploy: 73ms
+Time to deploy: 79ms
+Pipeline1[zone:cloud]:(2063.5,11098800) Pipeline2[zone:edge]:(308.5,1231600) Pipeline3[zone:cloud]:(3564.3333333333335,31244800) 
+Time to deploy: 87ms
+Time to deploy: 112ms
+Pipeline1[zone:cloud]:(2213.3333333333335,11098800) Pipeline2[zone:cloud]:(1246,1231400) Pipeline3[zone:edge]:(1050.5,44352000) 
+Time to deploy: 57ms
+Time to deploy: 80ms
+Pipeline1[zone:edge]:(460,4933600) Pipeline2[zone:cloud]:(5948,69311250) Pipeline3[zone:cloud]:(2796.5,19715200) 
+Time to deploy: 60ms
+Time to deploy: 72ms
+Pipeline1[zone:cloud]:(1670.5,4935200) Pipeline2[zone:edge]:(1331,69367500) Pipeline3[zone:cloud]:(2707,19729066.666666668) 
+Time to deploy: 61ms
+Time to deploy: 66ms
+Pipeline1[zone:cloud]:(3431,31221333.333333332) Pipeline2[zone:cloud]:(2723,19737600) Pipeline3[zone:edge]:(525,11079000) 
+Time to deploy: 81ms
+Time to deploy: 90ms
+Pipeline1[zone:edge]:(1030,44294400) Pipeline2[zone:cloud]:(2680.5,19728000) Pipeline3[zone:cloud]:(2197.5,11113200) 
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator_multiple_pipeline.js
+
+Pipeline1[zone:cloud]:(1971.3333333333333,13184718.666666666) Pipeline2[zone:cloud]:(1649.6666666666667,7403649) Pipeline3[zone:cloud]:(1021,830858) 
+Time to deploy: 102ms
+Pipeline1[zone:edge]:(824,19760000) Pipeline2[zone:cloud]:(2454.6666666666665,11104800) Pipeline3[zone:cloud]:(1339.6666666666667,1234000) 
+Time to deploy: 59ms
+Time to deploy: 69ms
+Pipeline1[zone:cloud]:(2187.5,11075400) Pipeline2[zone:edge]:(432.5,4928800) Pipeline3[zone:cloud]:(5873.5,69333750) 
+Time to deploy: 93ms
+Time to deploy: 97ms
+Pipeline1[zone:cloud]:(2264,11097900) Pipeline2[zone:cloud]:(1862,4933600) Pipeline3[zone:edge]:(1269.5,69468750) 
+Time to deploy: 60ms
+Time to deploy: 62ms
+Pipeline1[zone:edge]:(404,1231400) Pipeline2[zone:cloud]:(3512.3333333333335,31263466.666666668) Pipeline3[zone:cloud]:(2678,19737600) 
+Time to deploy: 72ms
+Time to deploy: 78ms
+Pipeline1[zone:cloud]:(1452.5,1232400) Pipeline2[zone:edge]:(1273,44467200) Pipeline3[zone:cloud]:(3009,19731200) 
+Time to deploy: 65ms
+Time to deploy: 71ms
+Pipeline1[zone:cloud]:(4198.5,35322850) Pipeline2[zone:cloud]:(2997,19724800) Pipeline3[zone:edge]:(346,11115000) 
+Time to deploy: 106ms
+Time to deploy: 119ms
+Pipeline1[zone:edge]:(1411,69356250) Pipeline2[zone:cloud]:(2718.3333333333335,19709866.666666668) Pipeline3[zone:cloud]:(2205.5,11106000) 
+Time to deploy: 92ms
+Time to deploy: 94ms
+Pipeline1[zone:cloud]:(2597.5,19712000) Pipeline2[zone:edge]:(520.5,11109600) Pipeline3[zone:cloud]:(1898,6471900) 
+Time to deploy: 64ms
+Time to deploy: 70ms
+Pipeline1[zone:edge]:(727,19728000) Pipeline2[zone:cloud]:(2106,11086200) Pipeline3[zone:cloud]:(1692.75,4934000) 
+Time to deploy: 88ms
+Time to deploy: 100ms
+Pipeline1[zone:cloud]:(2276,11066400) Pipeline2[zone:edge]:(315.5,1232400) Pipeline3[zone:cloud]:(4337,44409600) 
+Time to deploy: 66ms
+Time to deploy: 75ms
+Pipeline1[zone:cloud]:(2130.6666666666665,11092800) Pipeline2[zone:cloud]:(1341,1235200) Pipeline3[zone:edge]:(846.5,44445600) 
 Time to deploy: 71ms
 Time to deploy: 79ms
-Pipeline1[zone:edge]:(1210,44352000) Pipeline2[zone:cloud]:(2952.5,19705600) Pipeline3[zone:cloud]:(2202,11102400) 
--------
-Pipeline1[zone:cloud]:(2704.3333333333335,19716266.666666668) Pipeline2[zone:cloud]:(1606,7410858) Pipeline3[zone:cloud]:(1124.6666666666667,832185.3333333334) 
-Time to deploy: 129ms
-Pipeline1[zone:edge]:(647,19712000) Pipeline2[zone:cloud]:(2317.3333333333335,11104800) Pipeline3[zone:cloud]:(1326.6666666666667,1231600) 
-Time to deploy: 99ms
-Time to deploy: 111ms
-Pipeline1[zone:cloud]:(2359.5,11100600) Pipeline2[zone:edge]:(580.5,4930400) Pipeline3[zone:cloud]:(6514,69277500) 
-Time to deploy: 86ms
-Time to deploy: 97ms
-Pipeline1[zone:cloud]:(2197,11090700) Pipeline2[zone:cloud]:(1738.5,4936800) Pipeline3[zone:edge]:(1298,69300000) 
-Time to deploy: 77ms
-Time to deploy: 88ms
-Pipeline1[zone:edge]:(601,1234400) Pipeline2[zone:cloud]:(4045,31246933.333333332) Pipeline3[zone:cloud]:(2999,19737600) 
+Pipeline1[zone:edge]:(391.5,4940800) Pipeline2[zone:cloud]:(6284,69446250) Pipeline3[zone:cloud]:(3039,19744000) 
+Time to deploy: 90ms
 Time to deploy: 92ms
+Pipeline1[zone:cloud]:(1734.5,4940000) Pipeline2[zone:edge]:(1395,69300000) Pipeline3[zone:cloud]:(2674,19739733.333333332) 
+Time to deploy: 61ms
+Time to deploy: 65ms
+Pipeline1[zone:cloud]:(4542,44462400) Pipeline2[zone:cloud]:(2723,19718400) Pipeline3[zone:edge]:(354,11106000) 
+Time to deploy: 64ms
+Time to deploy: 71ms
+Pipeline1[zone:edge]:(1214,44424000) Pipeline2[zone:cloud]:(2820.75,19745600) Pipeline3[zone:cloud]:(2057,11093400) 
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator_multiple_pipeline.js
+
+Pipeline1[zone:cloud]:(2643.6666666666665,19724800) Pipeline2[zone:cloud]:(1550,7421652) Pipeline3[zone:cloud]:(1091,831506.6666666666) 
+Time to deploy: 82ms
+Pipeline1[zone:edge]:(749.5,19734400) Pipeline2[zone:cloud]:(2151.75,11095200) Pipeline3[zone:cloud]:(1392.6666666666667,1232000) 
+Time to deploy: 59ms
+Time to deploy: 60ms
+Pipeline1[zone:cloud]:(2176.5,11102400) Pipeline2[zone:edge]:(320.5,4927200) Pipeline3[zone:cloud]:(6035,69333750) 
+Time to deploy: 93ms
+Time to deploy: 102ms
+Pipeline1[zone:cloud]:(2173.75,11097900) Pipeline2[zone:cloud]:(1664.5,4928800) Pipeline3[zone:edge]:(1291,69390000) 
+Time to deploy: 75ms
+Time to deploy: 79ms
+Pipeline1[zone:edge]:(413.5,1235000) Pipeline2[zone:cloud]:(3426.3333333333335,31247466.666666668) Pipeline3[zone:cloud]:(2763.5,19744000) 
+Time to deploy: 83ms
+Time to deploy: 97ms
+Pipeline1[zone:cloud]:(1302,1233000) Pipeline2[zone:edge]:(1088,44409600) Pipeline3[zone:cloud]:(2907.25,19748800) 
+Time to deploy: 68ms
+Time to deploy: 61ms
+Pipeline1[zone:cloud]:(3889,35321850) Pipeline2[zone:cloud]:(2635,19721600) Pipeline3[zone:edge]:(588.5,11109600) 
+Time to deploy: 72ms
+Time to deploy: 77ms
+Pipeline1[zone:edge]:(1672.5,69390000) Pipeline2[zone:cloud]:(3056.6666666666665,19752533.333333332) Pipeline3[zone:cloud]:(2247,11100600) 
+Time to deploy: 77ms
+Time to deploy: 78ms
+Pipeline1[zone:cloud]:(2577,19769600) Pipeline2[zone:edge]:(515.5,11111400) Pipeline3[zone:cloud]:(1935.75,6477600) 
+Time to deploy: 77ms
+Time to deploy: 92ms
+Pipeline1[zone:edge]:(612,19737600) Pipeline2[zone:cloud]:(2043,11093400) Pipeline3[zone:cloud]:(1730.25,4928800) 
+Time to deploy: 71ms
+Time to deploy: 72ms
+Pipeline1[zone:cloud]:(2146.5,11095200) Pipeline2[zone:edge]:(304,1234000) Pipeline3[zone:cloud]:(4452,44431200) 
+Time to deploy: 80ms
+Time to deploy: 105ms
+Pipeline1[zone:cloud]:(2169.75,11105100) Pipeline2[zone:cloud]:(1222.5,1236000) Pipeline3[zone:edge]:(1046.5,44445600) 
+Time to deploy: 61ms
+Time to deploy: 65ms
+Pipeline1[zone:edge]:(511.5,4932000) Pipeline2[zone:cloud]:(4683,46641733.333333336) Pipeline3[zone:cloud]:(2842,19763200) 
+Time to deploy: 105ms
+Time to deploy: 110ms
+Pipeline1[zone:cloud]:(1732.5,4932000) Pipeline2[zone:edge]:(1382.5,69243750) Pipeline3[zone:cloud]:(2939.6666666666665,19699200) 
+Time to deploy: 64ms
+Time to deploy: 70ms
+Pipeline1[zone:cloud]:(4363.5,44438400) Pipeline2[zone:cloud]:(2560.5,19766400) Pipeline3[zone:edge]:(407,11098800) 
+Time to deploy: 91ms
+Time to deploy: 97ms
+Pipeline1[zone:edge]:(1089.5,44366400) Pipeline2[zone:cloud]:(2690.75,19731200) Pipeline3[zone:cloud]:(2116,11095200) 
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator_multiple_pipeline.js
+
+Pipeline1[zone:cloud]:(2654.6666666666665,19750400) Pipeline2[zone:cloud]:(2099.6666666666665,11108400) Pipeline3[zone:cloud]:(1059.3333333333333,831918.6666666666) 
+Time to deploy: 88ms
+Pipeline1[zone:edge]:(692.5,19760000) Pipeline2[zone:cloud]:(2112,11094000) Pipeline3[zone:cloud]:(1483.3333333333333,1234400) 
+Time to deploy: 63ms
+Time to deploy: 68ms
+Pipeline1[zone:cloud]:(2044,11104200) Pipeline2[zone:edge]:(393,4943200) Pipeline3[zone:cloud]:(6484.5,69311250) 
+Time to deploy: 65ms
+Time to deploy: 77ms
+Pipeline1[zone:cloud]:(2177,11089200) Pipeline2[zone:cloud]:(1680,4940000) Pipeline3[zone:edge]:(1361,69356250) 
+Time to deploy: 79ms
+Time to deploy: 80ms
+Pipeline1[zone:edge]:(450.5,1233600) Pipeline2[zone:cloud]:(4761,44388000) Pipeline3[zone:cloud]:(2822,19769600) 
+Time to deploy: 61ms
+Time to deploy: 71ms
+Pipeline1[zone:cloud]:(1317,1234200) Pipeline2[zone:edge]:(1148,44452800) Pipeline3[zone:cloud]:(2713,19724800) 
+Time to deploy: 82ms
+Time to deploy: 87ms
+Pipeline1[zone:cloud]:(3774,35279050) Pipeline2[zone:cloud]:(2709.5,19712000) Pipeline3[zone:edge]:(511,11113200) 
+Time to deploy: 80ms
+Time to deploy: 82ms
+Pipeline1[zone:edge]:(1492,69435000) Pipeline2[zone:cloud]:(2631.5,19720000) Pipeline3[zone:cloud]:(2255,11102400) 
+Time to deploy: 76ms
+Time to deploy: 84ms
+Pipeline1[zone:cloud]:(2667.5,19747200) Pipeline2[zone:edge]:(474.6666666666667,11096400) Pipeline3[zone:cloud]:(1873.25,6472700) 
+Time to deploy: 54ms
+Time to deploy: 60ms
+Pipeline1[zone:edge]:(549,19699200) Pipeline2[zone:cloud]:(2277,11093400) Pipeline3[zone:cloud]:(1679,4933600) 
+Time to deploy: 85ms
+Time to deploy: 93ms
+Pipeline1[zone:cloud]:(2080,11116800) Pipeline2[zone:edge]:(404,1232400) Pipeline3[zone:cloud]:(3437.6666666666665,31267200) 
+Time to deploy: 67ms
+Time to deploy: 72ms
+Pipeline1[zone:cloud]:(2138.75,11088000) Pipeline2[zone:cloud]:(1511,1235200) Pipeline3[zone:edge]:(814,44308800) 
+Time to deploy: 65ms
+Time to deploy: 78ms
+Pipeline1[zone:edge]:(657,4928000) Pipeline2[zone:cloud]:(4001.5,35300150) Pipeline3[zone:cloud]:(2852,19718400) 
+Time to deploy: 73ms
+Time to deploy: 77ms
+Pipeline1[zone:cloud]:(1608.5,4932000) Pipeline2[zone:edge]:(1477,69446250) Pipeline3[zone:cloud]:(3000,19724800) 
+Time to deploy: 57ms
+Time to deploy: 63ms
+Pipeline1[zone:cloud]:(4447,44380800) Pipeline2[zone:cloud]:(2708,19696000) Pipeline3[zone:edge]:(533,11091600) 
+Time to deploy: 114ms
+Time to deploy: 113ms
+Pipeline1[zone:edge]:(1040,44467200) Pipeline2[zone:cloud]:(2854,19739733.333333332) Pipeline3[zone:cloud]:(2140,11088000) 
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator_multiple_pipeline.js
+
+Pipeline1[zone:cloud]:(2577.6666666666665,19739733.333333332) Pipeline2[zone:cloud]:(2194,11102400) Pipeline3[zone:cloud]:(1157,831906.6666666666) 
+Time to deploy: 72ms
+Pipeline1[zone:edge]:(659,19740800) Pipeline2[zone:cloud]:(2252.3333333333335,11110800) Pipeline3[zone:cloud]:(1553.6666666666667,1234266.6666666667) 
+Time to deploy: 79ms
+Time to deploy: 89ms
+Pipeline1[zone:cloud]:(2143.5,11104200) Pipeline2[zone:edge]:(407,4932800) Pipeline3[zone:cloud]:(6248.5,69311250) 
+Time to deploy: 74ms
+Time to deploy: 86ms
+Pipeline1[zone:cloud]:(2199.5,11101500) Pipeline2[zone:cloud]:(1822,4934400) Pipeline3[zone:edge]:(1642,69300000) 
+Time to deploy: 74ms
+Time to deploy: 76ms
+Pipeline1[zone:edge]:(409.5,1232800) Pipeline2[zone:cloud]:(4685.5,44416800) Pipeline3[zone:cloud]:(3116,19788800) 
+Time to deploy: 76ms
+Time to deploy: 82ms
+Pipeline1[zone:cloud]:(1336,1233000) Pipeline2[zone:edge]:(948,44366400) Pipeline3[zone:cloud]:(2704.75,19726400) 
+Time to deploy: 68ms
+Time to deploy: 79ms
+Pipeline1[zone:cloud]:(4227.5,35334900) Pipeline2[zone:cloud]:(2947,19718400) Pipeline3[zone:edge]:(569.5,11134800) 
+Time to deploy: 86ms
+Time to deploy: 90ms
+Pipeline1[zone:edge]:(1814.5,69333750) Pipeline2[zone:cloud]:(3389.3333333333335,19750400) Pipeline3[zone:cloud]:(2552,11106000) 
+Time to deploy: 75ms
+Time to deploy: 79ms
+Pipeline1[zone:cloud]:(2575.5,19740800) Pipeline2[zone:edge]:(616.5,11098800) Pipeline3[zone:cloud]:(1887.75,6470900) 
+Time to deploy: 63ms
+Time to deploy: 79ms
+Pipeline1[zone:edge]:(1049.5,19724800) Pipeline2[zone:cloud]:(2843,11088000) Pipeline3[zone:cloud]:(1981,4934400) 
+Time to deploy: 64ms
+Time to deploy: 70ms
+Pipeline1[zone:cloud]:(2136,11120400) Pipeline2[zone:edge]:(224.5,1233800) Pipeline3[zone:cloud]:(3517,31248000) 
+Time to deploy: 112ms
+Time to deploy: 118ms
+Pipeline1[zone:cloud]:(2118.6666666666665,11088000) Pipeline2[zone:cloud]:(1249,1233600) Pipeline3[zone:edge]:(922,44438400) 
+Time to deploy: 71ms
+Time to deploy: 77ms
+Pipeline1[zone:edge]:(489,4929600) Pipeline2[zone:cloud]:(4022.5,35299750) Pipeline3[zone:cloud]:(3291,19744000) 
+Time to deploy: 115ms
 Time to deploy: 125ms
-Pipeline1[zone:cloud]:(1411,1233800) Pipeline2[zone:edge]:(1264.5,44488800) Pipeline3[zone:cloud]:(2799.5,19742400) 
+Pipeline1[zone:cloud]:(1791,4931200) Pipeline2[zone:edge]:(1328.5,69255000) Pipeline3[zone:cloud]:(2915.75,19740800) 
+Time to deploy: 84ms
+Time to deploy: 87ms
+Pipeline1[zone:cloud]:(4624,44452800) Pipeline2[zone:cloud]:(2976.5,19747200) Pipeline3[zone:edge]:(500,11120400) 
+Time to deploy: 71ms
+Time to deploy: 80ms
+Pipeline1[zone:edge]:(1292,44481600) Pipeline2[zone:cloud]:(2993.3333333333335,19741866.666666668) Pipeline3[zone:cloud]:(2485,11080800) 
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator_multiple_pipeline.js
+
+Pipeline1[zone:cloud]:(2731,19724800) Pipeline2[zone:cloud]:(2084.3333333333335,11101200) Pipeline3[zone:cloud]:(1405,1232666.6666666667) 
+Time to deploy: 69ms
+Pipeline1[zone:edge]:(506.5,19763200) Pipeline2[zone:cloud]:(2197,11112000) Pipeline3[zone:cloud]:(1404.3333333333333,1232133.3333333333) 
+Time to deploy: 81ms
+Time to deploy: 85ms
+Pipeline1[zone:cloud]:(2381.5,11109600) Pipeline2[zone:edge]:(601,4933600) Pipeline3[zone:cloud]:(6637,69446250) 
+Time to deploy: 70ms
+Time to deploy: 74ms
+Pipeline1[zone:cloud]:(2233.6666666666665,11108400) Pipeline2[zone:cloud]:(1707,4935200) Pipeline3[zone:edge]:(1510,69345000) 
+Time to deploy: 92ms
+Time to deploy: 99ms
+Pipeline1[zone:edge]:(291,1236000) Pipeline2[zone:cloud]:(4919,44344800) Pipeline3[zone:cloud]:(2910.5,19712000) 
+Time to deploy: 98ms
+Time to deploy: 112ms
+Pipeline1[zone:cloud]:(1546.5,1232600) Pipeline2[zone:edge]:(944,44452800) Pipeline3[zone:cloud]:(2755.5,19748800) 
+Time to deploy: 58ms
+Time to deploy: 70ms
+Pipeline1[zone:cloud]:(3817,35300750) Pipeline2[zone:cloud]:(3051,19750400) Pipeline3[zone:edge]:(412,11115000) 
+Time to deploy: 80ms
+Time to deploy: 83ms
+Pipeline1[zone:edge]:(1293,69412500) Pipeline2[zone:cloud]:(2789.25,19705600) Pipeline3[zone:cloud]:(2015,11106000) 
+Time to deploy: 85ms
+Time to deploy: 93ms
+Pipeline1[zone:cloud]:(2869,19756800) Pipeline2[zone:edge]:(690,11104200) Pipeline3[zone:cloud]:(1877,6475700) 
+Time to deploy: 73ms
+Time to deploy: 79ms
+Pipeline1[zone:edge]:(519.5,19715200) Pipeline2[zone:cloud]:(2382,11095200) Pipeline3[zone:cloud]:(1798.25,4936000) 
+Time to deploy: 68ms
+Time to deploy: 76ms
+Pipeline1[zone:cloud]:(2528,11106000) Pipeline2[zone:edge]:(296.5,1234200) Pipeline3[zone:cloud]:(3574.6666666666665,31253333.333333332) 
+Time to deploy: 67ms
+Time to deploy: 71ms
+Pipeline1[zone:cloud]:(2228.75,11095200) Pipeline2[zone:cloud]:(1470,1232000) Pipeline3[zone:edge]:(847,44496000) 
+Time to deploy: 76ms
+Time to deploy: 73ms
+Pipeline1[zone:edge]:(640,4942400) Pipeline2[zone:cloud]:(3929.5,35266200) Pipeline3[zone:cloud]:(3147,19769600) 
+Time to deploy: 78ms
+Time to deploy: 83ms
+Pipeline1[zone:cloud]:(1846.5,4938400) Pipeline2[zone:edge]:(1553,69390000) Pipeline3[zone:cloud]:(2864.75,19742400) 
+Time to deploy: 63ms
+Time to deploy: 63ms
+Pipeline1[zone:cloud]:(4483,44474400) Pipeline2[zone:cloud]:(2639,19750400) Pipeline3[zone:edge]:(547,11111400) 
+Time to deploy: 92ms
+Time to deploy: 110ms
+Pipeline1[zone:edge]:(755,44424000) Pipeline2[zone:cloud]:(2742.25,19715200) Pipeline3[zone:cloud]:(2075.5,11098800) 
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator_multiple_pipeline.js
+
+Pipeline1[zone:cloud]:(2684.3333333333335,19720533.333333332) Pipeline2[zone:cloud]:(2115.6666666666665,11101200) Pipeline3[zone:cloud]:(1065.6666666666667,831637) 
+Time to deploy: 87ms
+Pipeline1[zone:edge]:(777,19715200) Pipeline2[zone:cloud]:(2034.6666666666667,11085600) Pipeline3[zone:cloud]:(1523.6666666666667,1232800) 
+Time to deploy: 99ms
+Time to deploy: 101ms
+Pipeline1[zone:cloud]:(2106.5,11109600) Pipeline2[zone:edge]:(218,4932800) Pipeline3[zone:cloud]:(6371,69300000) 
+Time to deploy: 114ms
+Time to deploy: 121ms
+Pipeline1[zone:cloud]:(2278.5,11099700) Pipeline2[zone:cloud]:(1854.5,4928800) Pipeline3[zone:edge]:(1398,69446250) 
+Time to deploy: 82ms
+Time to deploy: 93ms
+Pipeline1[zone:edge]:(245,1235000) Pipeline2[zone:cloud]:(4618,44366400) Pipeline3[zone:cloud]:(2838.5,19744000) 
+Time to deploy: 61ms
+Time to deploy: 65ms
+Pipeline1[zone:cloud]:(1392,1233000) Pipeline2[zone:edge]:(988.5,44409600) Pipeline3[zone:cloud]:(2694.6666666666665,19705600) 
+Time to deploy: 97ms
+Time to deploy: 101ms
+Pipeline1[zone:cloud]:(3627.5,35221400) Pipeline2[zone:cloud]:(2675,19731200) Pipeline3[zone:edge]:(536.5,11093400) 
+Time to deploy: 57ms
+Time to deploy: 62ms
+Pipeline1[zone:edge]:(1622,69457500) Pipeline2[zone:cloud]:(2897.5,19713600) Pipeline3[zone:cloud]:(2353.5,11116800) 
+Time to deploy: 84ms
+Time to deploy: 83ms
+Pipeline1[zone:cloud]:(2815.5,19747200) Pipeline2[zone:edge]:(571.6666666666666,11104800) Pipeline3[zone:cloud]:(2068,6474700) 
+Time to deploy: 67ms
+Time to deploy: 69ms
+Pipeline1[zone:edge]:(712,19763200) Pipeline2[zone:cloud]:(2163,11111400) Pipeline3[zone:cloud]:(1773.75,4930400) 
+Time to deploy: 77ms
+Time to deploy: 91ms
+Pipeline1[zone:cloud]:(2120,11102400) Pipeline2[zone:edge]:(342,1234200) Pipeline3[zone:cloud]:(3439,31274666.666666668) 
+Time to deploy: 70ms
+Time to deploy: 83ms
+Pipeline1[zone:cloud]:(2186.6666666666665,11098800) Pipeline2[zone:cloud]:(1301.5,1235600) Pipeline3[zone:edge]:(1098,44409600) 
+Time to deploy: 70ms
+Time to deploy: 71ms
+Pipeline1[zone:edge]:(576,4928000) Pipeline2[zone:cloud]:(4156.5,35333700) Pipeline3[zone:cloud]:(3229,19744000) 
+Time to deploy: 61ms
+Time to deploy: 62ms
+Pipeline1[zone:cloud]:(1588,4931200) Pipeline2[zone:edge]:(1331.5,69401250) Pipeline3[zone:cloud]:(2842.75,19742400) 
+Time to deploy: 78ms
+Time to deploy: 94ms
+Pipeline1[zone:cloud]:(4604.5,44409600) Pipeline2[zone:cloud]:(2741,19724800) Pipeline3[zone:edge]:(546,11102400) 
+Time to deploy: 64ms
+Time to deploy: 78ms
+Pipeline1[zone:edge]:(1186,44352000) Pipeline2[zone:cloud]:(2849.3333333333335,19722666.666666668) Pipeline3[zone:cloud]:(2157.5,11098800) 
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator_multiple_pipeline.js
+
+Pipeline1[zone:cloud]:(2658,19699200) Pipeline2[zone:cloud]:(2162.6666666666665,11097600) Pipeline3[zone:cloud]:(1013.6666666666666,831776.3333333334) 
+Time to deploy: 84ms
+Pipeline1[zone:edge]:(900.5,19718400) Pipeline2[zone:cloud]:(2161.6666666666665,11091600) Pipeline3[zone:cloud]:(1428.6666666666667,1232133.3333333333) 
+Time to deploy: 73ms
+Time to deploy: 79ms
+Pipeline1[zone:cloud]:(2188.5,11104200) Pipeline2[zone:edge]:(363,4928800) Pipeline3[zone:cloud]:(4315.5,35333500) 
+Time to deploy: 83ms
+Time to deploy: 90ms
+Pipeline1[zone:cloud]:(2252,11107800) Pipeline2[zone:cloud]:(1675,4934400) Pipeline3[zone:edge]:(1367,69300000) 
+Time to deploy: 75ms
+Time to deploy: 87ms
+Pipeline1[zone:edge]:(332.5,1235000) Pipeline2[zone:cloud]:(3487,31185066.666666668) Pipeline3[zone:cloud]:(2993,19769600) 
+Time to deploy: 52ms
+Time to deploy: 71ms
+Pipeline1[zone:cloud]:(1240,1233600) Pipeline2[zone:edge]:(0,0) Pipeline3[zone:cloud]:(2915.25,19744000) 
+Time to deploy: 90ms
+Time to deploy: 93ms
+Pipeline1[zone:cloud]:(6381.5,69446250) Pipeline2[zone:cloud]:(2740,19740800) Pipeline3[zone:edge]:(367,11095200) 
+Time to deploy: 87ms
+Time to deploy: 98ms
+Pipeline1[zone:edge]:(1563,69480000) Pipeline2[zone:cloud]:(2864.6666666666665,19729066.666666668) Pipeline3[zone:cloud]:(2274,11113200) 
+Time to deploy: 90ms
+Time to deploy: 98ms
+Pipeline1[zone:cloud]:(2760,19744000) Pipeline2[zone:edge]:(491,11091600) Pipeline3[zone:cloud]:(1898,4931733.333333333) 
+Time to deploy: 67ms
+Time to deploy: 74ms
+Pipeline1[zone:edge]:(541.5,19728000) Pipeline2[zone:cloud]:(1949,11116800) Pipeline3[zone:cloud]:(1884.25,4930400) 
+Time to deploy: 97ms
+Time to deploy: 109ms
+Pipeline1[zone:cloud]:(1993,11111400) Pipeline2[zone:edge]:(276.5,1231800) Pipeline3[zone:cloud]:(3462.3333333333335,31307733.333333332) 
+Time to deploy: 92ms
+Time to deploy: 98ms
+Pipeline1[zone:cloud]:(2159.6666666666665,11095200) Pipeline2[zone:cloud]:(1342.5,1232800) Pipeline3[zone:edge]:(0,0) 
+Time to deploy: 64ms
+Time to deploy: 83ms
+Pipeline1[zone:edge]:(753,4928000) Pipeline2[zone:cloud]:(6633,69187500) Pipeline3[zone:cloud]:(2601,19712000) 
+Time to deploy: 133ms
+Time to deploy: 133ms
+Pipeline1[zone:cloud]:(1747.5,4929600) Pipeline2[zone:edge]:(1540,69412500) Pipeline3[zone:cloud]:(3117,19732800) 
+Time to deploy: 74ms
+Time to deploy: 74ms
+Pipeline1[zone:cloud]:(4473,44373600) Pipeline2[zone:cloud]:(2595,19776000) Pipeline3[zone:edge]:(335,11097000) 
+Time to deploy: 122ms
+Time to deploy: 127ms
+Pipeline1[zone:edge]:(1112,44481600) Pipeline2[zone:cloud]:(2907,19744000) Pipeline3[zone:cloud]:(2196.5,11091600) 
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator_multiple_pipeline.js
+
+Pipeline1[zone:cloud]:(2573,19729066.666666668) Pipeline2[zone:cloud]:(2141,11092800) Pipeline3[zone:cloud]:(1098.3333333333333,831127.6666666666) 
+Time to deploy: 77ms
+Pipeline1[zone:edge]:(666,19724800) Pipeline2[zone:cloud]:(2145.3333333333335,11097600) Pipeline3[zone:cloud]:(1432.3333333333333,1233333.3333333333) 
+Time to deploy: 65ms
+Time to deploy: 100ms
+Pipeline1[zone:cloud]:(2155,11107800) Pipeline2[zone:edge]:(299.5,4935200) Pipeline3[zone:cloud]:(6367.5,69468750) 
+Time to deploy: 62ms
+Time to deploy: 82ms
+Pipeline1[zone:cloud]:(2243.25,11091600) Pipeline2[zone:cloud]:(1826.5,4937600) Pipeline3[zone:edge]:(1377.5,69457500) 
+Time to deploy: 74ms
+Time to deploy: 92ms
+Pipeline1[zone:edge]:(123,1232200) Pipeline2[zone:cloud]:(4694,44424000) Pipeline3[zone:cloud]:(2741.5,19712000) 
+Time to deploy: 60ms
+Time to deploy: 65ms
+Pipeline1[zone:cloud]:(1324.5,1232400) Pipeline2[zone:edge]:(898,44424000) Pipeline3[zone:cloud]:(2795.5,19753600) 
+Time to deploy: 85ms
+Time to deploy: 89ms
+Pipeline1[zone:cloud]:(3965,35356600) Pipeline2[zone:cloud]:(2637,19699200) Pipeline3[zone:edge]:(435.5,11093400) 
+Time to deploy: 117ms
+Time to deploy: 123ms
+Pipeline1[zone:edge]:(0,0) Pipeline2[zone:cloud]:(2911.75,19739200) Pipeline3[zone:cloud]:(2298,11098800) 
+Time to deploy: 97ms
+Time to deploy: 102ms
+Pipeline1[zone:cloud]:(2637,19750400) Pipeline2[zone:edge]:(371,11106000) Pipeline3[zone:cloud]:(1968.5,6471400) 
+Time to deploy: 58ms
+Time to deploy: 61ms
+Pipeline1[zone:edge]:(713.5,19753600) Pipeline2[zone:cloud]:(2567,11116800) Pipeline3[zone:cloud]:(1806.6666666666667,4933866.666666667) 
+Time to deploy: 61ms
+Time to deploy: 75ms
+Pipeline1[zone:cloud]:(1991,11104200) Pipeline2[zone:edge]:(222.5,1233800) Pipeline3[zone:cloud]:(4645.5,44445600) 
+Time to deploy: 94ms
+Time to deploy: 97ms
+Pipeline1[zone:cloud]:(2060.75,11107800) Pipeline2[zone:cloud]:(1298.5,1235000) Pipeline3[zone:edge]:(861,44524800) 
+Time to deploy: 68ms
+Time to deploy: 69ms
+Pipeline1[zone:edge]:(213,4938400) Pipeline2[zone:cloud]:(3804,35244300) Pipeline3[zone:cloud]:(2866,19731200) 
+Time to deploy: 65ms
+Time to deploy: 78ms
+Pipeline1[zone:cloud]:(1732,4936800) Pipeline2[zone:edge]:(1210,69367500) Pipeline3[zone:cloud]:(2641.25,19728000) 
+Time to deploy: 77ms
+Time to deploy: 82ms
+Pipeline1[zone:cloud]:(3685,31227733.333333332) Pipeline2[zone:cloud]:(2702.5,19737600) Pipeline3[zone:edge]:(257,11084400) 
+Time to deploy: 59ms
+Time to deploy: 67ms
+Pipeline1[zone:edge]:(1060,44388000) Pipeline2[zone:cloud]:(2801,19758933.333333332) Pipeline3[zone:cloud]:(2460,11113200) 
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator_multiple_pipeline.js
+
+Pipeline1[zone:cloud]:(1991.3333333333333,13159127.666666666) Pipeline2[zone:cloud]:(2082.3333333333335,11089200) Pipeline3[zone:cloud]:(1072,832306.6666666666) 
+Time to deploy: 87ms
+Pipeline1[zone:cloud]:(2681.6666666666665,19722666.666666668) Pipeline2[zone:edge]:(425,11122200) Pipeline3[zone:cloud]:(1442,1233733.3333333333) 
+Time to deploy: 71ms
+Time to deploy: 82ms
+Pipeline1[zone:edge]:(532.5,11113200) Pipeline2[zone:cloud]:(1900,4931200) Pipeline3[zone:cloud]:(6410,69525000) 
+Time to deploy: 91ms
+Time to deploy: 114ms
+Pipeline1[zone:cloud]:(2158.5,11100600) Pipeline2[zone:cloud]:(1882,4940000) Pipeline3[zone:edge]:(1340,69457500) 
+Time to deploy: 60ms
+Time to deploy: 60ms
+Pipeline1[zone:edge]:(161,1234000) Pipeline2[zone:cloud]:(3511.3333333333335,31198400) Pipeline3[zone:cloud]:(2898.5,19728000) 
+Time to deploy: 89ms
+Time to deploy: 90ms
+Pipeline1[zone:cloud]:(1261,1233000) Pipeline2[zone:edge]:(1000.5,44380800) Pipeline3[zone:cloud]:(2700.5,19750400) 
+Time to deploy: 71ms
+Time to deploy: 84ms
+Pipeline1[zone:cloud]:(6248.5,69356250) Pipeline2[zone:cloud]:(2595,19744000) Pipeline3[zone:edge]:(529,11097000) 
+Time to deploy: 99ms
+Time to deploy: 106ms
+Pipeline1[zone:edge]:(1570,69502500) Pipeline2[zone:cloud]:(3094,19752533.333333332) Pipeline3[zone:cloud]:(2097,11098800) 
+Time to deploy: 87ms
+Time to deploy: 89ms
+Pipeline1[zone:cloud]:(2604.5,19747200) Pipeline2[zone:edge]:(523,11086200) Pipeline3[zone:cloud]:(1867,6473800) 
+Time to deploy: 68ms
+Time to deploy: 87ms
+Pipeline1[zone:edge]:(751,19744000) Pipeline2[zone:cloud]:(2366.5,11100600) Pipeline3[zone:cloud]:(1697.5,4932400) 
+Time to deploy: 54ms
+Time to deploy: 62ms
+Pipeline1[zone:cloud]:(2212,11091600) Pipeline2[zone:edge]:(220.5,1233600) Pipeline3[zone:cloud]:(4710.5,44431200) 
+Time to deploy: 75ms
+Time to deploy: 99ms
+Pipeline1[zone:cloud]:(2252.3333333333335,11107200) Pipeline2[zone:cloud]:(1244.5,1233000) Pipeline3[zone:edge]:(861.5,44373600) 
+Time to deploy: 69ms
+Time to deploy: 78ms
+Pipeline1[zone:edge]:(224.5,4928800) Pipeline2[zone:cloud]:(3798,35311600) Pipeline3[zone:cloud]:(2778.5,19708800) 
+Time to deploy: 79ms
+Time to deploy: 92ms
+Pipeline1[zone:cloud]:(1626,4929600) Pipeline2[zone:edge]:(1878,69255000) Pipeline3[zone:cloud]:(2783.25,19731200) 
+Time to deploy: 77ms
+Time to deploy: 99ms
+Pipeline1[zone:cloud]:(4714.5,44445600) Pipeline2[zone:cloud]:(2603,19763200) Pipeline3[zone:edge]:(565,11097000) 
+Time to deploy: 67ms
+Time to deploy: 115ms
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator_multiple_pipeline.js
+
+Pipeline1[zone:cloud]:(1976.3333333333333,13152709.666666666) Pipeline2[zone:cloud]:(1557,7410834) Pipeline3[zone:cloud]:(1096,829625) 
+Time to deploy: 75ms
+Pipeline1[zone:edge]:(512,19731200) Pipeline2[zone:cloud]:(2105.6666666666665,11097600) Pipeline3[zone:cloud]:(1511,1233600) 
+Time to deploy: 62ms
+Time to deploy: 79ms
+Pipeline1[zone:cloud]:(1889,11120400) Pipeline2[zone:edge]:(527,4936000) Pipeline3[zone:cloud]:(3686,35368050) 
+Time to deploy: 113ms
+Time to deploy: 116ms
+Pipeline1[zone:cloud]:(2148,11105100) Pipeline2[zone:cloud]:(1763.5,4939200) Pipeline3[zone:edge]:(1569.5,69390000) 
+Time to deploy: 68ms
+Time to deploy: 65ms
+Pipeline1[zone:edge]:(155,1233600) Pipeline2[zone:cloud]:(3111,24658400) Pipeline3[zone:cloud]:(3706,19763200) 
+Time to deploy: 88ms
+Time to deploy: 94ms
+Pipeline1[zone:cloud]:(1411,1232000) Pipeline2[zone:cloud]:(5254.2,44412480) Pipeline3[zone:edge]:(571,19712000) 
+Time to deploy: 71ms
+Time to deploy: 76ms
+Pipeline1[zone:cloud]:(6376.5,69390000) Pipeline2[zone:edge]:(784,19731200) Pipeline3[zone:cloud]:(2374,11111400) 
+Time to deploy: 62ms
+Time to deploy: 81ms
+Pipeline1[zone:edge]:(2328,69390000) Pipeline2[zone:cloud]:(3192,19724800) Pipeline3[zone:cloud]:(2477.3333333333335,11102400) 
+Time to deploy: 74ms
+Time to deploy: 86ms
+Pipeline1[zone:cloud]:(2524,19782400) Pipeline2[zone:edge]:(463,11109600) Pipeline3[zone:cloud]:(1782,4928000) 
+Time to deploy: 57ms
+Time to deploy: 86ms
+Pipeline1[zone:edge]:(694,19766400) Pipeline2[zone:cloud]:(2383.5,11104200) Pipeline3[zone:cloud]:(1767,4932400) 
+Time to deploy: 64ms
+Time to deploy: 65ms
+Pipeline1[zone:cloud]:(1961,11084400) Pipeline2[zone:edge]:(272.5,1233800) Pipeline3[zone:cloud]:(3918.6666666666665,31253333.333333332) 
+Time to deploy: 78ms
+Time to deploy: 92ms
+Pipeline1[zone:cloud]:(2114.6666666666665,11092800) Pipeline2[zone:cloud]:(1401,1236000) Pipeline3[zone:edge]:(769,44352000) 
+Time to deploy: 72ms
+Time to deploy: 87ms
+Pipeline1[zone:edge]:(212,4936000) Pipeline2[zone:cloud]:(6469,69333750) Pipeline3[zone:cloud]:(2639,19760000) 
+Time to deploy: 68ms
+Time to deploy: 79ms
+Pipeline1[zone:cloud]:(1565,4929600) Pipeline2[zone:edge]:(1285,69435000) Pipeline3[zone:cloud]:(2787.3333333333335,19720533.333333332) 
+Time to deploy: 62ms
+Time to deploy: 71ms
+Pipeline1[zone:cloud]:(4401.75,34524800) Pipeline2[zone:cloud]:(2633,19737600) Pipeline3[zone:edge]:(506,11097000) 
+Time to deploy: 116ms
+Time to deploy: 118ms
+Pipeline1[zone:edge]:(1309,44424000) Pipeline2[zone:cloud]:(2823.3333333333335,19705600) Pipeline3[zone:cloud]:(2622,11098800) 
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator_multiple_pipeline.js
+
+Pipeline1[zone:cloud]:(2754,19729066.666666668) Pipeline2[zone:cloud]:(1777.3333333333333,7406052) Pipeline3[zone:cloud]:(1241.3333333333333,832985.3333333334) 
+Time to deploy: 97ms
+Pipeline1[zone:edge]:(614,19763200) Pipeline2[zone:cloud]:(2288.6666666666665,11109600) Pipeline3[zone:cloud]:(1541.6666666666667,1233200) 
+Time to deploy: 86ms
+Time to deploy: 107ms
+Pipeline1[zone:cloud]:(2079.5,11097000) Pipeline2[zone:edge]:(551,4935200) Pipeline3[zone:cloud]:(6562,69390000) 
+Time to deploy: 64ms
+Time to deploy: 74ms
+Pipeline1[zone:cloud]:(2273.6666666666665,11100000) Pipeline2[zone:cloud]:(2025.5,4941600) Pipeline3[zone:edge]:(2089.5,69367500) 
+Time to deploy: 89ms
+Time to deploy: 103ms
+Pipeline1[zone:edge]:(187,1234400) Pipeline2[zone:cloud]:(3756,31265066.666666668) Pipeline3[zone:cloud]:(3164,19731200) 
+Time to deploy: 96ms
+Time to deploy: 125ms
+Pipeline1[zone:cloud]:(1214,1236000) Pipeline2[zone:edge]:(1000,44474400) Pipeline3[zone:cloud]:(2825.75,19744000) 
+Time to deploy: 75ms
+Time to deploy: 81ms
+Pipeline1[zone:cloud]:(6376,69311250) Pipeline2[zone:cloud]:(2805.5,19750400) Pipeline3[zone:edge]:(365,11080800) 
+Time to deploy: 66ms
+Time to deploy: 71ms
+Pipeline1[zone:edge]:(1935.5,69435000) Pipeline2[zone:cloud]:(2778.6666666666665,19733333.333333332) Pipeline3[zone:cloud]:(2592,11120400) 
+Time to deploy: 96ms
+Time to deploy: 102ms
+Pipeline1[zone:cloud]:(3268,19744000) Pipeline2[zone:edge]:(750,11088000) Pipeline3[zone:cloud]:(2112,4936000) 
+Time to deploy: 82ms
+Time to deploy: 80ms
+Pipeline1[zone:edge]:(496.5,19715200) Pipeline2[zone:cloud]:(2370.5,11106000) Pipeline3[zone:cloud]:(2168.5,4934800) 
+Time to deploy: 61ms
+Time to deploy: 66ms
+Pipeline1[zone:cloud]:(2309,11093400) Pipeline2[zone:edge]:(283.5,1233800) Pipeline3[zone:cloud]:(3545.3333333333335,31236800) 
+Time to deploy: 93ms
+Time to deploy: 117ms
+Pipeline1[zone:cloud]:(2347.3333333333335,11098800) Pipeline2[zone:cloud]:(1504,1232800) Pipeline3[zone:edge]:(1073.5,44438400) 
+Time to deploy: 72ms
+Time to deploy: 83ms
+Pipeline1[zone:edge]:(706,4929600) Pipeline2[zone:cloud]:(6944,69435000) Pipeline3[zone:cloud]:(2851,19673600) 
+Time to deploy: 77ms
+Time to deploy: 87ms
+Pipeline1[zone:cloud]:(2012.5,4932000) Pipeline2[zone:edge]:(1337,69255000) Pipeline3[zone:cloud]:(2936.6666666666665,19739733.333333332) 
+Time to deploy: 71ms
+Time to deploy: 105ms
+Pipeline1[zone:cloud]:(5535,44424000) Pipeline2[zone:cloud]:(3223,19705600) Pipeline3[zone:edge]:(463,11098800) 
+Time to deploy: 92ms
+Time to deploy: 107ms
+Pipeline1[zone:edge]:(1077,44323200) Pipeline2[zone:cloud]:(2893.75,19737600) Pipeline3[zone:cloud]:(2367,11113200) 
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator_multiple_pipeline.js
+
+Pipeline1[zone:cloud]:(2648.3333333333335,19741866.666666668) Pipeline2[zone:cloud]:(2195.6666666666665,11102400) Pipeline3[zone:cloud]:(1099,831234) 
+Time to deploy: 92ms
+Pipeline1[zone:edge]:(1069,19712000) Pipeline2[zone:cloud]:(2046,11098800) Pipeline3[zone:cloud]:(1342.3333333333333,1233466.6666666667) 
+Time to deploy: 89ms
+Time to deploy: 100ms
+Pipeline1[zone:cloud]:(2195.5,11107800) Pipeline2[zone:edge]:(322.5,4930400) Pipeline3[zone:cloud]:(4781,46679500) 
+Time to deploy: 62ms
+Time to deploy: 66ms
+Pipeline1[zone:cloud]:(2145,11108700) Pipeline2[zone:cloud]:(1691,4941600) Pipeline3[zone:edge]:(1678,69615000) 
+Time to deploy: 60ms
+Time to deploy: 65ms
+Pipeline1[zone:edge]:(357.5,1233200) Pipeline2[zone:cloud]:(3196,24687200) Pipeline3[zone:cloud]:(2963,19737600) 
+Time to deploy: 78ms
+Time to deploy: 88ms
+Pipeline1[zone:cloud]:(1351,1233200) Pipeline2[zone:edge]:(914,44481600) Pipeline3[zone:cloud]:(2733,19712000) 
+Time to deploy: 65ms
+Time to deploy: 68ms
+Retrieve metrics failed {}
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator_multiple_pipeline.js
+
+Pipeline1[zone:cloud]:(2654.3333333333335,19714133.333333332) Pipeline2[zone:cloud]:(1510.6666666666667,7412025) Pipeline3[zone:cloud]:(1019.3333333333334,831397.3333333334) 
+Time to deploy: 106ms
+Pipeline1[zone:edge]:(600,19731200) Pipeline2[zone:cloud]:(2274.6666666666665,11086800) Pipeline3[zone:cloud]:(1302,1234133.3333333333) 
+Time to deploy: 89ms
+Time to deploy: 95ms
+Pipeline1[zone:cloud]:(2453,11098800) Pipeline2[zone:edge]:(258,4936800) Pipeline3[zone:cloud]:(6357,69378750) 
+Time to deploy: 78ms
+Time to deploy: 117ms
+Pipeline1[zone:cloud]:(2335.25,11106900) Pipeline2[zone:cloud]:(1628.5,4937600) Pipeline3[zone:edge]:(1283,69367500) 
+Time to deploy: 62ms
+Time to deploy: 71ms
+Pipeline1[zone:edge]:(205,1232200) Pipeline2[zone:cloud]:(3429.6666666666665,31210133.333333332) Pipeline3[zone:cloud]:(2826,19718400) 
+Time to deploy: 77ms
+Time to deploy: 82ms
+Pipeline1[zone:cloud]:(1305.5,1232800) Pipeline2[zone:edge]:(1037.5,44416800) Pipeline3[zone:cloud]:(2674,19728000) 
+Time to deploy: 58ms
+Time to deploy: 62ms
+Pipeline1[zone:cloud]:(3746.5,35312600) Pipeline2[zone:cloud]:(2776,19718400) Pipeline3[zone:edge]:(600,11113200) 
+Time to deploy: 86ms
+Time to deploy: 100ms
+Pipeline1[zone:edge]:(1247.5,69322500) Pipeline2[zone:cloud]:(2780,19735466.666666668) Pipeline3[zone:cloud]:(2103.5,11111400) 
+Time to deploy: 97ms
+Time to deploy: 103ms
+Pipeline1[zone:cloud]:(2805,19715200) Pipeline2[zone:edge]:(507.5,11086200) Pipeline3[zone:cloud]:(1834.5,6478300) 
+Time to deploy: 80ms
+Time to deploy: 84ms
+Pipeline1[zone:edge]:(735.5,19731200) Pipeline2[zone:cloud]:(2033.5,11113200) Pipeline3[zone:cloud]:(1761.75,4931600) 
+Time to deploy: 80ms
+Time to deploy: 99ms
+Pipeline1[zone:cloud]:(2158.5,11075400) Pipeline2[zone:edge]:(123,1233000) Pipeline3[zone:cloud]:(4487.5,44445600) 
+Time to deploy: 107ms
+Time to deploy: 121ms
+Pipeline1[zone:cloud]:(2201.25,11111400) Pipeline2[zone:cloud]:(1346,1234600) Pipeline3[zone:edge]:(916.5,44452800) 
 Time to deploy: 69ms
 Time to deploy: 75ms
-Pipeline1[zone:cloud]:(6792,69345000) Pipeline2[zone:cloud]:(2755.5,19744000) Pipeline3[zone:edge]:(346,11109600) 
-Time to deploy: 113ms
-Time to deploy: 134ms
-Pipeline1[zone:edge]:(1802,69367500) Pipeline2[zone:cloud]:(2966,19712000) Pipeline3[zone:cloud]:(2664,11102400) 
+Pipeline1[zone:edge]:(483,4935200) Pipeline2[zone:cloud]:(3893.5,35209950) Pipeline3[zone:cloud]:(2802,19769600) 
+Time to deploy: 74ms
+Time to deploy: 79ms
+Pipeline1[zone:cloud]:(1882,4933600) Pipeline2[zone:edge]:(1451.5,69502500) Pipeline3[zone:cloud]:(3188.25,19732800) 
+Time to deploy: 86ms
+Time to deploy: 89ms
+Pipeline1[zone:cloud]:(4508,44438400) Pipeline2[zone:cloud]:(2647.5,19702400) Pipeline3[zone:edge]:(288,11131200) 
+Time to deploy: 63ms
+Time to deploy: 67ms
+Pipeline1[zone:edge]:(940,44452800) Pipeline2[zone:cloud]:(2665.75,19747200) Pipeline3[zone:cloud]:(2113.5,11113200) 
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator_multiple_pipeline.js
+
+Pipeline1[zone:cloud]:(2730.3333333333335,19722666.666666668) Pipeline2[zone:cloud]:(2121.3333333333335,11101200) Pipeline3[zone:cloud]:(1161,832179.3333333334) 
+Time to deploy: 83ms
+Pipeline1[zone:edge]:(627,19772800) Pipeline2[zone:cloud]:(2184.6666666666665,11088000) Pipeline3[zone:cloud]:(1354,1234400) 
 Time to deploy: 78ms
-Time to deploy: 86ms
-Pipeline1[zone:cloud]:(2621,19753600) Pipeline2[zone:edge]:(653,11106000) Pipeline3[zone:cloud]:(1819.6666666666667,4934400) 
-Time to deploy: 129ms
-Time to deploy: 165ms
-Pipeline1[zone:edge]:(617,19731200) Pipeline2[zone:cloud]:(2108,11109600) Pipeline3[zone:cloud]:(1859.25,4932400) 
-Time to deploy: 107ms
-Time to deploy: 110ms
-Pipeline1[zone:cloud]:(2424,11088000) Pipeline2[zone:edge]:(474,1230000) Pipeline3[zone:cloud]:(3769,31222933.333333332) 
-Time to deploy: 86ms
-Time to deploy: 96ms
-Pipeline1[zone:cloud]:(2078.6666666666665,11108400) Pipeline2[zone:cloud]:(1386.5,1234000) Pipeline3[zone:edge]:(1148,44424000) 
-Time to deploy: 70ms
 Time to deploy: 85ms
-Pipeline1[zone:edge]:(506,4934400) Pipeline2[zone:cloud]:(6320,69513750) Pipeline3[zone:cloud]:(2873,19737600) 
-Time to deploy: 165ms
+Pipeline1[zone:cloud]:(2383,11089800) Pipeline2[zone:edge]:(286,4929600) Pipeline3[zone:cloud]:(6413.5,69502500) 
+Time to deploy: 88ms
+Time to deploy: 95ms
+Pipeline1[zone:cloud]:(2194.5,11098800) Pipeline2[zone:cloud]:(1722.5,4928800) Pipeline3[zone:edge]:(1284,69390000) 
+Time to deploy: 63ms
+Time to deploy: 69ms
+Pipeline1[zone:edge]:(267.5,1232800) Pipeline2[zone:cloud]:(4796,44359200) Pipeline3[zone:cloud]:(2636,19740800) 
+Time to deploy: 100ms
+Time to deploy: 102ms
+Pipeline1[zone:cloud]:(1437.5,1232400) Pipeline2[zone:edge]:(1043,44380800) Pipeline3[zone:cloud]:(2894.75,19732800) 
+Time to deploy: 56ms
+Time to deploy: 78ms
+Pipeline1[zone:cloud]:(3946.5,35357800) Pipeline2[zone:cloud]:(2975.5,19744000) Pipeline3[zone:edge]:(551.5,11088000) 
 Time to deploy: 183ms
-Pipeline1[zone:cloud]:(1973,4935200) Pipeline2[zone:edge]:(1807.5,69446250) Pipeline3[zone:cloud]:(2944.3333333333335,19724800) 
+Time to deploy: 190ms
+Pipeline1[zone:edge]:(1381.5,69378750) Pipeline2[zone:cloud]:(2736.5,19752000) Pipeline3[zone:cloud]:(2366,11113200) 
+Time to deploy: 111ms
+Time to deploy: 222ms
+Pipeline1[zone:cloud]:(2760,19724800) Pipeline2[zone:edge]:(462,11091600) Pipeline3[zone:cloud]:(1936,6481900) 
+Time to deploy: 80ms
+Time to deploy: 108ms
+Pipeline1[zone:edge]:(520,19776000) Pipeline2[zone:cloud]:(2197,11088000) Pipeline3[zone:cloud]:(1781.25,4934800) 
+Time to deploy: 68ms
+Time to deploy: 79ms
+Pipeline1[zone:cloud]:(2191,11109600) Pipeline2[zone:edge]:(195,1234800) Pipeline3[zone:cloud]:(4896,44431200) 
+Time to deploy: 62ms
+Time to deploy: 82ms
+Pipeline1[zone:cloud]:(2265,11087100) Pipeline2[zone:cloud]:(1218.5,1235600) Pipeline3[zone:edge]:(935,44395200) 
+Time to deploy: 64ms
+Time to deploy: 77ms
+Pipeline1[zone:edge]:(402,4938400) Pipeline2[zone:cloud]:(3878.5,35311000) Pipeline3[zone:cloud]:(2913,19776000) 
+Time to deploy: 99ms
+Time to deploy: 109ms
+Pipeline1[zone:cloud]:(1862.5,4929600) Pipeline2[zone:edge]:(1114,69210000) Pipeline3[zone:cloud]:(2806.75,19736000) 
+Time to deploy: 78ms
+Time to deploy: 91ms
+Pipeline1[zone:cloud]:(3609.6666666666665,31210666.666666668) Pipeline2[zone:cloud]:(2569.5,19712000) Pipeline3[zone:edge]:(325,11127600) 
+Time to deploy: 58ms
+Time to deploy: 60ms
+Pipeline1[zone:edge]:(854,44402400) Pipeline2[zone:cloud]:(2751.6666666666665,19735466.666666668) Pipeline3[zone:cloud]:(2248,11082600) 
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator_multiple_pipeline.js
+
+Pipeline1[zone:cloud]:(2709.3333333333335,19733333.333333332) Pipeline2[zone:cloud]:(2123.3333333333335,11107200) Pipeline3[zone:cloud]:(1077.3333333333333,831231) 
+Time to deploy: 78ms
+Pipeline1[zone:edge]:(697.5,19718400) Pipeline2[zone:cloud]:(2268,11103600) Pipeline3[zone:cloud]:(1365,1232933.3333333333) 
+Time to deploy: 120ms
+Time to deploy: 146ms
+Pipeline1[zone:cloud]:(2142,11093400) Pipeline2[zone:edge]:(163,4932800) Pipeline3[zone:cloud]:(6406.5,69243750) 
+Time to deploy: 81ms
+Time to deploy: 97ms
+Pipeline1[zone:cloud]:(2275.6666666666665,11102400) Pipeline2[zone:cloud]:(1861,4942400) Pipeline3[zone:edge]:(1383.5,69412500) 
+Time to deploy: 75ms
+Time to deploy: 99ms
+Pipeline1[zone:edge]:(233,1234800) Pipeline2[zone:cloud]:(4441.5,44380800) Pipeline3[zone:cloud]:(2745,19744000) 
+Time to deploy: 60ms
+Time to deploy: 69ms
+Pipeline1[zone:cloud]:(1316.5,1234000) Pipeline2[zone:edge]:(799,44409600) Pipeline3[zone:cloud]:(2924,19722666.666666668) 
+Time to deploy: 66ms
+Time to deploy: 70ms
+Pipeline1[zone:cloud]:(6547,69356250) Pipeline2[zone:cloud]:(2890,19715200) Pipeline3[zone:edge]:(286,11109600) 
+Time to deploy: 68ms
+Time to deploy: 70ms
+Pipeline1[zone:edge]:(1551,69390000) Pipeline2[zone:cloud]:(2933.25,19729600) Pipeline3[zone:cloud]:(2046,11095200) 
+Time to deploy: 63ms
+Time to deploy: 67ms
+Pipeline1[zone:cloud]:(2830,19750400) Pipeline2[zone:edge]:(370,11107800) Pipeline3[zone:cloud]:(1906.25,6481300) 
+Time to deploy: 80ms
+Time to deploy: 84ms
+Pipeline1[zone:edge]:(543.5,19737600) Pipeline2[zone:cloud]:(1982.5,11100600) Pipeline3[zone:cloud]:(1696.3333333333333,4938133.333333333) 
+Time to deploy: 71ms
+Time to deploy: 84ms
+Pipeline1[zone:cloud]:(2156,11084400) Pipeline2[zone:edge]:(127,1234000) Pipeline3[zone:cloud]:(3615.6666666666665,31245333.333333332) 
+Time to deploy: 66ms
+Time to deploy: 74ms
+Pipeline1[zone:cloud]:(2333.6666666666665,11110800) Pipeline2[zone:cloud]:(1394.5,1232000) Pipeline3[zone:edge]:(879,44438400) 
+Time to deploy: 67ms
+Time to deploy: 71ms
+Pipeline1[zone:edge]:(307,4933600) Pipeline2[zone:cloud]:(6266,69457500) Pipeline3[zone:cloud]:(2682.5,19740800) 
+Time to deploy: 82ms
+Time to deploy: 114ms
+Pipeline1[zone:cloud]:(2119,4937600) Pipeline2[zone:edge]:(1453.5,69221250) Pipeline3[zone:cloud]:(3039,19720533.333333332) 
+Time to deploy: 59ms
+Time to deploy: 90ms
+Pipeline1[zone:cloud]:(4390,44388000) Pipeline2[zone:cloud]:(2989,19750400) Pipeline3[zone:edge]:(487.5,11088000) 
+Time to deploy: 100ms
+Time to deploy: 101ms
+Pipeline1[zone:edge]:(1232.5,44388000) Pipeline2[zone:cloud]:(2762,19748266.666666668) Pipeline3[zone:cloud]:(1969.5,11102400) 
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator_multiple_pipeline.js
+
+Pipeline1[zone:cloud]:(2599,19722666.666666668) Pipeline2[zone:cloud]:(1570.3333333333333,7422870) Pipeline3[zone:cloud]:(1009,831391.3333333334) 
+Time to deploy: 76ms
+Pipeline1[zone:edge]:(797,19721600) Pipeline2[zone:cloud]:(2142,11108400) Pipeline3[zone:cloud]:(1462,1231466.6666666667) 
+Time to deploy: 84ms
+Time to deploy: 145ms
+Pipeline1[zone:cloud]:(2164,11106000) Pipeline2[zone:edge]:(236.5,4922400) Pipeline3[zone:cloud]:(6334,69423750) 
+Time to deploy: 76ms
+Time to deploy: 77ms
+Pipeline1[zone:cloud]:(2173.5,11102400) Pipeline2[zone:cloud]:(1615.5,4936800) Pipeline3[zone:edge]:(1156,69367500) 
+Time to deploy: 59ms
+Time to deploy: 64ms
+Pipeline1[zone:edge]:(143.5,1233000) Pipeline2[zone:cloud]:(3497,31209600) Pipeline3[zone:cloud]:(2568,19718400) 
+Time to deploy: 89ms
+Time to deploy: 95ms
+Pipeline1[zone:cloud]:(1371,1235400) Pipeline2[zone:edge]:(973.5,44416800) Pipeline3[zone:cloud]:(2665.75,19737600) 
+Time to deploy: 65ms
+Time to deploy: 123ms
+Pipeline1[zone:cloud]:(3846,35279450) Pipeline2[zone:cloud]:(2667,19718400) Pipeline3[zone:edge]:(577,11107800) 
+Time to deploy: 101ms
+Time to deploy: 109ms
+Pipeline1[zone:edge]:(1390,69390000) Pipeline2[zone:cloud]:(2843.3333333333335,19722666.666666668) Pipeline3[zone:cloud]:(2114,11102400) 
+Time to deploy: 130ms
+Time to deploy: 146ms
+Pipeline1[zone:cloud]:(2771,19763200) Pipeline2[zone:edge]:(564,11122200) Pipeline3[zone:cloud]:(1877,6476300) 
+Time to deploy: 58ms
+Time to deploy: 62ms
+Pipeline1[zone:edge]:(623,19737600) Pipeline2[zone:cloud]:(2141,11097000) Pipeline3[zone:cloud]:(1776.25,4930000) 
+Time to deploy: 136ms
+Time to deploy: 141ms
+Pipeline1[zone:cloud]:(2125.5,11098800) Pipeline2[zone:edge]:(180.5,1233200) Pipeline3[zone:cloud]:(3172.5,24691200) 
+Time to deploy: 100ms
+Time to deploy: 108ms
+Pipeline1[zone:cloud]:(2205.25,11097900) Pipeline2[zone:cloud]:(1217,1233600) Pipeline3[zone:edge]:(906,44452800) 
+Time to deploy: 77ms
+Time to deploy: 84ms
+Pipeline1[zone:edge]:(309.5,4925600) Pipeline2[zone:cloud]:(3901.5,35298950) Pipeline3[zone:cloud]:(2731,19734400) 
+Time to deploy: 87ms
+Time to deploy: 90ms
+Pipeline1[zone:cloud]:(1771.5,4943200) Pipeline2[zone:edge]:(1373,69288750) Pipeline3[zone:cloud]:(2784.5,19742400) 
+Time to deploy: 86ms
+Time to deploy: 99ms
+Pipeline1[zone:cloud]:(4493,44467200) Pipeline2[zone:cloud]:(2544.5,19728000) Pipeline3[zone:edge]:(550,11113200) 
+Time to deploy: 54ms
+Time to deploy: 57ms
+Pipeline1[zone:edge]:(1009,44402400) Pipeline2[zone:cloud]:(2690,19737600) Pipeline3[zone:cloud]:(2294,11098800) 
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator_multiple_pipeline.js
+
+Pipeline1[zone:cloud]:(2578.6666666666665,19714133.333333332) Pipeline2[zone:cloud]:(2121.6666666666665,11097600) Pipeline3[zone:cloud]:(1112.6666666666667,831785.3333333334) 
+Time to deploy: 86ms
+Pipeline1[zone:edge]:(734,19699200) Pipeline2[zone:cloud]:(2393.6666666666665,11097600) Pipeline3[zone:cloud]:(1585,1233333.3333333333) 
+Time to deploy: 72ms
+Time to deploy: 89ms
+Pipeline1[zone:cloud]:(2032,11080800) Pipeline2[zone:edge]:(434,4932800) Pipeline3[zone:cloud]:(6178,69367500) 
+Time to deploy: 67ms
+Time to deploy: 71ms
+Pipeline1[zone:cloud]:(2215.5,11088000) Pipeline2[zone:cloud]:(1657,4936800) Pipeline3[zone:edge]:(1363.5,69333750) 
+Time to deploy: 63ms
+Time to deploy: 67ms
+Pipeline1[zone:edge]:(209,1233200) Pipeline2[zone:cloud]:(3508.6666666666665,31230933.333333332) Pipeline3[zone:cloud]:(2950,19712000) 
+Time to deploy: 73ms
+Time to deploy: 84ms
+Pipeline1[zone:cloud]:(1241,1232400) Pipeline2[zone:edge]:(801,44380800) Pipeline3[zone:cloud]:(2851.5,19734400) 
 Time to deploy: 77ms
 Time to deploy: 81ms
-Pipeline1[zone:cloud]:(5228.5,44359200) Pipeline2[zone:cloud]:(2846,19750400) Pipeline3[zone:edge]:(690,11115000) 
-Time to deploy: 108ms
-Time to deploy: 120ms
-Pipeline1[zone:edge]:(1147,44337600) Pipeline2[zone:cloud]:(2863.75,19740800) Pipeline3[zone:cloud]:(2616.5,11095200) 
+Pipeline1[zone:cloud]:(6256.5,69356250) Pipeline2[zone:cloud]:(2670,19756800) Pipeline3[zone:edge]:(365.5,11106000) 
+Time to deploy: 80ms
+Time to deploy: 102ms
+Pipeline1[zone:edge]:(1540,69457500) Pipeline2[zone:cloud]:(2989.3333333333335,19722666.666666668) Pipeline3[zone:cloud]:(2563,11116800) 
+Time to deploy: 69ms
+Time to deploy: 81ms
+Pipeline1[zone:cloud]:(2705.5,19766400) Pipeline2[zone:edge]:(376.5,11111400) Pipeline3[zone:cloud]:(1917.75,6473000) 
+Time to deploy: 98ms
+Time to deploy: 88ms
+Pipeline1[zone:edge]:(827,19782400) Pipeline2[zone:cloud]:(2357,11104200) Pipeline3[zone:cloud]:(1811,4934000) 
+Time to deploy: 64ms
+Time to deploy: 69ms
+Pipeline1[zone:cloud]:(2009.5,11082600) Pipeline2[zone:edge]:(211.5,1232000) Pipeline3[zone:cloud]:(3583.6666666666665,31292800) 
+Time to deploy: 91ms
+Time to deploy: 95ms
+Pipeline1[zone:cloud]:(2305,11119200) Pipeline2[zone:cloud]:(1268.5,1232800) Pipeline3[zone:edge]:(891,44380800) 
+Time to deploy: 82ms
+Time to deploy: 94ms
+Pipeline1[zone:edge]:(423,4940800) Pipeline2[zone:cloud]:(3934,35232650) Pipeline3[zone:cloud]:(2902,19750400) 
+Time to deploy: 83ms
+Time to deploy: 111ms
+Pipeline1[zone:cloud]:(1600,4936800) Pipeline2[zone:edge]:(1363,69378750) Pipeline3[zone:cloud]:(2823.3333333333335,19737600) 
+Time to deploy: 103ms
+Time to deploy: 112ms
+Pipeline1[zone:cloud]:(4237,44356800) Pipeline2[zone:cloud]:(2661,19737600) Pipeline3[zone:edge]:(442,11109600) 
+Time to deploy: 71ms
+Time to deploy: 86ms
+Pipeline1[zone:edge]:(1480,44380800) Pipeline2[zone:cloud]:(2769,19744000) Pipeline3[zone:cloud]:(2267,11088000) 
 -------
