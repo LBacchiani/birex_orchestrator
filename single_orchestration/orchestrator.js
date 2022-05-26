@@ -34,9 +34,21 @@ const prom = new PrometheusDriver({
 
 function sleep(ms) { return new Promise(resolve => setTimeout(resolve, ms)); }
 
+function isRunning() {return fetch(`http://birex-processor:3000/getStatus`).then(res => res.json())}
+
 function safeDelete(z) {
-  k8sApi.deleteNamespacedPod('processor-' + zone, 'default', true).catch(err => { console.log("Error in delete: " + JSON.stringify(err)) });
-  zone = z
+  isRunning().then(async res => {
+    console.log(res)
+    let status = true
+    if(!status) {
+      await sleep(3000)
+      safeDelete(z)
+    }
+    else {
+      k8sApi.deleteNamespacedPod('processor-' + zone, 'default', true).catch(err => { console.log("Error in delete: " + JSON.stringify(err))})
+      zone = z
+    }
+  })
 }
 
 
@@ -66,8 +78,6 @@ async function apply(specPath, zone) {
       // we did not get the resource, so it does not exist, so create it
       const response = await client.create(spec);
       created.push(response.body);
-      let res = await client.read(spec);
-      while (res.body.status.phase == "Pending") res = await client.read(spec);
     }
   }
   const stop = new Date()
@@ -92,26 +102,9 @@ function moveToEdge() { apply(processor_edge, "edge").catch(err => { console.log
 
 function moveToCloud() { apply(processor_cloud, "cloud").catch(err => { console.log("Error in move to cloud: " + JSON.stringify(err)) }) }
 
-function launchQuery(query) { return prom.instantQuery(query) }
+function retrieveStats() {return fetch(`http://birex-processor:3000/getStats`).then(res => res.json())}
 
-function retrieveStats(i) {return fetch(`http://birex-processor-${i + 1}:3000/getStats`).then(res => res.json())}
-
-
-function retrieveLatency() {
-  var query = ['irate(istio_request_duration_milliseconds_sum{app="alerting",response_code="200"}[30s])',
-    'irate(istio_requests_total{app="alerting",response_code="200"}[30s])']
-  Promise.all([launchQuery, launchQuery].map((func, i) => func(query[i]))).then((result) => {
-    let latencies = result.map(res => res.avgLatency)
-    let bytes = result.map(res => res.avgDataSize)
-    for (let i = 0; i < cleaned_result[0].length; i++) {
-      latency_sum += cleaned_result[0][i]
-      request_sum += cleaned_result[1][i]
-    }
-    retrieveBytes(latency_sum / request_sum)
-  }).catch(err => console.log("Error in retrieve latency: " + JSON.stringify(err)))
-}
-
-function retrieveBytes(latency) {
+function retrieveMetrics() {
   times = times + 1
   Promise.all([retrieveStats].map((func, i) => func(query[i]))).then((result) => {
     let latency = result.map(res => res.avgLatency)[0]
@@ -131,7 +124,7 @@ async function monitoring() {
     if (i % 2 == 0) setSize()
     await sleep(30000)
     i = i + 1
-    retrieveLatency()
+    retrieveMetrics()
   }
 }
 

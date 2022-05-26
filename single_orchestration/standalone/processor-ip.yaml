@@ -8,4 +8,5 @@ spec:
   ports:
     - port: 3000
       targetPort: 3000
-  type: ClusterIP
+      NodePort: 30030
+  type: NodePort

@@ -34,6 +34,23 @@ const prom = new PrometheusDriver({
 
 function sleep(ms) { return new Promise(resolve => setTimeout(resolve, ms)); }
 
+function isRunning(i) {return fetch(`http://birex-processor-${i + 1}:3000/getStatus`).then(res => res.json())}
+
+function safeDelete(i, z) {
+  isRunning(i).then(async res => {
+    console.log(res)
+    let status = true
+    if(!status) {
+      await sleep(3000)
+      safeDelete(i,z)
+    }
+    else {
+      k8sApi.deleteNamespacedPod(`processor-${zone[i]}-${i + 1}` + zone, 'default', true).catch(err => { console.log("Error in delete: " + JSON.stringify(err))})
+      zone = z
+    }
+  })
+}
+
 function safeDelete(i, z) {
   k8sApi.deleteNamespacedPod(`processor-${zone[i]}-${i + 1}`, 'default', true).catch(err => { console.log("Error from safeDelete catch: ", JSON.stringify(err)) });
   zone[i] = z
