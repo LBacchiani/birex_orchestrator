@@ -113,7 +113,6 @@ function retrieveMetrics() {
     var toPrint = ``
     for (let i = 0; i < 3; i++) toPrint += `Pipeline${i + 1}[zone:${zone[i]}]:(${latencies[i]},${bytes[i]}) `
     console.log(toPrint)
-    if (times % 16 == 0) console.log("-------")
     var max = Math.max(...latencies)
     const index = latencies.indexOf(max);
     if (times % 16 != 0) {
@@ -140,6 +139,7 @@ async function monitoring() {
     i = i + 1
     await retrieveMetrics()
   }
+  console.log("-------")
 }
 
 monitoring()
