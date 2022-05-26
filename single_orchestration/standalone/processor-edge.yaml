@@ -16,7 +16,7 @@ spec:
                 values:
                   - edge
   containers:
-    - image: lukesmolo/public:birex-process_0.0.1
+    - image: lukesmolo/public:birex-process_0.0.2
       name: birex-processor
       env:
       - name: COLLECTOR_URL
