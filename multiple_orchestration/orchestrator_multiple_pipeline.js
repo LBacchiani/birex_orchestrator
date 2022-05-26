@@ -38,22 +38,15 @@ function isRunning(i) {return fetch(`http://birex-processor-${i + 1}:3000/getSta
 
 function safeDelete(i, z) {
   isRunning(i).then(async res => {
-    console.log(res)
-    let status = true
-    if(!status) {
+    if(res) {
+      k8sApi.deleteNamespacedPod(`processor-${zone[i]}-${i + 1}`, 'default', true).catch(err => { console.log("Error in delete: " + JSON.stringify(err))})
+      zone[i] = z
+    }
+    else {
       await sleep(3000)
       safeDelete(i,z)
     }
-    else {
-      k8sApi.deleteNamespacedPod(`processor-${zone[i]}-${i + 1}` + zone, 'default', true).catch(err => { console.log("Error in delete: " + JSON.stringify(err))})
-      zone = z
-    }
   })
-}
-
-function safeDelete(i, z) {
-  k8sApi.deleteNamespacedPod(`processor-${zone[i]}-${i + 1}`, 'default', true).catch(err => { console.log("Error from safeDelete catch: ", JSON.stringify(err)) });
-  zone[i] = z
 }
 
 async function apply(i, specPath, zone) {
@@ -143,7 +136,7 @@ async function monitoring() {
   await sleep(10000)
   while (i < 16) {
     if (i % 2 == 0) setSizes()
-    await sleep(30000)
+    await sleep(10000)
     i = i + 1
     await retrieveMetrics()
   }

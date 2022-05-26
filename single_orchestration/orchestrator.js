@@ -38,15 +38,13 @@ function isRunning() {return fetch(`http://birex-processor:3000/getStatus`).then
 
 function safeDelete(z) {
   isRunning().then(async res => {
-    console.log(res)
-    let status = true
-    if(!status) {
-      await sleep(3000)
-      safeDelete(z)
-    }
-    else {
+    if(res) {
       k8sApi.deleteNamespacedPod('processor-' + zone, 'default', true).catch(err => { console.log("Error in delete: " + JSON.stringify(err))})
       zone = z
+    }
+    else {
+      await sleep(3000)
+      safeDelete(z)
     }
   })
 }
@@ -122,7 +120,7 @@ async function monitoring() {
   await sleep(10000)
   while (i < 16) {
     if (i % 2 == 0) setSize()
-    await sleep(30000)
+    await sleep(10000)
     i = i + 1
     retrieveMetrics()
   }
