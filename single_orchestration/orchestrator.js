@@ -38,7 +38,7 @@ function isRunning() {return fetch(`http://birex-processor:3000/getStatus`).then
 
 function safeDelete(z) {
   isRunning().then(async res => {
-    if(res) {
+    if(res === true) {
       k8sApi.deleteNamespacedPod('processor-' + zone, 'default', true).catch(err => { console.log("Error in delete: " + JSON.stringify(err))})
       zone = z
     }
