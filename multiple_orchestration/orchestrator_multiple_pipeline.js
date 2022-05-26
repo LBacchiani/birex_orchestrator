@@ -102,7 +102,7 @@ function retrieveStats(i) {return fetch(`http://birex-processor-${i + 1}:3000/ge
 
 function retrieveMetrics() {
   times = times + 1
-  Promise.all([retrieveStats, retrieveStats, retrieveStats].map((func, i) => func(i))).then((result) => {
+  Promise.all([retrieveStats, retrieveStats, retrieveStats].map((func, i) => func(i))).then((async result) => {
     let latencies = result.map(res => res.avgLatency)
     let bytes = result.map(res => res.avgDataSize)
     var toPrint = ``
@@ -128,9 +128,8 @@ function retrieveMetrics() {
 async function monitoring() {
   let i = 0
   await sleep(10000)
-  Promise.all(resetStats,resetStats,resetStats).map((func, i) => func(i))
   while (i < 16) {
-    if (i % 2 == 0) Promise.all(resetStats,resetStats,resetStats).map((func, i) => func(i)).then(_ => setSizes())
+    if (i % 2 == 0) setSizes()
     await sleep(10000)
     i = i + 1
     await retrieveMetrics()
