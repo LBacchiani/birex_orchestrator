@@ -14,8 +14,9 @@ const k8sApi = kc.makeApiClient(k8s.CoreV1Api);
 const path = '/usr/src/app/standalone'
 const processor_cloud = path + '/processor-cloud.yaml'
 const processor_edge = path + '/processor-edge.yaml'
-const sizes = [80, 60, 20, 150, 80, 60, 40, 120]
-var zone = "cloud"
+//const sizes = [80, 60, 20, 150, 80, 60, 40, 120]
+const sizes = [20, 40, 60, 80, 100, 120, 140]
+var zone = "edge"
 var times = 0
 var index = 0
 
@@ -102,8 +103,8 @@ async function retrieveMetrics() {
     let latency = result.map(res => res.avgLatency)[0]
     let bytes = result.map(res => res.avgDataSize)[0]
     console.log(zone + ": (" + latency + "," + bytes + ")")
-    if (zone == "cloud" && latency > 1000 * 1.8) moveToEdge()
-    else if (zone == "edge" && latency < 1000 * 1 && bytes < 65 * 65 * 3500) moveToCloud()
+    //if (zone == "cloud" && latency > 1000 * 1.8) moveToEdge()
+    //else if (zone == "edge" && latency < 1000 * 1 && bytes < 65 * 65 * 3500) moveToCloud()
   }).catch(err => console.log("Error in retrieve bytes: " + JSON.stringify(err)))
 }
 
@@ -112,12 +113,12 @@ async function monitoring() {
   let i = 0
   await sleep(10000)
   await resetStats()
-  while (i < 16) {
-    if (i % 2 == 0) setSize()
+  while (i < 70) {
+    if (i % 10 == 0) setSize()
     await sleep(10000)
-    i = i + 1
     await retrieveMetrics()
     await resetStats()
+    i = i + 1
   }
   console.log("-------")
 }

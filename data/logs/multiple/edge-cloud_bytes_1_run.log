@@ -1,0 +1,30 @@
+Pipeline1[zone:cloud]:(2079,13171924.666666666) Pipeline2[zone:cloud]:(1613.3333333333333,7408488) Pipeline3[zone:cloud]:(1024.3333333333333,831118.6666666666)
+Pipeline1[zone:cloud]:(2742.6666666666665,19733333.333333332) Pipeline2[zone:cloud]:(2133.3333333333335,11109600) Pipeline3[zone:cloud]:(1262.3333333333333,1234666.6666666667)
+Time to deploy: 82ms
+Pipeline1[zone:edge]:(347,11091600) Pipeline2[zone:cloud]:(1847.75,6474700) Pipeline3[zone:cloud]:(3620,35311600)
+Time to deploy: 89ms
+Time to deploy: 109ms
+Pipeline1[zone:cloud]:(2458,11073600) Pipeline2[zone:cloud]:(1816.25,4930800) Pipeline3[zone:edge]:(1177,69300000)
+Pipeline1[zone:cloud]:(1431,1235066.6666666667) Pipeline2[zone:cloud]:(4556,44431200) Pipeline3[zone:edge]:(434.75,19718400)
+Time to deploy: 88ms
+Time to deploy: 93ms
+Pipeline1[zone:cloud]:(1364,1233733.3333333333) Pipeline2[zone:edge]:(1214,44352000) Pipeline3[zone:cloud]:(3154,19744000)
+Pipeline1[zone:cloud]:(3751.5,35321450) Pipeline2[zone:edge]:(624.75,25915200) Pipeline3[zone:cloud]:(2198,13261500)
+Time to deploy: 69ms
+Time to deploy: 78ms
+Pipeline1[zone:edge]:(1194,69525000) Pipeline2[zone:cloud]:(2646.5,19724800) Pipeline3[zone:cloud]:(2474,11092800)
+Pipeline1[zone:edge]:(741,32178725) Pipeline2[zone:cloud]:(2343,13997466.666666666) Pipeline3[zone:cloud]:(1826.3333333333333,6992533.333333333)
+Pipeline1[zone:edge]:(537.3333333333334,19748266.666666668) Pipeline2[zone:cloud]:(2173.75,11106900) Pipeline3[zone:cloud]:(1659,4934000)
+Pipeline1[zone:edge]:(500,13249900) Pipeline2[zone:cloud]:(1650,4516800) Pipeline3[zone:cloud]:(4322,44380800)
+Time to deploy: 102ms
+Time to deploy: 111ms
+Pipeline1[zone:cloud]:(2280.5,11111400) Pipeline2[zone:cloud]:(1408.3333333333333,1232266.6666666667) Pipeline3[zone:edge]:(819.5,44330400)
+Pipeline1[zone:cloud]:(1752.6666666666667,4938666.666666667) Pipeline2[zone:cloud]:(3591.5,35323450) Pipeline3[zone:edge]:(461.25,19708800)
+Time to deploy: 108ms
+Time to deploy: 115ms
+Pipeline1[zone:cloud]:(1599.3333333333333,4932266.666666667) Pipeline2[zone:edge]:(1340,69457500) Pipeline3[zone:cloud]:(2921,19731200)
+Pipeline1[zone:cloud]:(3423,31218666.666666668) Pipeline2[zone:edge]:(812.25,32166850) Pipeline3[zone:cloud]:(2387.5,15421100)
+Pipeline1[zone:cloud]:(4319,44433600) Pipeline2[zone:edge]:(547,19741866.666666668) Pipeline3[zone:cloud]:(2035.25,11093400)
+Time to deploy: 94ms
+Time to deploy: 101ms
+-------

@@ -1,0 +1,46 @@
+Pipeline1[zone:cloud]:(2736.6666666666665,19731200) Pipeline2[zone:cloud]:(2226,11092800) Pipeline3[zone:cloud]:(1164,831512.6666666666)
+Time to deploy: 68ms
+Pipeline1[zone:edge]:(448.5,19728000) Pipeline2[zone:cloud]:(2239.3333333333335,11106000) Pipeline3[zone:cloud]:(1414,1234933.3333333333)
+Time to deploy: 59ms
+Time to deploy: 71ms
+Pipeline1[zone:cloud]:(2256.5,11093400) Pipeline2[zone:edge]:(293.5,4933600) Pipeline3[zone:cloud]:(6436.5,69401250)
+Time to deploy: 67ms
+Time to deploy: 76ms
+Pipeline1[zone:cloud]:(2202.6666666666665,11096400) Pipeline2[zone:cloud]:(1820,4925600) Pipeline3[zone:edge]:(1358,69525000)
+Time to deploy: 83ms
+Time to deploy: 86ms
+Pipeline1[zone:edge]:(200.5,1234000) Pipeline2[zone:cloud]:(3106,24672800) Pipeline3[zone:cloud]:(2672,19696000)
+Time to deploy: 65ms
+Time to deploy: 77ms
+Pipeline1[zone:cloud]:(1422,1233600) Pipeline2[zone:edge]:(954.5,44380800) Pipeline3[zone:cloud]:(2812.75,19731200)
+Time to deploy: 62ms
+Time to deploy: 66ms
+Pipeline1[zone:cloud]:(6482.5,69333750) Pipeline2[zone:cloud]:(2706,19737600) Pipeline3[zone:edge]:(394.5,11095200)
+Time to deploy: 114ms
+Time to deploy: 119ms
+Pipeline1[zone:edge]:(1154,69412500) Pipeline2[zone:cloud]:(2758.25,19739200) Pipeline3[zone:cloud]:(2103.5,11098800)
+Time to deploy: 72ms
+Time to deploy: 79ms
+Pipeline1[zone:cloud]:(2975,19737600) Pipeline2[zone:edge]:(492,11104200) Pipeline3[zone:cloud]:(1828,6475300)
+Time to deploy: 78ms
+Time to deploy: 79ms
+Pipeline1[zone:edge]:(671.5,19744000) Pipeline2[zone:cloud]:(2290,11124000) Pipeline3[zone:cloud]:(1891,4931200)
+Time to deploy: 76ms
+Time to deploy: 78ms
+Pipeline1[zone:cloud]:(2458.5,11102400) Pipeline2[zone:edge]:(154,1233000) Pipeline3[zone:cloud]:(3674,31282133.333333332)
+Time to deploy: 68ms
+Time to deploy: 74ms
+Pipeline1[zone:cloud]:(2293.3333333333335,11106000) Pipeline2[zone:cloud]:(1382,1234000) Pipeline3[zone:edge]:(969,44402400)
+Time to deploy: 94ms
+Time to deploy: 98ms
+Pipeline1[zone:edge]:(328,4943200) Pipeline2[zone:cloud]:(6035.5,69423750) Pipeline3[zone:cloud]:(2685,19756800)
+Time to deploy: 68ms
+Time to deploy: 89ms
+Pipeline1[zone:cloud]:(1942,4938400) Pipeline2[zone:edge]:(1445.5,69390000) Pipeline3[zone:cloud]:(2783.6666666666665,19714133.333333332)
+Time to deploy: 55ms
+Time to deploy: 63ms
+Pipeline1[zone:cloud]:(4686,44404800) Pipeline2[zone:cloud]:(2698,19734400) Pipeline3[zone:edge]:(423.5,11111400)
+Time to deploy: 73ms
+Time to deploy: 97ms
+Pipeline1[zone:edge]:(934,44308800) Pipeline2[zone:cloud]:(2769,19739200) Pipeline3[zone:cloud]:(2163.5,11106000)
+-------
