@@ -16,7 +16,7 @@ const processor_cloud = path + '/processor-cloud.yaml'
 const processor_edge = path + '/processor-edge.yaml'
 //const sizes = [80, 60, 20, 150, 80, 60, 40, 120]
 const sizes = [20, 40, 60, 80, 100, 120, 140]
-var zone = "cloud"
+var zone = "edge"
 var times = 0
 var index = 0
 
