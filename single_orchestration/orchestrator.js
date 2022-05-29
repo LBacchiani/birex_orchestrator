@@ -15,8 +15,8 @@ const path = '/usr/src/app/standalone'
 const processor_cloud = path + '/processor-cloud.yaml'
 const processor_edge = path + '/processor-edge.yaml'
 //const sizes = [80, 60, 20, 150, 80, 60, 40, 120]
-const sizes = [20, 40, 60, 80, 100, 120, 140]
-var zone = "edge"
+const sizes = [20]//[20, 40, 60, 80, 100, 120, 140]
+var zone = "cloud"
 var times = 0
 var index = 0
 
@@ -86,7 +86,7 @@ function setSize() {
     },
     body: JSON.stringify({ minSize: sizes[index % sizes.length], maxSize: sizes[index % sizes.length] })
   }).catch("Error in set size: " + console.error);
-  index = index + 1
+  //index = index + 1
 }
 
 function moveToEdge() { apply(processor_edge, "edge").catch(err => { console.log("Error in move to edge: " + JSON.stringify(err)) }) }
@@ -113,7 +113,7 @@ async function monitoring() {
   let i = 0
   await sleep(10000)
   await resetStats()
-  while (i < 70) {
+  while (i < 10) {
     if (i % 10 == 0) setSize()
     await sleep(10000)
     await retrieveMetrics()
