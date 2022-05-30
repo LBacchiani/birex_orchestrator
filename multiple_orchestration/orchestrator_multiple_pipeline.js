@@ -109,7 +109,7 @@ async function retrieveMetrics() {
     var toPrint = ``
     for (let i = 0; i < 3; i++) toPrint += `Pipeline${i + 1}[zone:${zone[i]}]:(${latencies[i]},${bytes[i]}) `
     console.log(toPrint)
-    /*var max = Math.max(...latencies)
+    var max = Math.max(...latencies)
     const index = latencies.indexOf(max)
     if (max > 1000 * 1.8) {
       if (zone.filter(z => z == "edge").length == 0) moveToEdge(index)
@@ -120,8 +120,8 @@ async function retrieveMetrics() {
           moveToEdge(index)
         }
       }
-    } else if (zone[index] == "edge" && max < 1000 * 1 && bytes[index] < 65 * 65 * 3500) moveToCloud(index)*/
-    var max = Math.max(...bytes)
+    } else if (zone[index] == "edge" && max < 1000 * 1 && bytes[index] < 65 * 65 * 3500) moveToCloud(index)
+    /*var max = Math.max(...bytes)
     const index = bytes.indexOf(max)
     if (max > 65 * 65 * 3500) {
       if (zone.filter(z => z == "edge").length == 0) moveToEdge(index)
@@ -132,7 +132,7 @@ async function retrieveMetrics() {
           moveToEdge(index)
         }
       }
-    } else if (zone[index] == "edge" && bytes[index] < 65 * 65 * 3500) moveToCloud(index)
+    } else if (zone[index] == "edge" && bytes[index] < 65 * 65 * 3500) moveToCloud(index)*/
   }).catch(err => {console.log('Retrieve metrics failed ' + JSON.stringify(err))})
 }
 
