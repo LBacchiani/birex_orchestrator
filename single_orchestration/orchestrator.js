@@ -19,7 +19,7 @@ const sizes = [80, 60, 20, 150, 80, 60, 40, 120]
 var zone = "cloud"
 var times = 0
 var index = 0
-let data = {req: 0, lat: 0, size: 0}
+var data = {req: 0, lat: 0, size: 0}
 
 
 const app = express();
@@ -107,17 +107,17 @@ async function retrieveMetrics() {
     console.log(zone + ": (" + latency + "," + bytes + ")")
     if (zone == "cloud" && latency > 1000 * 1.8) moveToEdge()
     else if (zone == "edge" && latency < 1000 * 1 && bytes < 65 * 65 * 3500) moveToCloud()
-  }).catch(err => console.log("Error in retrieve bytes: " + JSON.stringify(err)))
+  }).catch(err => console.log("Error in retrieve metrics: " + JSON.stringify(err)))
 }
 
 
 async function monitoring() {
   let i = 0
-  await sleep(10000)
+  //await sleep(10000)
   //await resetStats()
   while (i < 10) {
     if (i % 10 == 0) setSize()
-    await sleep(5000)
+    await sleep(10000)
     await retrieveMetrics()
     //await resetStats()
     i = i + 1
