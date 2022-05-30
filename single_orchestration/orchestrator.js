@@ -19,7 +19,6 @@ const sizes = [80, 60, 20, 150, 80, 60, 40, 120]
 var zone = "cloud"
 var times = 0
 var index = 0
-var data = {req: 0, lat: 0, size: 0}
 
 
 const app = express();
@@ -87,21 +86,20 @@ function setSize() {
     },
     body: JSON.stringify({ minSize: sizes[index % sizes.length], maxSize: sizes[index % sizes.length] })
   }).catch("Error in set size: " + console.error);
-  //index = index + 1
+  index = index + 1
 }
 
 function moveToEdge() { apply(processor_edge, "edge").catch(err => { console.log("Error in move to edge: " + JSON.stringify(err)) }) }
 
 function moveToCloud() { apply(processor_cloud, "cloud").catch(err => { console.log("Error in move to cloud: " + JSON.stringify(err)) }) }
 
-//function resetStats() {return fetch(`http://birex-processor:3000/resetStats`)}
+function resetStats() {return fetch(`http://birex-processor:3000/resetStats`)}
 
 function retrieveStats() {return fetch(`http://birex-processor:3000/getStats`).then(res => res.json())}
 
 async function retrieveMetrics() {
   times = times + 1
   await Promise.all([retrieveStats].map((func) => func())).then((result) => {
-    console.log(result)
     let latency = result.map(res => res.avgLatency)[0]
     let bytes = result.map(res => res.avgDataSize)[0]
     console.log(zone + ": (" + latency + "," + bytes + ")")
@@ -113,13 +111,12 @@ async function retrieveMetrics() {
 
 async function monitoring() {
   let i = 0
-  //await sleep(10000)
-  //await resetStats()
-  while (i < 10) {
-    if (i % 10 == 0) setSize()
+  await sleep(10000)
+  while (i < 2) {
+    await resetStats()
+    if (i % 2 == 0) await setSize()
     await sleep(10000)
     await retrieveMetrics()
-    //await resetStats()
     i = i + 1
   }
   console.log("-------")
