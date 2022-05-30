@@ -50,6 +50,7 @@ async function apply(i, specPath, zone) {
   const validSpecs = specs.filter((s) => s && s.kind && s.metadata);
   const created = [];
   const start = new Date()
+  await sleep(500)
   for (const spec of validSpecs) {
     // this is to convince the old version of TypeScript that metadata exists even though we already filtered specs
     // without metadata out
