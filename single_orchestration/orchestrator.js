@@ -112,7 +112,7 @@ async function retrieveMetrics() {
 async function monitoring() {
   let i = 0
   await sleep(10000)
-  while (i < 2) {
+  while (i < 16) {
     await resetStats()
     if (i % 2 == 0) await setSize()
     await sleep(10000)
