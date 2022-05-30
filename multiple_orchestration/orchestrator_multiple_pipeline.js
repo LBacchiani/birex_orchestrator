@@ -139,13 +139,12 @@ async function retrieveMetrics() {
 async function monitoring() {
   let i = 0
   await sleep(10000)
-  await Promise.all([resetStats,resetStats,resetStats].map((func,i) => func(i)))
   while (i < 16) {
-    if (i % 2 == 0) setSizes()
+    await Promise.all([resetStats,resetStats,resetStats].map((func,i) => func(i)))
+    if (i % 2 == 0) await setSizes()
     await sleep(10000)
     i = i + 1
     await retrieveMetrics()
-    await Promise.all([resetStats,resetStats,resetStats].map((func,i) => func(i)))
   }
   console.log("-------")
 }
