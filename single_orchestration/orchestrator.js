@@ -14,11 +14,12 @@ const k8sApi = kc.makeApiClient(k8s.CoreV1Api);
 const path = '/usr/src/app/standalone'
 const processor_cloud = path + '/processor-cloud.yaml'
 const processor_edge = path + '/processor-edge.yaml'
-//const sizes = [80, 60, 20, 150, 80, 60, 40, 120]
-const sizes = [140]//[20, 40, 60, 80, 100, 120, 140]
+const sizes = [80, 60, 20, 150, 80, 60, 40, 120]
+//const sizes = [140]//[20, 40, 60, 80, 100, 120, 140]
 var zone = "cloud"
 var times = 0
 var index = 0
+let data = {req: 0, lat: 0, size: 0}
 
 
 const app = express();
@@ -93,18 +94,19 @@ function moveToEdge() { apply(processor_edge, "edge").catch(err => { console.log
 
 function moveToCloud() { apply(processor_cloud, "cloud").catch(err => { console.log("Error in move to cloud: " + JSON.stringify(err)) }) }
 
-function resetStats() {return fetch(`http://birex-processor:3000/resetStats`)}
+//function resetStats() {return fetch(`http://birex-processor:3000/resetStats`)}
 
 function retrieveStats() {return fetch(`http://birex-processor:3000/getStats`).then(res => res.json())}
 
 async function retrieveMetrics() {
   times = times + 1
   await Promise.all([retrieveStats].map((func) => func())).then((result) => {
+    console.log(result)
     let latency = result.map(res => res.avgLatency)[0]
     let bytes = result.map(res => res.avgDataSize)[0]
     console.log(zone + ": (" + latency + "," + bytes + ")")
-    //if (zone == "cloud" && latency > 1000 * 1.8) moveToEdge()
-    //else if (zone == "edge" && latency < 1000 * 1 && bytes < 65 * 65 * 3500) moveToCloud()
+    if (zone == "cloud" && latency > 1000 * 1.8) moveToEdge()
+    else if (zone == "edge" && latency < 1000 * 1 && bytes < 65 * 65 * 3500) moveToCloud()
   }).catch(err => console.log("Error in retrieve bytes: " + JSON.stringify(err)))
 }
 
@@ -112,12 +114,12 @@ async function retrieveMetrics() {
 async function monitoring() {
   let i = 0
   await sleep(10000)
-  await resetStats()
+  //await resetStats()
   while (i < 10) {
     if (i % 10 == 0) setSize()
-    await sleep(10000)
+    await sleep(5000)
     await retrieveMetrics()
-    await resetStats()
+    //await resetStats()
     i = i + 1
   }
   console.log("-------")
