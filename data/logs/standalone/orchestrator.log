@@ -1,0 +1,3063 @@
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2653,19729066.666666668)
+Time to deploy: 72ms
+edge: (521.5,19772800)
+edge: (448,11115600)
+Time to deploy: 71ms
+cloud: (2159,11115000)
+Time to deploy: 74ms
+edge: (162,1232000)
+Time to deploy: 48ms
+cloud: (1341,1234400)
+cloud: (3638.5,35333700)
+Time to deploy: 78ms
+edge: (1514,69322500)
+edge: (766,32122625)
+edge: (655,19724800)
+edge: (519.3333333333334,11107200)
+Time to deploy: 55ms
+cloud: (2092,11097000)
+Time to deploy: 50ms
+edge: (386,4927200)
+Time to deploy: 62ms
+cloud: (1587.5,4921600)
+cloud: (4357.666666666667,44448000)
+Time to deploy: 72ms
+edge: (1425,44496000)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2660.6666666666665,19739733.333333332)
+Time to deploy: 73ms
+edge: (575,19718400)
+edge: (395.6666666666667,11102400)
+Time to deploy: 54ms
+cloud: (2149,11098800)
+Time to deploy: 116ms
+edge: (174,1234800)
+Time to deploy: 50ms
+cloud: (1414,1234400)
+cloud: (3708.5,35367050)
+Time to deploy: 76ms
+edge: (1283,69457500)
+edge: (789,32115400)
+edge: (501.75,19729600)
+edge: (501,11108400)
+Time to deploy: 58ms
+cloud: (2046,11106000)
+Time to deploy: 57ms
+edge: (417.5,4933600)
+Time to deploy: 54ms
+cloud: (1758,4935200)
+cloud: (4327.333333333333,44424000)
+Time to deploy: 59ms
+edge: (1153,44366400)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2673.3333333333335,19712000)
+Time to deploy: 87ms
+edge: (669.5,19766400)
+edge: (435.6666666666667,11104800)
+Time to deploy: 87ms
+cloud: (2347,11102400)
+Time to deploy: 68ms
+edge: (296,1230600)
+Time to deploy: 53ms
+cloud: (1525,1230800)
+cloud: (3689,35299950)
+Time to deploy: 60ms
+edge: (1617,69277500)
+edge: (813.25,32114525)
+edge: (549.3333333333334,19739733.333333332)
+edge: (471,11097600)
+Time to deploy: 55ms
+cloud: (2140,11100600)
+Time to deploy: 60ms
+edge: (357,4937600)
+Time to deploy: 53ms
+cloud: (1701.5,4936800)
+cloud: (4317.5,44416800)
+Time to deploy: 126ms
+edge: (921,44388000)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2608.5,19734400)
+Time to deploy: 87ms
+edge: (436,19737600)
+edge: (407.3333333333333,11114400)
+Time to deploy: 63ms
+cloud: (2122,11086200)
+Time to deploy: 53ms
+edge: (311,1235000)
+Time to deploy: 55ms
+cloud: (1307.5,1234200)
+cloud: (3717.5,35266600)
+Time to deploy: 63ms
+edge: (1504,69547500)
+edge: (783.5,32157100)
+edge: (568.6666666666666,19737600)
+edge: (518.25,13257200)
+Time to deploy: 99ms
+cloud: (2188.5,11097000)
+Time to deploy: 67ms
+edge: (347,4940800)
+Time to deploy: 49ms
+cloud: (1727,4938400)
+cloud: (4250,44395200)
+Time to deploy: 82ms
+edge: (1140,44380800)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2674,19741866.666666668)
+Time to deploy: 81ms
+edge: (524,19731200)
+edge: (355.3333333333333,11106000)
+Time to deploy: 59ms
+cloud: (2064,11098800)
+Time to deploy: 57ms
+edge: (261.5,1233000)
+Time to deploy: 51ms
+cloud: (1390.5,1233000)
+cloud: (3830.5,35278850)
+Time to deploy: 66ms
+edge: (1704,69255000)
+edge: (724.25,32084800)
+edge: (594.6666666666666,19778133.333333332)
+edge: (440.6666666666667,11083200)
+Time to deploy: 56ms
+cloud: (1986.5,11089800)
+Time to deploy: 59ms
+edge: (296.5,4928000)
+Time to deploy: 50ms
+cloud: (1789,4935200)
+cloud: (4249,44424000)
+Time to deploy: 77ms
+edge: (1151,44438400)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2706.6666666666665,19748266.666666668)
+Time to deploy: 84ms
+edge: (0,0)
+Time to deploy: 57ms
+cloud: (2013,11100600)
+Time to deploy: 61ms
+edge: (486,11098800)
+Time to deploy: 52ms
+cloud: (1386,1234400)
+cloud: (1341.3333333333333,1234266.6666666667)
+cloud: (3692,35333300)
+Time to deploy: 58ms
+edge: (1560,69502500)
+edge: (791.75,32132275)
+edge: (578,19735466.666666668)
+edge: (477.75,13257200)
+Time to deploy: 59ms
+cloud: (2093,11122200)
+Time to deploy: 57ms
+edge: (308.5,4934400)
+Time to deploy: 70ms
+cloud: (1731.5,4926400)
+cloud: (4339.5,44431200)
+Time to deploy: 63ms
+edge: (1124,44359200)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2740.3333333333335,19688533.333333332)
+Time to deploy: 83ms
+edge: (721,19715200)
+edge: (513.3333333333334,11097600)
+Time to deploy: 60ms
+cloud: (2154,11102400)
+Time to deploy: 56ms
+edge: (273.5,1232200)
+Time to deploy: 58ms
+cloud: (1462,1232600)
+cloud: (3724,35378500)
+Time to deploy: 63ms
+edge: (1667,69367500)
+edge: (861.75,32098525)
+edge: (584.3333333333334,19739733.333333332)
+edge: (488.75,13249800)
+Time to deploy: 67ms
+cloud: (2093.5,11109600)
+Time to deploy: 73ms
+edge: (322.5,4935200)
+Time to deploy: 47ms
+cloud: (1665,4934400)
+cloud: (4344.333333333333,44419200)
+Time to deploy: 74ms
+edge: (929,44366400)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2661.6666666666665,19746133.333333332)
+Time to deploy: 91ms
+edge: (593.5,19699200)
+edge: (444.6666666666667,11094000)
+Time to deploy: 58ms
+cloud: (2370,11113200)
+Time to deploy: 63ms
+edge: (259.5,1233400)
+Time to deploy: 65ms
+cloud: (1353,1231600)
+cloud: (5955.5,69435000)
+Time to deploy: 58ms
+edge: (1533.5,69435000)
+edge: (576.75,19723200)
+edge: (549.6666666666666,19718400)
+edge: (506,11098800)
+Time to deploy: 69ms
+cloud: (1922,11073600)
+Time to deploy: 55ms
+edge: (466,4928000)
+Time to deploy: 49ms
+cloud: (1681.5,4937600)
+cloud: (3387.6666666666665,31181333.333333332)
+Time to deploy: 76ms
+edge: (1065,44265600)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2765.3333333333335,19729066.666666668)
+Time to deploy: 83ms
+edge: (536,19734400)
+edge: (484.6666666666667,11115600)
+Time to deploy: 49ms
+cloud: (2173,11116800)
+Time to deploy: 80ms
+edge: (246.5,1234600)
+Time to deploy: 54ms
+cloud: (1368.3333333333333,1233733.3333333333)
+cloud: (6291,69457500)
+Time to deploy: 76ms
+edge: (1482,69480000)
+edge: (742.25,32132275)
+edge: (621.75,19740800)
+edge: (451.3333333333333,11094000)
+Time to deploy: 57ms
+cloud: (1992.5,11095200)
+Time to deploy: 63ms
+edge: (320,4947200)
+Time to deploy: 58ms
+cloud: (1681.5,4928000)
+cloud: (4287.333333333333,44342400)
+Time to deploy: 65ms
+edge: (878,44467200)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2731.3333333333335,19761066.666666668)
+Time to deploy: 71ms
+edge: (699,19750400)
+edge: (445.3333333333333,11102400)
+Time to deploy: 60ms
+cloud: (2094,11095200)
+Time to deploy: 69ms
+edge: (248,1233000)
+Time to deploy: 51ms
+cloud: (1259,1233600)
+cloud: (3631,35312200)
+Time to deploy: 64ms
+edge: (1903,69277500)
+edge: (763.75,32134650)
+edge: (558.5,19720000)
+edge: (414.3333333333333,11100000)
+Time to deploy: 65ms
+cloud: (2123.5,11115000)
+Time to deploy: 62ms
+edge: (316,4934400)
+Time to deploy: 51ms
+cloud: (1729.5,4926400)
+cloud: (4530.5,44409600)
+Time to deploy: 82ms
+edge: (1038,44424000)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2663,19739733.333333332)
+Time to deploy: 77ms
+edge: (545.5,19747200)
+edge: (388.6666666666667,11096400)
+Time to deploy: 69ms
+cloud: (2189,11109600)
+Time to deploy: 57ms
+edge: (292,1231400)
+Time to deploy: 69ms
+cloud: (1408,1234200)
+cloud: (3578.5,35333700)
+Time to deploy: 51ms
+edge: (1598,69345000)
+edge: (802.5,32140325)
+edge: (637.6666666666666,19739733.333333332)
+edge: (421.75,13256600)
+Time to deploy: 56ms
+cloud: (2148.5,11109600)
+Time to deploy: 79ms
+edge: (371,4939200)
+Time to deploy: 54ms
+cloud: (1789,4934400)
+cloud: (4424,44395200)
+Time to deploy: 85ms
+edge: (1111,44452800)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2758,19731200)
+Time to deploy: 77ms
+edge: (601.5,19769600)
+edge: (344.6666666666667,11095200)
+Time to deploy: 56ms
+cloud: (2173.5,11106000)
+Time to deploy: 56ms
+edge: (258.5,1233200)
+Time to deploy: 61ms
+cloud: (1361.3333333333333,1233600)
+cloud: (6066,69412500)
+Time to deploy: 57ms
+edge: (1566,69255000)
+edge: (800.25,32157150)
+edge: (596.25,19721600)
+edge: (399,11088000)
+Time to deploy: 59ms
+cloud: (2055.5,11115000)
+Time to deploy: 46ms
+edge: (265.5,4932000)
+Time to deploy: 50ms
+cloud: (1786,4921600)
+cloud: (3407,31246933.333333332)
+Time to deploy: 67ms
+edge: (980,44438400)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2675,19660800)
+Time to deploy: 103ms
+edge: (628,19734400)
+edge: (372.3333333333333,11092800)
+Time to deploy: 70ms
+cloud: (2195.5,11124000)
+Time to deploy: 67ms
+edge: (154.5,1234800)
+Time to deploy: 73ms
+cloud: (1319,1233600)
+cloud: (3662.5,35357000)
+Time to deploy: 58ms
+edge: (1328,69322500)
+edge: (828.5,32139450)
+edge: (629.3333333333334,19718400)
+edge: (471.6666666666667,11102400)
+Time to deploy: 66ms
+cloud: (2056,11095200)
+Time to deploy: 56ms
+edge: (363,4940800)
+Time to deploy: 58ms
+cloud: (1639,4932800)
+cloud: (4422,44416800)
+Time to deploy: 61ms
+edge: (1002.5,44431200)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2646.6666666666665,19712000)
+Time to deploy: 83ms
+edge: (564.5,19744000)
+edge: (400,11078400)
+Time to deploy: 55ms
+cloud: (2088,11102400)
+Time to deploy: 71ms
+edge: (206,1232000)
+Time to deploy: 43ms
+cloud: (1327.6666666666667,1234666.6666666667)
+cloud: (6029,69300000)
+Time to deploy: 99ms
+edge: (1528,69390000)
+edge: (642.3333333333334,19729066.666666668)
+edge: (619.5,19713600)
+edge: (482.6666666666667,11096400)
+Time to deploy: 55ms
+cloud: (2183,11088000)
+Time to deploy: 50ms
+edge: (415,4929600)
+Time to deploy: 49ms
+cloud: (1724,4932800)
+cloud: (3480.3333333333335,31275733.333333332)
+Time to deploy: 65ms
+edge: (1256,44352000)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2733,19733333.333333332)
+Time to deploy: 77ms
+edge: (608,19724800)
+edge: (479.3333333333333,11113200)
+Time to deploy: 57ms
+cloud: (2143,11080800)
+Time to deploy: 50ms
+edge: (295.5,1231600)
+Time to deploy: 64ms
+cloud: (1347,1234400)
+cloud: (5976,69210000)
+Time to deploy: 54ms
+edge: (1666,69480000)
+edge: (785,32151475)
+edge: (552.5,19758400)
+edge: (389,11098800)
+Time to deploy: 52ms
+cloud: (2082.5,11109600)
+Time to deploy: 49ms
+edge: (328,4931200)
+Time to deploy: 50ms
+cloud: (1662.5,4928800)
+cloud: (3379,31253333.333333332)
+Time to deploy: 82ms
+edge: (1062,44424000)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2678,19754666.666666668)
+Time to deploy: 81ms
+edge: (668.5,19721600)
+edge: (401.3333333333333,11089200)
+Time to deploy: 59ms
+cloud: (2172,11084400)
+Time to deploy: 57ms
+edge: (349.5,1232200)
+Time to deploy: 72ms
+cloud: (1449.5,1232400)
+cloud: (3704.5,35254950)
+Time to deploy: 58ms
+edge: (1657,69345000)
+edge: (854.25,32130625)
+edge: (552.3333333333334,19718400)
+edge: (505.5,13240700)
+Time to deploy: 53ms
+cloud: (2173,11093400)
+Time to deploy: 62ms
+edge: (386.5,4931200)
+Time to deploy: 50ms
+cloud: (1688,4932800)
+cloud: (4329.333333333333,44414400)
+Time to deploy: 57ms
+edge: (958,44323200)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2672.3333333333335,19718400)
+Time to deploy: 72ms
+edge: (527,19728000)
+edge: (384,11073600)
+Time to deploy: 53ms
+cloud: (2093,11102400)
+Time to deploy: 72ms
+edge: (435,1232400)
+Time to deploy: 54ms
+cloud: (1376,1234000)
+cloud: (3860,35347350)
+Time to deploy: 71ms
+edge: (1268,69412500)
+edge: (610.5,19736000)
+edge: (523,19756800)
+edge: (455.5,13269800)
+Time to deploy: 51ms
+cloud: (2116.5,11097000)
+Time to deploy: 49ms
+edge: (365,4930400)
+Time to deploy: 58ms
+cloud: (1678.5,4936000)
+cloud: (4222.333333333333,44380800)
+Time to deploy: 71ms
+edge: (1077,44452800)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2685.6666666666665,19739733.333333332)
+Time to deploy: 82ms
+edge: (634,19708800)
+edge: (404.6666666666667,11110800)
+Time to deploy: 60ms
+cloud: (1954,11089800)
+Time to deploy: 59ms
+edge: (280,1233400)
+Time to deploy: 52ms
+cloud: (1328.5,1232800)
+cloud: (3695,35334300)
+Time to deploy: 56ms
+edge: (1546,69210000)
+edge: (829.25,32148325)
+edge: (554.6666666666666,19767466.666666668)
+edge: (466.5,13252400)
+Time to deploy: 49ms
+cloud: (2127,11089800)
+Time to deploy: 60ms
+edge: (296,4934400)
+Time to deploy: 48ms
+cloud: (1667.5,4926400)
+cloud: (4371,44424000)
+Time to deploy: 81ms
+edge: (1018,44424000)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2688,19752533.333333332)
+Time to deploy: 67ms
+edge: (562.5,19734400)
+edge: (390.6666666666667,11110800)
+Time to deploy: 67ms
+cloud: (2109.5,11088000)
+Time to deploy: 68ms
+edge: (157,1233200)
+Time to deploy: 64ms
+cloud: (1369.3333333333333,1232933.3333333333)
+cloud: (5788,69412500)
+Time to deploy: 72ms
+edge: (1589,69390000)
+edge: (575.6666666666666,19722666.666666668)
+edge: (620,19716266.666666668)
+edge: (494.6666666666667,11100000)
+Time to deploy: 57ms
+cloud: (2074,11109600)
+Time to deploy: 56ms
+edge: (289,4937600)
+Time to deploy: 49ms
+cloud: (1565,4928000)
+cloud: (4344.5,44445600)
+Time to deploy: 82ms
+edge: (1111.5,44402400)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2807.3333333333335,19735466.666666668)
+Time to deploy: 80ms
+edge: (538.5,19750400)
+edge: (357,11102400)
+Time to deploy: 54ms
+cloud: (2159,11097000)
+Time to deploy: 59ms
+edge: (317,1234400)
+Time to deploy: 62ms
+cloud: (1291,1233200)
+cloud: (3721.5,35322850)
+Time to deploy: 84ms
+edge: (1517,69367500)
+edge: (697,32162725)
+edge: (601,19729066.666666668)
+edge: (474.6666666666667,11104800)
+Time to deploy: 54ms
+cloud: (2218.5,11097000)
+Time to deploy: 59ms
+edge: (293,4933600)
+Time to deploy: 53ms
+cloud: (1712.5,4936800)
+cloud: (4334,44409600)
+Time to deploy: 77ms
+edge: (978,44337600)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2700.3333333333335,19737600)
+Time to deploy: 101ms
+edge: (669,19760000)
+edge: (372.6666666666667,11108400)
+Time to deploy: 64ms
+cloud: (2138,11091600)
+Time to deploy: 66ms
+edge: (183,1233200)
+Time to deploy: 71ms
+cloud: (1402.5,1234400)
+cloud: (3806,35345150)
+Time to deploy: 56ms
+edge: (1497,69525000)
+edge: (830.25,32221350)
+edge: (593,19731200)
+edge: (440.75,13241400)
+Time to deploy: 56ms
+cloud: (2099.5,11102400)
+Time to deploy: 50ms
+edge: (304,4938400)
+Time to deploy: 51ms
+cloud: (1607.5,4927200)
+cloud: (4238,44460000)
+Time to deploy: 81ms
+edge: (1054,44409600)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2775.3333333333335,19716266.666666668)
+Time to deploy: 77ms
+edge: (620,19756800)
+edge: (392.6666666666667,11101200)
+Time to deploy: 82ms
+cloud: (2309,11084400)
+Time to deploy: 53ms
+edge: (174,1233200)
+Time to deploy: 64ms
+cloud: (1308.5,1233000)
+cloud: (6277,69525000)
+Time to deploy: 57ms
+edge: (1483,69435000)
+edge: (527.6666666666666,19729066.666666668)
+edge: (602.5,19747200)
+edge: (433.6666666666667,11085600)
+Time to deploy: 67ms
+cloud: (2113,11116800)
+Time to deploy: 54ms
+edge: (374,4925600)
+Time to deploy: 52ms
+cloud: (1730.5,4920800)
+cloud: (3448.3333333333335,31213333.333333332)
+Time to deploy: 72ms
+edge: (1044,44380800)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2647.6666666666665,19750400)
+Time to deploy: 87ms
+edge: (517.5,19705600)
+edge: (377,11102400)
+Time to deploy: 69ms
+cloud: (2041,11115000)
+Time to deploy: 70ms
+edge: (316,1233600)
+Time to deploy: 52ms
+cloud: (1556,1231600)
+cloud: (3689,35299550)
+Time to deploy: 81ms
+edge: (1452,69030000)
+edge: (758.25,32170100)
+edge: (592.25,19736000)
+edge: (514.3333333333334,11088000)
+Time to deploy: 52ms
+cloud: (2048.5,11080800)
+Time to deploy: 54ms
+edge: (325,4930400)
+Time to deploy: 61ms
+cloud: (1711.5,4935200)
+cloud: (4299.5,44460000)
+Time to deploy: 77ms
+edge: (1057,44323200)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2716,19735466.666666668)
+Time to deploy: 103ms
+edge: (657,19721600)
+edge: (379.3333333333333,11103600)
+Time to deploy: 62ms
+cloud: (2115,11109600)
+Time to deploy: 58ms
+edge: (292.5,1234800)
+Time to deploy: 47ms
+cloud: (1357.3333333333333,1235066.6666666667)
+cloud: (6504,69390000)
+Time to deploy: 69ms
+edge: (1678,69120000)
+edge: (788.25,32190025)
+edge: (567.25,19728000)
+edge: (471.3333333333333,11092800)
+Time to deploy: 66ms
+cloud: (2040.5,11093400)
+Time to deploy: 52ms
+edge: (364,4923200)
+Time to deploy: 50ms
+cloud: (1674,4938400)
+cloud: (3450,31229333.333333332)
+Time to deploy: 78ms
+edge: (1264,44424000)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2746.6666666666665,19724800)
+Time to deploy: 91ms
+edge: (610,19699200)
+edge: (371.3333333333333,11092800)
+Time to deploy: 60ms
+cloud: (1942,11088000)
+Time to deploy: 59ms
+edge: (186,1231200)
+Time to deploy: 62ms
+cloud: (1359.3333333333333,1232133.3333333333)
+cloud: (5966,69412500)
+Time to deploy: 58ms
+edge: (1731.5,69412500)
+edge: (567,19744000)
+edge: (574,19744000)
+edge: (459.25,11089800)
+Time to deploy: 52ms
+cloud: (2041,11116800)
+Time to deploy: 63ms
+edge: (261,4929600)
+Time to deploy: 63ms
+cloud: (1806.5,4933600)
+Time to deploy: 83ms
+edge: (1148,44359200)
+edge: (934,44370000)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2723,19748266.666666668)
+Time to deploy: 76ms
+edge: (560,19705600)
+edge: (425.3333333333333,11103600)
+Time to deploy: 55ms
+cloud: (2121,11142000)
+Time to deploy: 77ms
+edge: (296,1231800)
+Time to deploy: 52ms
+cloud: (1333.3333333333333,1234266.6666666667)
+cloud: (6163,69322500)
+Time to deploy: 69ms
+edge: (1549,69502500)
+edge: (570,19729066.666666668)
+edge: (657,19744000)
+edge: (448,11100000)
+Time to deploy: 58ms
+cloud: (2205,11106000)
+Time to deploy: 52ms
+edge: (413,4929600)
+Time to deploy: 43ms
+cloud: (1807.5,4927200)
+Time to deploy: 71ms
+edge: (1149,44438400)
+edge: (1015,44391600)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2691.3333333333335,19750400)
+Time to deploy: 92ms
+edge: (679,19737600)
+edge: (382.6666666666667,11103600)
+Time to deploy: 62ms
+cloud: (2062,11098800)
+Time to deploy: 70ms
+edge: (261.5,1233800)
+Time to deploy: 62ms
+cloud: (1374,1232800)
+cloud: (6109,69412500)
+Time to deploy: 73ms
+edge: (1343,69232500)
+edge: (829.25,32095175)
+edge: (631,19723200)
+edge: (504.3333333333333,11098800)
+Time to deploy: 64ms
+cloud: (2132,11089800)
+Time to deploy: 56ms
+edge: (363,4934400)
+Time to deploy: 48ms
+cloud: (1663.5,4930400)
+cloud: (4286.5,44316000)
+Time to deploy: 67ms
+edge: (1306,44467200)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2706.3333333333335,19720533.333333332)
+Time to deploy: 72ms
+edge: (612,19734400)
+edge: (412.6666666666667,11108400)
+Time to deploy: 67ms
+cloud: (2146,11113200)
+Time to deploy: 72ms
+edge: (150,1234800)
+Time to deploy: 47ms
+cloud: (1361.3333333333333,1232266.6666666667)
+cloud: (6143,69367500)
+Time to deploy: 60ms
+edge: (1517,69333750)
+edge: (568.3333333333334,19729066.666666668)
+edge: (544.3333333333334,19722666.666666668)
+edge: (489,11095200)
+Time to deploy: 56ms
+cloud: (2151.5,11098800)
+Time to deploy: 55ms
+edge: (550,4937600)
+Time to deploy: 60ms
+cloud: (1679,4932800)
+cloud: (3487.3333333333335,31281600)
+Time to deploy: 205ms
+edge: (920,44452800)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (3435.5,19744000)
+Time to deploy: 93ms
+edge: (474,19737600)
+edge: (470.3333333333333,11103600)
+Time to deploy: 61ms
+cloud: (2056.5,11102400)
+Time to deploy: 61ms
+edge: (324,1234400)
+Time to deploy: 53ms
+cloud: (1376.5,1232800)
+cloud: (3763.5,35323250)
+Time to deploy: 72ms
+edge: (1624.5,69345000)
+edge: (520.25,19718400)
+edge: (580.6666666666666,19726933.333333332)
+edge: (446.5,11097900)
+Time to deploy: 51ms
+cloud: (2089,11113200)
+Time to deploy: 51ms
+edge: (340.5,4934400)
+Time to deploy: 50ms
+cloud: (1852,4924800)
+Time to deploy: 77ms
+edge: (1071,44395200)
+edge: (1021,44352000)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2746.6666666666665,19733333.333333332)
+Time to deploy: 73ms
+edge: (715,19715200)
+edge: (437,11110800)
+Time to deploy: 72ms
+cloud: (2291,11093400)
+Time to deploy: 72ms
+edge: (160,1235600)
+Time to deploy: 53ms
+cloud: (1391.5,1234200)
+cloud: (3710,35380100)
+Time to deploy: 67ms
+edge: (1397,69367500)
+edge: (844.5,32166750)
+edge: (593.6666666666666,19722666.666666668)
+edge: (382,11103600)
+Time to deploy: 56ms
+cloud: (2089,11106000)
+Time to deploy: 62ms
+edge: (343.5,4928000)
+Time to deploy: 48ms
+cloud: (1629.5,4934400)
+cloud: (4321.5,44416800)
+Time to deploy: 68ms
+edge: (1219.5,44409600)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2701.3333333333335,19699200)
+Time to deploy: 75ms
+edge: (587,19724800)
+edge: (395.3333333333333,11097600)
+Time to deploy: 65ms
+cloud: (2037,11113200)
+Time to deploy: 69ms
+edge: (196,1235600)
+Time to deploy: 50ms
+cloud: (1402,1234400)
+cloud: (3653,35266800)
+Time to deploy: 56ms
+edge: (1399,69390000)
+edge: (897.5,32132275)
+edge: (601.6666666666666,19724800)
+edge: (387,11103600)
+Time to deploy: 84ms
+cloud: (2031,11113200)
+Time to deploy: 62ms
+edge: (377,4926400)
+Time to deploy: 49ms
+cloud: (1706.5,4929600)
+cloud: (3531.6666666666665,31326933.333333332)
+Time to deploy: 85ms
+edge: (1112,44452800)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2713.6666666666665,19731200)
+Time to deploy: 86ms
+edge: (507.5,19734400)
+edge: (377,11101200)
+Time to deploy: 64ms
+cloud: (2129,11062800)
+Time to deploy: 53ms
+edge: (209,1233600)
+Time to deploy: 64ms
+cloud: (1317.6666666666667,1232800)
+cloud: (6136,69435000)
+Time to deploy: 65ms
+edge: (1317,69345000)
+edge: (824.75,32170000)
+edge: (570.75,19715200)
+edge: (413.3333333333333,11095200)
+Time to deploy: 49ms
+cloud: (2243,11100600)
+Time to deploy: 58ms
+edge: (441,4942400)
+Time to deploy: 59ms
+cloud: (1592.5,4931200)
+cloud: (4368.666666666667,44438400)
+Time to deploy: 68ms
+edge: (1255,44424000)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2662.3333333333335,19716266.666666668)
+Time to deploy: 74ms
+edge: (563.5,19753600)
+edge: (431,11095200)
+Time to deploy: 59ms
+cloud: (2106,11088000)
+Time to deploy: 58ms
+edge: (347,1234200)
+Time to deploy: 56ms
+cloud: (1400,1232200)
+cloud: (3724.5,35358400)
+Time to deploy: 55ms
+edge: (1635,69412500)
+edge: (730.75,32133875)
+edge: (574.3333333333334,19748266.666666668)
+edge: (466,11112000)
+Time to deploy: 55ms
+cloud: (2147.5,11084400)
+Time to deploy: 60ms
+edge: (340.5,4935200)
+Time to deploy: 52ms
+cloud: (1710.5,4945600)
+cloud: (4304,44380800)
+Time to deploy: 68ms
+edge: (931,44359200)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2651.3333333333335,19737600)
+Time to deploy: 67ms
+edge: (505,19696000)
+edge: (390.6666666666667,11108400)
+Time to deploy: 66ms
+cloud: (2026,11084400)
+Time to deploy: 69ms
+edge: (257,1234400)
+Time to deploy: 71ms
+cloud: (1335,1232800)
+cloud: (3739,35198300)
+Time to deploy: 53ms
+edge: (1392,69457500)
+edge: (499.6666666666667,19712000)
+edge: (561,19756800)
+edge: (420,11104800)
+Time to deploy: 65ms
+cloud: (2222,11115000)
+Time to deploy: 59ms
+edge: (279.5,4930400)
+Time to deploy: 48ms
+cloud: (1767,4928000)
+cloud: (3372.6666666666665,31187200)
+Time to deploy: 76ms
+edge: (1033,44438400)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2620.6666666666665,19716266.666666668)
+Time to deploy: 81ms
+edge: (526,19718400)
+edge: (343.3333333333333,11098800)
+Time to deploy: 55ms
+cloud: (2075,11116800)
+Time to deploy: 49ms
+edge: (262,1234000)
+Time to deploy: 58ms
+cloud: (1432,1231600)
+cloud: (3602,35311600)
+Time to deploy: 56ms
+edge: (1736,69502500)
+edge: (795.25,32137850)
+edge: (642.3333333333334,19709866.666666668)
+edge: (495.5,13269900)
+Time to deploy: 53ms
+cloud: (2034.5,11097000)
+Time to deploy: 55ms
+edge: (374.5,4920800)
+Time to deploy: 47ms
+cloud: (1713.5,4933600)
+cloud: (4378,44402400)
+Time to deploy: 96ms
+edge: (1018.5,44431200)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2650.3333333333335,19694933.333333332)
+Time to deploy: 78ms
+edge: (531.5,19740800)
+edge: (393.6666666666667,11100000)
+Time to deploy: 60ms
+cloud: (2193.5,11100600)
+Time to deploy: 55ms
+edge: (274,1234600)
+Time to deploy: 51ms
+cloud: (1321.5,1234200)
+cloud: (5903,69300000)
+Time to deploy: 54ms
+edge: (1481,69165000)
+edge: (584,19724800)
+edge: (636.25,19740800)
+edge: (452,11110800)
+Time to deploy: 51ms
+cloud: (2091,11102400)
+Time to deploy: 63ms
+edge: (321,4921600)
+Time to deploy: 50ms
+cloud: (1825,4926400)
+Time to deploy: 76ms
+edge: (955,44452800)
+edge: (976,44406000)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2742.6666666666665,19748266.666666668)
+Time to deploy: 83ms
+edge: (601.5,19756800)
+edge: (450,11104800)
+Time to deploy: 65ms
+cloud: (2145,11098800)
+Time to deploy: 56ms
+edge: (289,1233800)
+Time to deploy: 54ms
+cloud: (1350.5,1234400)
+cloud: (3627.5,35255150)
+Time to deploy: 61ms
+edge: (1604,69345000)
+edge: (812.5,32106525)
+edge: (550.3333333333334,19705600)
+edge: (409,11096400)
+Time to deploy: 56ms
+cloud: (2017.5,11109600)
+Time to deploy: 47ms
+edge: (345,4935200)
+Time to deploy: 52ms
+cloud: (1663.5,4925600)
+cloud: (4330.5,44359200)
+Time to deploy: 86ms
+edge: (1075,44337600)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2634,19735466.666666668)
+Time to deploy: 86ms
+edge: (581,19750400)
+edge: (448.3333333333333,11098800)
+Time to deploy: 60ms
+cloud: (2149,11125800)
+Time to deploy: 68ms
+edge: (408,1234000)
+Time to deploy: 51ms
+cloud: (1370,1233600)
+cloud: (3650.5,35209350)
+Time to deploy: 56ms
+edge: (1719,69345000)
+edge: (824.75,32115350)
+edge: (538,19732800)
+edge: (427.6666666666667,11101200)
+Time to deploy: 54ms
+cloud: (2159,11088000)
+Time to deploy: 57ms
+edge: (380,4928000)
+Time to deploy: 49ms
+cloud: (1633,4928800)
+cloud: (3350,31280000)
+Time to deploy: 116ms
+edge: (1129.5,44388000)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2868.6666666666665,19737600)
+Time to deploy: 79ms
+edge: (613,19705600)
+edge: (516,11085600)
+Time to deploy: 62ms
+cloud: (2064,11091600)
+Time to deploy: 65ms
+edge: (265,1235600)
+Time to deploy: 61ms
+cloud: (1383,1234000)
+cloud: (6035.5,69390000)
+Time to deploy: 67ms
+edge: (1472,69052500)
+edge: (510,19735466.666666668)
+edge: (666.3333333333334,19729066.666666668)
+edge: (415.3333333333333,11107200)
+Time to deploy: 53ms
+cloud: (2146,11120400)
+Time to deploy: 61ms
+edge: (434,4924800)
+Time to deploy: 58ms
+cloud: (1797,4926400)
+cloud: (3474,31212266.666666668)
+Time to deploy: 106ms
+edge: (1001,44438400)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2773.3333333333335,19750400)
+Time to deploy: 76ms
+edge: (695.5,19718400)
+edge: (392.3333333333333,11108400)
+Time to deploy: 58ms
+cloud: (2044,11102400)
+Time to deploy: 74ms
+edge: (354,1232400)
+Time to deploy: 54ms
+cloud: (1342,1233800)
+cloud: (3719.5,35321650)
+Time to deploy: 55ms
+edge: (1641,69232500)
+edge: (717,32147550)
+edge: (588.25,19731200)
+edge: (447.6666666666667,11086800)
+Time to deploy: 56ms
+cloud: (2009,11100600)
+Time to deploy: 76ms
+edge: (356.5,4933600)
+Time to deploy: 49ms
+cloud: (1645,4944000)
+cloud: (4393,44445600)
+Time to deploy: 78ms
+edge: (1016,44488800)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2713.6666666666665,19735466.666666668)
+Time to deploy: 79ms
+edge: (624,19731200)
+edge: (462,11088000)
+Time to deploy: 112ms
+cloud: (2404,11138400)
+Time to deploy: 67ms
+edge: (257,1233200)
+Time to deploy: 60ms
+cloud: (1423,1232400)
+cloud: (6337,69547500)
+Time to deploy: 67ms
+edge: (1580,69345000)
+edge: (809.25,32157975)
+edge: (561.5,19726400)
+edge: (394.3333333333333,11114400)
+Time to deploy: 56ms
+cloud: (2142.5,11102400)
+Time to deploy: 47ms
+edge: (415,4929600)
+Time to deploy: 51ms
+cloud: (1655,4940000)
+cloud: (3477.3333333333335,31273066.666666668)
+Time to deploy: 84ms
+edge: (1150,44452800)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2694.3333333333335,19741866.666666668)
+Time to deploy: 86ms
+edge: (717,19756800)
+edge: (464,11097600)
+Time to deploy: 73ms
+cloud: (2108,11088000)
+Time to deploy: 80ms
+edge: (146,1236000)
+Time to deploy: 82ms
+cloud: (1279,1233600)
+cloud: (5784,69412500)
+Time to deploy: 53ms
+edge: (1449,69390000)
+edge: (778.75,32125925)
+edge: (631,19734400)
+edge: (463,11100000)
+Time to deploy: 70ms
+cloud: (2207.5,11098800)
+Time to deploy: 53ms
+edge: (357.5,4932800)
+Time to deploy: 48ms
+cloud: (1681.5,4932800)
+cloud: (4265,44416800)
+Time to deploy: 71ms
+edge: (1129,44380800)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2700.6666666666665,19744000)
+Time to deploy: 76ms
+edge: (641,19769600)
+edge: (356.6666666666667,11100000)
+Time to deploy: 67ms
+cloud: (2202,11106000)
+Time to deploy: 51ms
+edge: (143,1230000)
+Time to deploy: 73ms
+cloud: (1307,1235000)
+cloud: (3878,35367850)
+Time to deploy: 58ms
+edge: (1699,69390000)
+edge: (559.6666666666666,19733333.333333332)
+edge: (561.5,19708800)
+edge: (500.6666666666667,11091600)
+Time to deploy: 57ms
+cloud: (2178,11111400)
+Time to deploy: 55ms
+edge: (397,4942400)
+Time to deploy: 49ms
+cloud: (1724,4933600)
+cloud: (3495.3333333333335,31274133.333333332)
+Time to deploy: 64ms
+edge: (965,44452800)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2721,19692800)
+Time to deploy: 66ms
+edge: (547,19702400)
+edge: (542.6666666666666,11107200)
+Time to deploy: 74ms
+cloud: (2100.5,11115000)
+Time to deploy: 65ms
+edge: (262,1232400)
+Time to deploy: 64ms
+cloud: (1369.3333333333333,1234800)
+cloud: (5894,69300000)
+Time to deploy: 52ms
+edge: (1511,69435000)
+edge: (573,19718400)
+edge: (621.25,19760000)
+edge: (402,11103600)
+Time to deploy: 51ms
+cloud: (2064.5,11093400)
+Time to deploy: 61ms
+edge: (313,4934400)
+Time to deploy: 57ms
+cloud: (1686,4934400)
+cloud: (3409.3333333333335,31225600)
+Time to deploy: 95ms
+edge: (998,44395200)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2643.6666666666665,19754666.666666668)
+Time to deploy: 77ms
+edge: (556.5,19683200)
+edge: (434.6666666666667,11112000)
+Time to deploy: 59ms
+cloud: (2140.5,11109600)
+Time to deploy: 74ms
+edge: (205,1233000)
+Time to deploy: 64ms
+cloud: (1361.5,1234200)
+cloud: (6322,69345000)
+Time to deploy: 57ms
+edge: (1476,69322500)
+edge: (796.5,32125825)
+edge: (672.6666666666666,19739733.333333332)
+edge: (454.3333333333333,11091600)
+Time to deploy: 62ms
+cloud: (2228.5,11073600)
+Time to deploy: 51ms
+edge: (378.5,4936000)
+Time to deploy: 52ms
+cloud: (1658.5,4929600)
+cloud: (3404,31269866.666666668)
+Time to deploy: 71ms
+edge: (982,44438400)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2682,19701333.333333332)
+Time to deploy: 75ms
+edge: (502,19734400)
+edge: (387.3333333333333,11103600)
+Time to deploy: 57ms
+cloud: (2066,11082600)
+Time to deploy: 57ms
+edge: (315,1233200)
+Time to deploy: 59ms
+cloud: (1393.5,1233600)
+cloud: (3613.5,35244500)
+Time to deploy: 53ms
+edge: (1642,69300000)
+edge: (777,32157925)
+edge: (590.5,19728000)
+edge: (417.3333333333333,11094000)
+Time to deploy: 64ms
+cloud: (2003,11106000)
+Time to deploy: 56ms
+edge: (304,4935200)
+Time to deploy: 61ms
+cloud: (1762.5,4925600)
+cloud: (4308.333333333333,44428800)
+Time to deploy: 60ms
+edge: (1143.5,44395200)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2665.6666666666665,19731200)
+Time to deploy: 93ms
+edge: (536,19721600)
+edge: (408.3333333333333,11100000)
+Time to deploy: 62ms
+cloud: (1996.5,11097000)
+Time to deploy: 66ms
+edge: (228,1233200)
+Time to deploy: 49ms
+cloud: (1409.5,1232800)
+cloud: (3723.5,35311600)
+Time to deploy: 52ms
+edge: (1444,69277500)
+edge: (766.5,32181200)
+edge: (622.3333333333334,19744000)
+edge: (498,11107200)
+Time to deploy: 54ms
+cloud: (2193.5,11109600)
+Time to deploy: 67ms
+edge: (565.5,4929600)
+Time to deploy: 57ms
+cloud: (1781.5,4942400)
+cloud: (4330.666666666667,44347200)
+Time to deploy: 59ms
+edge: (1106,44380800)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2680.3333333333335,19746133.333333332)
+Time to deploy: 81ms
+edge: (597,19728000)
+edge: (422,11101200)
+Time to deploy: 76ms
+cloud: (2152,11116800)
+Time to deploy: 55ms
+edge: (282,1234800)
+Time to deploy: 51ms
+cloud: (1481.5,1231800)
+cloud: (6128,69300000)
+Time to deploy: 72ms
+edge: (1327,69367500)
+edge: (779,32116950)
+edge: (611.5,19728000)
+edge: (431,11102400)
+Time to deploy: 63ms
+cloud: (2125.5,11104200)
+Time to deploy: 58ms
+edge: (326.5,4937600)
+Time to deploy: 85ms
+cloud: (1696,4936000)
+cloud: (3610.6666666666665,31236800)
+Time to deploy: 66ms
+edge: (952,44467200)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2648.3333333333335,19714133.333333332)
+Time to deploy: 75ms
+edge: (596.5,19680000)
+edge: (371,11095200)
+Time to deploy: 74ms
+cloud: (2173,11100600)
+Time to deploy: 68ms
+edge: (160,1235600)
+Time to deploy: 52ms
+cloud: (1378.5,1231000)
+cloud: (3678.5,35199300)
+Time to deploy: 68ms
+edge: (1634,69480000)
+edge: (578,19724800)
+edge: (544.75,19758400)
+edge: (464.6666666666667,11118000)
+Time to deploy: 68ms
+cloud: (2102.5,11100600)
+Time to deploy: 58ms
+edge: (317.5,4932800)
+Time to deploy: 53ms
+cloud: (1811,4937600)
+Time to deploy: 68ms
+edge: (1181.5,44445600)
+edge: (1092.6666666666667,44390400)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2674.6666666666665,19748266.666666668)
+Time to deploy: 78ms
+edge: (734,19718400)
+edge: (375,11106000)
+Time to deploy: 75ms
+cloud: (2062.5,11095200)
+Time to deploy: 60ms
+edge: (179,1232000)
+Time to deploy: 48ms
+cloud: (1369.5,1232800)
+cloud: (3709,35301350)
+Time to deploy: 61ms
+edge: (1610,69457500)
+edge: (788.5,32156425)
+edge: (530.3333333333334,19714133.333333332)
+edge: (448.3333333333333,11120400)
+Time to deploy: 61ms
+cloud: (2186,11115000)
+Time to deploy: 53ms
+edge: (261,4936000)
+Time to deploy: 50ms
+cloud: (1673.5,4943200)
+cloud: (4299,44433600)
+Time to deploy: 81ms
+edge: (1131.5,44352000)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2673,19746133.333333332)
+Time to deploy: 79ms
+edge: (494.5,19772800)
+edge: (333,11092800)
+Time to deploy: 52ms
+cloud: (2118,11095200)
+Time to deploy: 57ms
+edge: (148,1236400)
+Time to deploy: 56ms
+cloud: (1385.5,1234600)
+cloud: (3700,35344950)
+Time to deploy: 60ms
+edge: (1257,69300000)
+edge: (787.25,32146675)
+edge: (616.5,19729600)
+edge: (516.6666666666666,11103600)
+Time to deploy: 49ms
+cloud: (1952,11107800)
+Time to deploy: 48ms
+edge: (393,4936000)
+Time to deploy: 55ms
+cloud: (1639,4930400)
+cloud: (4364.5,44452800)
+Time to deploy: 109ms
+edge: (1204,44395200)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2702.3333333333335,19729066.666666668)
+Time to deploy: 67ms
+edge: (678,19760000)
+edge: (420,11115600)
+Time to deploy: 61ms
+cloud: (1976,11102400)
+Time to deploy: 57ms
+edge: (168,1235600)
+Time to deploy: 74ms
+cloud: (1342,1234800)
+cloud: (3692.5,35278050)
+Time to deploy: 55ms
+edge: (1538,69502500)
+edge: (809,32166800)
+edge: (661.3333333333334,19729066.666666668)
+edge: (481,13244200)
+Time to deploy: 57ms
+cloud: (2155.5,11093400)
+Time to deploy: 49ms
+edge: (366.5,4938400)
+Time to deploy: 47ms
+cloud: (1694,4930400)
+cloud: (4302,44438400)
+Time to deploy: 86ms
+edge: (977.5,44308800)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2704.6666666666665,19722666.666666668)
+Time to deploy: 99ms
+edge: (480,19660800)
+edge: (471,11090400)
+Time to deploy: 65ms
+cloud: (2200.5,11089800)
+Time to deploy: 66ms
+edge: (308,1234400)
+Time to deploy: 51ms
+cloud: (1400.5,1232800)
+cloud: (3752,35311600)
+Time to deploy: 67ms
+edge: (1567,69345000)
+edge: (816.75,32169275)
+edge: (626,19724800)
+edge: (493.25,13239200)
+Time to deploy: 59ms
+cloud: (2093.5,11116800)
+Time to deploy: 57ms
+edge: (440,4916800)
+Time to deploy: 69ms
+cloud: (1635.5,4933600)
+cloud: (4254.333333333333,44366400)
+Time to deploy: 62ms
+edge: (946.5,44373600)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2705,19721600)
+Time to deploy: 147ms
+edge: (589.5,19737600)
+edge: (491,11108400)
+Time to deploy: 55ms
+cloud: (2258,11098800)
+Time to deploy: 61ms
+edge: (294.5,1231600)
+Time to deploy: 67ms
+cloud: (1356.3333333333333,1232000)
+cloud: (6327,69412500)
+Time to deploy: 69ms
+edge: (1447,69480000)
+edge: (812,32163550)
+edge: (615.25,19737600)
+edge: (473,11098800)
+Time to deploy: 55ms
+cloud: (2075.5,11104200)
+Time to deploy: 70ms
+edge: (321.5,4936000)
+Time to deploy: 58ms
+cloud: (1725,4926400)
+cloud: (4304.666666666667,44404800)
+Time to deploy: 67ms
+edge: (954,44424000)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2757,19728000)
+Time to deploy: 103ms
+edge: (674.5,19721600)
+edge: (372.3333333333333,11100000)
+Time to deploy: 69ms
+cloud: (2048,11138400)
+Time to deploy: 55ms
+edge: (188,1234000)
+Time to deploy: 50ms
+cloud: (1428,1234800)
+cloud: (3705.5,35176600)
+Time to deploy: 62ms
+edge: (1707,69435000)
+edge: (813.75,32137900)
+edge: (526.6666666666666,19716266.666666668)
+edge: (501.6666666666667,11079600)
+Time to deploy: 60ms
+cloud: (2051.5,11109600)
+Time to deploy: 49ms
+edge: (329.5,4937600)
+Time to deploy: 64ms
+cloud: (1675,4926400)
+cloud: (4308,44356800)
+Time to deploy: 66ms
+edge: (1144,44366400)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2675,19741866.666666668)
+Time to deploy: 76ms
+edge: (541.5,19747200)
+edge: (445.3333333333333,11100000)
+Time to deploy: 65ms
+cloud: (2133,11097000)
+Time to deploy: 71ms
+edge: (304,1232400)
+Time to deploy: 52ms
+cloud: (1421.5,1233200)
+cloud: (3622.5,35356400)
+Time to deploy: 61ms
+edge: (1483,69210000)
+edge: (795.25,32148275)
+edge: (581.3333333333334,19748266.666666668)
+edge: (506.25,13236300)
+Time to deploy: 88ms
+cloud: (2225.5,11079000)
+Time to deploy: 66ms
+edge: (351.5,4938400)
+Time to deploy: 53ms
+cloud: (1679.5,4944000)
+cloud: (4211,44388000)
+Time to deploy: 75ms
+edge: (1015,44474400)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2662,19752533.333333332)
+Time to deploy: 82ms
+edge: (616,19731200)
+edge: (362,11086800)
+Time to deploy: 60ms
+cloud: (2164,11113200)
+Time to deploy: 66ms
+edge: (166,1235200)
+Time to deploy: 66ms
+cloud: (1292,1234000)
+cloud: (3787,35289700)
+Time to deploy: 63ms
+edge: (1198,69367500)
+edge: (811,32124175)
+edge: (528,19703466.666666668)
+edge: (510.75,13255300)
+Time to deploy: 71ms
+cloud: (2151,11104200)
+Time to deploy: 54ms
+edge: (242.5,4934400)
+Time to deploy: 55ms
+cloud: (1695,4932000)
+cloud: (4279.333333333333,44332800)
+Time to deploy: 66ms
+edge: (895.5,44445600)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2737,19718400)
+Time to deploy: 101ms
+edge: (506,19772800)
+edge: (509.3333333333333,11102400)
+Time to deploy: 52ms
+cloud: (2255,11113200)
+Time to deploy: 56ms
+edge: (357,1231600)
+Time to deploy: 80ms
+cloud: (1275,1232800)
+cloud: (3703.5,35266800)
+Time to deploy: 63ms
+edge: (1443,69390000)
+edge: (833.25,32121800)
+edge: (634.6666666666666,19739733.333333332)
+edge: (467.5,13272700)
+Time to deploy: 50ms
+cloud: (2214,11111400)
+Time to deploy: 49ms
+edge: (329,4934400)
+Time to deploy: 48ms
+cloud: (1601.5,4934400)
+cloud: (4254.5,44294400)
+Time to deploy: 66ms
+edge: (1079.5,44445600)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2604,19741866.666666668)
+Time to deploy: 72ms
+edge: (570,19731200)
+edge: (484.6666666666667,11100000)
+Time to deploy: 57ms
+cloud: (1964,11133000)
+Time to deploy: 60ms
+edge: (210,1228600)
+Time to deploy: 74ms
+cloud: (1302,1232800)
+cloud: (5967,69277500)
+Time to deploy: 58ms
+edge: (1606,69232500)
+edge: (515,19750400)
+edge: (565.75,19705600)
+edge: (520.3333333333334,11100000)
+Time to deploy: 62ms
+cloud: (2163,11100600)
+Time to deploy: 54ms
+edge: (343,4920800)
+Time to deploy: 47ms
+cloud: (1700,4936800)
+cloud: (3494.6666666666665,31255466.666666668)
+Time to deploy: 78ms
+edge: (1129,44467200)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2681.6666666666665,19709866.666666668)
+Time to deploy: 73ms
+edge: (482.5,19753600)
+edge: (431,11104800)
+Time to deploy: 57ms
+cloud: (2117,11082600)
+Time to deploy: 70ms
+edge: (289,1236400)
+Time to deploy: 54ms
+cloud: (1334.3333333333333,1232266.6666666667)
+cloud: (6142,69255000)
+Time to deploy: 64ms
+edge: (1533,69525000)
+edge: (787.5,32116125)
+edge: (548,19731200)
+edge: (414,11088000)
+Time to deploy: 57ms
+cloud: (2142.5,11104200)
+Time to deploy: 56ms
+edge: (317.5,4936800)
+Time to deploy: 52ms
+cloud: (1726.5,4932800)
+cloud: (4352.666666666667,44395200)
+Time to deploy: 83ms
+edge: (1114,44496000)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2783,19731200)
+Time to deploy: 96ms
+edge: (608,19737600)
+edge: (436,11092800)
+Time to deploy: 51ms
+cloud: (2132,11091600)
+Time to deploy: 53ms
+edge: (247,1231200)
+Time to deploy: 58ms
+cloud: (1385.3333333333333,1233600)
+cloud: (5993,69401250)
+Time to deploy: 57ms
+edge: (1234.5,69502500)
+edge: (525.6666666666666,19733333.333333332)
+edge: (578.75,19723200)
+edge: (412,11108400)
+Time to deploy: 69ms
+cloud: (2038,11109600)
+Time to deploy: 58ms
+edge: (318.5,4938400)
+Time to deploy: 60ms
+cloud: (1714.5,4932000)
+cloud: (3444.3333333333335,31291733.333333332)
+Time to deploy: 83ms
+edge: (1328,44366400)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2634,19756800)
+Time to deploy: 80ms
+edge: (767,19731200)
+edge: (385,11101200)
+Time to deploy: 68ms
+cloud: (2211,11124000)
+Time to deploy: 57ms
+edge: (225,1235200)
+Time to deploy: 77ms
+cloud: (1346.3333333333333,1234666.6666666667)
+cloud: (6150,69367500)
+Time to deploy: 65ms
+edge: (1491.5,69367500)
+edge: (534.5,19737600)
+edge: (638,19739733.333333332)
+edge: (443.3333333333333,11089200)
+Time to deploy: 54ms
+cloud: (2154.5,11107800)
+Time to deploy: 57ms
+edge: (282,4939200)
+Time to deploy: 56ms
+cloud: (1670,4936000)
+cloud: (3414.6666666666665,31244800)
+Time to deploy: 76ms
+edge: (920,44424000)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2631.6666666666665,19750400)
+Time to deploy: 77ms
+edge: (518,19699200)
+edge: (389.6666666666667,11092800)
+Time to deploy: 57ms
+cloud: (2164.5,11086200)
+Time to deploy: 59ms
+edge: (260.5,1233400)
+Time to deploy: 53ms
+cloud: (1332.5,1230600)
+cloud: (3673,35267200)
+Time to deploy: 59ms
+edge: (1502,69255000)
+edge: (776.25,32141925)
+edge: (563.6666666666666,19712000)
+edge: (446,11102400)
+Time to deploy: 55ms
+cloud: (2094.5,11095200)
+Time to deploy: 58ms
+edge: (352.5,4936000)
+Time to deploy: 60ms
+cloud: (1703.5,4936000)
+cloud: (4287.666666666667,44409600)
+Time to deploy: 106ms
+edge: (966.5,44359200)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2642.6666666666665,19778133.333333332)
+Time to deploy: 91ms
+edge: (578,19737600)
+edge: (383,11097600)
+Time to deploy: 70ms
+cloud: (1991,11116800)
+Time to deploy: 60ms
+edge: (265.5,1232800)
+Time to deploy: 50ms
+cloud: (1378,1232200)
+cloud: (3782,35322850)
+Time to deploy: 68ms
+edge: (1582,69277500)
+edge: (810.75,32133775)
+edge: (619.6666666666666,19714133.333333332)
+edge: (495,11101200)
+Time to deploy: 55ms
+cloud: (2109.5,11098800)
+Time to deploy: 49ms
+edge: (292,4937600)
+Time to deploy: 62ms
+cloud: (1716.5,4928000)
+cloud: (3459.3333333333335,31221333.333333332)
+Time to deploy: 66ms
+edge: (1090,44251200)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2653.3333333333335,19722666.666666668)
+Time to deploy: 92ms
+edge: (532.5,19718400)
+edge: (352.6666666666667,11104800)
+Time to deploy: 55ms
+cloud: (2112,11109600)
+Time to deploy: 57ms
+edge: (261.5,1233000)
+Time to deploy: 54ms
+cloud: (1491,1232000)
+cloud: (3724.5,35289500)
+Time to deploy: 66ms
+edge: (1519,69435000)
+edge: (822,32125775)
+edge: (584.5,19728000)
+edge: (471.6666666666667,11103600)
+Time to deploy: 55ms
+cloud: (2214.5,11089800)
+Time to deploy: 59ms
+edge: (393.5,4932000)
+Time to deploy: 64ms
+cloud: (1715.5,4928800)
+cloud: (4430.666666666667,44390400)
+Time to deploy: 60ms
+edge: (1213,44366400)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2676.6666666666665,19726933.333333332)
+Time to deploy: 110ms
+edge: (536.5,19715200)
+edge: (350.6666666666667,11103600)
+Time to deploy: 74ms
+cloud: (2018,11124000)
+Time to deploy: 56ms
+edge: (227.5,1234000)
+Time to deploy: 55ms
+cloud: (1311,1233333.3333333333)
+cloud: (5885,69435000)
+Time to deploy: 65ms
+edge: (1422.5,69423750)
+edge: (563.5,19728000)
+edge: (607,19761066.666666668)
+edge: (475,11091600)
+Time to deploy: 61ms
+cloud: (2399,11098800)
+Time to deploy: 67ms
+edge: (332,4931200)
+Time to deploy: 155ms
+cloud: (1808,4948800)
+Time to deploy: 82ms
+edge: (1151,44424000)
+edge: (1124.75,44413200)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2659,19744000)
+Time to deploy: 79ms
+edge: (619,19740800)
+edge: (357.3333333333333,11094000)
+Time to deploy: 75ms
+cloud: (2175,11109600)
+Time to deploy: 73ms
+edge: (179,1235200)
+Time to deploy: 54ms
+cloud: (1257,1232200)
+cloud: (3716.5,35344750)
+Time to deploy: 54ms
+edge: (1472,69457500)
+edge: (772.5,32175625)
+edge: (521.6666666666666,19709866.666666668)
+edge: (421,11101200)
+Time to deploy: 56ms
+cloud: (2013,11113200)
+Time to deploy: 58ms
+edge: (336.5,4936000)
+Time to deploy: 57ms
+cloud: (1651.5,4940800)
+cloud: (4323,44431200)
+Time to deploy: 66ms
+edge: (937,44265600)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2659.3333333333335,19714133.333333332)
+Time to deploy: 112ms
+edge: (577.5,19731200)
+edge: (358,11097600)
+Time to deploy: 55ms
+cloud: (1980,11102400)
+Time to deploy: 64ms
+edge: (269,1232800)
+Time to deploy: 53ms
+cloud: (1355,1233600)
+cloud: (6395,69480000)
+Time to deploy: 50ms
+edge: (1315,69525000)
+edge: (758.25,32122625)
+edge: (569.25,19726400)
+edge: (459,11101200)
+Time to deploy: 65ms
+cloud: (2212,11095200)
+Time to deploy: 50ms
+edge: (283.5,4935200)
+Time to deploy: 62ms
+cloud: (1706.5,4920800)
+cloud: (4240,44380800)
+Time to deploy: 71ms
+edge: (1006,44452800)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2617.3333333333335,19726933.333333332)
+Time to deploy: 88ms
+edge: (530.5,19766400)
+edge: (323,11082000)
+Time to deploy: 58ms
+cloud: (2221,11091600)
+Time to deploy: 77ms
+edge: (217,1234200)
+Time to deploy: 66ms
+cloud: (1419,1233066.6666666667)
+cloud: (5873.5,69457500)
+Time to deploy: 66ms
+edge: (1350,69480000)
+edge: (511.75,19750400)
+edge: (529.3333333333334,19741866.666666668)
+edge: (366.5,11108700)
+Time to deploy: 51ms
+cloud: (1973,11091600)
+Time to deploy: 55ms
+edge: (281,4931200)
+Time to deploy: 48ms
+cloud: (1617,4933600)
+cloud: (4274.5,44424000)
+Time to deploy: 76ms
+edge: (801,44424000)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2774.3333333333335,19744000)
+Time to deploy: 78ms
+edge: (673.5,19692800)
+edge: (432.3333333333333,11085600)
+Time to deploy: 58ms
+cloud: (2171,11104200)
+Time to deploy: 61ms
+edge: (167,1232400)
+Time to deploy: 60ms
+cloud: (1256,1234800)
+cloud: (3640,35277650)
+Time to deploy: 82ms
+edge: (1725,69435000)
+edge: (770,32190025)
+edge: (579.25,19720000)
+edge: (431,11095200)
+Time to deploy: 65ms
+cloud: (2076.5,11113200)
+Time to deploy: 51ms
+edge: (354.5,4939200)
+Time to deploy: 54ms
+cloud: (1687,4936000)
+cloud: (4330.666666666667,44438400)
+Time to deploy: 76ms
+edge: (1021,44294400)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2663,19714133.333333332)
+Time to deploy: 64ms
+edge: (567,19772800)
+edge: (427,11103600)
+Time to deploy: 62ms
+cloud: (2200.5,11107800)
+Time to deploy: 71ms
+edge: (130,1233200)
+Time to deploy: 86ms
+cloud: (1310.3333333333333,1233600)
+cloud: (6132,69367500)
+Time to deploy: 67ms
+edge: (1382.5,69435000)
+edge: (564.75,19736000)
+edge: (624.6666666666666,19731200)
+edge: (415.6666666666667,11107200)
+Time to deploy: 70ms
+cloud: (2206.5,11116800)
+Time to deploy: 78ms
+edge: (375.5,4932800)
+Time to deploy: 50ms
+cloud: (1748,4922400)
+cloud: (2442,4929600)
+Time to deploy: 85ms
+edge: (1100,44294400)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2610,19748266.666666668)
+Time to deploy: 90ms
+edge: (549.5,19712000)
+edge: (367,11095200)
+Time to deploy: 53ms
+cloud: (2170.5,11089800)
+Time to deploy: 61ms
+edge: (191,1231600)
+Time to deploy: 51ms
+cloud: (1340.3333333333333,1233333.3333333333)
+cloud: (5986,69390000)
+Time to deploy: 54ms
+edge: (1400,69277500)
+edge: (822,32124225)
+edge: (548.25,19726400)
+edge: (489.3333333333333,11098800)
+Time to deploy: 56ms
+cloud: (2091.5,11102400)
+Time to deploy: 51ms
+edge: (238,4928800)
+Time to deploy: 50ms
+cloud: (1686,4935200)
+cloud: (4260,44356800)
+Time to deploy: 78ms
+edge: (1197.5,44380800)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2677,19729066.666666668)
+Time to deploy: 82ms
+edge: (605,19747200)
+edge: (417.6666666666667,11096400)
+Time to deploy: 56ms
+cloud: (2116,11079000)
+Time to deploy: 69ms
+edge: (127,1234000)
+Time to deploy: 50ms
+cloud: (1383.5,1233000)
+cloud: (3693.5,35345950)
+Time to deploy: 61ms
+edge: (1333,69390000)
+edge: (765.5,32183625)
+edge: (526,19705600)
+edge: (360.6666666666667,11108400)
+Time to deploy: 50ms
+cloud: (2214.5,11097000)
+Time to deploy: 50ms
+edge: (365,4935200)
+Time to deploy: 51ms
+cloud: (2324.5,4935200)
+Time to deploy: 75ms
+edge: (913,44409600)
+edge: (1032.6666666666667,44337600)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2663.6666666666665,19694933.333333332)
+Time to deploy: 84ms
+edge: (0,0)
+Time to deploy: 118ms
+cloud: (2186,11093400)
+Time to deploy: 55ms
+edge: (453.5,11109600)
+Time to deploy: 53ms
+cloud: (1422.5,1233800)
+cloud: (1313.6666666666667,1233200)
+cloud: (3569.5,35323850)
+Time to deploy: 63ms
+edge: (1774,69187500)
+edge: (720.75,32125825)
+edge: (570.3333333333334,19722666.666666668)
+edge: (481.25,13254100)
+Time to deploy: 52ms
+cloud: (2050,11098800)
+Time to deploy: 49ms
+edge: (498,4948800)
+Time to deploy: 53ms
+cloud: (1757.5,4927200)
+cloud: (4382.5,44431200)
+Time to deploy: 106ms
+edge: (943,44438400)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2639.6666666666665,19726933.333333332)
+Time to deploy: 129ms
+edge: (514.5,19718400)
+edge: (417,11097600)
+Time to deploy: 73ms
+cloud: (1938,11070000)
+Time to deploy: 73ms
+edge: (230.5,1234000)
+Time to deploy: 57ms
+cloud: (1340,1232400)
+cloud: (3762.5,35333100)
+Time to deploy: 67ms
+edge: (1251,69277500)
+edge: (711.75,32146725)
+edge: (607,19729600)
+edge: (415,11110800)
+Time to deploy: 57ms
+cloud: (1938,11073600)
+Time to deploy: 53ms
+edge: (284.5,4935200)
+Time to deploy: 49ms
+cloud: (1731,4935200)
+cloud: (3582.3333333333335,31232000)
+Time to deploy: 64ms
+edge: (960,44452800)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2631,19720533.333333332)
+Time to deploy: 102ms
+edge: (513,19721600)
+edge: (363,11094000)
+Time to deploy: 82ms
+cloud: (2100,11089800)
+Time to deploy: 62ms
+edge: (236.5,1231600)
+Time to deploy: 62ms
+cloud: (1322,1232200)
+cloud: (3689.5,35256350)
+Time to deploy: 57ms
+edge: (1636,69300000)
+edge: (718.25,32220525)
+edge: (536.75,19740800)
+edge: (399.6666666666667,11112000)
+Time to deploy: 58ms
+cloud: (2147,11102400)
+Time to deploy: 50ms
+edge: (312.5,4931200)
+Time to deploy: 52ms
+cloud: (1592,4936000)
+cloud: (4215.666666666667,44313600)
+Time to deploy: 78ms
+edge: (990,44366400)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2631,19752533.333333332)
+Time to deploy: 88ms
+edge: (494.5,19734400)
+edge: (359.6666666666667,11106000)
+Time to deploy: 51ms
+cloud: (2087.5,11107800)
+Time to deploy: 65ms
+edge: (242,1235000)
+Time to deploy: 62ms
+cloud: (1389,1233200)
+cloud: (3679,35199500)
+Time to deploy: 71ms
+edge: (1211,69052500)
+edge: (662.25,32169175)
+edge: (591.6666666666666,19731200)
+edge: (422.3333333333333,11103600)
+Time to deploy: 56ms
+cloud: (2029,11107800)
+Time to deploy: 56ms
+edge: (414,4932000)
+Time to deploy: 59ms
+cloud: (1729.5,4924000)
+cloud: (4245.5,44424000)
+Time to deploy: 73ms
+edge: (1230,44352000)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2636,19750400)
+Time to deploy: 99ms
+edge: (549,19686400)
+edge: (449,11095200)
+Time to deploy: 68ms
+cloud: (2198,11077200)
+Time to deploy: 72ms
+edge: (299.5,1234000)
+Time to deploy: 57ms
+cloud: (1357,1232600)
+cloud: (3619.5,35401800)
+Time to deploy: 60ms
+edge: (1267,69367500)
+edge: (772.75,32133150)
+edge: (566.25,19745600)
+edge: (402,11101200)
+Time to deploy: 52ms
+cloud: (2243,11091600)
+Time to deploy: 62ms
+edge: (315,4939200)
+Time to deploy: 48ms
+cloud: (1704,4936000)
+cloud: (4426.5,44366400)
+Time to deploy: 89ms
+edge: (946.5,44416800)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2710.6666666666665,19765333.333333332)
+Time to deploy: 80ms
+edge: (542.5,19715200)
+edge: (314,11079600)
+Time to deploy: 62ms
+cloud: (2155.5,11098800)
+Time to deploy: 57ms
+edge: (446,1233000)
+Time to deploy: 87ms
+cloud: (1567,1235600)
+cloud: (3762.5,35277450)
+Time to deploy: 119ms
+edge: (1251,69367500)
+edge: (802.25,32162725)
+edge: (565,19748266.666666668)
+edge: (438.3333333333333,11116800)
+Time to deploy: 66ms
+cloud: (2055,11113200)
+Time to deploy: 65ms
+edge: (363.5,4935200)
+Time to deploy: 47ms
+cloud: (1743,4935200)
+cloud: (4317.666666666667,44376000)
+Time to deploy: 90ms
+edge: (1092.5,44416800)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2674,19721600)
+Time to deploy: 81ms
+edge: (499,19721600)
+edge: (402.6666666666667,11095200)
+Time to deploy: 70ms
+cloud: (2102.5,11098800)
+Time to deploy: 59ms
+edge: (339,1234800)
+Time to deploy: 51ms
+cloud: (1328,1235400)
+cloud: (3591,35323050)
+Time to deploy: 64ms
+edge: (1569,69187500)
+edge: (714.5,32157100)
+edge: (592,19732800)
+edge: (409,11086800)
+Time to deploy: 61ms
+cloud: (2168,11091600)
+Time to deploy: 64ms
+edge: (286.5,4936000)
+Time to deploy: 56ms
+cloud: (1655.5,4932800)
+cloud: (3436.3333333333335,31281600)
+Time to deploy: 76ms
+edge: (1088,44452800)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2655.5,19737600)
+Time to deploy: 80ms
+edge: (575,19705600)
+edge: (313.6666666666667,11100000)
+Time to deploy: 53ms
+cloud: (2137,11102400)
+Time to deploy: 55ms
+edge: (259,1235200)
+Time to deploy: 71ms
+cloud: (1371.5,1234600)
+cloud: (6148,69367500)
+Time to deploy: 61ms
+edge: (1511,69435000)
+edge: (737.75,32143525)
+edge: (582.75,19710400)
+edge: (355.3333333333333,11098800)
+Time to deploy: 57ms
+cloud: (2142.5,11100600)
+Time to deploy: 73ms
+edge: (382.5,4937600)
+Time to deploy: 59ms
+cloud: (1720.5,4928000)
+cloud: (3420.3333333333335,31268266.666666668)
+Time to deploy: 72ms
+edge: (1090,44409600)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2613,19714133.333333332)
+Time to deploy: 75ms
+edge: (587,19756800)
+edge: (340,11091600)
+Time to deploy: 68ms
+cloud: (2070.5,11082600)
+Time to deploy: 54ms
+edge: (157,1235200)
+Time to deploy: 66ms
+cloud: (1373.5,1234200)
+cloud: (3615.5,35289100)
+Time to deploy: 57ms
+edge: (1535,69435000)
+edge: (740,32155500)
+edge: (558.5,19745600)
+edge: (365.6666666666667,11100000)
+Time to deploy: 55ms
+cloud: (2100.5,11124000)
+Time to deploy: 62ms
+edge: (350,4933600)
+Time to deploy: 48ms
+cloud: (1721.5,4937600)
+cloud: (4327.333333333333,44433600)
+Time to deploy: 76ms
+edge: (974,44323200)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2733.6666666666665,19746133.333333332)
+Time to deploy: 68ms
+edge: (625,19724800)
+edge: (380.3333333333333,11101200)
+Time to deploy: 69ms
+cloud: (1979,11100600)
+Time to deploy: 68ms
+edge: (253.5,1234200)
+Time to deploy: 56ms
+cloud: (1364,1233800)
+cloud: (3647.5,35277050)
+Time to deploy: 69ms
+edge: (1393,69367500)
+edge: (774.25,32143425)
+edge: (543.3333333333334,19754666.666666668)
+edge: (483,11089200)
+Time to deploy: 61ms
+cloud: (2036.5,11107800)
+Time to deploy: 52ms
+edge: (316,4934400)
+Time to deploy: 59ms
+cloud: (1725.5,4928000)
+cloud: (4290.333333333333,44438400)
+Time to deploy: 65ms
+edge: (1085,44467200)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2621,19741866.666666668)
+Time to deploy: 100ms
+edge: (536,19753600)
+edge: (360.6666666666667,11091600)
+Time to deploy: 55ms
+cloud: (1986,11098800)
+Time to deploy: 62ms
+edge: (264,1233000)
+Time to deploy: 49ms
+cloud: (1361,1233800)
+cloud: (6470,69345000)
+Time to deploy: 68ms
+edge: (1429,69480000)
+edge: (739.5,32157100)
+edge: (568.75,19732800)
+edge: (446,11100000)
+Time to deploy: 56ms
+cloud: (2108,11107800)
+Time to deploy: 56ms
+edge: (339.5,4932000)
+Time to deploy: 55ms
+cloud: (1678.5,4934400)
+cloud: (3405.3333333333335,31254400)
+Time to deploy: 66ms
+edge: (1111,44424000)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2732,19709866.666666668)
+Time to deploy: 78ms
+edge: (557,19712000)
+edge: (371.3333333333333,11114400)
+Time to deploy: 50ms
+cloud: (2119,11088000)
+Time to deploy: 56ms
+edge: (304.5,1234800)
+Time to deploy: 65ms
+cloud: (1347,1232600)
+cloud: (3722.5,35255550)
+Time to deploy: 67ms
+edge: (1608,69480000)
+edge: (822.5,32178000)
+edge: (509,19707200)
+edge: (449.6666666666667,11109600)
+Time to deploy: 61ms
+cloud: (1967,11091600)
+Time to deploy: 53ms
+edge: (319,4930400)
+Time to deploy: 56ms
+cloud: (1786,4927200)
+cloud: (4355,44380800)
+Time to deploy: 88ms
+edge: (1026,44409600)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2775.6666666666665,19729066.666666668)
+Time to deploy: 85ms
+edge: (642,19731200)
+edge: (465.3333333333333,11103600)
+Time to deploy: 57ms
+cloud: (2144,11098800)
+Time to deploy: 62ms
+edge: (326,1234800)
+Time to deploy: 65ms
+cloud: (1345.6666666666667,1233866.6666666667)
+cloud: (6232,69502500)
+Time to deploy: 58ms
+edge: (1490,69255000)
+edge: (571,19733333.333333332)
+edge: (621.75,19724800)
+edge: (392.6666666666667,11100000)
+Time to deploy: 49ms
+cloud: (2093.5,11124000)
+Time to deploy: 52ms
+edge: (412,4930400)
+Time to deploy: 68ms
+cloud: (1700,4940800)
+cloud: (3371.3333333333335,31241066.666666668)
+Time to deploy: 103ms
+edge: (1026,44452800)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2662.3333333333335,19746133.333333332)
+Time to deploy: 81ms
+edge: (598,19753600)
+edge: (363,11104800)
+Time to deploy: 68ms
+cloud: (2003,11091600)
+Time to deploy: 88ms
+edge: (272,1231600)
+Time to deploy: 53ms
+cloud: (1342,1234600)
+cloud: (6202,69390000)
+Time to deploy: 66ms
+edge: (1412,69390000)
+edge: (804,32120200)
+edge: (568.25,19736000)
+edge: (451.6666666666667,11107200)
+Time to deploy: 55ms
+cloud: (2159,11093400)
+Time to deploy: 58ms
+edge: (261,4936000)
+Time to deploy: 88ms
+cloud: (1719,4923200)
+cloud: (3335,31219733.333333332)
+Time to deploy: 62ms
+edge: (1051,44323200)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2700.3333333333335,19733333.333333332)
+Time to deploy: 78ms
+edge: (509,19744000)
+edge: (361,11083200)
+Time to deploy: 65ms
+cloud: (2384,11084400)
+Time to deploy: 54ms
+edge: (160,1231600)
+Time to deploy: 58ms
+cloud: (1325.3333333333333,1233733.3333333333)
+cloud: (6000.5,69311250)
+Time to deploy: 57ms
+edge: (0,0)
+Time to deploy: 43ms
+cloud: (2681,19718400)
+Time to deploy: 49ms
+edge: (559,19731200)
+edge: (462.5,11109600)
+Time to deploy: 56ms
+cloud: (2211.5,11089800)
+Time to deploy: 60ms
+edge: (325,4932800)
+Time to deploy: 48ms
+cloud: (1738,4932000)
+cloud: (4330,44366400)
+Time to deploy: 67ms
+edge: (982.5,44424000)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2686.3333333333335,19752533.333333332)
+Time to deploy: 83ms
+edge: (495.5,19753600)
+edge: (378.6666666666667,11106000)
+Time to deploy: 58ms
+cloud: (2182,11088000)
+Time to deploy: 77ms
+edge: (127,1235200)
+Time to deploy: 64ms
+cloud: (1275.5,1231800)
+cloud: (5850,69390000)
+Time to deploy: 66ms
+edge: (1766,69367500)
+edge: (637.6666666666666,19739733.333333332)
+edge: (567.75,19734400)
+edge: (476,11106000)
+Time to deploy: 57ms
+cloud: (2164,11102400)
+Time to deploy: 57ms
+edge: (329,4925600)
+Time to deploy: 48ms
+cloud: (1598.5,4937600)
+cloud: (3457.3333333333335,31267200)
+Time to deploy: 63ms
+edge: (1088,44395200)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2610.6666666666665,19705600)
+Time to deploy: 76ms
+edge: (516.5,19740800)
+edge: (376.6666666666667,11101200)
+Time to deploy: 65ms
+cloud: (2201,11106000)
+Time to deploy: 59ms
+edge: (217,1233600)
+Time to deploy: 56ms
+cloud: (1375,1235000)
+cloud: (3601.5,35278250)
+Time to deploy: 61ms
+edge: (1309,69592500)
+edge: (760.75,32107400)
+edge: (523.3333333333334,19741866.666666668)
+edge: (415,11101200)
+Time to deploy: 54ms
+cloud: (1981,11107800)
+Time to deploy: 49ms
+edge: (317.5,4935200)
+Time to deploy: 46ms
+cloud: (1636.5,4931200)
+cloud: (4298,44416800)
+Time to deploy: 64ms
+edge: (1000,44402400)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2677.3333333333335,19705600)
+Time to deploy: 85ms
+edge: (645.5,19737600)
+edge: (482.3333333333333,11088000)
+Time to deploy: 59ms
+cloud: (2083,11107800)
+Time to deploy: 57ms
+edge: (196,1234800)
+Time to deploy: 70ms
+cloud: (1271.5,1234400)
+cloud: (3631.5,35357800)
+Time to deploy: 60ms
+edge: (1618,69232500)
+edge: (776.25,32129125)
+edge: (509,19747200)
+edge: (452.3333333333333,11090400)
+Time to deploy: 58ms
+cloud: (2050,11097000)
+Time to deploy: 55ms
+edge: (378.5,4928800)
+Time to deploy: 51ms
+cloud: (1597.5,4933600)
+cloud: (4276.333333333333,44361600)
+Time to deploy: 55ms
+edge: (1122.5,44294400)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2759.6666666666665,19739733.333333332)
+Time to deploy: 67ms
+edge: (537.5,19724800)
+edge: (380.6666666666667,11101200)
+Time to deploy: 56ms
+cloud: (2067.5,11089800)
+Time to deploy: 64ms
+edge: (214,1233200)
+Time to deploy: 51ms
+cloud: (1388.5,1235200)
+cloud: (3835,35357200)
+Time to deploy: 76ms
+edge: (1351,69232500)
+edge: (795,32153125)
+edge: (644.6666666666666,19741866.666666668)
+edge: (467,13262100)
+Time to deploy: 55ms
+cloud: (2223,11113200)
+Time to deploy: 50ms
+edge: (405,4928800)
+Time to deploy: 60ms
+cloud: (1672.5,4931200)
+cloud: (4317,44352000)
+Time to deploy: 64ms
+edge: (932,44366400)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2758.3333333333335,19729066.666666668)
+Time to deploy: 82ms
+edge: (648.5,19744000)
+edge: (394.6666666666667,11092800)
+Time to deploy: 53ms
+cloud: (2119.5,11091600)
+Time to deploy: 62ms
+edge: (240,1233400)
+Time to deploy: 56ms
+cloud: (1413.5,1234200)
+cloud: (3678,35267000)
+Time to deploy: 59ms
+edge: (1520,69390000)
+edge: (760.5,32122575)
+edge: (530.3333333333334,19746133.333333332)
+edge: (534,13252600)
+Time to deploy: 59ms
+cloud: (2126,11134800)
+Time to deploy: 58ms
+edge: (321,4926400)
+Time to deploy: 78ms
+cloud: (1714,4935200)
+cloud: (4305.5,44402400)
+Time to deploy: 72ms
+edge: (1127,44409600)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2638.3333333333335,19733333.333333332)
+Time to deploy: 74ms
+edge: (546,19753600)
+edge: (384.3333333333333,11098800)
+Time to deploy: 62ms
+cloud: (2215,11107800)
+Time to deploy: 74ms
+edge: (248,1233400)
+Time to deploy: 57ms
+cloud: (1330,1234400)
+cloud: (3759,35325250)
+Time to deploy: 54ms
+edge: (1639,69300000)
+edge: (706.5,32157925)
+edge: (571.3333333333334,19712000)
+edge: (449.6666666666667,11101200)
+Time to deploy: 58ms
+cloud: (2116.5,11104200)
+Time to deploy: 48ms
+edge: (378.5,4932800)
+Time to deploy: 74ms
+cloud: (1641.5,4937600)
+cloud: (4320,44409600)
+Time to deploy: 63ms
+edge: (1193,44344800)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2668,19750400)
+Time to deploy: 82ms
+edge: (498.5,19756800)
+edge: (345,11101200)
+Time to deploy: 56ms
+cloud: (2086.5,11075400)
+Time to deploy: 56ms
+edge: (263.5,1232200)
+Time to deploy: 54ms
+cloud: (1444,1233200)
+cloud: (3627.5,35322250)
+Time to deploy: 61ms
+edge: (1468,69367500)
+edge: (728.75,32166800)
+edge: (549.6666666666666,19718400)
+edge: (430.6666666666667,11119200)
+Time to deploy: 71ms
+cloud: (2149,11095200)
+Time to deploy: 51ms
+edge: (355.5,4937600)
+Time to deploy: 60ms
+cloud: (1620,4928000)
+cloud: (4284.5,44431200)
+Time to deploy: 72ms
+edge: (932,44323200)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2686,19722666.666666668)
+Time to deploy: 80ms
+edge: (633.5,19724800)
+edge: (363.3333333333333,11121600)
+Time to deploy: 71ms
+cloud: (2194,11088000)
+Time to deploy: 54ms
+edge: (204,1234400)
+Time to deploy: 48ms
+cloud: (1364,1236400)
+cloud: (3851.5,35301550)
+Time to deploy: 66ms
+edge: (1649,69412500)
+edge: (841,32100175)
+edge: (602,19744000)
+edge: (436,11090400)
+Time to deploy: 59ms
+cloud: (2302.5,11102400)
+Time to deploy: 65ms
+edge: (354.5,4932800)
+Time to deploy: 57ms
+cloud: (1719,4924000)
+cloud: (3458,31293866.666666668)
+Time to deploy: 77ms
+edge: (976.5,44366400)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2676.3333333333335,19699200)
+Time to deploy: 79ms
+edge: (536,19731200)
+edge: (353.6666666666667,11086800)
+Time to deploy: 134ms
+cloud: (2225,11113200)
+Time to deploy: 67ms
+edge: (188,1233600)
+Time to deploy: 57ms
+cloud: (1348,1233466.6666666667)
+cloud: (5985,69277500)
+Time to deploy: 78ms
+edge: (1741,69187500)
+edge: (980.5,32139450)
+edge: (708,19740800)
+edge: (436.3333333333333,11118000)
+Time to deploy: 56ms
+cloud: (2380.5,11107800)
+Time to deploy: 50ms
+edge: (373,4924800)
+Time to deploy: 50ms
+cloud: (1773.5,4934400)
+cloud: (3018,24703200)
+Time to deploy: 75ms
+edge: (1342,44294400)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2851,19729066.666666668)
+Time to deploy: 86ms
+edge: (522,19724800)
+edge: (346.3333333333333,11108400)
+Time to deploy: 51ms
+cloud: (2175.5,11089800)
+Time to deploy: 59ms
+edge: (437,1233200)
+Time to deploy: 59ms
+cloud: (1453,1232800)
+cloud: (3816.5,35310800)
+Time to deploy: 60ms
+edge: (1356,69412500)
+edge: (824,32145075)
+edge: (580.3333333333334,19744000)
+edge: (487.3333333333333,11113200)
+Time to deploy: 70ms
+cloud: (2131,11093400)
+Time to deploy: 61ms
+edge: (336.5,4941600)
+Time to deploy: 61ms
+cloud: (1670.5,4928800)
+cloud: (4365.666666666667,44395200)
+Time to deploy: 65ms
+edge: (1140,44366400)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2706,19761066.666666668)
+Time to deploy: 104ms
+edge: (561,19769600)
+edge: (396.3333333333333,11098800)
+Time to deploy: 59ms
+cloud: (2166,11100600)
+Time to deploy: 54ms
+edge: (249,1234200)
+Time to deploy: 50ms
+cloud: (1395.5,1233800)
+cloud: (3862.5,35254950)
+Time to deploy: 51ms
+edge: (1747,69615000)
+edge: (813.25,32129850)
+edge: (532,19745600)
+edge: (428.6666666666667,11095200)
+Time to deploy: 57ms
+cloud: (2079,11109600)
+Time to deploy: 51ms
+edge: (233,4939200)
+Time to deploy: 81ms
+cloud: (1661.5,4934400)
+cloud: (4334.666666666667,44347200)
+Time to deploy: 127ms
+edge: (904,44510400)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2715,19737600)
+Time to deploy: 108ms
+edge: (656,19718400)
+edge: (387,11104800)
+Time to deploy: 59ms
+cloud: (2123.5,11118600)
+Time to deploy: 67ms
+edge: (251.5,1233000)
+Time to deploy: 60ms
+cloud: (1418,1233600)
+cloud: (3798,35344350)
+Time to deploy: 77ms
+edge: (1541,69345000)
+edge: (828.25,32163550)
+edge: (528.6666666666666,19744000)
+edge: (463.6666666666667,11092800)
+Time to deploy: 63ms
+cloud: (2131.5,11104200)
+Time to deploy: 50ms
+edge: (352,4932000)
+Time to deploy: 50ms
+cloud: (1641.5,4938400)
+cloud: (4294.5,44416800)
+Time to deploy: 78ms
+edge: (956,44409600)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2706.5,19728000)
+Time to deploy: 85ms
+edge: (491,19772800)
+edge: (468.6666666666667,11086800)
+Time to deploy: 72ms
+cloud: (2230,11107800)
+Time to deploy: 69ms
+edge: (408,1233200)
+Time to deploy: 49ms
+cloud: (1369.5,1231200)
+cloud: (3659,35358000)
+Time to deploy: 59ms
+edge: (1250,69412500)
+edge: (784.5,32120975)
+edge: (614,19731200)
+edge: (417.6666666666667,11109600)
+Time to deploy: 62ms
+cloud: (2152.5,11100600)
+Time to deploy: 60ms
+edge: (354,4937600)
+Time to deploy: 49ms
+cloud: (1758.5,4940000)
+cloud: (4255.333333333333,44452800)
+Time to deploy: 76ms
+edge: (988.5,44416800)
+-------
+
+> birex_orchestrator@1.0.0 start /usr/src/app
+> node orchestrator.js
+
+cloud: (2655.3333333333335,19724800)
+Time to deploy: 64ms
+edge: (524,19753600)
+edge: (372.6666666666667,11086800)
+Time to deploy: 56ms
+cloud: (2011.5,11104200)
+Time to deploy: 67ms
+edge: (285.5,1233000)
+Time to deploy: 51ms
+cloud: (1366,1233066.6666666667)
+cloud: (5937.5,69390000)
+Time to deploy: 60ms
+edge: (1524,69255000)
+edge: (625,19752000)
+edge: (649.3333333333334,19724800)
+edge: (458,11086800)
+Time to deploy: 52ms
+cloud: (2333,11084400)
+Time to deploy: 59ms
+edge: (298,4934400)
+Time to deploy: 49ms
+cloud: (1698.3333333333333,4933333.333333333)
+cloud: (4380,44416800)
+Time to deploy: 93ms
+edge: (0,0)
+-------
+Time to deploy: 41ms
