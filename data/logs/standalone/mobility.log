@@ -1,0 +1,972 @@
+cloud: (0,0)
+cloud: (2653,19729066.666666668)
+Time to deploy: 72ms
+edge: (521.5,19772800)
+edge: (448,11115600)
+Time to deploy: 71ms
+cloud: (2159,11115000)
+Time to deploy: 74ms
+edge: (162,1232000)
+Time to deploy: 48ms
+cloud: (1341,1234400)
+cloud: (3638.5,35333700)
+Time to deploy: 78ms
+edge: (1514,69322500)
+edge: (766,32122625)
+edge: (655,19724800)
+edge: (519.3333333333334,11107200)
+Time to deploy: 55ms
+cloud: (2092,11097000)
+Time to deploy: 50ms
+edge: (386,4927200)
+Time to deploy: 62ms
+cloud: (1587.5,4921600)
+cloud: (4357.666666666667,44448000)
+Time to deploy: 72ms
+edge: (1425,44496000)
+-------
+cloud: (0,0)
+cloud: (2660.6666666666665,19739733.333333332)
+Time to deploy: 73ms
+edge: (575,19718400)
+edge: (395.6666666666667,11102400)
+Time to deploy: 54ms
+cloud: (2149,11098800)
+Time to deploy: 116ms
+edge: (174,1234800)
+Time to deploy: 50ms
+cloud: (1414,1234400)
+cloud: (3708.5,35367050)
+Time to deploy: 76ms
+edge: (1283,69457500)
+edge: (789,32115400)
+edge: (501.75,19729600)
+edge: (501,11108400)
+Time to deploy: 58ms
+cloud: (2046,11106000)
+Time to deploy: 57ms
+edge: (417.5,4933600)
+Time to deploy: 54ms
+cloud: (1758,4935200)
+cloud: (4327.333333333333,44424000)
+Time to deploy: 59ms
+edge: (1153,44366400)
+-------
+cloud: (0,0)
+cloud: (2673.3333333333335,19712000)
+Time to deploy: 87ms
+edge: (669.5,19766400)
+edge: (435.6666666666667,11104800)
+Time to deploy: 87ms
+cloud: (2347,11102400)
+Time to deploy: 68ms
+edge: (296,1230600)
+Time to deploy: 53ms
+cloud: (1525,1230800)
+cloud: (3689,35299950)
+Time to deploy: 60ms
+edge: (1617,69277500)
+edge: (813.25,32114525)
+edge: (549.3333333333334,19739733.333333332)
+edge: (471,11097600)
+Time to deploy: 55ms
+cloud: (2140,11100600)
+Time to deploy: 60ms
+edge: (357,4937600)
+Time to deploy: 53ms
+cloud: (1701.5,4936800)
+cloud: (4317.5,44416800)
+Time to deploy: 126ms
+edge: (921,44388000)
+-------
+cloud: (0,0)
+cloud: (2608.5,19734400)
+Time to deploy: 87ms
+edge: (436,19737600)
+edge: (407.3333333333333,11114400)
+Time to deploy: 63ms
+cloud: (2122,11086200)
+Time to deploy: 53ms
+edge: (311,1235000)
+Time to deploy: 55ms
+cloud: (1307.5,1234200)
+cloud: (3717.5,35266600)
+Time to deploy: 63ms
+edge: (1504,69547500)
+edge: (783.5,32157100)
+edge: (568.6666666666666,19737600)
+edge: (518.25,13257200)
+Time to deploy: 99ms
+cloud: (2188.5,11097000)
+Time to deploy: 67ms
+edge: (347,4940800)
+Time to deploy: 49ms
+cloud: (1727,4938400)
+cloud: (4250,44395200)
+Time to deploy: 82ms
+edge: (1140,44380800)
+-------
+cloud: (0,0)
+cloud: (2674,19741866.666666668)
+Time to deploy: 81ms
+edge: (524,19731200)
+edge: (355.3333333333333,11106000)
+Time to deploy: 59ms
+cloud: (2064,11098800)
+Time to deploy: 57ms
+edge: (261.5,1233000)
+Time to deploy: 51ms
+cloud: (1390.5,1233000)
+cloud: (3830.5,35278850)
+Time to deploy: 66ms
+edge: (1704,69255000)
+edge: (724.25,32084800)
+edge: (594.6666666666666,19778133.333333332)
+edge: (440.6666666666667,11083200)
+Time to deploy: 56ms
+cloud: (1986.5,11089800)
+Time to deploy: 59ms
+edge: (296.5,4928000)
+Time to deploy: 50ms
+cloud: (1789,4935200)
+cloud: (4249,44424000)
+Time to deploy: 77ms
+edge: (1151,44438400)
+-------
+cloud: (0,0)
+cloud: (2740.3333333333335,19688533.333333332)
+Time to deploy: 83ms
+edge: (721,19715200)
+edge: (513.3333333333334,11097600)
+Time to deploy: 60ms
+cloud: (2154,11102400)
+Time to deploy: 56ms
+edge: (273.5,1232200)
+Time to deploy: 58ms
+cloud: (1462,1232600)
+cloud: (3724,35378500)
+Time to deploy: 63ms
+edge: (1667,69367500)
+edge: (861.75,32098525)
+edge: (584.3333333333334,19739733.333333332)
+edge: (488.75,13249800)
+Time to deploy: 67ms
+cloud: (2093.5,11109600)
+Time to deploy: 73ms
+edge: (322.5,4935200)
+Time to deploy: 47ms
+cloud: (1665,4934400)
+cloud: (4344.333333333333,44419200)
+Time to deploy: 74ms
+edge: (929,44366400)
+-------
+cloud: (0,0)
+cloud: (2661.6666666666665,19746133.333333332)
+Time to deploy: 91ms
+edge: (593.5,19699200)
+edge: (444.6666666666667,11094000)
+Time to deploy: 58ms
+cloud: (2370,11113200)
+Time to deploy: 63ms
+edge: (259.5,1233400)
+Time to deploy: 65ms
+cloud: (1353,1231600)
+cloud: (5955.5,69435000)
+Time to deploy: 58ms
+edge: (1533.5,69435000)
+edge: (576.75,19723200)
+edge: (549.6666666666666,19718400)
+edge: (506,11098800)
+Time to deploy: 69ms
+cloud: (1922,11073600)
+Time to deploy: 55ms
+edge: (466,4928000)
+Time to deploy: 49ms
+cloud: (1681.5,4937600)
+cloud: (3387.6666666666665,31181333.333333332)
+Time to deploy: 76ms
+edge: (1065,44265600)
+-------
+cloud: (0,0)
+cloud: (2765.3333333333335,19729066.666666668)
+Time to deploy: 83ms
+edge: (536,19734400)
+edge: (484.6666666666667,11115600)
+Time to deploy: 49ms
+cloud: (2173,11116800)
+Time to deploy: 80ms
+edge: (246.5,1234600)
+Time to deploy: 54ms
+cloud: (1368.3333333333333,1233733.3333333333)
+cloud: (6291,69457500)
+Time to deploy: 76ms
+edge: (1482,69480000)
+edge: (742.25,32132275)
+edge: (621.75,19740800)
+edge: (451.3333333333333,11094000)
+Time to deploy: 57ms
+cloud: (1992.5,11095200)
+Time to deploy: 63ms
+edge: (320,4947200)
+Time to deploy: 58ms
+cloud: (1681.5,4928000)
+cloud: (4287.333333333333,44342400)
+Time to deploy: 65ms
+edge: (878,44467200)
+-------
+cloud: (0,0)
+cloud: (2731.3333333333335,19761066.666666668)
+Time to deploy: 71ms
+edge: (699,19750400)
+edge: (445.3333333333333,11102400)
+Time to deploy: 60ms
+cloud: (2094,11095200)
+Time to deploy: 69ms
+edge: (248,1233000)
+Time to deploy: 51ms
+cloud: (1259,1233600)
+cloud: (3631,35312200)
+Time to deploy: 64ms
+edge: (1903,69277500)
+edge: (763.75,32134650)
+edge: (558.5,19720000)
+edge: (414.3333333333333,11100000)
+Time to deploy: 65ms
+cloud: (2123.5,11115000)
+Time to deploy: 62ms
+edge: (316,4934400)
+Time to deploy: 51ms
+cloud: (1729.5,4926400)
+cloud: (4530.5,44409600)
+Time to deploy: 82ms
+edge: (1038,44424000)
+-------
+cloud: (0,0)
+cloud: (2663,19739733.333333332)
+Time to deploy: 77ms
+edge: (545.5,19747200)
+edge: (388.6666666666667,11096400)
+Time to deploy: 69ms
+cloud: (2189,11109600)
+Time to deploy: 57ms
+edge: (292,1231400)
+Time to deploy: 69ms
+cloud: (1408,1234200)
+cloud: (3578.5,35333700)
+Time to deploy: 51ms
+edge: (1598,69345000)
+edge: (802.5,32140325)
+edge: (637.6666666666666,19739733.333333332)
+edge: (421.75,13256600)
+Time to deploy: 56ms
+cloud: (2148.5,11109600)
+Time to deploy: 79ms
+edge: (371,4939200)
+Time to deploy: 54ms
+cloud: (1789,4934400)
+cloud: (4424,44395200)
+Time to deploy: 85ms
+edge: (1111,44452800)
+-------
+cloud: (0,0)
+cloud: (2758,19731200)
+Time to deploy: 77ms
+edge: (601.5,19769600)
+edge: (344.6666666666667,11095200)
+Time to deploy: 56ms
+cloud: (2173.5,11106000)
+Time to deploy: 56ms
+edge: (258.5,1233200)
+Time to deploy: 61ms
+cloud: (1361.3333333333333,1233600)
+cloud: (6066,69412500)
+Time to deploy: 57ms
+edge: (1566,69255000)
+edge: (800.25,32157150)
+edge: (596.25,19721600)
+edge: (399,11088000)
+Time to deploy: 59ms
+cloud: (2055.5,11115000)
+Time to deploy: 46ms
+edge: (265.5,4932000)
+Time to deploy: 50ms
+cloud: (1786,4921600)
+cloud: (3407,31246933.333333332)
+Time to deploy: 67ms
+edge: (980,44438400)
+-------
+cloud: (0,0)
+cloud: (2675,19660800)
+Time to deploy: 103ms
+edge: (628,19734400)
+edge: (372.3333333333333,11092800)
+Time to deploy: 70ms
+cloud: (2195.5,11124000)
+Time to deploy: 67ms
+edge: (154.5,1234800)
+Time to deploy: 73ms
+cloud: (1319,1233600)
+cloud: (3662.5,35357000)
+Time to deploy: 58ms
+edge: (1328,69322500)
+edge: (828.5,32139450)
+edge: (629.3333333333334,19718400)
+edge: (471.6666666666667,11102400)
+Time to deploy: 66ms
+cloud: (2056,11095200)
+Time to deploy: 56ms
+edge: (363,4940800)
+Time to deploy: 58ms
+cloud: (1639,4932800)
+cloud: (4422,44416800)
+Time to deploy: 61ms
+edge: (1002.5,44431200)
+-------
+cloud: (0,0)
+cloud: (2646.6666666666665,19712000)
+Time to deploy: 83ms
+edge: (564.5,19744000)
+edge: (400,11078400)
+Time to deploy: 55ms
+cloud: (2088,11102400)
+Time to deploy: 71ms
+edge: (206,1232000)
+Time to deploy: 43ms
+cloud: (1327.6666666666667,1234666.6666666667)
+cloud: (6029,69300000)
+Time to deploy: 99ms
+edge: (1528,69390000)
+edge: (642.3333333333334,19729066.666666668)
+edge: (619.5,19713600)
+edge: (482.6666666666667,11096400)
+Time to deploy: 55ms
+cloud: (2183,11088000)
+Time to deploy: 50ms
+edge: (415,4929600)
+Time to deploy: 49ms
+cloud: (1724,4932800)
+cloud: (3480.3333333333335,31275733.333333332)
+Time to deploy: 65ms
+edge: (1256,44352000)
+-------
+cloud: (0,0)
+cloud: (2733,19733333.333333332)
+Time to deploy: 77ms
+edge: (608,19724800)
+edge: (479.3333333333333,11113200)
+Time to deploy: 57ms
+cloud: (2143,11080800)
+Time to deploy: 50ms
+edge: (295.5,1231600)
+Time to deploy: 64ms
+cloud: (1347,1234400)
+cloud: (5976,69210000)
+Time to deploy: 54ms
+edge: (1666,69480000)
+edge: (785,32151475)
+edge: (552.5,19758400)
+edge: (389,11098800)
+Time to deploy: 52ms
+cloud: (2082.5,11109600)
+Time to deploy: 49ms
+edge: (328,4931200)
+Time to deploy: 50ms
+cloud: (1662.5,4928800)
+cloud: (3379,31253333.333333332)
+Time to deploy: 82ms
+edge: (1062,44424000)
+-------
+cloud: (0,0)
+cloud: (2678,19754666.666666668)
+Time to deploy: 81ms
+edge: (668.5,19721600)
+edge: (401.3333333333333,11089200)
+Time to deploy: 59ms
+cloud: (2172,11084400)
+Time to deploy: 57ms
+edge: (349.5,1232200)
+Time to deploy: 72ms
+cloud: (1449.5,1232400)
+cloud: (3704.5,35254950)
+Time to deploy: 58ms
+edge: (1657,69345000)
+edge: (854.25,32130625)
+edge: (552.3333333333334,19718400)
+edge: (505.5,13240700)
+Time to deploy: 53ms
+cloud: (2173,11093400)
+Time to deploy: 62ms
+edge: (386.5,4931200)
+Time to deploy: 50ms
+cloud: (1688,4932800)
+cloud: (4329.333333333333,44414400)
+Time to deploy: 57ms
+edge: (958,44323200)
+-------
+cloud: (0,0)
+cloud: (2672.3333333333335,19718400)
+Time to deploy: 72ms
+edge: (527,19728000)
+edge: (384,11073600)
+Time to deploy: 53ms
+cloud: (2093,11102400)
+Time to deploy: 72ms
+edge: (435,1232400)
+Time to deploy: 54ms
+cloud: (1376,1234000)
+cloud: (3860,35347350)
+Time to deploy: 71ms
+edge: (1268,69412500)
+edge: (610.5,19736000)
+edge: (523,19756800)
+edge: (455.5,13269800)
+Time to deploy: 51ms
+cloud: (2116.5,11097000)
+Time to deploy: 49ms
+edge: (365,4930400)
+Time to deploy: 58ms
+cloud: (1678.5,4936000)
+cloud: (4222.333333333333,44380800)
+Time to deploy: 71ms
+edge: (1077,44452800)
+-------
+cloud: (0,0)
+cloud: (2685.6666666666665,19739733.333333332)
+Time to deploy: 82ms
+edge: (634,19708800)
+edge: (404.6666666666667,11110800)
+Time to deploy: 60ms
+cloud: (1954,11089800)
+Time to deploy: 59ms
+edge: (280,1233400)
+Time to deploy: 52ms
+cloud: (1328.5,1232800)
+cloud: (3695,35334300)
+Time to deploy: 56ms
+edge: (1546,69210000)
+edge: (829.25,32148325)
+edge: (554.6666666666666,19767466.666666668)
+edge: (466.5,13252400)
+Time to deploy: 49ms
+cloud: (2127,11089800)
+Time to deploy: 60ms
+edge: (296,4934400)
+Time to deploy: 48ms
+cloud: (1667.5,4926400)
+cloud: (4371,44424000)
+Time to deploy: 81ms
+edge: (1018,44424000)
+-------
+cloud: (0,0)
+cloud: (2688,19752533.333333332)
+Time to deploy: 67ms
+edge: (562.5,19734400)
+edge: (390.6666666666667,11110800)
+Time to deploy: 67ms
+cloud: (2109.5,11088000)
+Time to deploy: 68ms
+edge: (157,1233200)
+Time to deploy: 64ms
+cloud: (1369.3333333333333,1232933.3333333333)
+cloud: (5788,69412500)
+Time to deploy: 72ms
+edge: (1589,69390000)
+edge: (575.6666666666666,19722666.666666668)
+edge: (620,19716266.666666668)
+edge: (494.6666666666667,11100000)
+Time to deploy: 57ms
+cloud: (2074,11109600)
+Time to deploy: 56ms
+edge: (289,4937600)
+Time to deploy: 49ms
+cloud: (1565,4928000)
+cloud: (4344.5,44445600)
+Time to deploy: 82ms
+edge: (1111.5,44402400)
+-------
+cloud: (0,0)
+cloud: (2807.3333333333335,19735466.666666668)
+Time to deploy: 80ms
+edge: (538.5,19750400)
+edge: (357,11102400)
+Time to deploy: 54ms
+cloud: (2159,11097000)
+Time to deploy: 59ms
+edge: (317,1234400)
+Time to deploy: 62ms
+cloud: (1291,1233200)
+cloud: (3721.5,35322850)
+Time to deploy: 84ms
+edge: (1517,69367500)
+edge: (697,32162725)
+edge: (601,19729066.666666668)
+edge: (474.6666666666667,11104800)
+Time to deploy: 54ms
+cloud: (2218.5,11097000)
+Time to deploy: 59ms
+edge: (293,4933600)
+Time to deploy: 53ms
+cloud: (1712.5,4936800)
+cloud: (4334,44409600)
+Time to deploy: 77ms
+edge: (978,44337600)
+-------
+cloud: (0,0)
+cloud: (2700.3333333333335,19737600)
+Time to deploy: 101ms
+edge: (669,19760000)
+edge: (372.6666666666667,11108400)
+Time to deploy: 64ms
+cloud: (2138,11091600)
+Time to deploy: 66ms
+edge: (183,1233200)
+Time to deploy: 71ms
+cloud: (1402.5,1234400)
+cloud: (3806,35345150)
+Time to deploy: 56ms
+edge: (1497,69525000)
+edge: (830.25,32221350)
+edge: (593,19731200)
+edge: (440.75,13241400)
+Time to deploy: 56ms
+cloud: (2099.5,11102400)
+Time to deploy: 50ms
+edge: (304,4938400)
+Time to deploy: 51ms
+cloud: (1607.5,4927200)
+cloud: (4238,44460000)
+Time to deploy: 81ms
+edge: (1054,44409600)
+-------
+cloud: (0,0)
+cloud: (2775.3333333333335,19716266.666666668)
+Time to deploy: 77ms
+edge: (620,19756800)
+edge: (392.6666666666667,11101200)
+Time to deploy: 82ms
+cloud: (2309,11084400)
+Time to deploy: 53ms
+edge: (174,1233200)
+Time to deploy: 64ms
+cloud: (1308.5,1233000)
+cloud: (6277,69525000)
+Time to deploy: 57ms
+edge: (1483,69435000)
+edge: (527.6666666666666,19729066.666666668)
+edge: (602.5,19747200)
+edge: (433.6666666666667,11085600)
+Time to deploy: 67ms
+cloud: (2113,11116800)
+Time to deploy: 54ms
+edge: (374,4925600)
+Time to deploy: 52ms
+cloud: (1730.5,4920800)
+cloud: (3448.3333333333335,31213333.333333332)
+Time to deploy: 72ms
+edge: (1044,44380800)
+-------
+cloud: (0,0)
+cloud: (2647.6666666666665,19750400)
+Time to deploy: 87ms
+edge: (517.5,19705600)
+edge: (377,11102400)
+Time to deploy: 69ms
+cloud: (2041,11115000)
+Time to deploy: 70ms
+edge: (316,1233600)
+Time to deploy: 52ms
+cloud: (1556,1231600)
+cloud: (3689,35299550)
+Time to deploy: 81ms
+edge: (1452,69030000)
+edge: (758.25,32170100)
+edge: (592.25,19736000)
+edge: (514.3333333333334,11088000)
+Time to deploy: 52ms
+cloud: (2048.5,11080800)
+Time to deploy: 54ms
+edge: (325,4930400)
+Time to deploy: 61ms
+cloud: (1711.5,4935200)
+cloud: (4299.5,44460000)
+Time to deploy: 77ms
+edge: (1057,44323200)
+-------
+cloud: (0,0)
+cloud: (2716,19735466.666666668)
+Time to deploy: 103ms
+edge: (657,19721600)
+edge: (379.3333333333333,11103600)
+Time to deploy: 62ms
+cloud: (2115,11109600)
+Time to deploy: 58ms
+edge: (292.5,1234800)
+Time to deploy: 47ms
+cloud: (1357.3333333333333,1235066.6666666667)
+cloud: (6504,69390000)
+Time to deploy: 69ms
+edge: (1678,69120000)
+edge: (788.25,32190025)
+edge: (567.25,19728000)
+edge: (471.3333333333333,11092800)
+Time to deploy: 66ms
+cloud: (2040.5,11093400)
+Time to deploy: 52ms
+edge: (364,4923200)
+Time to deploy: 50ms
+cloud: (1674,4938400)
+cloud: (3450,31229333.333333332)
+Time to deploy: 78ms
+edge: (1264,44424000)
+-------
+cloud: (0,0)
+cloud: (2746.6666666666665,19724800)
+Time to deploy: 91ms
+edge: (610,19699200)
+edge: (371.3333333333333,11092800)
+Time to deploy: 60ms
+cloud: (1942,11088000)
+Time to deploy: 59ms
+edge: (186,1231200)
+Time to deploy: 62ms
+cloud: (1359.3333333333333,1232133.3333333333)
+cloud: (5966,69412500)
+Time to deploy: 58ms
+edge: (1731.5,69412500)
+edge: (567,19744000)
+edge: (574,19744000)
+edge: (459.25,11089800)
+Time to deploy: 52ms
+cloud: (2041,11116800)
+Time to deploy: 63ms
+edge: (261,4929600)
+Time to deploy: 63ms
+cloud: (1806.5,4933600)
+Time to deploy: 83ms
+edge: (1148,44359200)
+edge: (934,44370000)
+-------
+cloud: (0,0)
+cloud: (2723,19748266.666666668)
+Time to deploy: 76ms
+edge: (560,19705600)
+edge: (425.3333333333333,11103600)
+Time to deploy: 55ms
+cloud: (2121,11142000)
+Time to deploy: 77ms
+edge: (296,1231800)
+Time to deploy: 52ms
+cloud: (1333.3333333333333,1234266.6666666667)
+cloud: (6163,69322500)
+Time to deploy: 69ms
+edge: (1549,69502500)
+edge: (570,19729066.666666668)
+edge: (657,19744000)
+edge: (448,11100000)
+Time to deploy: 58ms
+cloud: (2205,11106000)
+Time to deploy: 52ms
+edge: (413,4929600)
+Time to deploy: 43ms
+cloud: (1807.5,4927200)
+Time to deploy: 71ms
+edge: (1149,44438400)
+edge: (1015,44391600)
+-------
+cloud: (0,0)
+cloud: (2691.3333333333335,19750400)
+Time to deploy: 92ms
+edge: (679,19737600)
+edge: (382.6666666666667,11103600)
+Time to deploy: 62ms
+cloud: (2062,11098800)
+Time to deploy: 70ms
+edge: (261.5,1233800)
+Time to deploy: 62ms
+cloud: (1374,1232800)
+cloud: (6109,69412500)
+Time to deploy: 73ms
+edge: (1343,69232500)
+edge: (829.25,32095175)
+edge: (631,19723200)
+edge: (504.3333333333333,11098800)
+Time to deploy: 64ms
+cloud: (2132,11089800)
+Time to deploy: 56ms
+edge: (363,4934400)
+Time to deploy: 48ms
+cloud: (1663.5,4930400)
+cloud: (4286.5,44316000)
+Time to deploy: 67ms
+edge: (1306,44467200)
+-------
+cloud: (0,0)
+cloud: (2706.3333333333335,19720533.333333332)
+Time to deploy: 72ms
+edge: (612,19734400)
+edge: (412.6666666666667,11108400)
+Time to deploy: 67ms
+cloud: (2146,11113200)
+Time to deploy: 72ms
+edge: (150,1234800)
+Time to deploy: 47ms
+cloud: (1361.3333333333333,1232266.6666666667)
+cloud: (6143,69367500)
+Time to deploy: 60ms
+edge: (1517,69333750)
+edge: (568.3333333333334,19729066.666666668)
+edge: (544.3333333333334,19722666.666666668)
+edge: (489,11095200)
+Time to deploy: 56ms
+cloud: (2151.5,11098800)
+Time to deploy: 55ms
+edge: (550,4937600)
+Time to deploy: 60ms
+cloud: (1679,4932800)
+cloud: (3487.3333333333335,31281600)
+Time to deploy: 205ms
+edge: (920,44452800)
+-------
+cloud: (0,0)
+cloud: (3435.5,19744000)
+Time to deploy: 93ms
+edge: (474,19737600)
+edge: (470.3333333333333,11103600)
+Time to deploy: 61ms
+cloud: (2056.5,11102400)
+Time to deploy: 61ms
+edge: (324,1234400)
+Time to deploy: 53ms
+cloud: (1376.5,1232800)
+cloud: (3763.5,35323250)
+Time to deploy: 72ms
+edge: (1624.5,69345000)
+edge: (520.25,19718400)
+edge: (580.6666666666666,19726933.333333332)
+edge: (446.5,11097900)
+Time to deploy: 51ms
+cloud: (2089,11113200)
+Time to deploy: 51ms
+edge: (340.5,4934400)
+Time to deploy: 50ms
+cloud: (1852,4924800)
+Time to deploy: 77ms
+edge: (1071,44395200)
+edge: (1021,44352000)
+-------
+cloud: (0,0)
+cloud: (2746.6666666666665,19733333.333333332)
+Time to deploy: 73ms
+edge: (715,19715200)
+edge: (437,11110800)
+Time to deploy: 72ms
+cloud: (2291,11093400)
+Time to deploy: 72ms
+edge: (160,1235600)
+Time to deploy: 53ms
+cloud: (1391.5,1234200)
+cloud: (3710,35380100)
+Time to deploy: 67ms
+edge: (1397,69367500)
+edge: (844.5,32166750)
+edge: (593.6666666666666,19722666.666666668)
+edge: (382,11103600)
+Time to deploy: 56ms
+cloud: (2089,11106000)
+Time to deploy: 62ms
+edge: (343.5,4928000)
+Time to deploy: 48ms
+cloud: (1629.5,4934400)
+cloud: (4321.5,44416800)
+Time to deploy: 68ms
+edge: (1219.5,44409600)
+-------
+cloud: (0,0)
+cloud: (2701.3333333333335,19699200)
+Time to deploy: 75ms
+edge: (587,19724800)
+edge: (395.3333333333333,11097600)
+Time to deploy: 65ms
+cloud: (2037,11113200)
+Time to deploy: 69ms
+edge: (196,1235600)
+Time to deploy: 50ms
+cloud: (1402,1234400)
+cloud: (3653,35266800)
+Time to deploy: 56ms
+edge: (1399,69390000)
+edge: (897.5,32132275)
+edge: (601.6666666666666,19724800)
+edge: (387,11103600)
+Time to deploy: 84ms
+cloud: (2031,11113200)
+Time to deploy: 62ms
+edge: (377,4926400)
+Time to deploy: 49ms
+cloud: (1706.5,4929600)
+cloud: (3531.6666666666665,31326933.333333332)
+Time to deploy: 85ms
+edge: (1112,44452800)
+-------
+cloud: (0,0)
+cloud: (2713.6666666666665,19731200)
+Time to deploy: 86ms
+edge: (507.5,19734400)
+edge: (377,11101200)
+Time to deploy: 64ms
+cloud: (2129,11062800)
+Time to deploy: 53ms
+edge: (209,1233600)
+Time to deploy: 64ms
+cloud: (1317.6666666666667,1232800)
+cloud: (6136,69435000)
+Time to deploy: 65ms
+edge: (1317,69345000)
+edge: (824.75,32170000)
+edge: (570.75,19715200)
+edge: (413.3333333333333,11095200)
+Time to deploy: 49ms
+cloud: (2243,11100600)
+Time to deploy: 58ms
+edge: (441,4942400)
+Time to deploy: 59ms
+cloud: (1592.5,4931200)
+cloud: (4368.666666666667,44438400)
+Time to deploy: 68ms
+edge: (1255,44424000)
+-------
+cloud: (0,0)
+cloud: (2662.3333333333335,19716266.666666668)
+Time to deploy: 74ms
+edge: (563.5,19753600)
+edge: (431,11095200)
+Time to deploy: 59ms
+cloud: (2106,11088000)
+Time to deploy: 58ms
+edge: (347,1234200)
+Time to deploy: 56ms
+cloud: (1400,1232200)
+cloud: (3724.5,35358400)
+Time to deploy: 55ms
+edge: (1635,69412500)
+edge: (730.75,32133875)
+edge: (574.3333333333334,19748266.666666668)
+edge: (466,11112000)
+Time to deploy: 55ms
+cloud: (2147.5,11084400)
+Time to deploy: 60ms
+edge: (340.5,4935200)
+Time to deploy: 52ms
+cloud: (1710.5,4945600)
+cloud: (4304,44380800)
+Time to deploy: 68ms
+edge: (931,44359200)
+-------
+cloud: (0,0)
+cloud: (2651.3333333333335,19737600)
+Time to deploy: 67ms
+edge: (505,19696000)
+edge: (390.6666666666667,11108400)
+Time to deploy: 66ms
+cloud: (2026,11084400)
+Time to deploy: 69ms
+edge: (257,1234400)
+Time to deploy: 71ms
+cloud: (1335,1232800)
+cloud: (3739,35198300)
+Time to deploy: 53ms
+edge: (1392,69457500)
+edge: (499.6666666666667,19712000)
+edge: (561,19756800)
+edge: (420,11104800)
+Time to deploy: 65ms
+cloud: (2222,11115000)
+Time to deploy: 59ms
+edge: (279.5,4930400)
+Time to deploy: 48ms
+cloud: (1767,4928000)
+cloud: (3372.6666666666665,31187200)
+Time to deploy: 76ms
+edge: (1033,44438400)
+-------
+cloud: (0,0)
+cloud: (2620.6666666666665,19716266.666666668)
+Time to deploy: 81ms
+edge: (526,19718400)
+edge: (343.3333333333333,11098800)
+Time to deploy: 55ms
+cloud: (2075,11116800)
+Time to deploy: 49ms
+edge: (262,1234000)
+Time to deploy: 58ms
+cloud: (1432,1231600)
+cloud: (3602,35311600)
+Time to deploy: 56ms
+edge: (1736,69502500)
+edge: (795.25,32137850)
+edge: (642.3333333333334,19709866.666666668)
+edge: (495.5,13269900)
+Time to deploy: 53ms
+cloud: (2034.5,11097000)
+Time to deploy: 55ms
+edge: (374.5,4920800)
+Time to deploy: 47ms
+cloud: (1713.5,4933600)
+cloud: (4378,44402400)
+Time to deploy: 96ms
+edge: (1018.5,44431200)
+-------
+cloud: (0,0)
+cloud: (2650.3333333333335,19694933.333333332)
+Time to deploy: 78ms
+edge: (531.5,19740800)
+edge: (393.6666666666667,11100000)
+Time to deploy: 60ms
+cloud: (2193.5,11100600)
+Time to deploy: 55ms
+edge: (274,1234600)
+Time to deploy: 51ms
+cloud: (1321.5,1234200)
+cloud: (5903,69300000)
+Time to deploy: 54ms
+edge: (1481,69165000)
+edge: (584,19724800)
+edge: (636.25,19740800)
+edge: (452,11110800)
+Time to deploy: 51ms
+cloud: (2091,11102400)
+Time to deploy: 63ms
+edge: (321,4921600)
+Time to deploy: 50ms
+cloud: (1825,4926400)
+Time to deploy: 76ms
+edge: (955,44452800)
+edge: (976,44406000)
+-------
+cloud: (0,0)
+cloud: (2742.6666666666665,19748266.666666668)
+Time to deploy: 83ms
+edge: (601.5,19756800)
+edge: (450,11104800)
+Time to deploy: 65ms
+cloud: (2145,11098800)
+Time to deploy: 56ms
+edge: (289,1233800)
+Time to deploy: 54ms
+cloud: (1350.5,1234400)
+cloud: (3627.5,35255150)
+Time to deploy: 61ms
+edge: (1604,69345000)
+edge: (812.5,32106525)
+edge: (550.3333333333334,19705600)
+edge: (409,11096400)
+Time to deploy: 56ms
+cloud: (2017.5,11109600)
+Time to deploy: 47ms
+edge: (345,4935200)
+Time to deploy: 52ms
+cloud: (1663.5,4925600)
+cloud: (4330.5,44359200)
+Time to deploy: 86ms
+edge: (1075,44337600)
+-------
