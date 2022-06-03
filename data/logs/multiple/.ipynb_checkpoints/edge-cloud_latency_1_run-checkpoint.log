@@ -1,4 +1,4 @@
-Pipeline1[zone:cloud]:(2037.3333333333333,13169767.333333334) Pipeline2[zone:cloud]:(2135.6666666666665,11097600) Pipeline3[zone:cloud]:(1106,830555.3333333334)
+Pipeline1[zone:cloud]:(2037.3333333333333,19729066.666666668) Pipeline2[zone:cloud]:(2135.6666666666665,11097600) Pipeline3[zone:cloud]:(1106,1235333.3333333333)
 Time to deploy: 77ms
 Pipeline1[zone:cloud]:(2583.6666666666665,19729066.666666668) Pipeline2[zone:edge]:(342.5,11100600) Pipeline3[zone:cloud]:(1516.6666666666667,1235333.3333333333)
 Time to deploy: 61ms
@@ -27,7 +27,7 @@ Time to deploy: 93ms
 Pipeline1[zone:edge]:(546,19728000) Pipeline2[zone:cloud]:(2265,11100600) Pipeline3[zone:cloud]:(1802.75,4935200)
 Time to deploy: 66ms
 Time to deploy: 72ms
-Pipeline1[zone:cloud]:(1941.5,11091600) Pipeline2[zone:edge]:(189.5,1233400) Pipeline3[zone:cloud]:(3098,24656800)
+Pipeline1[zone:cloud]:(1941.5,11091600) Pipeline2[zone:edge]:(189.5,1233400) Pipeline3[zone:cloud]:(3098,44395200)
 Time to deploy: 57ms
 Time to deploy: 61ms
 Pipeline1[zone:cloud]:(2135.6666666666665,11101200) Pipeline2[zone:cloud]:(1281.5,1233800) Pipeline3[zone:edge]:(951,44395200)

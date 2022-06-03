@@ -166,12 +166,12 @@ Time to deploy: 91ms
 edge: (593.5,19699200)
 edge: (444.6666666666667,11094000)
 Time to deploy: 58ms
-cloud: (2370,11113200)
+cloud: (2170,11113200)
 Time to deploy: 63ms
 edge: (259.5,1233400)
 Time to deploy: 65ms
 cloud: (1353,1231600)
-cloud: (5955.5,69435000)
+cloud: (6355.5,69435000)
 Time to deploy: 58ms
 edge: (1533.5,69435000)
 edge: (576.75,19723200)
@@ -738,7 +738,7 @@ Time to deploy: 61ms
 edge: (324,1234400)
 Time to deploy: 53ms
 cloud: (1376.5,1232800)
-cloud: (3763.5,35323250)
+cloud: (6263.5,35323250)
 Time to deploy: 72ms
 edge: (1624.5,69345000)
 edge: (520.25,19718400)
@@ -749,7 +749,7 @@ cloud: (2089,11113200)
 Time to deploy: 51ms
 edge: (340.5,4934400)
 Time to deploy: 50ms
-cloud: (1852,4924800)
+cloud: (1812,4924800)
 Time to deploy: 77ms
 edge: (1071,44395200)
 edge: (1021,44352000)
